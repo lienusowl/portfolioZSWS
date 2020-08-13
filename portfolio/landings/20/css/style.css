@@ -1,0 +1,451 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	background: url('../images/bg.png') repeat-x;
+background-color: #fff;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong, b {
+font-weight: bold;
+}
+/******************************************************************
+TEXT SELECTION STYLES
+******************************************************************/
+/* Safari, Chrome, iPhones, iPads */
+::selection {
+ background:#E095B4;
+ color:#fff;
+}
+::-moz-selection {
+ background:#E095B4;
+ color:#fff;
+}
+::-webkit-selection {
+ background:#E095B4;
+ color:#fff;
+}
+a {
+	color: #E095B4;
+	outline: none;
+}
+/******************************************************************
+General CSS
+******************************************************************/
+									
+#content {
+	width: 960px;
+	padding-top: 100px;
+	margin-left: 240px;
+	z-index: 1;
+}
+p {
+	font-family: Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #848484;
+	font-size: 9pt;
+}
+h1 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 22pt;
+}
+h2 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 18pt;
+}
+h3 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 16pt;
+}
+h4 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 14pt;
+}
+h5 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 12pt;
+}
+h6 {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #454544;
+	text-decoration: none;
+	font-size: 10pt;
+}
+/***************************************************
+COLUMNS and FEATURES
+***************************************************/
+.clear {
+	clear: both;
+}
+.dropcap {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 36px;
+	color: #333;
+	width:32px;
+	height:30px;
+	float:left;
+	padding:5px 5px 5px 5px;
+	text-align:center;
+	margin:5px 5px 5px 5px;
+}
+blockquote {
+	font-style:italic;
+	font-size:20px;
+	margin-right:20px;
+	padding-left:20px;
+	margin-left:20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color:#333;
+	text-align: center;
+	background-image: url(../images/blockquote.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.readmore {
+	font-family: 'Droid Sans', Verdana, Arial, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #E095B4;
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+a:hover {
+	color: #E35A88;
+}
+.spacer {
+	height: 1px;
+	clear: both;
+	border-bottom: 1px;
+	border-style: solid;
+	border-color: #d6d6d6;
+	margin: 20px 5px 0px 5px;
+padding-top: 20px;
+}
+.blank-spacer {
+	width: 720px;
+	height: 1px;
+	clear: both;
+	margin: 10px 5px 10px 5px;
+	padding: 10px 5px 10px 5px;
+}
+.star-divider {
+	background-image:url(../images/star_divider.png);
+	text-align: center;
+	display: block;
+	clear: both;
+	height: 16px;
+	width: 430px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-left: auto;
+	background-repeat: no-repeat;
+}
+#error {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+}
+#sucess {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 300px;
+}
+/******************************************************************
+Header & Menu CSS
+******************************************************************/
+
+#header-wrapper {
+	position: fixed;
+	background-color: #FFF;
+	width: 100%;
+	height: 100px;
+	top: 0px;
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+	z-index: 5000;
+}
+#header {
+	width: 960px;
+}
+#logo {
+	float: left;
+	width: 100px;
+	padding: 20px 0 10px 40px;
+}
+#header-text {
+	width: 480px;
+	padding-top: 25px;
+	margin-left: 240px;
+	display: block;
+	height: 20px;
+}
+#header-text h6 {
+	font-size: 7pt;
+	color: #d8d8d8;
+}
+#header-text a {
+	font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+	color: #d8d8d8;
+	text-decoration: none;
+	font-size: 7pt;
+}
+#footer {
+width: 960px;
+float:left;
+}
+#footer-text {
+width: 620px;
+padding-top: 25px;
+margin-left: 170px;
+display: block;
+text-align: center;
+padding-bottom:30px;
+}
+#slide-panel {
+	position: fixed;
+	top: 100px;
+	left: 240px;
+	height: 360px;
+	width: 720px;
+	display: none;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e2e2e2;
+	background-color: #FFF;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 5px;
+	z-index: 6000;
+}
+.slide {
+	background-image: url(../images/slide_button.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 33px;
+	left: 800px;
+	z-index: 5000;
+}
+.btn-slide {
+	text-align: center;
+	width: 120px;
+	height: 60px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 22px;
+	z-index: 5000;
+}
+
+
+/******************************************************************
+Home Page CSS
+******************************************************************/
+
+#recent-posts-container {
+	width: 960px;
+	height: 200px;
+	margin-top: 60px;
+}
+#recent-projects-container {
+	width: 750px;
+	height: 200px;
+	margin-top: 60px;
+}
+.section-description {
+	float: left;
+width: 600px;
+padding-right: 20px;
+border-left: 1px;
+border-style: solid;
+border-color: #d8d8d8;
+padding-left: 20px;
+}
+.recent-summary {
+	width: 600px;
+	display: inline;
+}
+.recent-item {
+	padding-left: 40px;
+	float: left;
+	width: 260px;
+}
+.recent-item-last {
+	float: right;
+	padding: 3px;
+}
+.recent-summary p {
+	width: 250px;
+	text-align: left;
+	padding: 0px 0px 50px 0px;
+}
+.recent-summary h6 {
+	width: 250px;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px 0px 0px 0px;
+}
+.item {
+	width:125px;
+	height:125px;
+	border:4px solid #222;
+	margin:5px 0px 5px 0px;
+	/* required to hide the image after resized */
+	overflow:hidden;
+	/* for child absolute position */
+	position:relative;
+	/* display div in line */
+	float:left;
+}
+#recent-text {
+	text-align: center;
+}
+#recent-text h5 {
+	padding-bottom: 0px;
+}
+.recent-gallery {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	margin-top: 40px;
+}
+#follow h1 {
+	text-align: center;
+	font-size: 22px;
+	padding-top: 60px;
+	clear: both;
+}
+#follow h3 {
+	text-align: center;
+	padding: 16px;
+}
+#follow p {
+	text-align: center;
+}
+#follow-twitter {
+	text-align: center;
+	
+	height: 80px;
+	display: block;
+	padding-top: 20px;
+	float: left;
+	padding-left: 120px;
+}
+#follow-mail {
+	text-align: center;
+	
+	height: 80px;
+	display: block;
+	padding-top: 20px;
+	float: right;
+	padding-right: 120px;
+}
+#header2 {
+width:920px;
+height:360px;
+background: url('../images/header.png') no-repeat right;
+}
+.logo {
+color: rgb(63, 55, 55);
+text-shadow: -1px 0 #B3B3B3, 0 1px #B3B3B3, 1px 0 #B3B3B3, 0 -1px #B3B3B3, #020763 0.03em 0.03em 2px;
+font-size: 5.5em;
+font-weight: 700;
+font-family: tahoma;
+line-height: 95px;
+float: left;
+}
+.logo1 {
+color: #333;
+font-size: 14px;
+text-shadow: 1px 2px 0px #fff;
+font-weight: bold;
+margin-bottom: 10px;
+}
+#header2 li {
+background: url('../images/check.png') no-repeat left;
+list-style: none;
+padding-left: 25px;
+margin-left: 13px;
+line-height: 1.7em;
+font-family: 'Droid Serif', Verdana, Arial, sans-serif;
+color: #454544;
+}
+#pro {
+top: 30px;
+position: relative;
+float: left;
+}
+.label, .badge {
+font-size: 18px;
+font-weight: bold;
+line-height: 14px;
+color: #333;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+white-space: nowrap;
+vertical-align: baseline;
+float:left;
+margin: 15px 0px 0px 10px;
+}
+.logo3 {
+width: 100%;
+height: 95px;
+}
+.fotogal {
+float:left;
+/*padding:20px 0px;
+border-bottom:1px solid #d6d6d6;*/
+}

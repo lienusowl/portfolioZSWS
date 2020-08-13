@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Заказ Бентли</title>
+	<link href='http://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="js/jquery.js" type="text/javascript"></script>
+<!-- Фикс для эксплорера-->
+<!--[if lte IE 9]>
+        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="//cdnjs.bootcss.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+<![endif]-->
+
+<!--fancybox-->
+
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+<script type="text/javascript" src="js/fancybox.js"></script>
+<!--слайдер-->
+<script type="text/javascript" src="js/cycle.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>
+</head>
+<body>
+<div id="inline1" style="display:none;">
+	<div class="popup1">
+	<br><h3>Заказать звонок</h3>
+	<form class="popup-form" action="order.php" method="post">
+		<input type="hidden" name="tid" value="Заказ звонка">
+		<input name="name" type="text" tabindex="1" placeholder="Введите Ваше имя">
+		<input required="" type="text" name="number" tabindex="2" placeholder="Введите Ваш телефон">
+		<input class="button1" id="button3" type="submit" name="submit" value="Оставить заявку">
+	</form>
+</div>
+</div>
+<header>
+<div style="background: url(img/footer.jpg) no-repeat top center;height: 150px;">
+	<div id="center">
+	<div id="logo">
+		<p>Прокат Бентли</p>
+		<span>В Краснодаре и Краснодарском крае</span>
+	</div>
+	<div id="number">
+		<p>+7 (928) <span>777-01-19</span></p>
+		<a class="modalbox" href="#inline1" id="button2">заказать звонок</a>
+	</div>
+	</div>
+</div>
+
+<nav>
+	<ul>
+		<li><a href="#">Главная</a></li>
+		<li><a href="#">Как заказать</a></li>
+		<li><a href="#">Цены</a></li>
+		<li><a href="#">Контакты</a></li>
+	</ul>
+</nav>
+<div id="slide1">
+	<div id="slideshow1">
+		<div id="slide1"><h1 class="opa">Стиль и роскошь в одном автомобиле</h1></div>
+		<div id="slide2"><h1 class="opa">Автомобиль для идеальной пары</h1></div>
+		<div id="slide3"><h1 class="opa">Чистое искусство торжества</h1></div>
+	</div>	
+</div>
+</header>
+<div id="form1">
+	<div id="center">
+		<h2>Отправить заявку на бесплатную консультацию</h2>
+		<form class="popup-form" action="order.php" method="post">
+			<input type="text" placeholder="Ваше имя" name="name" required="">
+			<input type="text" placeholder="Телефон" name="phone" required="">
+			<input type="text" placeholder="E-mail" name="email">
+			<input type="text" placeholder="Ваше сообщение" name="message" value="" style="display:none;">
+			<input id="button3" type="submit" name="submit" value="Получить">
+		</form>
+	</div>
+</div>
+<div id="line"></div>
+
+<div id="esli">
+	<div id="center">
+	<h3>Если вы считаете что</h3>
+		<div class="box1">
+			<img src="img/esli.png" alt="">
+			<p>Вы достойны только лучшего автомобиля</p>
+		</div>
+		<div class="box1">
+			<img src="img/esli.png" alt="">
+			<p>Вы любите роскошные и комфортные машины</p>
+		</div>
+		<div class="box1">
+			<img src="img/esli.png" alt="">
+			<p>Вы доверяете только качественному бренду</p>
+		</div>
+		<div class="box1">
+			<img src="img/esli.png" alt="">
+			<p>Вы можете позволить за это заплатить</p>
+		</div>
+	</div>
+</div>
+<div id="clear"></div>
+<div id="opisanie">
+	
+		<h3>Тогда Bentley Continental Flying Spur ждет Вас!!!</h3>
+		<img src="img/opisanie.jpg" alt="">
+		<div class="textin">
+			<div id="center">
+			<p><b>Bentley Flying Spur</b>  - это сочетание мощности, быстроты и красоты!!! <br>
+			Автомобиль, дающий власть, уверенность в себе. <br>
+			Закрепив в мире статус королевских, престижных автомобилей, Бентли воплощает в себе взыскательные требования амбициозных миллионеров. Настоящий  британский автомобиль <b>Бенли Континенталь</b> всегда привлекает внимание в любом потоке транспорта.</p>
+		</div>
+	</div>
+</div>
+
+<div id="about">
+	<div id="center">
+		<h4>О НАС</h4>
+		<img src="img/logo.png" alt="">
+		<p>Компания Арт-лемо – это лидер автопроката в Ростове-на-дону, с зарекомендованной репутацией ростовчан, участник городских выставок и социальных мероприятий.  5 лет на рынке автопроката,  Нашим клиентам мы предлагаем  сервис  прокат авто на свадьбу</p>
+		<p>Компания развивается и не стоит на месте.  Вот  уже 2 сезона,  мы предоставляем возможность  жителям Краснодара и Краснодарского края   воспользоваться нашими услугами.                        Для  Краснодарского региона, доступна услуга                       прокат Бентли в Краснодаре, и других городах края. </p>   <p>На свадьбу автомобиль Бентли  выезжает из Ростова-на-Дону  в города:   Краснодар, Армавир, Белореченск, Майкоп, Геленджик, Славянск на кубани,  Анапа, Новоросийск, Сочи, Джугба, , и др. города Краснодарского края.</p>
+	</div>
+</div>
+
+<div id="cifr">
+	<div id="center">
+		<div id="cifrin">
+			<h3>Цифры о нашей работе в Краснодарском крае.</h3>
+			<div class="circl">
+				<p>2</p>
+				<p class="p2">Года</span>
+			</div>
+			<div class="circl">
+				<p>31</p>
+				<p class="p2">Свадьба</span>
+			</div>
+			<div class="circl">
+				<p>12</p>
+				<p class="p2">Городов</span>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="aboutauto">
+	<div id="center">
+		<h3>О АВТОМОБИЛЕ</h3>
+		<div>
+			<a href="img/auto/m/1.jpg" class="modalbox"><img src="img/auto/1.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/2.jpg" class="modalbox"><img src="img/auto/2.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/3.jpg" class="modalbox"><img src="img/auto/3.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/4.jpg" class="modalbox"><img src="img/auto/4.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/5.jpg" class="modalbox"><img src="img/auto/5.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/6.jpg" class="modalbox"><img src="img/auto/6.jpg" alt="" class="box2"></a>
+		</div>
+		<p>Автомобиль Бентли Континенталь 2008г.  Просторный 4х дверной седан премиум класса.  Размещает  5 пассажиров. Bentley Continental Flying Spur имеет интерьер класса люкс.  Элегантная отделка салона из кожи и дерева.</p>
+		<p>Машина в идеальном состоянии. </p>
+
+		<div>
+			<a href="img/auto/m/7.jpg" class="modalbox"><img src="img/auto/7.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/8.jpg" class="modalbox"><img src="img/auto/8.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/9.jpg" class="modalbox"><img src="img/auto/9.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/10.jpg" class="modalbox"><img src="img/auto/10.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/11.jpg" class="modalbox"><img src="img/auto/11.jpg" alt="" class="box2"></a>
+			<a href="img/auto/m/12.jpg" class="modalbox"><img src="img/auto/12.jpg" alt="" class="box2"></a>
+		</div>
+	<div id="center">	
+	<div id="forma2">
+	
+		<h3>Заказать Бентли на свадьбу</h3>
+		<form class="popup-form" action="order.php" method="post">
+			<div class="a1">
+				<input type="text" placeholder="Ваше имя" name="name" required="">
+			</div>
+			<div class="a1">
+				<input type="text" placeholder="Телефон" name="phone" required="">
+			</div>
+			<div class="a1">
+			<input type="text" placeholder="E-mail" name="email">
+			</div>
+			<div id="clear"></div>
+			<div class="a2">
+				<textarea rows="4" cols="31" name="message" id="message1" placeholder="Ваше сообщение"></textarea>
+			</div>
+			<div class="a3">
+				<input id="button3" type="submit" name="submit" value="Отправить">
+			</div>
+		</form>
+	</div>
+</div>
+	</div>
+</div>
+<div id="clear"></div>
+<div id="what">
+	<div id="center">
+		<h3>ЧТО ВЫ ПОЛУЧИТЕ ЗАКАЗАВ БЕНТЛИ:</h3>
+		<div class="box3">
+			<img src="img/what/1.png" alt="">
+			<p>КОМФОРМТ И РОСКОШЬ</p>
+		</div>
+		<div class="box3">
+			<img src="img/what/2.png" alt="">
+			<p>ПРЕСТИЖ И СТАТУС</p>
+		</div>
+		<div class="box3">
+			<img src="img/what/3.png" alt="">
+			<p>БЕЗОПАСНОСТЬ</p>
+		</div>
+		<div class="box3">
+			<img src="img/what/4.png" alt="">
+			<p>ОТЛИЧНЫЙ СЕРВИС</p>
+		</div>
+		<div class="box3">
+			<img src="img/what/5.png" alt="">
+			<p>ПОЛОЖИТЕЛЬНЫЕ ЭМОЦИИ</p>
+		</div>
+	</div>
+</div>
+<div id="clear"></div>
+<div id="foroneimg">
+	<h3>Наши счастливые молодожены</h3>
+	<div id="divimg">
+		<a href="img/client/1.jpg" class="modalbox"><img src="img/client/1.jpg" alt="" class="c1"></a>
+		<a href="img/client/2.jpg" class="modalbox"><img src="img/client/2.jpg" alt="" class="c2"></a>
+		<a href="img/client/3.jpg" class="modalbox"><img src="img/client/3.jpg" alt="" class="c3"></a>
+		<a href="img/client/4.jpg" class="modalbox"><img src="img/client/4.jpg" alt="" class="c4"></a>
+		<img src="img/logo.png" alt="" class="c5">
+	</div>
+</div>
+
+<div id="clear"></div>
+
+<h5>Полезные статьи и новости</h5>
+
+<div id="article">
+	<div id="center">
+		<div class="box6">
+			<img src="img/z/1.png" alt="">
+			<a href="#"><p>Что нужно знать о свадьбе</p></a>
+		</div>
+		<div class="box6">
+			<img src="img/z/2.png" alt="">
+			<a href="#"><p>Всё о автомобиле Бентли</p></a>
+		</div>
+		<div class="box6">
+			<img src="img/z/3.png" alt="">
+			<a href="#"><p>Зачем нужен свадебный кортеж на свадьбе?</p></a>
+		</div>
+		<div class="box6">
+			<img src="img/z/4.png" alt="">
+			<a href="#"><p>Интересные свадебные ролики</p></a>
+		</div>
+	</div>
+</div>
+<div id="clear"></div>
+<div class="box7">
+	<a href="#inline1" class="modalbox" id="button1">Узнать как заказать</a>
+</div>
+<div id="clear"></div>
+<div id="footer">
+	<div id="center">
+		<ul class="f-menu">
+			<li><a href="#">Карта сайта</a></li>
+			<li><a href="#">Арт-лемо</a></li>
+			<li><a href="#" id="no-border">Новости</a></li>
+		</ul>
+		<div class="right-f">
+			<p class="number">+7 (928) 777-01-19</p>
+			<p class="f-email">Email: art-lemo@yandex.ru</p>
+			<div class="soc-icons">
+				<a href="#" target="_blank"><img src="img/soc_icons/1.png"></a>
+				<a href="#" target="_blank"><img src="img/soc_icons/2.png"></a>
+				<a href="#" target="_blank"><img src="img/soc_icons/3.png"></a>
+				<a href="#" target="_blank"><img src="img/soc_icons/4.png"></a>
+				<a href="#" target="_blank"><img src="img/soc_icons/5.png"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Плавный скрол контента -->
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+/*слайдшоу*/
+#slide {
+width: 100%;
+position: relative;
+margin: 0px auto;
+}
+.prev {
+display:block;
+left: 20px;
+top: 50px;
+background: url(../img/prev.png) no-repeat;
+width: 37px; height: 44px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.6;
+}
+.prev:hover {
+opacity: 1;
+}
+.next {
+display:block;
+right: 20px;
+top: 50px;
+background: url(../img/next.png) no-repeat;
+width: 37px; height: 44px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.6;
+
+}
+.next:hover {
+opacity: 1;
+}
+#slideshow {
+position: relative;
+z-index: 1;
+margin: 0px auto;
+}
+.porf img {
+margin:0px 9px;
+}
+.porf {
+/*width: 900px;*/
+position: relative;
+z-index: 1;
+margin: 0px auto;
+}
+
+
+#nav {
+display: block;
+margin: 20px auto;
+width: 80px;
+}
+#nav li {
+float: left;
+list-style: none;
+text-indent: -9000px;
+}
+#nav a {
+width:20px;
+height:20px;
+background: url(../img/nav_li.png);
+background-repeat: no-repeat;
+background-position: center center;
+display:block;
+margin:0px 3px;
+}
+#nav li.activeSlide a {
+background: url(../img/nav_li1.png);
+background-repeat: no-repeat;
+background-position: center center;
+}

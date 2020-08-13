@@ -1,0 +1,85 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	.inn {width: 100%;}
+	#contacts-index .carts img {max-width: 80px;margin: 20px 5px;}
+	#contacts-index .contacts-box-2 .ya-map-contacts {padding-left: 0;margin-bottom: 30px;}
+	.ul-footer {min-height: 120px;}
+	#footer .btn.yellow {width: 100%;}
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	#header-index .header-video {width: 100%;background-size: contain;height: 240px;}
+	.reviews-slider .owl-nav .owl-next {right: 0px;}
+	.wave3 {max-width: 100%;}
+	#mmenu {left: -200%;}
+	.logo {float: none;max-width: 100%;text-align: center;}
+	.logo img {max-width: 210px;}
+	.mmenu {left: 15px;text-indent: -99999px;}
+	.phone-div {text-align: center;margin-bottom: 15px;}
+	#top .btn.yellow, #footer .btn.yellow {margin: 0 auto;display: block;max-width: 225px;}
+	h1 {font-size: 1.6rem;}
+	.btn.arrow {text-align: center;padding: 18px 20px 18px 20px;}
+	.btn.arrow:before {display: none;}
+	.inn {width: 100%;}
+	.wave1 {float: none;margin-left: 0;width: 100%;}
+	#header-index ul {margin: 30px 30px;}
+	#header-index {background: #f9f9f9 url(../img/header-index.png) no-repeat bottom left;}
+	h2 {font-size: 1.8rem;}
+	.wave2 {width: 100%;}
+	.cottages-slider .count {width: 40px;height: 40px;background: none;float: none;}
+	.cottages-slider-next {top:15px;left: auto;right:15px;}
+	.cottages-slider-next span {display: none;}
+	.cottages-slider-next i.fa {width: 60px;height: 60px;line-height: 60px;font-size: 2rem;}
+	#plus-index .ya-map {padding: 0;}
+	#plus-index .ya-map .bottom {padding: 15px 15px;text-align: center;}
+	#plus-index .ya-map .bottom h4, #plus-index .ya-map .bottom .btn {float: none;}
+	#plus-index {padding: 200px 0 160px;}
+	#plus-index .ug {bottom:-200px;}
+	.title-info {text-align: left;}
+	.type-box {margin-bottom: 30px;}
+	.reviews-slider {padding: 0 30px 0 0;}
+	.reviews-slider .owl-nav .owl-prev, .reviews-slider .owl-nav .owl-next {width: 40px;height: 40px;line-height: 40px;font-size: 1.4rem;}
+	#contacts-index .carts img {margin: 15px 5px;max-width: 65px;}
+	#contacts-index .contacts-box-2 .ya-map-contacts {padding-left: 0;margin-bottom: 30px;}
+	#contacts-index .contacts-box-2 .ya-map-contacts .address {position: relative;top:0;left: 0;}
+	#footer .logo {float: none;}
+	#footer .phone-div {text-align: center;}
+	#mmenu {width: 100%;min-width: auto;}
+	#mmenu .logo, #mmenu .mmenu-top .phone-div {float: none;}
+	#mmenu .mmenu-top {padding: 30px 15px 0;}
+	#mmenu ul li a {padding: 0 0 0 60px;height: 40px;line-height: 40px;font-size: 1.4rem;}
+	#mmenu .close {left: auto;right: 5px;top: 5px;}
+	.content .ug {top: -70px;right: 15px;left: auto;max-width: 150px;}
+	.owl-nav .owl-prev {left: -10px;}
+	.owl-nav .owl-next {right: -10px;}
+	.page-bg {background: none !important;}
+	.pagetitle {margin-bottom: 30px;}
+	#header-video .modal-dialog {width: 100%;}
+	.close {top: -5px;right: -5px;}
+
+
+}
+@media (min-width: 1200px) and  (max-width: 1400px) {
+	#top .logo {margin-left: 100px;}
+}
+@media (min-width: 992px) and  (max-width: 1200px) {
+	#top .logo {float: right;max-width: 190px;}
+}
+@media (min-width: 768px) and  (max-width: 991px) {
+	#top .logo {float: right;max-width: 150px;}
+	h1 {font-size: 2rem;}
+	#header-index .wave1 {display: none;}
+	#header-index .header-video {width: 400px;height:300px;background-size: contain;}
+	.reviews-slider .reviews-text {text-align: center;}
+	.page-bg {background-position: top left;}
+}
+

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+background: #e5e1d5;
+color: #333;
+font-family: 'Didact Gothic', sans-serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+position:relative;
+margin:0 auto;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+font-size: 2.5em;
+}
+h2{
+color: #33383b;
+font-size: 2em;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+}
+h4{
+font-size: 1.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+header{
+  background: url('../img/header.jpg') center top;
+  height: 120px;
+  border-bottom: 5px solid #87684b;
+}
+#phone{
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  width: 250px;
+  min-height: 100px;
+}
+#logo{
+background:url('../img/logo.png');
+width:220px;
+height:100px;
+position:absolute;
+left:10px;
+top:10px;
+}
+
+nav{
+background:#790d0b;
+height:50px;
+margin-top:10px;
+}
+nav ul{
+  padding-top: 15px;
+}
+nav ul a{
+color:#fff;
+text-decoration:none;
+  text-transform: uppercase;
+    padding: 5px;
+
+}
+nav ul a:hover{
+border:1px solid #fff;
+border-radius:3px;
+padding: 4px;
+}
+nav ul  li{
+display: inline;
+  margin: 0px 15px;
+}
+
+footer{
+border-top:5px solid #88694d;
+margin:10px 0px 0px 0px;
+}
+#box_footer{
+  float: left;
+  width: 170px;
+    padding-bottom: 20px;
+}
+#box_footer a{
+color:#222;
+text-decoration:none;
+}
+#box_footer a:hover{
+text-decoration:underline;
+}
+
+#dop_footer{
+  background: #790d0b;
+  min-height: 50px;
+  margin-top: 0px;
+}
+#dop_footer ul{
+  margin: 0 auto;
+  width: 725px;
+}
+#dop_footer li{
+display:inline;
+display: inline;
+  margin: 0px 20px;
+}
+#dop_footer a{
+color:#fff;
+text-decoration:none;
+  text-transform: uppercase;
+    font-size: 10px;
+}
+#dop_footer p{
+color: #fff;
+  text-align: center;
+  font-size: 12px;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+
+
+#content{
+
+}

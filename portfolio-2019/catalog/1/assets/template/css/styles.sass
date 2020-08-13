@@ -1,0 +1,973 @@
+$dark: #181411
+$dark2: #212121
+$yellow: #FED600
+@font-face
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),url('../fonts/MuseoSansCyrl-500.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+@font-face
+    font-family: 'Museo Sans Cyrl 900';
+    src: url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),url('../fonts/MuseoSansCyrl-900.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+@import "fontello.css"
+*
+  margin: 0
+  padding: 0              
+  &:focus 
+    outline: 0
+
+html
+  font-size: 10px
+
+body
+  color: #181411
+  font-size: 16px
+  line-height: 1.4
+  font-family: 'Museo Sans Cyrl 500', sans-serif
+  background: #fff
+
+.mt-30
+  margin-top: 3rem
+.mb-30
+  margin-bottom: 3rem
+
+a, a:focus, a:active, input, input:focus, input:active, button, button:focus, button:active, .btn, .btn:focus, .btn:active  
+    outline: none !important
+
+a:hover 
+  text-decoration: underline
+
+a.btn:hover, a.btn:focus, a.btn:active 
+  text-decoration: none
+
+.btn 
+  height: auto
+  padding: 1.5rem 2rem
+  border-radius: 0px
+  border: none
+  background: $yellow
+  text-align: center
+  cursor: pointer
+  color: $dark
+  position: relative
+  display: inline-block
+  font-size: 14px
+  text-transform: uppercase
+  @extend .bold
+  &.big
+    padding: 2rem 3rem
+
+.btn:hover 
+  background: $dark2
+  color: #fff
+
+ul 
+  list-style-type: none
+  margin: 0px
+  padding: 0px
+
+b 
+  font-weight: 700
+
+.flex
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+
+.align-center
+  align-items: center
+  -webkit-align-items: center
+
+.jc-center
+  justify-content: center
+  -webkit-box-pack: center
+
+h1, h2, h3, h4, h5, h6, .font-alt
+  font-family: 'Roboto Condensed', sans-serif;  
+
+h1, .h1
+  margin: 3rem 0 2rem
+  font-size: 3.6rem
+h2, .h2
+  margin: 1.5rem 0 1rem
+  font-size: 2.4rem
+h3, .h3
+  margin: 1rem 0 rem
+  font-size: 2rem
+h4, .h4
+  text-transform: uppercase
+  font-size: 18px
+
+.reg
+  font-family: 'Museo Sans Cyrl 500';
+
+.bold, b, strong 
+  font-family: 'Museo Sans Cyrl 900';
+
+b, strong 
+  color: #181411
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse 
+  margin-right: 0
+  margin-left: 0
+.clear 
+  clear: both
+
+.w-100 
+  width: 100%
+
+img 
+  max-width: 100%
+
+p 
+  margin-bottom: 10px
+  line-height: 1.6
+
+.navbar-toggler
+  background: $dark2
+  width: 8.6rem
+  height: 8.6rem
+  border-radius: 0
+  @extend .flex
+  @extend .jc-center
+  @extend .align-center
+  flex-direction: column;
+  margin-right: -15px
+
+.icon-bar 
+  background: #fff
+  display: block
+  width: 25px
+  height: 3px
+  border-radius: 1px
+
+.navbar-toggler .icon-bar + .icon-bar 
+  margin-top: 4px
+
+.slick-arrow 
+  z-index: 10
+  top: 50%
+  margin-top: -2rem
+  position: absolute
+  font-size: 0
+  line-height: 0
+  cursor: pointer
+  color: transparent
+  border: none
+  outline: none
+  background: none
+  &:before 
+    background: #4D4977
+    border-radius: 50%
+    color:#fff
+    font-size: 4.4rem
+    width: 6.4rem
+    height: 6.4rem
+    line-height: 6rem
+    text-align: center
+    display: block
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+  &.slick-prev 
+    left: -6rem
+    &:before 
+      content: "\e800"
+      padding-right: 3px
+  &.slick-next 
+    right: -6rem
+    &:before
+      content: "\e801"
+      padding-left: 3px
+
+.slick-dots 
+  text-align: center
+  li 
+    display: inline-block
+    button 
+      font-size: 0
+      line-height: 0
+      cursor: pointer
+      color: transparent
+      border: none
+      outline: none
+      border-radius: 50%
+      border: 2px solid #48C8D2
+      background: #fff
+      width: 3rem
+      height: 3rem
+      margin: 0 3px
+      display: block
+    &.slick-active 
+      button 
+        background: #48C8D2
+
+@media (min-width: 768px)
+  .modal 
+    width: 390px
+    margin: 60px auto
+
+.modal-content 
+  border-radius: 0px
+  border: 0px
+  padding: 30px
+  background: #fff
+  h3 
+    //margin-bottom: 30px
+  .form-control
+    width: 100%
+    box-shadow: none
+  .btn
+    margin-top: 15px
+
+@media (min-width: 768px) 
+  .modal-content 
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)
+
+.close 
+  width: 28px
+  height: 28px
+  border: none
+  opacity: 1
+  font-weight: normal
+  background: transparent
+  color: #333
+  margin-top: 0px
+  margin-right: 0px
+  text-shadow: none
+  position: absolute
+  top: 10px
+  right: 10px
+  z-index: 10
+  font-size: 18px
+  &:before
+    content: '\e800'
+    display: block
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+  &:hover
+    cursor: pointer
+
+*::-webkit-input-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*:-moz-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*::-moz-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*:-ms-input-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+.form-control:focus::-webkit-input-placeholder 
+  color: transparent
+
+.form-control:focus:-moz-placeholder 
+  color: transparent
+
+.form-control:focus::-moz-placeholder 
+  color: transparent
+
+.form-control:focus:-ms-input-placeholder 
+  color: transparent
+
+.form-group 
+  margin-right: 0px
+  margin-left: 0px
+  margin-bottom: 1rem
+  position: relative
+  &:before 
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    position: absolute
+    left: 20px 
+    top: 18px
+    z-index: 2
+    color:#7D7D7D
+    font-size: 18px
+  
+  &.name 
+    &:before 
+      content: "\e806"
+    
+  &.number 
+    &:before 
+      content: "\e803"
+    
+  &.email 
+    &:before 
+      content: "\f0e0"
+
+  &.message 
+    &:before 
+      content: "\f4ac"
+      top: 10px
+
+.form-control 
+  border: 1px solid #d0d0d0
+  border-radius: 5px
+  padding: 6px 15px
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset
+  height: auto
+  padding: 10px 15px
+
+.form-control:focus 
+  border: 1px solid rgba(96, 41, 128, 0.5)
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset
+
+select.form-control 
+  height: 42px
+
+textarea.form-control 
+  max-height: 112px
+
+.navbar-collapse 
+  padding-left: 0
+  padding-right: 0
+
+.navbar 
+  border-radius: 0
+  height: auto
+  margin-bottom: 0
+  border:none
+  padding: 0
+
+.text-right 
+  text-align: right
+
+.text-left 
+  text-align: left
+
+.text-center 
+  text-align: center
+
+.w-100 
+  width: 100%
+
+.m-auto 
+  margin-left: auto
+  margin-right: auto
+  display: block
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 
+  position: relative
+  min-height: 1px
+  padding-right: 10px
+  padding-left: 10px
+
+.col-xs-1-5 
+  width: 20%
+  float: left
+
+@media (min-width: 768px) 
+  .col-sm-1-5 
+    width: 20%
+    float: left
+  
+@media (min-width: 992px) 
+  .col-md-1-5 
+    width: 20%
+    float: left
+
+@media (min-width: 1200px) 
+  .col-lg-1-5 
+    width: 20%
+    float: left
+
+img.svg 
+  max-height: 10rem
+  svg 
+    height: 100%
+
+.icon 
+  float: left
+  margin-right: 10px
+
+.text 
+  overflow:hidden
+
+.conf
+  margin-top: 15px
+  a
+    color: $dark
+    &:hover
+      text-decoration: underline
+
+.politics 
+    font-size: 13px
+    line-height: 1
+    color: #999
+
+.politics i.fa 
+    margin-right: 5px
+
+.radio-btn 
+  display: inline-block
+  text-align: left
+  width: 100%
+  cursor: pointer
+
+.radio-btn p 
+  margin-bottom: 0px
+
+.radio-btn > input[type=radio] 
+  display: none
+
+.radio-btn > div 
+  background: #fff
+  border: solid 3px #bbb
+  display: inline-block
+  width: 13px
+  height: 13px
+  border-radius: 100%
+  vertical-align: middle
+  cursor: pointer
+  margin: 3px 8px 0px 0px
+  float: left
+
+.radio-btn > input[type=radio]:checked + div 
+  border: solid 4px #3974b2
+  background: #3974b2
+
+.checkbox-btn 
+  display: inline-block
+  text-align: left
+  width: 100%
+  cursor: pointer
+
+.checkbox-btn p 
+  margin-bottom: 0px
+
+.checkbox-btn > input[type=checkbox] 
+  display: none
+
+.checkbox-btn > div 
+  background: #fff
+  border: solid 2px #bbb
+  display: inline-block
+  width: 20px
+  height: 20px
+  vertical-align: middle
+  cursor: pointer
+  margin: 2px 8px 0px 0px
+  float: left
+  position: relative
+
+.checkbox-btn > input[type=checkbox]:checked + div:after 
+  content: "\e808"
+  font-family: 'fontello'
+  position: absolute
+  top: -3px
+  left: 0px
+  color: $dark
+
+#header-index
+  width: 100%
+  min-height: 100vh
+  height: 800px
+
+#header
+  width: 100%
+  .inn
+    padding-bottom: 0rem
+#top
+  .nav-top-second
+    position: relative
+    z-index: 5
+    margin-bottom: 3rem
+    text-align: right
+  li
+    display: inline-block
+    margin: 0 10px 0 0
+    a
+      color: #fff
+  .inn
+    background: $dark
+    padding: 0 3rem
+    height: 85px
+    //padding-top: 15px
+    //padding-bottom: 15px
+    //padding: 0 0
+    position: relative
+    .row
+      @extend .align-center
+      justify-content: space-between;
+      > div
+        height: 100%
+  .top-cont
+    border-left: 1px solid $dark2
+    height: 100%
+    padding-left: 2.5rem
+    @extend .flex
+    @extend .jc-center
+    flex-direction: column;
+    min-height: 8.6rem
+    position: relative
+    a
+      display: block
+      width: 100%
+      color: #fff
+      font-size: 13px
+      &:hover
+        text-decoration: none
+        color: $yellow
+      &.tel
+        font-size: 16px
+        @extend .bold
+        text-transform: uppercase
+    i.icon-location
+      font-size: 14px
+      color: $yellow
+      position: absolute
+      top: 35px
+      left: -10px
+  .call
+    color: $yellow
+    border-bottom: 2px solid $yellow
+    @extend .bold
+    text-transform: uppercase
+    font-size: 12px
+    &:hover
+      color: $yellow
+      text-decoration: none
+      border-color: transparent
+  .navbar-collapse
+    //background: $dark2
+    //color: #fff
+    //position: absolute
+    //padding: 3rem
+    //width: 100%
+    //top: 100%
+    //left: 0
+  .nav-top
+    li
+      display: inline-block
+      margin-right: 1.5rem
+      &:last-child
+        margin-right: 0
+      a
+        color: #fff
+        font-size: 15px
+        text-transform: uppercase
+        @extend .bold
+        &:hover
+          text-decoration: none
+          color: $yellow
+      .dropdown-menu
+        background: $dark2
+        z-index: 150
+        margin-top: 30px
+        a
+          display: block;
+          width: 100%;
+          padding: 8px 15px;
+          text-transform: none;
+          clear: both;
+          text-align: inherit;
+          white-space: nowrap;
+          background-color: transparent;
+          border: 0;
+          font-size: 16px;
+          font-weight: 500
+          position: relative
+          z-index: 50
+          @extend .reg
+          &:hover
+            color: $yellow
+            background: $dark
+
+.header
+  background: url(../../images/index/header/1.jpg) no-repeat center center
+  background-size: cover
+  position: relative
+  padding: 6rem 0
+  &:before
+    content: ""
+    width: 100%
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    background: rgba(#000, .5)
+    z-index: 0
+  *
+    //z-index: 5
+  p
+    color: #fff
+  color: #fff
+  .inn
+    padding-bottom: 6rem
+    height: 100%
+    @extend .flex
+    //@extend .align-center
+    flex-direction: column;
+    justify-content: space-around;
+  .title
+    font-size: 6rem
+    text-transform: uppercase
+    position: relative
+    padding-top: 3rem
+    margin-bottom: 3rem
+    &:before
+      content: ""
+      position: absolute
+      top: 0
+      left: 0
+      width: 40px
+      height: 4px
+      background: $yellow
+  .pagetitle
+    font-size: 6rem
+    text-transform: uppercase
+    position: relative
+    padding-top: 3rem
+    margin: 0
+  .header-index-text
+    p
+      margin-bottom: 0
+      font-size: 1.8rem
+    .icon
+      float: none
+      margin-right: 0
+      width: 100%
+      display: inline-block
+      margin-bottom: 3rem
+      svg
+        max-width: 35px
+        width: auto
+        *
+          fill: $yellow
+
+.dropdown-toggle::after
+  margin-left: 7px
+
+.logo
+  a
+    @extend .flex
+    @extend .align-center
+    flex-direction: row;
+    color: #fff
+    @extend .font-alt
+    font-size: 2.5rem
+    text-transform: uppercase
+    padding: 15px 0 15px
+    &:hover
+      color: #fff
+      text-decoration: none
+    .utp
+      font-size: 1rem
+      border-top: 2px solid #fff
+      padding-top: 5px
+    .img
+      margin-right: 10px
+
+.header-index-slider-nav
+  .item
+    font-size: 1.8rem
+    text-transform: uppercase
+    @extend .bold
+    color: #fff
+
+.title
+  font-size: 3.6rem
+  text-transform: uppercase
+  margin-bottom: 3rem
+  position: relative
+  @extend .font-alt
+  padding-bottom: 3rem
+  &:before
+    content: ""
+    width: 40px
+    height: 4px
+    background: $yellow
+    position: absolute
+    bottom: 2px
+    left: 0
+  span
+    font-size: 2.4rem
+    font-weight: 400
+    display: block
+
+#catalog-index
+  border-top: 4px solid $dark2
+  padding: 9rem 0
+  background: url(../../images/index/catalog/bg.jpg) no-repeat top center
+  background-size: cover
+  a
+    color: #fff
+  .row
+    > div
+      &:hover
+        a
+          color: $yellow
+          text-decoration: none
+  .title
+    color: #fff
+    padding-bottom: 3rem
+    margin-bottom: 3rem
+    &:before
+      content: ""
+      width: 40px
+      height: 4px
+      background: #fff
+      position: absolute
+      bottom: 0
+      left: calc(50% - 20px)
+  .inn
+    background: $dark
+    padding: 6rem 3rem 3rem
+  .box
+    @extend .flex
+    //@extend .align-center
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6rem
+    padding: 0 1.5rem
+    a
+      color: #fff
+    h3
+      font-size: 2.4rem
+      text-transform: uppercase
+      position: relative
+      padding-top: 3rem
+      margin-top: 2rem
+      &:before
+        content: ""
+        width: 40px
+        height: 4px
+        background: $yellow
+        position: absolute
+        top: 0
+        left: 0
+    .type
+      color: #4D4D4D
+      text-transform: uppercase
+      @extend .bold
+      font-size: 1.6rem
+  .img
+    border-radius: 100% 0 0 100% / 50% 0 0 50%
+    overflow: hidden
+    width: 80px
+    height: 160px
+    position: relative
+    img
+      position: absolute
+      height: 160px
+      max-width: 200%
+
+#about-index
+  overflow: hidden
+  width: 100%
+  .left
+    padding: 12rem 6rem 12rem 0
+    min-height: 100%
+  .right
+    padding: 12rem 0rem 12rem 6rem
+    min-height: 100%
+    width: 100%
+    color: #fff
+    position: relative
+    .title
+      margin-bottom: 6rem
+    .row, .title
+      position: relative
+      z-index: 10
+    .row
+      > div
+        margin-bottom: 3rem
+    .bg
+      background: url(../../images/index/about/bg.jpg) no-repeat top left
+      background-size: cover
+      position: absolute
+      z-index: 0
+      top: 0
+      left: 0
+      width: 200%
+      height: 100%
+    .icon
+      display: block
+      height: 40px
+      margin-bottom: 1.5rem
+      float: none
+      svg
+        height: 40px
+        max-width: 60px
+        *
+          fill: $yellow
+    .text
+      //text-transform: uppercase
+      //@extend .bold
+      font-size: 16px
+
+p
+  font-size: 14px
+  color: #595959
+  margin-bottom: 2rem
+
+p.big
+  font-size: 2rem
+  color: #212121
+
+a.readmore
+  color: #212121
+  font-size: 1.8rem
+  display: inline-block
+  position: relative
+  padding-right: 25px
+  &:hover
+    //text-decoration: none
+    //color: $yellow
+    &:after
+      text-decoration: none
+  &:after
+    content: "\f178"
+    font-family: 'fontello'
+    font-size: 14px
+    position: absolute
+    top: 2px
+    right: 0
+
+//.body-page
+#contacts-index
+  background: $yellow
+  color: #181411
+  .title
+    padding-bottom: 0
+    &:before
+      display: none
+  p
+    color: #181411
+  .btn
+    color: $dark
+    background: none
+    border: 2px solid $dark
+    &:hover 
+      background: $dark2
+      color: #fff
+
+#contacts-index
+  overflow: hidden
+  position: relative
+  .row-map
+    position: relative
+    height: 100%
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 10
+    margin: 0
+    > div
+      padding: 0
+    .map
+
+  .right
+    @extend .flex
+    @extend .jc-center
+    flex-direction: column;
+    padding-left: 6rem
+    height: 600px
+    position: relative
+    z-index: 10
+    .btn
+      max-width: 170px
+      margin-top: 1.5rem
+
+#footer
+  text-align: center
+  background: $dark
+  color: #CACACA
+  padding: 6rem 0
+  font-size: 14px
+  p
+    color: #CACACA
+    margin-bottom: 0
+  a
+    color: #fff
+    &:hover
+      text-decoration: none
+      color: $yellow
+    &.tel
+      font-size: 16px
+      @extend .bold
+      display: block
+  .soc
+    a
+      display: inline-block
+      border-radius: 50%
+      width: 40px
+      height: 40px
+      line-height: 38px
+      color: #fff
+      font-size: 1.6rem
+      border: 2px solid #434343
+      margin-right: 5px
+      &:hover
+        color: $yellow
+        border-color: $yellow
+
+.visible-md
+  display: none;
+
+.wrapper
+  min-height: 600px
+  padding: 6rem 0
+
+.breadcrumbs
+  padding: 0rem 0;
+
+ul.breadcrumb
+  margin: 0 0;
+  padding: 0;
+
+ul.breadcrumb li
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  color: $yellow;
+  font-size: 14px
+
+
+ul.breadcrumb li:first-child
+
+
+ul.breadcrumb .separator
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 12px;
+  color: #fff;
+
+ul.breadcrumb li a
+  color: #fff
+
+.cart-row
+  margin-bottom: 3rem
+  .btn
+    margin: 1.5rem 0
+
+#content
+  img.img-center
+    display: block
+    margin: 6rem auto
+ 

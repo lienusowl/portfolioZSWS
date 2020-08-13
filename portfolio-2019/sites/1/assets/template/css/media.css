@@ -1,0 +1,48 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1200px) {
+	.container {max-width: 1140px;}
+}
+@media (max-width: 1360px) {
+	#sale-index .sale-text {font-size: 13rem;}
+	#services-index .bg {width: 140%;}
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	html {font-size: 9px;}
+	#services-index .bg {width: 130%;}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	html {font-size: 8px;}
+	.header-sale .revert {left: -20px;bottom:50px;}
+	#services-index .right {padding: 6rem 15px 3rem;}
+	#services-index .bg {display: none;}
+	#sale-index .sale-text {font-size: 12rem;}
+	.navbar-nav {text-align: right;}
+	.navbar-nav li {margin-right: 0;margin-bottom: 5px;}	
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	#header-index .header-title {font-size: 3.6rem;margin-top: 30px;}
+	#header-index .inner {min-height: 700px;justify-content: flex-start;}
+	#header-index .down-link {display: none;}
+	.header-sale {bottom: 60px;}
+	#sale-index .sale-text, #sale-index .line, #sale-index .man-img {display: none;}
+	#sale-index .right {padding-top: 6rem;padding-bottom: 6rem;}
+	#sale-index .container {min-height: auto;}
+	.nav-portfolio li {margin-bottom: 10px;}
+	.nav-portfolio li a {padding: 9px 10px;}
+	#footer .footer-phone {text-align: left;margin-bottom: 10px;}
+	.bg-right, .bg-left {width: 110%;height: 300px;position: relative;margin: 0 -15px;}
+	.inn-right {padding: 6rem 0 6rem 0;}
+	p.introtext {margin-bottom: 6rem;}
+
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+}

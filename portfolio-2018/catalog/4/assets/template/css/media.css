@@ -1,0 +1,114 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+.visible-xs {
+	display: none;
+}
+body{overflow-y: scroll;}
+@media (min-width: 320px) and  (max-width: 1200px) {
+	.navbar-nav li a {font-size: 16px;}
+	.logo-desc {min-width: 225px;}
+	.logo-desc br {display: none}
+	.soc a {width: 25px; height: 25px;line-height: 25px;}
+	.cat-box .price, .cat-box .availability {float: none;border:0;width: 100%;margin: 0;}
+	.cat-box .price {padding: 0;}
+}
+@media (min-width: 320px) and  (max-width: 991px) {
+	.search-inn {display: none;}
+	.navbar {padding: 30px 0;}
+	.box {padding: 0;border-right: 0;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	.hidden-sm {display: none;}
+	#consultation-form .right {padding: 30px 0 0 0;}
+	.cart-soc {justify-content: start;}
+	.cart-soc .inn a {min-width: 160px;}
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	html {font-size: 8px;}
+	body {font-size: 14px;}
+	.hidden-xs {display: none;}
+	.visible-xs {display: block;}
+	#catalog-index, #contacts-index, #why-index, .content-bottom, #sell-form, #cart-characteristics, #cart-shema, #cart-interior
+	#consultation-form, #cart-more, #subscription, .club-gallery, #club-info {padding: 30px 0;}
+	.navbar {padding: 0;}
+	#top {height: 70px;}
+	.navbar-toggler {position: absolute;right: 15px;top: -45px;z-index: 10;}
+	.slick-arrow {height: 50px;line-height: 50px;}
+	.top {/*background: #f6f8fb;*/}
+	.header-slider .header-slider-inner {min-height: 210px;padding: 20px 0;}
+	.header-slider .header-slider-title {max-width: 205px;line-height: 1.2;padding: 10px 15px;}
+	#author-index .name {font-size: 16px;}
+	#author-index .text1 {font-size: 12px;}
+	.title {font-size: 18px;margin-bottom: 20px;}
+	.c-name, .price {font-size: 18px;text-align: center;}
+	.catalog-index-slider img {margin-bottom: 15px;}
+	#catalog-index .slider-nav {top: 30%;bottom: auto;right: 15px;}
+	.next, .prev {width: 38px;height: 51px;line-height: 51px;}
+	#catalog-index .btn {font-size: 12px;height: 32px;padding: 8px 10px;width: 100%;}
+	#contacts-index .contacts-price {font-size: 14px;}
+	#contacts-index .contacts-price span, #contacts-index .contacts-price b {padding: 0;}
+	#contacts-index .contacts-price:before {display: none;}
+	.top-phone {text-align: center;margin-top: 15px;}
+	.availability {margin-top: 15px;}
+	.header-slider .next, .header-slider .prev{height: 68px;line-height: 68px;}
+	#why .col-md-1-5 {width: 50%;}
+	#why-index .box .img {width: 70px;height: 70px;}
+	#why-index .box {font-size: 10px;}
+	#why-index .col-4 {padding-left: 10px;padding-right: 10px;}
+	#why-index .col-md-5th {flex: 0 0 50%;max-width: 50%;}
+	.catalog-filter .row .col-md-3 {padding-right: 15px;}
+	.catalog-filter .row .col-md-9 {padding-left: 15px;}
+	.catalog-filter .left-filter {min-height: 60px;}
+	.pagetite, h1.pagetite, h2.pagetite, h1 {font-size: 24px;}
+	.pagetite span, h1.pagetite span, h2.pagetite span, h1 span {font-size: 16px;}
+	.cat-box .availability {display: block;margin: 0 auto;width: 110px;}
+	.cat-box .img {margin-bottom: 10px;}
+	.cat-box .price {font-size: 16px;}
+	.cat-row > div {margin-bottom: 0;}
+	.right-col ul {width: 50%;float: left;}
+	.right-col {width: 100%;float: left;}
+	.checkbox-btn > div {margin: 0px 10px 0px 0px;float: left;}
+	.checkbox-btn p {overflow: hidden;margin-top: 0;display: block;}
+	.right-col {margin: 0 0 30px;}
+	.cart-interior-slider, .cart-more-slider {padding-bottom: 60px;}
+	.cart-interior-slider .item, .cart-more-slider .item {padding: 0 5px;}
+	.cart-interior-slider .slick-list, .cart-more-slider .slick-list {margin-right: -5px;margin-left: -5px;}
+	.cart-interior-slider .slick-arrow.slick-next, .cart-more-slider .slick-arrow.slick-next {right: calc(50% - 44px);top: auto;bottom: 0px; width: 40px;height: 40px;line-height: 40px;}
+	.cart-interior-slider .slick-arrow.slick-prev, .cart-more-slider .slick-arrow.slick-prev {left: calc(50% - 44px);top: auto;bottom: 0px; width: 40px;height: 40px;line-height: 40px;}
+	.cart-characteristics-bottom, .cart-characteristics-bottom.text-right {margin-bottom: 15px;text-align: center;}
+	#cart-shema img {margin-bottom: 15px;}
+	.cart-slider .slick-arrow {width: 35px;height: 50px;line-height: 50px;}
+	.cart-slider .slick-arrow.slick-prev {right: 55px;}
+	.cart-slider-nav img {padding: 0 5px;}
+	.cart-slider-nav {margin: 0 -5px 20px;}
+	.cart-desc .availability {margin: 0 0 10px;}
+	.box {padding-right: 15px;}
+	.cart-desc .cart-desc-right {align-items: flex-start;}
+	.cart-desc .btn {margin-bottom: 0px;}
+	.cart-soc a {min-width: 130px;width: 50%;font-size: 11px;padding-right: 5px;}
+	.cart-desc, .cart-soc {margin-bottom: 30px;}
+	#consultation-form .right i {width: 20px;height: 20px;font-size: 10px;line-height: 20px;margin-right: 3px;}
+	#consultation-form .right {padding-top: 30px;padding-bottom: 0;}
+	.politics  br {display: none;}
+	.conf {margin-top: 10px;}
+	#club-top .right {justify-content: start;align-items: flex-start;}
+	#club-header {min-height: 270px;padding: 0 30px;background-size: cover;}
+	#club-header .title {font-size: 28px;}
+	.features .col-text .pagetitle {margin-bottom: 20px;}
+	.features .col-text .btn {margin-right: 0;width: 100%;padding-left: 0;padding-right: 0;}
+	.features {margin-bottom: 30px;margin-top: 30px;}
+	h3 {font-size: 18px;margin-bottom: 10px;margin-top: 20px;}
+	.left-bg-row:after {width: 80px;top:30px;left: calc(30% - 80px);}
+	.right-bg-row:after {width: 80px;top:30px;right: calc(30% - 80px);}
+	.left-bg-row, .right-bg-row {padding-top: 30px;}
+	.pagetitle {font-size: 18px;margin-bottom: 20px;}
+}
+
+

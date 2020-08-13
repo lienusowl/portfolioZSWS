@@ -1,0 +1,48 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.navbar-brand {font-size: 18px;}
+	.navbar-brand img {margin-right: 0;}
+	.navbar-nav > li > a {padding: 10px 15px;text-align: right;}
+	.navbar-toggle {margin: 20px 0 0;}
+	#header {margin-top: 20px;min-height: auto;background-size: cover;padding-bottom: 30px;}
+	#header .header-right {padding-top: 30px;}
+	#header .header-right .big {font-size: 36px;margin-bottom: 15px;}
+	#header .header-right .medium {font-size: 24px;line-height: 30px;}
+	#header .header-right .btn {margin-left: 0;}
+	#header-bottom {min-height: auto;padding: 30px 0;margin-top: 0;background: url(../img/header/header-bottom.png) no-repeat center center}
+	.title {font-size: 32px;}
+	#about .text {text-align: center;background: none;margin-top: 0;padding: 0;}
+	#about .img {display: block;margin: 30px auto 0;}
+	#plus .box {min-height: auto;}
+	#plus .box img {float: none !important;}
+	#plus .box {background: none !important;width: 100%;float: left;padding: 0 !important;margin: 0 0 30px;text-align: center;color:#000;}
+	#plus .box .text {margin-top: 10px;}
+	#how .text, #how .how-right .text, #guarantee .text {margin-top: 20px;background: none;padding: 0;text-align: center;}
+	#reasons {padding: 130px 0 95px;margin-top: -100px;}
+	#reasons .box {margin-bottom: 25px;}
+	#info .text, #info .info-right .text {margin-top: 0;padding: 0;background: none;text-align: center;}
+	#video .img {margin: 20px 0;width: 100%;}
+	#why .why-right .three {margin-right: 0;}
+	#application .btn {margin: 30px 0;height: auto;}
+	#reviews {padding: 70px 0;min-height: auto;}
+	#application img.qr {margin: 0 auto;}
+	#guarantee {padding: 70px 0 0;}
+	#footer .big {margin-bottom: 40px;}
+	#footer img {margin-right: 10px;max-width: 50px;}
+	#footer .text {margin-bottom: 20px;}
+	#footer .text h4 {margin-bottom: 10px;line-height: 24px;}
+}
+
+

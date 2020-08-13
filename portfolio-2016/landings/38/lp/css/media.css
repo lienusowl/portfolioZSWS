@@ -1,0 +1,61 @@
+@media (min-width: 1024px) {
+	.navbar-main {display:block;}
+	.navbar-mobile {display:none;}
+}
+@media (max-width: 1023px) {
+	.navbar-main {display:none;}
+	.navbar-mobile {display:block;}	
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+.work-more p.info {min-height:auto;}	
+.why-box {margin-bottom:15px;min-height:auto;}
+.box {padding-bottom:20px;padding-top:20px;}
+.type-box div.img {margin-bottom:30px;padding-left: 15px;padding-right: 15px;}
+.sale-box.dark  {margin-top: 30px;}
+.owl-nav .owl-next {right:-25px;}
+.owl-nav .owl-prev {left: -25px;}
+.contacts-map {margin-top:0px;}
+.question-container {background-position:top right;}
+.footer-container .footer-box-3 {text-align:center;}
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+.top-line {display:none;}
+#h-menu li.nav-rasch {float:left;}
+.header-slogan .big {font-size: 24px;}
+#header {margin-top:50px;}
+.h1 {font-size: 24px;margin: 15px 0 15px 0;}
+.h1:after {margin: 15px auto 0px auto;}
+.about-box-2 ul {padding: 0px 5px;height: auto;}
+.about-box-2 .text {font-size: 12px;margin-left: 5px;}
+.works-container .nav-tabs.n1 li {width:100%;}
+.works-container .nav-tabs.n1 {margin:0px;}
+.works-container  .nav-tabs.n1 a span {right:auto;left:-15px;}
+.work-more {padding: 15px 0px;}
+.work-more .btn {margin-bottom:10px;}
+.work-more .close {width: 25px;height: 25px;top: -5px;right: -5px;line-height: 25px;}
+.work-more table td, .work-more table th {padding: 3px 4px 2px 7px;}
+.owl-nav .owl-prev, .owl-nav .owl-next {width: 25px;height: 50px;padding-top: 12px;top:5%;}
+.owl-nav .owl-next {right:-25px;}
+.owl-nav .owl-prev {left: -25px;}
+.comm-text {width:100%;margin: 20px auto 0 auto;}
+.comm-bottom {text-align:center;}
+.sale-inn {width:100%;}
+.sale-box {margin-top:10px;}
+.box {padding-bottom:20px;padding-top:20px;}
+.reviews-container.box {padding-bottom:0px;}
+.calc-b1 {display:none;}
+.calc-form-inn {padding:15px 15px;}
+.calc-container {padding-left:0px;padding-right:0px;}
+.calc-container .container {padding-left:0px;padding-right:0px;}
+.cont-nav.nav > li > a {width:100%;padding: 10px 15px;}
+.nav-tabs > li {width:100%;}
+
+.calc-btn {padding: 10px 10px;}
+.calc-btn span {display:none;}
+}

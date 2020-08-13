@@ -1,0 +1,109 @@
+@media (min-width: 1481px) and  (max-width: 1680px) {
+
+}
+
+@media (min-width: 1370px) and  (max-width: 1480px) {
+
+}
+
+@media (min-width: 1281px) and  (max-width: 1369px) {
+.form {left: 15px !important;}
+}
+
+
+
+
+
+@media (min-width: 970px) and  (max-width: 1279px) {
+.head_otst{text-align:center;}
+.head_otst p{font-size:2em;}
+.head_otst img{float:none;}
+.utp p{font-size: 2.6em;width:80%;line-height:1em;}
+
+.boxes .small_text {font-size: 1.2em;}
+
+.form{left:0px;margin-top:30px;}
+
+
+.video iframe{width:680px;display:block;margin:0 auto;}
+.video{width:690px;height:auto;}
+
+.clock_block{height: 450px;}
+.acia .form{left: 0px;}
+.acia2 .form{left: 0px;}
+.other{height:auto;}
+.how_block p{font-size: 1.6em;padding: 10px;}
+
+.ser_img_sl{width:25%;margin-left: 6%;}
+footer{height:auto;}
+}
+
+@media (min-width: 750px) and  (max-width: 969px) {
+.head_otst{text-align:center;}
+.head_otst img{float:none;}
+.utp p{font-size: 2.6em;width:80%;line-height:1em;}
+
+.form{left:0px;margin-top:30px;}
+
+
+.video iframe{width:680px;display:block;margin:0 auto;}
+.video{width:690px;height:auto;}
+
+.clock_block{height: 450px;}
+.acia .form{left: 0px;}
+.acia2 .form{left: 0px;}
+.other{height:auto;}
+.how_block p{font-size: 1.6em;padding: 10px;}
+
+.ser_img_sl{width:25%;margin-left: 6%;}
+footer{height:auto;}
+footer .head_otst{text-align:center;}
+footer .head_otst img{float:none;}
+footer .utp p{font-size: 2.6em;width:80%;line-height:1em;}
+}
+
+@media (min-width: 320px) and  (max-width: 749px) {
+.video iframe{width:260px;display:block;margin:0 auto;}
+.video{width:270px;height:auto;}
+
+.head_otst{text-align: center;}
+.head_otst img {float: none;}
+.utp p{font-size: 2em;width: 90% !important;}
+.utp p:first-child{margin: 30px auto 0px auto;}
+
+.slider_and_form {margin-top: 30px;}
+
+#prev2{top: 60px;}
+#next2{top: 60px;}
+.form{left: 0px;top:15px;}
+
+#begunki {margin-top: 0px;height: 510px;}
+#romb{height: 90px;width: 90px;}
+#begunki .inner .big{font-size: 6em;}
+#lines4{font-size: 3em !important;}
+#begunki .inner .small{font-size: 1.4em; min-height: 60px;}
+
+.pro .big{font-size:3em;}
+.about .big{font-size:3em;}
+
+.window_about{width: 250px;display:block;margin:10px auto !important;}
+.about {height: auto;}
+.preimushestva .big{font-size:3em;}
+.preimushestva{height:auto;}
+.clock_block{display:none;}
+
+.other .big{font-size:3em;}
+.other{height:auto;}
+.how{height:auto;}
+.sert .big{font-size:3em;}
+
+.ser_img_sl{width:25%;margin-left: 6%;}
+.navigat{margin-top: 30px;}
+.carousel-indicators {top: 160px;}
+.contact{display:none !important;}
+
+.sert{height: auto;}
+footer{height: auto;}
+}
+
+

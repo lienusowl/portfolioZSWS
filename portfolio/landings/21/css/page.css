@@ -1,0 +1,111 @@
+#header {
+width:100%;
+height:390px;
+background: #fefffe url(../img/header2.png) repeat-x;
+}
+#header-center {
+width:980px;
+height:390px;
+margin:0 auto;
+}
+/*форма*/
+#form-slide {
+width:362px;
+height:280px;
+background: url(../img/form-slide2.png) no-repeat;
+float:right;
+padding: 0px 20px;
+}
+.f1 {
+color:#000;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+line-height: 25px;
+margin-top: 50px;
+}
+#form-slide input.inp-e{
+display: inline-block;
+padding: 5px;
+margin-bottom: 15px;
+font-size: 13px;
+line-height: 18px;
+color: #b7b7b7;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background: #fff;
+border: 1px solid #b7b7b7;
+margin-left: 55px;
+}
+#form-slide input.btn-primary{
+display: inline-block;
+padding: 5px;
+margin-bottom: 9px;
+font-size: 18px;
+line-height: 29px;
+color: #fff;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+background: #fda211;
+border: 1px solid #ffd401;
+text-transform: uppercase;
+
+width: 150px;
+margin-left: 55px;
+}
+.s-p {
+float:left;
+margin-top: 25px;
+border:3px solid #fff;
+}
+#content p{
+color:#000;
+font-size:16px;
+}
+#content h1{
+text-align:left;
+margin-bottom: 20px;
+margin-top: 15px;
+}
+
+/*слайды*/
+#slideshow {
+float:left;
+margin-top: 25px;
+border:3px solid #fff;
+width:495px;
+height:327px;
+}
+#previous-slide {
+display:block;
+left: 10px;
+background: url(../img/slider-controls-sprite.png) no-repeat;
+background-position: -73px 0; width: 40px; height: 40px;
+text-indent:-9999px;
+float: left;
+margin-top: 150px;
+z-index: 1000;
+position: relative;
+}
+#previous-slide:hover {
+background-position: -73px -40px;
+}
+#next-slide {
+display:block;
+background: url(../img/slider-controls-sprite.png) no-repeat;
+right: 10px;background-position: -163px 0; width: 40px; height: 40px;
+text-indent:-9999px;
+float: right;
+margin-top: 150px;
+z-index: 1000;
+position: relative;
+}
+#next-slide:hover {
+right: 10px;background-position: -163px -40px; width: 40px; height: 40px;
+}
+.f1 {
+width: 315px;
+margin: 10px auto 0px auto;
+}

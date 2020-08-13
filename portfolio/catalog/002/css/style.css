@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import "normalize.css";
+@import "menu.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+background: #fff;
+color: #333;
+font-family: "Century Gothic", sans-serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+position:relative;
+margin:0 auto;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+font-size: 2.5em;
+text-align: center;
+font-weight: 100;
+margin: 20px 0px;
+
+}
+h2{
+  color: #fff;
+  font-size: 1em;
+}
+h3{
+  color: #222;
+  font-weight: 100;
+font-size: 1.5em;
+}
+h4{
+font-size: 1.4em;
+padding: 10px 0px;
+text-align: center;
+font-weight: 100
+
+}
+
+p{
+  padding-bottom: 15px;
+}
+
+nav{
+background: #1d1d1d;
+  height: 55px;
+  width: 100%;
+  position: relative;
+}
+
+nav #but{
+  width: 124px;
+  height: 55px;
+  float: left;
+  margin: 0px 5px;
+  text-align: center;
+  padding-top: 12px;
+  transition: all .3s;
+}
+nav .but{
+  padding-top: 13px !important;
+  font-size: 14px;
+}
+
+nav #but:hover{
+background:url('../img/nav.png');
+transition: all .3s;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+}
+
+header{
+background: #292929;
+  height: 135px;
+  position: relative;
+}
+
+#logo{
+width:644px;
+height:127px;
+background:url('../img/logo.png');
+}
+
+#number{
+position:absolute;
+top:30px;
+right:0px;
+}
+#number p{
+  color: #fff;
+  text-align: right;
+  font-size: 12px;
+}
+
+#slider{
+height: 490px;
+  background: url('../img/slider_bg.jpg') center top no-repeat;
+  width: 100%;
+}
+
+#akcii{
+background:#c9d68b;
+  margin-top: 20px;
+}
+
+.akc{
+  margin: 4px;
+}
+
+footer{
+background:#1d1d1d;
+color:#7f7c7c;
+text-align:center;
+padding-top: 10px;
+}
+
+footer p{
+  padding-bottom: 5px;
+  font-size: 12px;
+}

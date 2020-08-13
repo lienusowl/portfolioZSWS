@@ -1,0 +1,193 @@
+.cart {
+	width: 340px;
+}
+
+/* Cart item. */
+.cart .cart-item {}
+
+.cart .cart-item-name {
+  float: left;
+  line-height: 28px;
+  white-space: nowrap;
+  width: 65%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;}
+
+.cart a.cart-item-remove {
+  float: right;
+  line-height: 28px;
+  font-size: 18px;
+  color: #999;
+  text-decoration: none;}
+.cart a.cart-item-remove:hover {color: #333333;}
+
+.cart .cart-item-quantity {
+  float: right;
+  text-align:center;
+  margin-top: 4px;
+  margin-right: 10px;
+  height: 22px;
+  padding: 1px 3px;
+  line-height: 20px;
+  width: 25px;}
+
+.cart .cart-item-price {
+  float: right;
+  line-height: 28px;
+  margin-right: 3px;
+  color: #999;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+
+.cart .cart-item-multiply-sign {
+  font-size: 12px;
+  line-height: 28px;
+  margin-right: 3px;
+  color: #999;
+  float: right;}
+
+/* Purchase and Buy buttons. */
+.cart .cart-purchase-button,
+.cart .cart-send-order-button {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.cart .cart-purchase-button {margin-top: 15px;}
+.cart .cart-send-order-button {margin-top: 8px;}
+
+/* Message. */
+.cart .cart-message {
+  color: #999;
+  margin-top: 20px;
+  margin-bottom: 20px;}
+.cart .cart-message-error {color: #b94a48;}
+
+/* Contacts. */
+
+/* Helpers. */
+.cart-clearfix {clear: both;}
+
+/* Need this to check when stylesheet loading will be finished */
+#cart-loaded {position: absolute;}
+.form-cart-body {
+  display: none;
+  margin-top: 15px;
+}
+.form-cart-body .form-control {
+  width: 100%;
+}
+.pure-cart {
+	z-index: 10;
+}
+
+.pure-cart svg {
+	max-height: 50px;
+    width: 50px;
+    display: block;
+    fill: #FE5001 !important;
+    margin: 0 auto 5px;
+}
+.basket {
+	position: relative;
+	z-index: 15;
+	cursor: pointer;
+}
+.basket svg {
+	display: block;
+	margin: 0 auto 10px;
+	width: 8rem;
+	fill: #FE5001;
+}
+
+.basket .cart-button-label {
+  display: none;
+}
+
+.basket .cart-button-quantity {
+      position: absolute;
+    top: -5px;
+    right: 5px;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #7477e5;
+    line-height: 2.4rem;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+.basket .pure-cart {
+	text-align: center;
+}
+.bootstrap-widget {
+    background-color: #ffffff;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 100;
+}
+.bootstrap-widget .fade.in {
+    opacity: 1;
+}
+.bootstrap-widget .fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.bootstrap-widget .popover .arrow {
+    top: -16px;
+    margin-left: 0;
+    border-bottom-color: #fff;
+    border-top-width: 0;
+    right: 50px !important;
+    left: auto !important;
+    border-width: 8px;
+}
+.popover>.arrow, .popover>.arrow:after {
+  content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+.bootstrap-widget .popover {
+    position: absolute;
+    top: 80px !important;
+    left: auto !important;
+    right: -25px !important;
+    z-index: 1010;
+    display: none;
+    /*max-width: 360px;*/
+    padding: 1px;
+    text-align: left;
+    white-space: normal;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    background-clip: padding-box;
+}
+.bootstrap-widget .fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+/* Need this to check when stylesheet loading will be finished */
+#bootstrap-widget-loaded {
+  position: absolute;
+}
+.popover-content {
+  padding: 15px;
+}
+@media (min-width: 320px) and  (max-width: 767px) {
+  .bootstrap-widget .popover {margin-left: -125px !important;}
+  .cart {width: 270px;}
+  .cart .cart-item-name {width: 170px;}
+}

@@ -1,0 +1,199 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+
+@media (min-width: 1024px) and  (max-width: 1200px) {
+	body {font-size: 14px;}
+	.logo {text-align: center;}
+	#header {min-height:auto;background-size: contain;}
+	#header .slogan {margin-top: 0;margin-bottom: 70px;font-size: 14px;line-height: 18px;}
+	#header .slogan span {font-size: 15px;}
+	.get-lesson {font-size: 16px;}
+	#header .header-video {margin: 35px 0 25px;}
+	#header iframe {height: 220px;}
+	iframe {width: 100%;}
+	.title {font-size: 20px;font-weight: 300;}
+	.title span {font-size: 18px;}
+	#about {    padding-bottom: 70px;font-size: 17px;background: #001039 url(../img/about/mobile-bg.png) no-repeat bottom center;}
+	#about .title {text-align: center;}
+	.btn {font-size: 14px;}
+	#about .btn {width: 100%;margin-bottom: 20px;display: inline-block;text-align: center;}
+	#about ul {margin-left: 10px;margin-bottom: 15px;}
+	#about .about-right {margin-top: 50px;margin-bottom: 30px;}
+	#expirience {padding: 0 0;background: transparent;margin-top: -30px;}
+	#expirience .title {text-align: right;}
+	#expirience .box {font-size: 15px;}
+	#expirience .img-man {top: -63px;}
+	#expirience .box.four {margin-top: -100px;}
+	#gallery {margin-top: 20px;min-height: auto;padding: 40px 0 60px;background:#e0bd01;/*url(../img/gallery/bg.png) no-repeat bottom center;*/}
+	#gallery .title {display: none;}
+	#workshop .inner {width: 100%;}
+	#workshop .title {margin-bottom: 20px;}
+	#workshop .video {min-height: 210px;background-size: contain;}
+	#workshop h3 {text-align: center;font-size: 26px;margin-bottom: 20px;}
+	#workshop .box .text {padding-top: 15px;}
+	#workshop .slogan {font-size: 16px;}
+	#levels {background: url(../img/levels/mobile-bg.png) no-repeat top center;padding: 160px 0 105px;}
+	#levels .title {display: none;}
+	#levels .box h3 {font-size: 18px;margin-top: 10px;}
+	#levels .box .text {font-size: 11px;}
+	#levels .box .request {font-size: 12px;}
+	#levels .box.first {margin-bottom: 30px;}
+	#private {min-height: auto;color:#000;background: url(../img/private/mobile-bg.jpg) no-repeat top center;margin-top: -30px;}
+	#private .title {font-size: 16px;margin:0px 0 300px}
+	#private form .btn {max-width: 200px;}
+	#information {margin-top: 40;background: none;}
+	#information .title {margin-bottom: 20px;}
+	#information .text {font-size: 16px;}
+	#information .text .btn {max-width: 100px;border-radius: 20px;font-size: 14px;margin: 20px auto 20px auto;display: block;padding: 3px 10px;}
+	#benefits .title {font-size: 22px;text-align: center;margin-bottom: 60px;}
+	#benefits .box {font-size: 12px;}
+	#benefits .box .img-man {top:-120px;}
+	#benefits .box.four {margin-top: -150px;}
+	#benefits .bottom {margin: 20px 0 0;font-size: 14px;text-align: center;width: 100%;}
+	#benefits .bottom img {margin-bottom: 15px;}
+	#footer {background: #3e13af url(../img/footer/mobile-bg.png) no-repeat top center;padding: 30px 0 20px;text-align: center;background-size: contain;}
+	#footer .btn {max-width: 180px;}
+	#benefits {padding: 10px 0;}
+	.carousel-container {overflow: hidden;}
+	#workshop .video {padding: 0px; background: none;}
+	#workshop .video iframe {/*max-height: 155px;*/}
+	.tracker-individual-container {display: block;}
+	#gallery .container {position: relative;}
+	#benefits .box.first {margin-top: 80px;}
+	.owl-dots {text-align: right;}
+	#workshop .box {width: 80%;margin-left: 10%;}
+	#header .slogan span {font-size: 42px;}
+	#header .logo-name {margin-top: 45px;}
+	#header .nav li {margin-top: 35px;}
+	#header .slogan span {font-size: 42px;}
+	#header .header-video {margin: 100px 0 25px;}
+	#about {background-size: contain;padding-bottom: 145px;}
+	#expirience .img-man {top:-135px;}
+	#expirience .box.four {margin-top: -140px;}
+	#benefits .box .img-man {top: -153px;left: 45px;max-width: 200px;}
+	#benefits .box.first {margin-top: 100px;}
+	#benefits .box.four {margin-top: -120px;}
+	#benefits .box.three {margin-top: 40px;}
+	#footer {background-size: inherit;background: #3e13af url(../img/footer/mobile-bg2.png) no-repeat top center;}
+	#footer form {max-width: 400px;margin: 20px auto 0;}
+	#levels {background: url(../img/levels/mobile-bg2.png) no-repeat top center;background-size: cover;padding: 160px 0 160px;}
+	#private {margin-top: -30px;}
+	#header .slogan span {font-size: 28px;line-height: 32px;}
+	#header .header-video {margin-top: 180px;}
+	#header iframe {height: 350px;}
+	.logo img {min-width: 40px;}
+	#about iframe {height:350xp;}
+	.title span {font-size: 24px;}
+	.title {font-size: 28px;}
+	#expirience .box {font-size: 22px;}
+	#workshop .box {margin-left: 9%;width: 22%;}
+	#workshop .box img {padding-top:10px;}
+	#levels .col-md-5 {width: 50%;float: left;}
+	#levels .col-md-7 {width: 50%;float: left;}
+	#levels .box h3 {margin-top: 0px;}
+	#levels .box img {margin-top: 12px;}
+}
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 14px;}
+	.logo {text-align: center;}
+	#header {min-height:auto;background-size: contain;}
+	#header .slogan {margin-top: 0;margin-bottom: 70px;font-size: 14px;line-height: 18px;}
+	#header .slogan span {font-size: 15px;}
+	.get-lesson {font-size: 16px;}
+	#header .header-video {margin: 35px 0 25px;}
+	#header iframe {height: 220px;}
+	iframe {width: 100%;}
+	.title {font-size: 20px;font-weight: 300;}
+	.title span {font-size: 18px;}
+	#about {    padding-bottom: 70px;font-size: 17px;background: #001039 url(../img/about/mobile-bg.png) no-repeat bottom center;}
+	#about .title {text-align: center;}
+	.btn {font-size: 14px;}
+	#about .btn {width: 100%;margin-bottom: 20px;display: inline-block;text-align: center;}
+	#about ul {margin-left: 10px;margin-bottom: 15px;}
+	#about .about-right {margin-top: 50px;margin-bottom: 30px;}
+	#expirience {padding: 0 0;background: transparent;margin-top: -30px;}
+	#expirience .title {text-align: right;}
+	#expirience .box {font-size: 15px;}
+	#expirience .img-man {top: -63px;}
+	#expirience .box.four {margin-top: -100px;}
+	#gallery {margin-top: 20px;min-height: auto;padding: 40px 0 60px;background:#e0bd01;/*url(../img/gallery/bg.png) no-repeat bottom center;*/}
+	#gallery .title {display: none;}
+	#workshop .inner {width: 100%;}
+	#workshop .title {margin-bottom: 20px;}
+	#workshop .video {min-height: 210px;background-size: contain;}
+	#workshop h3 {text-align: center;font-size: 26px;margin-bottom: 20px;}
+	#workshop .box .text {padding-top: 15px;}
+	#workshop .slogan {font-size: 16px;}
+	#levels {background: url(../img/levels/mobile-bg2.png) no-repeat top center;padding: 160px 0 0px;}
+	#levels .title {display: none;}
+	#levels .box h3 {font-size: 18px;margin-top: 10px;}
+	#levels .box .text {font-size: 11px;}
+	#levels .box .request {font-size: 12px;}
+	#levels .box.first {margin-bottom: 30px;}
+	#private {min-height: auto;color:#000;background: url(../img/private/mobile-bg.jpg) no-repeat top center;margin-top:-30px;}
+	#private .title {font-size: 16px;margin:0px 0 300px}
+	#private form .btn {max-width: 200px;}
+	#information {margin-top: 40;background: none;}
+	#information .title {margin-bottom: 20px;}
+	#information .text {font-size: 16px;}
+	#information .text .btn {max-width: 100px;border-radius: 20px;font-size: 14px;margin: 20px auto 20px auto;display: block;padding: 3px 10px;}
+	#benefits .title {font-size: 22px;text-align: center;margin-bottom: 60px;}
+	#benefits .box {font-size: 12px;}
+	#benefits .box .img-man {top:-120px;}
+	#benefits .box.four {margin-top: -150px;}
+	#benefits .bottom {margin: 20px 0 0;font-size: 14px;text-align: center;width: 100%;}
+	#benefits .bottom img {margin-bottom: 15px;}
+	#footer {background: #3e13af url(../img/footer/mobile-bg.png) no-repeat top center;padding: 30px 0 20px;text-align: center;background-size: contain;}
+	#footer .btn {max-width: 180px;}
+	#benefits {padding: 10px 0;}
+	.carousel-container {overflow: hidden;}
+	#workshop .video {padding: 0px; background: none;}
+	#workshop .video iframe {/*max-height: 155px;*/}
+	.tracker-individual-container {display: block;}
+	#gallery .container {position: relative;}
+	#benefits .box.first {margin-top: 80px;}
+	.owl-dots {text-align: right;}
+	#workshop .box {width: 80%;margin-left: 10%;}
+	#levels .wave {display: block;background: url(../img/levels/mobile-bg-wave.png) no-repeat top center;}
+}
+/*mobile-horiz*/
+@media (min-width: 376px) and  (max-width: 767px) {
+	#about {background-size: contain;padding-bottom: 145px;}
+	#expirience .img-man {top:-135px;}
+	#expirience .box.four {margin-top: -140px;}
+	#benefits .box .img-man {top: -153px;left: 45px;max-width: 200px;}
+	#benefits .box.first {margin-top: 100px;}
+	#benefits .box.four {margin-top: -120px;}
+	#benefits .box.three {margin-top: 40px;}
+	#footer {background-size: inherit;background: #3e13af url(../img/footer/mobile-bg2.png) no-repeat top center;}
+	#footer form {max-width: 400px;margin: 20px auto 0;}
+	#levels {background: url(../img/levels/mobile-bg2.png) no-repeat top center;background-size: cover;padding: 160px 0 0px;}
+	#private {margin-top: 0px;}
+	#header .slogan span {font-size: 28px;line-height: 32px;}
+	#header .header-video {margin-top: 180px;}
+	#header iframe {height: 350px;}
+	.logo img {min-width: 40px;}
+	#about iframe {height:350xp;}
+	.title span {font-size: 24px;}
+	.title {font-size: 28px;}
+	#expirience .box {font-size: 22px;}
+	#workshop .box {margin-left: 9%;width: 22%;}
+	#workshop .box img {padding-top:10px;}
+	#levels .col-md-5 {width: 50%;float: left;}
+	#levels .col-md-7 {width: 50%;float: left;}
+	#levels .box h3 {margin-top: 0px;}
+	#levels .box img {margin-top: 12px;}
+}
+
+

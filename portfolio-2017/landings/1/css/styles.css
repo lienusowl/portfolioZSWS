@@ -1,0 +1,415 @@
+/*reset*/
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #20354f;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  line-height: 18px;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin-bottom: 10px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.font-bold {
+  font-weight: 400;
+}
+h1 {
+  text-align: center;
+  line-height: 1em;
+}
+h2 {
+  font-size: 60px;
+  line-height: 1em;
+  text-align: center;
+  margin: 0 0 40px;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.clear {
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+.form-horizontal .form-group {
+  margin-right: 0;
+  margin-left: 0;
+}
+.form-control {
+  border-color: #fff;
+  border-radius: 0px;
+  box-shadow: none;
+  height: 50px;
+  margin-bottom: 10px;
+  background: transparent;
+  color: #fff;
+  font-size: 18px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #8bbf46;
+}
+.btn {
+  background: transparent;
+  border-radius: 0px;
+  box-shadow: none;
+  color: #8bbf46;
+  vertical-align: middle;
+  text-align: center;
+  max-width: 100%;
+  border: 2px solid #8bbf46;
+  height: 50px;
+  padding: 6px 45px;
+  max-width: 100%;
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+}
+.btn:hover,
+.btn:focus {
+  background: #8bbf46;
+  color: #fff;
+}
+.btn:after {
+  content: '\f105';
+  display: inline-block;
+  font: normal 18px/1 FontAwesome;
+  /* position: absolute;
+    /* right: 20px; */
+
+  padding-left: 10px;
+  vertical-align: middle;
+}
+.w-100 {
+  width: 100%;
+}
+.icon {
+  float: left;
+  margin-right: 10px;
+}
+.text {
+  overflow: hidden;
+}
+.container {
+  max-width: 940px;
+}
+.navbar {
+  background: url(../img/nav.png) no-repeat top center;
+  height: 70px;
+}
+.navbar-brand {
+  padding: 0;
+  height: auto;
+  position: absolute;
+}
+.navbar {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+  border-bottom: 2px solid #fff;
+  height: 60px;
+}
+.navbar li {
+  display: inline-block;
+  float: none;
+  padding: 0 10px;
+}
+.navbar li > a {
+  color: #fff;
+  border-bottom: 1px dotted #fff;
+  padding: 3px 0px;
+}
+.navbar li > a:hover {
+  color: #0078ff;
+  background: none;
+}
+.navbar li.phone {
+  font-weight: 700;
+}
+.navbar i.fa {
+  font-size: 18px;
+}
+.navbar-toggle {
+  margin-top: 15px;
+}
+.navbar-toggle .icon-bar {
+  background: #20354f;
+}
+section {
+  width: 100%;
+  float: left;
+}
+#header {
+  background: url(../img/header/bg.jpg) no-repeat top center;
+  color: #fff;
+  background-size: cover;
+}
+#header h1 {
+  font-size: 60px;
+  margin: 80px 0 20px;
+  text-align: left;
+}
+#header h2 {
+  text-align: left;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+#header ul.sp {
+  margin-bottom: 80px;
+}
+#header ul.sp li {
+  margin-bottom: 10px;
+}
+#header ul.sp li img {
+  margin-right: 10px;
+}
+#header .btn {
+  width: 100%;
+}
+#sale {
+  padding: 40px 0 30px;
+  background: rgba(0, 13, 28, 0.6);
+}
+#sale h2 {
+  color: #fff;
+  font-size: 24px;
+  text-align: left;
+}
+#work {
+  padding: 80px 0 0;
+}
+#work .inner {
+  margin-bottom: 80px;
+  padding: 0 15px;
+}
+#work .inner-inn {
+  position: relative;
+  margin-bottom: 15px;
+}
+#work img {
+  width: 100%;
+}
+#work p {
+  padding: 5px 0 5px;
+  background: rgba(0, 13, 28, 0.6);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+#work .btn {
+  width: 100%;
+}
+hr {
+  margin: 0px;
+  border-color: #20354f;
+  width: 100%;
+  border-top: 1px solid;
+  display: block;
+}
+#clients {
+  padding: 80px 0;
+}
+#why {
+  background-size: cover;
+  background: url(../img/why/bg.jpg) no-repeat top center;
+  color: #fff;
+  padding: 80px 0 0;
+}
+#why .inner {
+  margin-bottom: 50px;
+}
+#why .inner h4 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+}
+#why .inner p {
+  color: #d6d6d6;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+#method_work {
+  padding: 80px 0;
+}
+#method_work h2 {
+  margin-bottom: 0;
+}
+#method_work .bg {
+  width: 100%;
+  background: url(../img/method_work/bg.png) no-repeat center center;
+  text-align: center;
+}
+#method_work .inner {
+  margin: 40px 0;
+}
+#faq {
+  padding: 80px 0;
+  background: #d8d8d8;
+}
+#faq .panel-heading {
+  background: #ffffff url(../img/faq/icon.png) no-repeat;
+  background-position: 10px 10px;
+  padding: 0px 0 0px 40px;
+  margin-top: 20px;
+}
+#faq .panel-heading a {
+  width: 100%;
+  padding: 10px;
+  display: block;
+  color: #20354f;
+  text-decoration: none;
+  font-weight: 400;
+}
+#faq .panel-collapse {
+  background: #fff;
+  margin-top: 2px;
+  min-height: 1px !important;
+}
+#faq .panel-collapse p {
+  padding: 20px 20px 20px 20px;
+}
+#want {
+  padding: 80px 0;
+}
+#want .inner {
+  margin-bottom: 40px;
+}
+#want .innerlast-child {
+  margin-bottom: 0;
+}
+#want h3 {
+  text-align: center;
+}
+#contacts {
+  background: url(../img/contacts/bg.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+}
+#contacts h2 {
+  text-align: left;
+}
+#contacts .right {
+  padding: 80px 0;
+}
+#contacts .inner {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+#contacts .innerlast-child {
+  margin-bottom: 0;
+}
+#contacts .inner a {
+  color: #fff;
+  text-decoration: underline;
+}
+#contacts .inner i.fa {
+  font-size: 18px;
+}
+#contacts .contacts-form {
+  padding: 90px 20px;
+  background: rgba(0, 13, 28, 0.6);
+  width: 100%;
+}
+#contacts .contacts-form h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#contacts .contacts-form .btn {
+  width: 100%;
+}
+#copyrights {
+  padding: 10px 0;
+  background: #000d1c;
+  color: #d8d8d8;
+  text-align: center;
+  font-size: 14px;
+}
+#copyrights p {
+  margin-bottom: 0;
+}
+b {
+  font-weight: 400;
+}
+button.close {
+  width: 28px;
+  height: 28px;
+  border: none;
+  opacity: 1;
+  font-weight: normal;
+  background: transparent;
+  color: #fff;
+  margin-top: -5px;
+  margin-right: -5px;
+  text-shadow: none;
+  background: url(../img/close.png);
+  /* border-radius: 50%; */
+
+  float: right;
+}
+#success-form img,
+#fail-form img {
+  display: block;
+  margin: 0 auto;
+}
+.modal-dialog,
+.modal-sm .modal-dialog {
+  max-width: 400px;
+  text-align: center;
+}
+.modal-content {
+  padding: 20px;
+  border: 1px solid #20354f;
+  border-radius: 0;
+  box-shadow: none;
+}
+.modal-content.call {
+  background: url(../img/why/bg.jpg) no-repeat bottom center;
+  color: #fff;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

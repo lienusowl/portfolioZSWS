@@ -1,0 +1,40 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.top {text-align: center;}
+	#header {background-position: 0 0;}
+	#header .top .btn {display: none;}
+	#header h1 {font-size: 72px;}
+	#header .phone {text-align: center;}
+	#header .sp li {text-align: left;display: block;margin-bottom: 15px;}
+	.form-control {margin-bottom: 15px;}
+	#header .form-header .info {margin-bottom: 25px;}
+	#header .form-header {background: none;}
+	.nav {margin: 30px 0;}
+	#about {padding-top: 45px;}
+	h2 {    font-size: 42px;margin-bottom: 45px;}
+	#about .inner p {min-height: auto;}
+	#about .inner .img {min-height: 90px;}
+	#about .inner {margin-bottom: 45px;}
+	#plan {padding: 45px 0;}
+	#plan .inner p.big {margin: 15px 0;}
+	#plan .img-box:last-child {margin-top: 25px;}
+	#footer h2 {font-size: 24px;}
+	#footer {padding: 45px 0 25px;}
+	#footer .copyrights {margin-top: 45px;}
+	#footer .copyrights .cont {text-align: left;margin-top: 15px;}
+	.container {padding-left: 0;padding-right: 0;}
+}
+
+

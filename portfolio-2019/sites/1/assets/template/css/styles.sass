@@ -1,0 +1,889 @@
+$yellow: #FFE200
+$black: #000
+$gray: #404048
+@import "fontello.css"
+.mt-60
+  margin-top: 6rem
+
+.mb-60 
+  margin-bottom: 6rem
+
+.mb-30 
+  margin-bottom: 3rem
+
+*
+  margin: 0
+  padding: 0              
+  &:focus 
+    outline: 0
+
+html
+  font-size: 10px
+
+body
+  color: #000
+  font-size: 14px
+  line-height: 1.6
+  font-family: 'Montserrat', sans-serif
+  font-weight: 400
+  background: #fff
+
+a, a:focus, a:active, input, input:focus, input:active, button, button:focus, button:active, .btn, .btn:focus, .btn:active  
+    outline: none !important
+
+a
+  transition: all .2s
+
+a:hover 
+  text-decoration: underline
+
+a.btn:hover, a.btn:focus, a.btn:active 
+  text-decoration: none
+
+.btn 
+  padding: 14px 20px
+  border-radius: 0px
+  border: none
+  background: #000
+  text-align: center
+  cursor: pointer
+  color: #fff
+  position: relative
+  display: inline-block
+  font-size: 11px
+  text-transform: uppercase
+  border: 1px solid transparent
+  font-weight: 500
+  letter-spacing: 1px
+  &.border
+    background: transparent
+    border-color: #fff
+  &:hover
+    background: $yellow
+    color: $black
+    border-color: transparent
+
+ul 
+  list-style-type: none
+  margin: 0px
+  padding: 0px
+
+b 
+  font-weight: 700
+
+.flex
+  display: -webkit-flex
+  display: -moz-flex
+  display: -ms-flex
+  display: -o-flex
+  -webkit-display: flex
+  -moz-display: flex
+  -ms-display: flex
+  -o-display: flex
+  display: flex
+
+.align-center
+  align-items: center
+  -webkit-align-items: center
+
+.jc-center
+  justify-content: center
+  -webkit-box-pack: center
+
+h1, h2, h3, h4, h5, h6, .bold, b
+  font-weight: 500
+
+h1, .h1
+  margin: 0 0 2rem
+  font-size: 3.6rem
+  line-height: 1.4
+h2, .h2
+  margin: 0 0 1rem
+  font-size: 2.8rem
+  line-height: 1.2
+h3, .h3
+  margin: 1rem 0rem
+  font-size: 2rem
+  line-height: 1.2
+h4, .h4
+  text-transform: none
+  margin: 0rem 0 10px
+  font-size: 18px
+  font-weight: 400
+  letter-spacing: 0
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse 
+  margin-right: 0
+  margin-left: 0
+.clear 
+  clear: both
+
+.w-100 
+  width: 100%
+
+img 
+  max-width: 100%
+
+p 
+  margin-bottom: 10px
+
+.icon-bar 
+  background: #fff
+  display: block
+  width: 22px
+  height: 2px
+  border-radius: 1px
+
+.navbar-toggler .icon-bar + .icon-bar 
+  margin-top: 4px
+
+.slick-arrow 
+  z-index: 10
+  top: 50%
+  margin-top: -2rem
+  position: absolute
+  font-size: 0
+  line-height: 0
+  cursor: pointer
+  color: transparent
+  border: none
+  outline: none
+  background: none
+  &:before 
+    background: #4D4977
+    border-radius: 50%
+    color:#fff
+    font-size: 4.4rem
+    width: 6.4rem
+    height: 6.4rem
+    line-height: 6rem
+    text-align: center
+    display: block
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+  &.slick-prev 
+    left: -6rem
+    &:before 
+      content: "\e800"
+      padding-right: 3px
+  &.slick-next 
+    right: -6rem
+    &:before
+      content: "\e801"
+      padding-left: 3px
+
+.slick-dots 
+  text-align: center
+  li 
+    display: inline-block
+    font-size: 0
+    line-height: 0
+    cursor: pointer
+    color: transparent
+    border: 0
+    outline: none
+    border-radius: 0
+    border: none
+    background: rgba(#fff, .5)
+    width: 10px
+    height: 10px
+    margin: 0 0 10px
+    display: block
+    padding-left: 0
+    &:before
+      display: none
+    &.slick-active 
+      background: #fff
+
+@media (min-width: 768px)
+  .modal 
+    width: 420px
+    margin: 60px auto
+
+.modal-content 
+  border-radius: 0px
+  border: 0px
+  padding: 30px
+  background: #fff
+  h3 
+    margin-bottom: 10px
+  .form-control
+    width: 100%
+    box-shadow: none
+  form
+    margin: 15px 0
+
+@media (min-width: 768px) 
+  .modal-content 
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3)
+
+.conf-row
+  margin-top: 30px
+
+.close 
+  width: 28px
+  height: 28px
+  border: none
+  opacity: 1
+  font-weight: normal
+  background: transparent
+  color: #333
+  margin-top: 0px
+  margin-right: 0px
+  text-shadow: none
+  position: absolute
+  top: 10px
+  right: 10px
+  z-index: 10
+  font-size: 18px
+  &:before
+    content: '\e800'
+    display: block
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+  &:hover
+    cursor: pointer
+
+*::-webkit-input-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*:-moz-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*::-moz-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+*:-ms-input-placeholder 
+  color: #7D7D7D
+  opacity: 1
+
+.form-control:focus::-webkit-input-placeholder 
+  color: transparent
+
+.form-control:focus:-moz-placeholder 
+  color: transparent
+
+.form-control:focus::-moz-placeholder 
+  color: transparent
+
+.form-control:focus:-ms-input-placeholder 
+  color: transparent
+
+.form-group 
+  margin-right: 0px
+  margin-left: 0px
+  margin-bottom: 15px
+  position: relative
+  &:before 
+    font-family: "fontello"
+    speak: none
+    -webkit-font-smoothing: antialiased
+    -moz-osx-font-smoothing: grayscale
+    position: absolute
+    left: 20px 
+    top: 18px
+    z-index: 2
+    color:#7D7D7D
+    font-size: 18px
+  
+  &.name 
+    &:before 
+      content: "\e806"
+    
+  &.number 
+    &:before 
+      content: "\e803"
+    
+  &.email 
+    &:before 
+      content: "\f0e0"
+
+  &.message 
+    &:before 
+      content: "\f4ac"
+      top: 10px
+
+.form-control 
+  border: 1px solid #d0d0d0
+  border-radius: 5px
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset
+  height: auto
+  padding: 14px 15px
+
+.form-control:focus 
+  border: 1px solid rgba(96, 41, 128, 0.5)
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset
+
+select.form-control 
+  height: 42px
+
+.navbar-collapse 
+  padding-left: 0
+  padding-right: 0
+
+.navbar 
+  border-radius: 0
+  height: auto
+  margin-bottom: 0
+  border:none
+  padding: 0
+
+.text-right 
+  text-align: right
+
+.text-left 
+  text-align: left
+
+.text-center 
+  text-align: center
+
+.w-100 
+  width: 100%
+
+.m-auto 
+  margin-left: auto
+  margin-right: auto
+  display: block
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 
+  position: relative
+  min-height: 1px
+  padding-right: 10px
+  padding-left: 10px
+
+.col-xs-1-5 
+  width: 20%
+  float: left
+
+@media (min-width: 768px) 
+  .col-sm-1-5 
+    width: 20%
+    float: left
+  
+@media (min-width: 992px) 
+  .col-md-1-5 
+    width: 20%
+    float: left
+
+@media (min-width: 1200px) 
+  .col-lg-1-5 
+    width: 20%
+    float: left
+
+img.svg 
+  max-height: 10rem
+  svg 
+    height: 100%
+
+.icon 
+  float: left
+  margin-right: 10px
+
+.text 
+  overflow:hidden
+
+.politics 
+    font-size: 12px
+    line-height: 1
+    color: #999
+
+.politics i.fa 
+    margin-right: 5px
+
+.radio-btn 
+  display: inline-block
+  text-align: left
+  width: 100%
+  cursor: pointer
+
+.radio-btn p 
+  margin-bottom: 0px
+
+.radio-btn > input[type=radio] 
+  display: none
+
+.radio-btn > div 
+  background: #fff
+  border: solid 3px #bbb
+  display: inline-block
+  width: 13px
+  height: 13px
+  border-radius: 100%
+  vertical-align: middle
+  cursor: pointer
+  margin: 3px 8px 0px 0px
+  float: left
+
+.radio-btn > input[type=radio]:checked + div 
+  border: solid 4px #3974b2
+  background: #3974b2
+
+.checkbox-btn 
+  display: inline-block
+  text-align: left
+  width: 100%
+  cursor: pointer
+
+.checkbox-btn p 
+  margin-bottom: 0px
+
+.checkbox-btn > input[type=checkbox] 
+  display: none
+
+.checkbox-btn > div 
+  background: #fff
+  border: solid 2px #bbb
+  display: inline-block
+  width: 15px
+  height: 15px
+  vertical-align: middle
+  cursor: pointer
+  margin: 0px 10px 0px 0px
+  float: left
+  position: relative
+
+.checkbox-btn > input[type=checkbox]:checked + div:after 
+  content: "\e807"
+  font-family: 'fontello'
+  position: absolute
+  top: -7px
+  left: 0px
+  color: $black
+
+.conf .checkbox-btn > div 
+  margin-bottom: 0px
+
+.fancybox
+  display: block
+  width: 100%
+  height: 100%
+  position: relative
+  &:before
+    content: "Посмотреть"
+    text-transform: uppercase
+    font-size: 12px
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    text-align: center
+    @extend .flex
+    @extend .jc-center
+    @extend .align-center
+    flex-direction: column
+    opacity: 0
+    color: $black
+    background: $yellow url(../../images/hover.png) no-repeat center center
+    background-size: contain
+    z-index: 50
+    transition: all .2s
+  &:hover
+    &:before
+      opacity: 1
+
+#header-index
+  background: #000 
+  position: relative
+  color: #fff
+  overflow: hidden
+  &:before
+    content: ""
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    position: absolute
+    z-index: 3
+    background: rgba(#000, .73)
+    background: -moz-linear-gradient(-45deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 100%)
+    background: -webkit-linear-gradient(-45deg, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%)
+    background: linear-gradient(135deg, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.6) 100%)
+  .inner
+    position: relative
+    z-index: 5
+    min-height: 100vh
+    padding: 3rem 0 0
+    @extend .flex
+    //@extend .jc-center
+    justify-content: space-between
+    flex-direction: column
+  .header-title
+    font-size: 4.8rem
+    text-transform: uppercase
+    line-height: 1.4  
+  .header-text
+    .line
+      margin: 3rem 0
+      width: 55px
+      height: 5px
+      background: #fff
+    p
+      font-size: 1.6rem
+  .down-link
+    display: block
+    margin: 30px auto
+    &:hover
+      svg
+        *
+          //fill: $yellow
+  .dots
+    margin-bottom: 3rem
+
+.header-slider
+  position: absolute !important
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  z-index: 1
+  .item
+    width: 100%
+    height: 100%
+    min-height: calc(100vh)
+    background-repeat: no-repeat
+    background-position: center center
+    background-size: cover
+    background-attachment: fixed
+    position: relative
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    overflow: hidden
+    width: 100%
+    height: 100%
+    &.slick-current
+      
+    &.bg1
+      background-image: url(../../images/index/header/bg1.jpg)
+    &.bg2
+      background-image: url(../../images/index/header/bg1.jpg)
+    &.bg3
+      background-image: url(../../images/index/header/bg1.jpg)
+
+.navbar
+  justify-content: space-between
+
+.navbar-nav
+  justify-content: flex-end
+  width: 100%
+  li
+    margin-right: 3rem
+    display: inline-block
+    list-style-type: none
+    &:before
+      display: none
+    &:last-child
+      margin-right: 0
+    a
+      font-size: 1.3rem
+      text-transform: uppercase
+      color: #fff
+      letter-spacing: 2px
+      &:hover
+        color: $yellow
+        text-decoration: none
+
+.header-sale
+  position: absolute
+  bottom: 9rem
+  right: 0
+  text-align: right
+  .inn
+    position: relative
+  .revert
+    font-weight: 700
+    color: $yellow
+    font-size: 2.4rem
+    transform: rotate(-90deg)
+    display: inline-block
+    position: absolute
+    bottom: 60px
+    left: -50px
+    letter-spacing: 2px
+    text-transform: uppercase
+  .big
+    font-weight: 700
+    font-size: 7.2rem
+    letter-spacing: 5px
+    line-height: 1.4
+  p
+    font-size: 1.6rem
+    color: #CFCFCF
+  .btn
+    margin-top: 15px
+
+
+#services-index
+  position: relative
+  overflow: hidden
+  width: 100%
+  h2
+    margin-bottom: 0
+  .right
+    padding: 6rem 0 6rem 6rem
+  .bg
+    position: absolute
+    left: auto
+    right: 0
+    height: 100%
+    width: 150%
+    overflow: hidden
+  img
+    width: 100%
+    &.bg2
+      left: auto
+      right: 0
+  .box
+    margin-bottom: 4.5rem
+    a.link
+      margin-top: 5px
+
+ul
+  margin-bottom: 10px
+  li
+    list-style-type: none
+    padding-left: 12px
+    position: relative
+    &:before
+      content: ""
+      position: absolute
+      top: 10px
+      left: 0
+      width: 3px
+      height: 3px
+      background: $black
+
+a.link
+  position: relative
+  display: inline-block
+  padding-right: 18px
+  color: $black
+  text-transform: uppercase
+  font-weight: 700
+  font-size: 11px
+  letter-spacing: 1px
+  &:after
+    content: "\e801"
+    font-family: 'fontello'
+    position: absolute
+    top: -1px
+    right: 0
+    font-size: 12px
+
+.intro
+  font-size: 16px
+  color: $gray
+  margin-bottom: 3rem
+
+
+#portfolio-index
+  padding: 0 0 6rem
+  .top
+    width: 100%
+    padding: 3rem 0
+    background: $black
+    text-align: center
+    color: #fff
+
+.nav-portfolio
+  margin: 3rem 0 1rem
+  @extend .jc-center
+  li
+    display: inline-block
+    margin: 0 2px
+    padding-left: 0
+    &:before
+      display: none
+    a
+      font-size: 1.3rem
+      text-transform: uppercase
+      color: #fff
+      letter-spacing: 2px
+      padding: 9px 13px
+      &:hover, &.active
+        color: $black
+        text-decoration: none
+        background: $yellow
+
+.row-gallery
+  //margin-right: 0
+  //margin-left: 0
+  > div
+    padding-left: 0
+    padding-right: 0
+
+
+#sale-index
+  
+  color: #fff
+  background: $black url(../../images/index/sale/bg.jpg) no-repeat center center
+  background-size: cover
+  text-align: right
+  position: relative
+  width: 100%
+  overflow: hidden
+  .btn
+    margin-top: 6rem
+  .container
+    position: relative
+    min-height: 500px
+  .left
+    //position: relative
+    //height: 500px
+  .right
+    position: relative
+    z-index: 10
+    padding-top: 9rem
+    padding-bottom: 9rem
+  .sale-text
+    font-size: 16rem
+    color: rgba($black, .3)
+    text-align: center
+    position: absolute
+    z-index: 5
+    text-transform: uppercase
+    font-weight: 700
+    top: 25%
+    width: 100%
+    left: 0
+  .line
+    background: $yellow
+    width: 400px
+    height: 100%
+    position: absolute
+    left: 10%
+    top: 0
+    z-index: 5
+  .man-img
+    position: absolute
+    left: -5%
+    bottom: 0
+    z-index: 10
+    height: 90%
+    background: url(../../images/index/sale/man.png) no-repeat bottom center
+    background-size: contain
+    width: 45%
+
+#footer
+  background: $black
+  color: #fff
+  padding: 3rem 0
+  .logo
+    margin-bottom: 3rem
+  .copyright
+    margin-top: 3rem
+  p
+    font-size: 11px
+    //margin-top: 3rem
+    color: #EAEAEA
+    margin-bottom: 0
+    a
+      color: $yellow
+  .footer-phone
+    text-align: right
+    a
+      color: #fff
+      font-size: 1.8rem
+      font-weight: 500
+  .navbar
+    @extend .flex
+    @extend .align-center
+
+.nav-container
+  width: 100%
+  padding: 1.5rem 0
+  background: $black
+  color: #fff
+
+.breadcrumbs
+  margin-top: 28px
+  padding: 4rem 0
+
+ul.breadcrumb
+  margin: 0 0
+  padding: 0
+
+ul.breadcrumb li
+  display: inline-block
+  font-size: 12px
+  margin: 0
+  padding: 0
+  color: $gray
+  font-size: 14px
+  padding-left: 0
+  &:before
+    display: none
+
+
+ul.breadcrumb li:first-child
+
+
+ul.breadcrumb .separator
+  display: inline-block
+  margin: 0 5px
+  font-size: 12px
+  color: #000
+
+ul.breadcrumb li a
+  color: #000
+
+p.introtext
+  margin-bottom: 12rem
+
+.content
+  width: 100%
+  overflow: hidden
+  .page-introtext
+    min-height: 400px
+
+.bg-right
+  position: absolute
+  left: auto
+  left: 0
+  height: 100%
+  width: 150%
+  overflow: hidden
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  img
+    width: 100%
+    //position: absolute
+    //left: 0
+    //bottom: 0
+
+.bg-left
+  position: absolute
+  left: auto
+  right: 0
+  height: 100%
+  width: 150%
+  overflow: hidden
+  background-position: center center
+  background-size: cover
+  background-repeat: no-repeat
+  img
+    width: 100%
+
+.inn-right
+  padding: 12rem 0 12rem 6rem
+
+.bg-light
+  background: #F2F2F2
+
+.body-index
+  h2
+    font-size: 4.8rem 
+    //letter-spacing: 1px
+
+ 

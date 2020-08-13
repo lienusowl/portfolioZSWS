@@ -1,0 +1,472 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+@font-face {
+    font-family: "GothamProLight";
+    src: url("../fonts/GothamProLight.eot");
+    src: url("../fonts/GothamProLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/GothamProLight.woff") format("woff"),
+    url("../fonts/GothamProLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+background: #fff;
+color: #333;
+font-family: "GothamProLight", Sans-Serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+margin:0 auto;
+position:relative;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+font-size: 2.5em;
+}
+h2{
+color: #33383b;
+font-size: 2em;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+}
+h4{
+font-size: 1.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.2em;
+}
+#lineblue{
+border-bottom: 2px solid #00d7ff;
+  width: 10%;
+}
+
+header{
+  background: url('../img/header.jpg') center bottom no-repeat;
+  height: 768px;
+}
+header #logo{
+  padding-top: 30px;
+}
+header #logo .big{
+color:#1adbff;
+font-size:1.4em;
+}
+header #logo .small{
+color:#fff;
+font-size:1.2em;
+}
+header #adr{
+  position: absolute;
+  width: 160px;
+  height: 100px;
+  top: 30px;
+  right: 0px;
+}
+header #adr img{
+  position: absolute;
+  top: 0px;
+  left: -30px;
+}
+header p{
+color:#fff;
+}
+header .modalbox{
+color:#00d7ff;
+transition: all .3s;
+}
+header .modalbox:hover{
+color: #B5F3FF;
+transition: all .3s;
+}
+header #intro{
+  padding-top: 90px;
+}
+header #intro h1{
+  color: #fff;
+  text-align: center;
+  padding: 30px 0px;
+}
+header #intro .big{
+  font-size: 1.4em;
+  text-align: center;
+}
+header #intro .big span{
+  color: #00d7ff;
+    transition: all .3s;
+}
+header #intro .small{
+  font-size: 1.4em;
+  color: #00d7ff;
+  text-align: center;
+  text-decoration:underline;
+}
+header #intro .modalbox{
+  color: #fff;
+  border: 1px solid #00d7ff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  width: 190px;
+  text-align: center;
+  margin: 55px auto;
+  transition: all .3s;
+}
+header #intro .modalbox:hover{
+transition: all .3s;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+#kakie{
+  width: 940px;
+  height: 500px;
+  margin: 40px auto;
+  border: 2px solid #00d7ff;
+  background: url('../img/inside.jpg') left top no-repeat;
+}
+#kakie h2{
+  font-size: 1.6em;
+  text-align: center;
+  padding: 30px 0px;
+}
+#kakie #box2 #line{
+height: 60px;
+  font-weight: bold;
+}
+#kakie #box2 #line img{
+  float: left;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+#kakie #box2 #inbox{
+  position: absolute;
+  top: 95px;
+  border: 1px solid #939393;
+  right: 55px;
+  width: 350px;
+  padding: 40px;
+  height: 350px;
+}
+#kakie #box2 #inbox b{
+  font-weight: bold;
+}
+#kakie #box2 #inbox p{
+  margin-bottom: 1em;
+}
+#kakie #box2 #inbox .modalbox{
+  background-color: #00d7ff;
+  padding: 5px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  text-align: center;
+  transition: all .3s;
+}
+#kakie #box2 #inbox .modalbox:hover{
+transition: all .3s;
+  background-color: #10AFCD;
+}
+#kakie #box2 #inbox #new{
+background-color: #fff;
+  padding: 5px;
+  color: #00d7ff;
+  text-decoration: none;
+  display: block;
+  width: 250px;
+  text-align: center;
+  transition: all .3s;
+  border: 1px solid #00d7ff;
+}
+#kakie #box2 #inbox #new:hover{
+transition: all .3s;
+  background-color: #10AFCD;
+  color:#fff;
+    border: 1px solid #fff;
+}
+#kakie #box2 #inbox .small{
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#content{
+background:url('../img/content_bg.jpg') center top no-repeat;
+height:725px;
+}
+#content h3{
+text-align:center;
+color:#404040;
+padding:30px 0px;
+}
+#content p{
+color: #404040;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+}
+#content p span{
+color:#00d7ff;
+}
+
+#why{
+  background: url('../img/why.jpg') center top no-repeat;
+  height: 770px;
+}
+#why h4{
+color: #fff;
+  text-align: center;
+  font-size: 1.6em;
+  padding: 30px;
+}
+#why h4 span{
+color:#00d7ff;
+}
+#why #dark{
+  border-left: 2px solid #00d7ff;
+  padding: 20px;
+  background-color: rgba(79, 79, 79, 0.55);
+    margin-top: 20px;
+}
+#why #dark p{
+color:#fff;
+  margin-bottom: 30px;
+}
+#why #dark p span{
+font-weight:bold;
+color:#00d7ff;
+}
+
+#kak{
+  margin: 60px 0px;
+}
+#kak #inbox{
+border:2px solid #00d7ff;
+width:940px;
+margin:20px auto;
+background:url('../img/shag_bg.jpg') right top no-repeat;
+  height: 390px;
+}
+#kak img{
+display:block;
+margin:20px auto;
+}
+#kak h3{
+  text-align: center;
+  font-size: 1.8em;
+  padding: 15px;
+}
+#kak .modalbox{
+  background-color: #00d7ff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: 45px auto;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s;
+}
+#kak .modalbox:hover{
+transition: all .3s;
+background-color: #09BEE0;
+}
+
+#otz{
+height:700px;
+background:url('../img/otz.jpg') center top no-repeat;
+}
+#otz h5{
+  color: #fff;
+  text-align: center;
+  font-size: 1.6em;
+  padding: 30px;
+}
+#otz #in{
+  width: 90%;
+  margin: 0px auto;
+  height: 200px;
+}
+#otz #in img{
+float: left;
+}
+#otz #in p{
+padding: 10px 0px 0px 160px;
+color:#fff;
+}
+#otz #lineblue{
+  margin-left: 160px;
+  margin-top: 15px;
+}
+
+footer{
+height:550px;
+background:url('../img/footer.jpg') center top no-repeat;
+}
+
+#portfolio{
+background:url('../img/portfolio.jpg') center top no-repeat;
+  height: 485px;
+}
+#portfolio h5{
+text-align: center;
+  font-size: 2em;
+  padding: 30px 0px;
+  color:#404040;
+}
+
+#portfolio .modalbox{
+  background-color: #00d7ff;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  display: block;
+  margin: 45px auto;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s;
+}
+#portfolio .modalbox:hover{
+transition: all .3s;
+background-color: #09BEE0;
+}
+
+footer h6{
+text-align:center;
+color:#fff;
+font-size:2em;
+padding:30px 0px;
+}
+footer #map p{
+color:#fff;
+}
+footer .big{
+font-weight: bold;
+  font-size: 1em;
+}
+footer p{
+padding-bottom: 10px;
+}
+footer #form{
+  position: absolute;
+  width: 375px;
+   height: 340px;
+  top: 95px;
+  right: 0px;
+  border: 2px solid #00d7ff;
+  padding:20px;
+}
+footer #form p{
+text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+footer input{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #00d7ff;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 325px;
+  color:#fff;
+}
+footer textarea{
+  background: none;
+  border: none;
+  border-bottom: 1px solid #00d7ff;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 325px;
+  height: 100px;
+  background-color: rgba(34, 34, 34, 0.4);
+  color:#fff;
+}
+footer #sub{
+  background: #00d7ff;
+  border: none;
+  border-bottom: 1px solid #00d7ff;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 325px;
+  color:#fff;
+  transition: all .3s;
+}
+footer #sub:hover{
+transition: all .3s;
+background-color: #09BEE0;
+}
+/*transition: all .3s;*/
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}
+
+.popup-form{
+width:350px;
+}
+.popup-form input{
+width:330px;
+  width: 330px;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+.flag h2{
+text-align:center;
+}
+
+.button1{
+  background: #00d7ff;
+  border: none;
+  border-bottom: 1px solid #00d7ff;
+  height: 30px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  width: 325px;
+  color:#fff;
+  transition: all .3s;
+}
+.button1:hover{
+transition: all .3s;
+background-color: #09BEE0;
+}
+
+.popup-form input::-webkit-input-placeholder {color:#222;}
+.popup-form input::-moz-placeholder          {color:#222;}/* Firefox 19+ */
+.popup-form input:-moz-placeholder           {color:#222;}/* Firefox 18- */
+.popup-form input:-ms-input-placeholder      {color:#222;}

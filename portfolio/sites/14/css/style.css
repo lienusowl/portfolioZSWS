@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+  background: #fff url('../img/header.jpg') center top no-repeat;
+color: #333;
+font-family: 'Roboto', sans-serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+position:relative;
+margin:0 auto;
+width:1100px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+font-size: 2.5em;
+}
+h2{
+color: #33383b;
+font-size: 1.2em;
+padding: 0px 0px 15px 0px;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+}
+h4{
+font-size: 1.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+.top{
+  top: -40px;
+}
+
+#tabs #logo{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+#tabs .tabs_nav{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 740px;
+    z-index: 2;
+}
+
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5{
+min-height:550px;
+}
+#logo img{
+width:200px;
+}
+
+#about{
+  position: absolute;
+  width: 300px;
+  top: 140px;
+  font-size: 0.8em;
+}
+
+.modalbox{
+position: absolute;
+  top: 60px;
+  left: 0px;
+opacity:0.85;
+}
+.modalbox:hover{
+transition: all .3s;
+opacity:1;
+}
+.modalbox img{
+width:200px;
+}
+
+#number p{
+  color: #A5A5A5;
+  font-weight: 100;
+  font-size: 0.8em;
+}
+#number a{
+  color: #2AB4B6;
+    transition: all .3s
+}
+#number a:hover{
+color: #1E4B4C;
+    transition: all .3s
+}
+
+.green_hover:hover{
+background: rgba(0, 163, 89, 0.93) !important;
+}
+.blue_hover1:hover{
+background: #006DAF !important;
+color:#fff !important;
+}
+.blue_hover2:hover{
+background: #30C7F4 !important;
+}
+#tabs_container p{
+font-size:0.8em;
+font-weight:100;
+}
+#tabs_container span{
+padding-left:40px;
+  display: block;
+}
+#tabs_container section{
+  position: absolute;
+  top: 0px;
+  left: 205px;
+}
+
+
+
+#tabs-2{
+border-left: 3px solid #10A963;
+  padding-left: 15px;
+}
+#tabs-3{
+border-left: 3px solid #006DAF;
+  padding-left: 15px;
+}
+#tabs-4{
+border-left: 3px solid #30C7F4;
+  padding-left: 15px;
+}
+
+
+
+
+/*============*/
+.popup-form{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.popup-form input{
+width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+.button1{
+color: #fff;
+  background: #ff545d;
+  padding: 7px;
+  transition: all .3s;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 50px !important;
+  transition: all .3s;
+}
+.button1:hover{
+  opacity: 1;
+  transition: all .3s;
+}
+.popup{
+  background: none;
+height: 247px;
+}
+.flag h2 {
+text-align: center;
+  color: #222;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+#submit{
+  border: none;
+  font-size: 1.4em;
+}
+#submit:hover{
+  transition: all .3s;
+  background:#e83e3f;
+}
+
+.img_index{
+  /* position: absolute; */
+  top: 35px;
+  padding-left: 155px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

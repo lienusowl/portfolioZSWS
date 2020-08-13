@@ -1,0 +1,50 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 18px;}
+	#header .logo {padding: 30px 0;}
+	#header .logo p {border-bottom: none;}
+	.title img {display: none;}
+	.title {font-size: 32px;line-height: 55px;margin: 20px 0;}
+	#header .header-right .box-1 .title {text-align: center;padding-right: 0;margin-top: 40px;}
+	#header .header-right .box-1 p {margin-top: 0px;}
+	#header .header-right .box-2 ul {width: 100%;padding-bottom: 30px;}
+	#header .header-right .box-2 ul img {display: none;}
+	#game .box-2 p {padding: 0 0;}
+	#game .box-2 .hr {margin: 30px auto;}
+	#game .box-3 p {padding: 0 0;}
+	.btn {margin: 20px auto;font-size: 24px;}
+	#gardener .box-2 .inner {margin-bottom: 20px;}
+	#gardener .box-2 {padding: 0 0;}
+	.title.small {font-size: 28px;line-height: 50px;}
+	#first_vote {margin-top: 0;}
+	#first_vote .box-2 .left img {margin-left: 0px;}
+	#first_vote .box-2 .right img {margin-top: -40px;}
+	#first_vote .box-3 .left {padding-top: 0;}
+	#second_test .box-1 .right {padding-top: 0;}
+	#second_test .box-2 {margin-top: 0;}
+	#team .title {margin-bottom: 20px;}
+	#team {margin-top: 0;}
+	#final .box-3 {margin-top: 40px;}
+	#final .box-3 .inner img {display: none;}
+	#final {background-position: 20% 0%;}
+}
+@media (min-width: 1024px) and  (max-width: 1200px) { 
+#second_test .box-2 {margin-top: 0;}
+#first_vote .box-2 .left img {margin-left: 0;}
+#first_vote .box-2 .right img {margin-top: 0;}
+#team .title img {display: none;}
+#final {background-position: 0px 0px;}
+}
+

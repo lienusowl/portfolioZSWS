@@ -1,0 +1,44 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1024px) and  (max-width: 1200px) {
+	.header-phone {display: none;}
+	.header-phone.tablet {display: inline-block;}
+	.navbar-nav {justify-content: flex-end;width: 100%;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	#header .header-slogan {font-size: 3.2rem;}
+	.right-tab {display: none;}
+	.nav-bottom {text-align: left;}
+	.nav-bottom > div {margin: 10px 0 10px;}
+	.header-phone {margin-bottom: 10px;}
+	#category-index .images > div {margin-bottom: 15px;}
+	.title {font-size: 3.2rem;}
+	#about-index .box {padding: 60px 30px;}
+	#about-index .box .right {margin-top: 30px;}
+	.sale-slider .slide img {right: -50%;}
+	#questions-index .inner {background-position: 60% 0%;}
+	#footer {margin-top: 0;}
+	#footer .box {padding: 30px 30px;}
+	#footer .logo-footer {border-right: none;}
+	
+	#footer .phone-footer, #footer .email-footer {text-align: center;padding-right: 0;}
+	#footer .box .b2, #footer .box .b3 {padding-top: 15px;padding-bottom: 15px;}
+	.navbar-nav li a {font-size: 18px;}
+	.navbar-nav {text-align: right;margin-bottom: 15px;}
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	html {font-size: 8px;}
+	#footer ul li {width: 100%;}
+	.btn, .btn.big {min-height: auto;width: 100%;}
+	
+}
+
+

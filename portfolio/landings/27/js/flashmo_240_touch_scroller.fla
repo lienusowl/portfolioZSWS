@@ -1,0 +1,1193 @@
+��ࡱ�>��	B����h����������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������Root Entry����������������������������������������������������Root Entry��������	p�|Y�r��RASH0��Ќ"�C�DContents������������i
+`P 4 1297305187�����TS 16 1297304601 ��������������	����������������	
+
+ !"#$%&'()*+,-./0123456789:;<=>?@A����ODEFGHIJKLMNP_QRSTUVWXYZ[\]^`����abcdefg��������jklmnopqrstuvwxyz{|}~�S 20 1297304601 ������	S 22 1297304601 ����`�	S 19 1297304601 
+��������9�	S 21 1297304601 ������������0S 23 1297304601 ����
+����*xS 17 1297304601 ����!S 18 1297304601 ������������;S 14 1297304601 �������� S 15 1297304601 ����>S 24 1297304601 ������������GS 13 1297304601 ������������t��������������CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite�$��2�����,������flashmo_photo_area����<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath='1.18'>
+</component>
+�����?�����l=�����������
+photo area����O�O�����
+CPicButtonDHG���������_������flashmo_play�����?�����Ri�����������play�����OO����DHG��������9������
+flashmo_pause�����?������~�����������pause�����3������ChB���������9������flashmo_previous�����?������T�����������previous������
+�����E�D��������}v������flashmo_next�����?�����Zz�����������next�����3�����F
+�����������������flashmo_loading_bg����<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath='1.19'>
+</component>
+�����?�����������������loading text bg������
+�����CPicText��
+���qg����Arial����"(loading image 00 of 00���loading_info������1|2|3|4�����?�����;2�����������
+text field����O�O�����$��������
+&������
+flashmo_cover����<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath='1.20'>
+</component>
+�����?�����"�����������cover���������������?�����0�����1/*
+
+Touch Scroller
+
+
+
+Copyright � flashmo.com
+
+
+
+Tweener by http://code.google.com/p/tweener/
+
+
+
+Mouse leave stage handling by
+
+http://stackoverflow.com/questions/1563434/detect-mouse-leave-stage-while-dragging-in-actionscript-3
+
+*/
+
+
+
+import caurina.transitions.Tweener;
+
+import flash.events.MouseEvent;
+
+import flash.display.MovieClip;
+
+import flash.utils.Timer;
+
+
+
+var auto_play:Boolean;
+
+var auto_play_duration:Number = 3000;
+
+var previous_button:Boolean = true;
+
+var next_button:Boolean = true;
+
+var auto_align:Boolean = true;
+
+var tween_duration:Number = 0.5;
+
+var flashmo_spacing:int = 1;
+
+var flashmo_effect:String = "easeOutQuad";
+
+
+
+var i:int;
+
+var tn:int = 0;
+
+var total:int;
+
+var previous_x:Number = 0;
+
+var previous_width:Number = 0;
+
+var current_no:int = 0;
+
+
+
+var photo_on_transit:Boolean = false;
+
+var timer:Timer;
+
+var flashmo_xml:XML;
+
+var pic_loader:Loader;
+
+var flashmo_photo_list = [];
+
+var mc:MovieClip;
+
+var photo_group:MovieClip = new MovieClip();
+
+var photo_width_list:Array;
+
+var group_width:Number = 0;
+
+var left_group_x:Number;
+
+var right_group_x:Number;
+
+
+
+photo_group.x = flashmo_photo_area.x;
+
+photo_group.y = flashmo_photo_area.y;
+
+photo_group.mask = flashmo_photo_area;
+
+
+
+loading_info.text = "";
+
+flashmo_cover.visible = false;
+
+flashmo_play.visible = false; 
+
+flashmo_pause.visible = false;
+
+flashmo_previous.visible = false; 
+
+flashmo_next.visible = false;
+
+
+
+this.addChild( photo_group );
+
+this.addChild( flashmo_play );
+
+this.addChild( flashmo_pause );
+
+this.addChild( flashmo_loading_bg );
+
+this.addChild( loading_info );
+
+
+
+function load_gallery( xml_file:String ):void
+
+{
+
+	var xml_loader:URLLoader = new URLLoader();
+
+	xml_loader.load( new URLRequest( xml_file ) );
+
+	xml_loader.addEventListener(Event.COMPLETE, create_photo_rotator);
+
+	stage.scaleMode = StageScaleMode.NO_SCALE;
+
+	stage.align = StageAlign.TOP_LEFT;
+
+	stage.addEventListener( Event.RESIZE, resize_listener );
+
+	stage.dispatchEvent( new Event( Event.RESIZE ) );
+
+}
+
+
+
+function resize_listener( e:Event ): void
+
+{
+
+	if( stage.stageWidth > 0 )
+
+	{
+
+		flashmo_photo_area.width = stage.stageWidth;
+
+		flashmo_photo_area.height = stage.stageHeight;
+
+		flashmo_play.x = stage.stageWidth - flashmo_play.width;
+
+		flashmo_play.y = stage.stageHeight - flashmo_play.height;
+
+		flashmo_pause.x = flashmo_play.x;
+
+		flashmo_pause.y = flashmo_play.y;
+
+	
+
+		if( next_button )
+
+		{
+
+			flashmo_next.x = flashmo_play.x - flashmo_next.width;
+
+			flashmo_next.y = flashmo_play.y;
+
+		}
+
+		if( previous_button )
+
+		{
+
+			flashmo_previous.y = flashmo_play.y;
+
+			
+
+			if( next_button )
+
+				flashmo_previous.x = flashmo_next.x;
+
+			else
+
+				flashmo_previous.x = flashmo_play.x;
+
+			
+
+			flashmo_previous.x -= flashmo_previous.width;
+
+		}
+
+		
+
+		if( tn > 0 )
+
+		{
+
+			left_group_x = stage.stageWidth >> 1;
+
+			set_right_group_x();
+
+			photo_group.x = get_current_align();
+
+		}
+
+	}
+
+}
+
+
+
+function create_photo_rotator( e:Event ):void 
+
+{	
+
+	flashmo_xml = new XML( e.target.data );
+
+	total = flashmo_xml.photo.length();
+
+	
+
+	auto_play = flashmo_xml.config.@auto_play.toString() == "false" ? false : true;
+
+	previous_button = flashmo_xml.config.@previous_button.toString() == "false" ? false : true;
+
+	next_button = flashmo_xml.config.@next_button.toString() == "false" ? false : true;
+
+	auto_align = flashmo_xml.config.@photo_auto_align.toString() == "false" ? false : true;
+
+	
+
+	if( flashmo_xml.config.@auto_play_duration.toString() != "" )
+
+		auto_play_duration = parseFloat( flashmo_xml.config.@auto_play_duration.toString() ) * 1000;
+
+		
+
+	if( flashmo_xml.config.@photo_spacing.toString() != "" )
+
+		flashmo_spacing = parseInt( flashmo_xml.config.@photo_spacing.toString() );
+
+				
+
+	if( flashmo_xml.config.@tween_duration.toString() != "" )
+
+		tween_duration = parseFloat( flashmo_xml.config.@tween_duration.toString() );
+
+	
+
+	if( flashmo_xml.config.@tween_effect.toString() != "" )
+
+		flashmo_effect = flashmo_xml.config.@tween_effect.toString();
+
+				
+
+	for( i = 0; i < total; i++ )
+
+	{		
+
+		flashmo_photo_list.push( {
+
+			filename: flashmo_xml.photo[i].filename.toString(),
+
+			url: flashmo_xml.photo[i].url.toString(),
+
+			target: flashmo_xml.photo[i].target.toString()
+
+		} );
+
+	}
+
+	
+
+	timer = new Timer( auto_play_duration );
+
+	photo_width_list = [ total ];	
+
+	load_photo();
+
+}
+
+
+
+function load_photo():void
+
+{
+
+	var pic_request:URLRequest = new URLRequest( flashmo_photo_list[tn].filename );
+
+	pic_loader = new Loader();	
+
+	pic_loader.load( pic_request );
+
+	pic_loader.contentLoaderInfo.addEventListener(ProgressEvent.PROGRESS, on_photo_progress);
+
+	pic_loader.contentLoaderInfo.addEventListener( Event.COMPLETE, on_photo_loaded );
+
+}
+
+
+
+function on_photo_progress(e:ProgressEvent):void
+
+{	
+
+	var percent:Number = Math.round(e.bytesLoaded / e.bytesTotal * 100);
+
+	loading_info.text = "Loading image " + ( tn + 1 ) + " of " + total + " (" + percent + "%)";	
+
+}
+
+
+
+function on_photo_loaded(e:Event):void
+
+{		
+
+	tn++;
+
+	var flashmo_pic_bm:Bitmap = new Bitmap();
+
+	var flashmo_pic_mc:MovieClip = new MovieClip();
+
+	
+
+	flashmo_pic_bm = Bitmap( e.target.content );
+
+	flashmo_pic_bm.smoothing = false;
+
+	flashmo_pic_mc.addChild( flashmo_pic_bm );
+
+	flashmo_pic_mc.addEventListener( MouseEvent.CLICK, pic_click );	
+
+	flashmo_pic_mc.buttonMode = true;
+
+	flashmo_pic_mc.name = "flashmo_photo_" + ( tn - 1 );
+
+	photo_width_list[ tn - 1 ] = flashmo_pic_mc.width;
+
+	
+
+	if( tn == 1 )
+
+	{
+
+		flashmo_pic_mc.x = 0;		
+
+		photo_group.x = ( stage.stageWidth - photo_width_list[ 0 ] ) >> 1;
+
+		left_group_x = ( stage.stageWidth >> 1 );
+
+		photo_group.addEventListener( MouseEvent.MOUSE_DOWN, drag );
+
+		photo_group.addEventListener( MouseEvent.MOUSE_UP, drop);		
+
+	}
+
+	else
+
+	{
+
+		flashmo_pic_mc.x = previous_x + previous_width + flashmo_spacing;		
+
+		
+
+		if( tn == 2 )
+
+			init_timer();
+
+	}
+
+	
+
+	group_width += ( flashmo_pic_mc.width + flashmo_spacing );
+
+	photo_group.addChild( flashmo_pic_mc );	
+
+	set_right_group_x();
+
+	
+
+	previous_x = flashmo_pic_mc.x;
+
+	previous_width = flashmo_pic_mc.width;	
+
+
+
+	if( tn < total )
+
+		load_photo();
+
+	else
+
+	{
+
+		this.removeChild( flashmo_loading_bg );
+
+		this.removeChild( loading_info );
+
+	}
+
+}
+
+
+
+function set_right_group_x():void
+
+{
+
+	right_group_x = ( stage.stageWidth >> 1 ) - group_width;
+
+}
+
+
+
+function init_timer(): void
+
+{
+
+	timer.addEventListener( TimerEvent.TIMER, auto_play_timer );
+
+	flashmo_play.addEventListener( MouseEvent.CLICK, pic_play );
+
+	flashmo_pause.addEventListener( MouseEvent.CLICK, pic_pause );
+
+
+
+	if( auto_play )
+
+	{
+
+		flashmo_play.visible = false;
+
+		flashmo_pause.visible = true;
+
+
+
+		timer.start();
+
+	}
+
+	else
+
+	{
+
+		flashmo_play.visible = true;
+
+		flashmo_pause.visible = false;
+
+	}
+
+	
+
+	if( next_button )
+
+	{
+
+		this.addChild( flashmo_next );
+
+		flashmo_next.addEventListener( MouseEvent.CLICK, pic_next );
+
+		flashmo_next.visible = true;
+
+		flashmo_next.x = flashmo_play.x - flashmo_next.width;
+
+		flashmo_next.y = flashmo_play.y;
+
+	}
+
+	if( previous_button )
+
+	{
+
+		this.addChild( flashmo_previous );
+
+		flashmo_previous.addEventListener( MouseEvent.CLICK, pic_previous );
+
+		flashmo_previous.visible = true;
+
+		flashmo_previous.y = flashmo_play.y;
+
+		
+
+		if( next_button )
+
+			flashmo_previous.x = flashmo_next.x;
+
+		else
+
+			flashmo_previous.x = flashmo_play.x;
+
+		
+
+		flashmo_previous.x -= flashmo_previous.width;
+
+	}
+
+}
+
+
+
+function auto_play_timer(te:TimerEvent):void
+
+{		
+
+	current_no++;
+
+	change_photo();
+
+}
+
+
+
+function change_photo():void
+
+{
+
+	stop_timer();
+
+	photo_on_transit = true;
+
+	var dynamic_duration:Number = tween_duration;
+
+	
+
+	if( current_no >= tn )
+
+	{
+
+		current_no = 0;
+
+		dynamic_duration = 0.08 * tn + tween_duration;
+
+	}
+
+	else if( current_no < 0 )
+
+	{
+
+		current_no = tn - 1;
+
+		dynamic_duration = 0.08 * tn + tween_duration;
+
+	}
+
+	
+
+	enable_slide( false );
+
+	
+
+	var align_x:Number = get_current_align();
+
+	Tweener.addTween( photo_group, { x: align_x, time: dynamic_duration, 
+
+					  transition: flashmo_effect, onComplete: restart_timer } );
+
+}
+
+
+
+function get_current_align():Number
+
+{
+
+	var cumulative_width:Number = 0;
+
+	var align_x:Number = ( stage.stageWidth - photo_width_list[ current_no ] ) >> 1;
+
+		
+
+	if( current_no > 0 )
+
+	{
+
+		for( i = 0; i < current_no; i++ )
+
+		{
+
+			cumulative_width += photo_width_list[ i ];
+
+		}
+
+	
+
+		cumulative_width += current_no * flashmo_spacing;
+
+		align_x -= cumulative_width;
+
+	}
+
+	
+
+	return align_x;
+
+}
+
+
+
+function enable_slide( enable:Boolean ): void
+
+{
+
+	flashmo_previous.enabled = enable;
+
+	flashmo_next.enabled = enable;
+
+	photo_group.mouseEnabled = enable;
+
+		
+
+	if( enable )
+
+	{
+
+		flashmo_previous.addEventListener( MouseEvent.CLICK, pic_previous );
+
+		flashmo_next.addEventListener( MouseEvent.CLICK, pic_next );
+
+	}
+
+	else
+
+	{
+
+		flashmo_previous.removeEventListener( MouseEvent.CLICK, pic_previous );
+
+		flashmo_next.removeEventListener( MouseEvent.CLICK, pic_next );
+
+	}
+
+}
+
+
+
+function pic_next(e:MouseEvent):void
+
+{	
+
+	current_no++;
+
+	change_photo();
+
+}
+
+
+
+function pic_previous(e:MouseEvent):void
+
+{
+
+	current_no--;
+
+	change_photo();
+
+}
+
+
+
+function stop_timer(): void
+
+{
+
+	if( auto_play )
+
+		timer.reset();
+
+}
+
+
+
+function restart_timer():void
+
+{
+
+	enable_slide( true );
+
+	photo_on_transit = false;
+
+	
+
+	if( auto_play )
+
+		timer.start();
+
+	else
+
+		timer.reset();
+
+}
+
+
+
+function pic_click(e:MouseEvent):void
+
+{
+
+	photo_group.removeEventListener( Event.ENTER_FRAME, dragger_update);
+
+	stage.removeEventListener(Event.MOUSE_LEAVE, stage_leave);
+
+	stage.removeEventListener( MouseEvent.MOUSE_UP, drop );
+
+	restart_timer();
+
+	
+
+	mc = MovieClip(e.target);
+
+	var click_no:int = parseInt(mc.name.slice(14,16));
+
+	
+
+	if( click_no == current_no )
+
+		navigateToURL( new URLRequest( flashmo_photo_list[click_no].url ), flashmo_photo_list[click_no].target );
+
+	else
+
+	{
+
+		current_no = click_no;
+
+		change_photo();
+
+	}
+
+}
+
+
+
+function pic_play(e:MouseEvent):void
+
+{
+
+	flashmo_pause.visible = true;
+
+	flashmo_play.visible = false;
+
+	auto_play = true;
+
+	
+
+	if( ! photo_on_transit )
+
+		timer.start();
+
+}
+
+
+
+function pic_pause(e:MouseEvent):void
+
+{
+
+	flashmo_pause.visible = false;
+
+	flashmo_play.visible = true;
+
+	stop_timer();
+
+	auto_play = false;
+
+}
+
+
+
+var mouse_down:Boolean = false;
+
+var initial_mouse_x:Number = -1;
+
+var old_mouse_x:Number = -1;
+
+var dx:Number = 0;
+
+var dx_ease:Number = 0;
+
+var target_x:Number = 0;
+
+
+
+stage.addEventListener( MouseEvent.CLICK, stage_click, true );
+
+stage.addEventListener( MouseEvent.MOUSE_DOWN, stage_down, true );
+
+
+
+function stage_down( me:MouseEvent ): void
+
+{
+
+	initial_mouse_x = stage.mouseX;
+
+}
+
+
+
+function stage_click( me:MouseEvent ):void
+
+{
+
+	if( this.mouseX != initial_mouse_x )
+
+		me.stopPropagation();
+
+}
+
+
+
+function drag( me:MouseEvent ):void
+
+{	
+
+	mouse_down = true;
+
+	stop_timer();
+
+	enable_slide( false );
+
+	Tweener.removeAllTweens(); 
+
+	
+
+	mc = photo_group;
+
+	mc.addEventListener( Event.ENTER_FRAME, dragger_update);
+
+	stage.addEventListener(Event.MOUSE_LEAVE, stage_leave);
+
+	stage.addEventListener( MouseEvent.MOUSE_UP, drop );	
+
+	
+
+	initial_mouse_x = stage.mouseX;
+
+	old_mouse_x = stage.mouseX;
+
+}
+
+
+
+function stage_leave( e:Event ):void
+
+{	
+
+	mc.dispatchEvent( new MouseEvent( MouseEvent.MOUSE_UP ) );
+
+}
+
+
+
+function drop( me:MouseEvent ):void
+
+{
+
+	stage.removeEventListener( MouseEvent.MOUSE_UP, drop );
+
+	mouse_down = false;
+
+}
+
+
+
+function dragger_update( e:Event ):void
+
+{
+
+	if( mouse_down )
+
+	{
+
+		dx = stage.mouseX - old_mouse_x;
+
+		target_x = mc.x + ( dx * 20 ) ;
+
+		
+
+		if( target_x > left_group_x )
+
+			target_x = left_group_x;
+
+		else if( target_x < right_group_x )
+
+			target_x = right_group_x;
+
+		
+
+		dx_ease = ( target_x - mc.x ) * 0.12;
+
+		old_mouse_x = stage.mouseX;
+
+	}
+
+	else
+
+	{
+
+		if( old_mouse_x == -1 )
+
+		{
+
+			align_photos();
+
+			dx_ease = 0;
+
+			mc.removeEventListener( Event.ENTER_FRAME, dragger_update );
+
+			stage.removeEventListener( Event.MOUSE_LEAVE, stage_leave );
+
+		}
+
+		else
+
+		{
+
+			var diff:Number = target_x - mc.x;
+
+			dx_ease = diff * .2;
+
+			
+
+			if( Math.abs( diff ) < 1 )
+
+			{
+
+				old_mouse_x = -1;
+
+				dx_ease = 0;
+
+			}
+
+		}
+
+	}
+
+	
+
+	if( dx_ease != 0 )
+
+	{
+
+		mc.x += dx_ease;
+
+	}
+
+}
+
+
+
+function align_photos(): void
+
+{	
+
+	if( auto_align )
+
+	{
+
+		var align_x:Number = 0;
+
+		var cumulative_width:Number = 0;
+
+		var lower_x:Number = ( stage.stageWidth >> 1 );
+
+		var upper_x:Number = 0;
+
+		
+
+		for( var j:int = 0; j < tn; j++ )
+
+		{
+
+			cumulative_width += ( photo_width_list[ j ] + flashmo_spacing );
+
+			upper_x = lower_x;
+
+			lower_x = ( stage.stageWidth >> 1 ) - cumulative_width;
+
+					
+
+			if( photo_group.x >= lower_x && photo_group.x <= upper_x )
+
+			{
+
+				current_no = j;
+
+				align_x = lower_x + ( photo_width_list[j] >> 1 );
+
+				break;
+
+			}
+
+		}
+
+		
+
+		Tweener.addTween( photo_group, { x: align_x, time: tween_duration, 
+
+						  transition: flashmo_effect, onComplete: restart_timer } );
+
+	}
+
+	else
+
+		restart_timer();
+
+}��������actions�����3��������	
+����
+���� ����"#$%&'()����+,-./����12345678����:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_����abcdefghijklmnopqrstuvwxyz{|}~���CPicPage��	CPicLayer��	CPicFrame��fff��pI@���0�� pI0�>���?������r�����������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��s�H&���0�0H&0����?�����EN�����������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��>�����$�fff����pI@���0�� pI0�>���?������k�����������bg����O�O�����CPicText��
+x�� ����HArial����"(Touch Scroller����������@@@@@�I?d	���
+H�P����f���@Arial����"(Created by www.flashmo.com����������@@@@@�I?d�����?�����
+�����������text�����3������CPicPage��	CPicLayer��	CPicFrame������P�0P�0�0����?������Z�����������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��	CPicShape�������P�xd�d0p��������s�@��0p�(�������?������f�����������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��	CPicShape������p�@�0���0p������?�����������������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��	CPicShape�������s�@��0p�2�������q�2��0p�2�������?�����
+D�����������Layer 1����O�O�����CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite�������M����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����-�����������Layer 1����O�O����,,��|��������Cd����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?������M��������,,��|����d��������&����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?������B��������,,��|��������]����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����p�����������Layer 2�����3����������������������������������������������������������������������������������������������������������������������������������������������CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite��������m����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����I�����������Layer 1����O�O����,����������&����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?������A��������,�����d��������.����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?��������������,���������<����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����������������Layer 2�����3������CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite������������������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����>�����������Layer 1����O�O����,,���������^0����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����$��������,,�����d�������M����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����I��������,,���������G����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?������M�����������Layer 2�����3������CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite�������8����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����	E�����������Layer 1����O�O����,,�������������������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����%;��������,,�����d������������������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?�����]n��������,,����������k����������<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath=''>
+</component>
+�����?������c�����������Layer 2�����3������CPicPage��	CPicLayer��	CPicFrame��
+CPicSprite�$��������
+�J������touch_s	
+
+��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������croller����<component metaDataFetched='true' schemaUrl='' schemaOperation='' sceneRootLabel='Touch Scroller' oldCopiedComponentPath='1'>
+</component>
+�����?������g�����������touch scroller�����3���������?�����������// Reference
+
+// http://blogs.adobe.com/pdehaan/2006/07/using_flashvars_with_actionscr.html
+
+
+
+var xml_file:String = "flashmo_240_photo_list.xml";
+
+
+
+try 
+
+{
+
+	var key_str:String;
+
+	var value_str:String;
+
+	var param_obj:Object = LoaderInfo(this.root.loaderInfo).parameters;
+
+	for ( key_str in param_obj ) 
+
+	{
+
+		value_str = String( param_obj[key_str] );
+
+		
+
+		if( key_str == "xml_file" )
+
+			xml_file = value_str;
+
+		break;
+
+	}
+
+}
+
+catch (error:Error) {}
+
+
+
+// Touch Scroller
+
+touch_scroller.load_gallery( xml_file );
+
+
+
+// Right-Click Menu
+
+import flash.net.URLRequest;
+
+import flash.ui.ContextMenu;
+
+
+
+var fm_menu:ContextMenu = new ContextMenu();
+
+var copyright:ContextMenuItem = new ContextMenuItem( "Created by flashmo.com" );
+
+var credit:ContextMenuItem = new ContextMenuItem( "Touch Scroller [version 0.5]" );
+
+
+
+copyright.addEventListener( ContextMenuEvent.MENU_ITEM_SELECT, visit_flashmo );
+
+credit.addEventListener( ContextMenuEvent.MENU_ITEM_SELECT, visit_bar_slider );
+
+credit.separatorBefore = false;
+
+
+
+fm_menu.hideBuiltInItems();
+
+fm_menu.customItems.push(copyright, credit);
+
+this.contextMenu = fm_menu;
+
+
+
+function visit_flashmo(e:Event)
+
+{
+
+	var flashmo_link:URLRequest = new URLRequest( "" );
+
+	navigateToURL( flashmo_link, "_parent" );
+
+}
+
+
+
+function visit_bar_slider(e:Event)
+
+{
+
+	var flashmo_link:URLRequest = new URLRequest( "" );
+
+	navigateToURL( flashmo_link, "_parent" );
+
+}��������actions����O�O��������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������������C��
+CDocumentPageP 4 1297305187���Touch Scroller���5�SM+����������������������\�M������������������������������������������������������������������S 16 1297304601���control next����b�L_��mJn���������������)flashmo photo rotator/control button copy����������L������������������������������������������������������������������S 20 1297304601���
+control pause����b�L_��mJk������������@..\photo_effect_slideshow\versions\photo_effect_slideshow v1.fla���#flashmo photo rotator/control pause��mJ���������L������������������������������������������������������������������S 22 1297304601���control play����b�L_��mJo������������@..\photo_effect_slideshow\versions\photo_effect_slideshow v1.fla���"flashmo photo rotator/control play��mJ�������2��L������������������������������������������������������������������S 19 1297304601���control previous����b�L_��mJp���������������Symbol 1�������K��L������������������������������������������������������������������S 21 1297304601���
+graphic pause����b�L_��L.���������������Symbol 1����������L������������������������������������������������������������������S 23 1297304601���graphic play����b�L_���L,���������������Symbol 1���������L������������������������������������������������������������������S 17 1297304601���graphic previous + next����b�L_���L)���������������Symbol 1����������L������������������������������������������������������������������S 18 1297304601���graphic rectangle����b�L_���L*���������������Symbol 1����������L������������������������������������������������������������������S 14 1297304601���cover���"�SM)L��Lw���������������Symbol 1�������}�SM������������������������������������������������������������������S 15 1297304601���loading text bg���"�SM)KU�L!���������������Symbol 1�������KU�L������������������������������������������������������������������S 24 1297304601���
+photo area���"�SM)�b�La���������������Symbol 1���������SM������������������������������������������������������������������S 13 1297304601���Touch Scroller
+���"�SM)'�SM*���������������Symbol 1����������M�����������������������������������������������������������������pI@��hhhh�����<����legacyLineSpacing���0����%PublishFormatProperties::htmlFileName���flashmo_240_touch_scroller.html���"PublishHtmlProperties::StartPaused���0���Vector::AS3 Package Paths���.��� PublishRNWKProperties::speed256K���0���!PublishGifProperties::PaletteName������PublishFormatProperties::jpeg���0���PublishHtmlProperties::Loop���1���PublishProfileProperties::name���Default���Vector::Debugging Permitted���0���Vector::UseNetwork���0���Vector::RSLPreloaderMethod���0���"PublishQTProperties::MatchMovieDim���1��� PublishQTProperties::AlphaOption������ PublishQTProperties::LayerOption������4PublishHtmlProperties::UsingDefaultAlternateFilename���1���PublishHtmlProperties::Units���0���'PublishHtmlProperties::DeblockingFilter���0���%PublishHtmlProperties::showTagWarnMsg���1���Vector::External Player������Vector::DocumentClass������&PublishRNWKProperties::singleRateAudio���0���&PublishRNWKProperties::speedSingleISDN���0���$PublishPNGProperties::OptimizeColors���1���PublishQTProperties::Width���940���%PublishFormatProperties::projectorMac���0���'PublishFormatProperties::gifDefaultName���1���&PublishFormatProperties::flashFileName���flashmo_240_touch_scroller.swf���Vector::Package Paths������Vector::Compress Movie���1���Vector::ScriptStuckDelay���15���#PublishRNWKProperties::flashBitRate���1200���%PublishRNWKProperties::mediaCopyright���(c) 2000���PublishGifProperties::Smooth���1���Vector::FireFox���0���PublishFormatProperties::html���1���$PublishFormatProperties::pngFileName���flashmo_240_touch_scroller.png���(PublishHtmlProperties::VerticalAlignment���1���PublishHtmlProperties::Quality���4���Vector::Invisible Layer���1���Vector::AS3ExportFrame���1���"PublishRNWKProperties::exportAudio���1��� PublishRNWKProperties::speed384K���0���!PublishRNWKProperties::exportSMIL���1���"PublishGifProperties::DitherOption������-PublishFormatProperties::generatorDefaultName���1���!PublishHtmlProperties::DeviceFont���0���Vector::Override Sounds���0���'PublishRNWKProperties::mediaDescription������"PublishPNGProperties::FilterOption������Vector::Template���0���*PublishFormatProperties::generatorFileName���flashmo_240_touch_scroller.swt���PublishFormatProperties::gif���0���(PublishFormatProperties::jpegDefaultName���1���(PublishFormatProperties::rnwkDefaultName���1���2PublishHtmlProperties::VersionDetectionIfAvailable���0���*PublishHtmlProperties::HorizontalAlignment���1���"PublishHtmlProperties::DisplayMenu���1���Vector::Protect���0���Vector::Quality���80���PublishJpegProperties::DPI���4718592���PublishGifProperties::Interlace���0���"PublishGifProperties::DitherSolids���0���PublishPNGProperties::Smooth���1���PublishPNGProperties::BitDepth���24-bit with Alpha���PublishQTProperties::Flatten���1���Vector::AS3Optimize���1���#PublishFormatProperties::qtFileName���flashmo_240_touch_scroller.mov���Vector::AS3Flags���4102���PublishRNWKProperties::speed28K���1���!PublishRNWKProperties::mediaTitle������$PublishRNWKProperties::mediaKeywords������PublishGifProperties::Width���940���PublishGifProperties::Loop���1���PublishFormatProperties::flash���1���Vector::IncludeXMP���1���PublishJpegProperties::Quality���80���$PublishRNWKProperties::realVideoRate���100000���$PublishRNWKProperties::speedDualISDN���0���#PublishGifProperties::MatchMovieDim���1���#PublishGifProperties::PaletteOption������"PublishPNGProperties::DitherOption������0PublishFormatProperties::projectorMacDefaultName���1���'PublishFormatProperties::pngDefaultName���1���-PublishFormatProperties::projectorWinFileName���flashmo_240_touch_scroller.exe���PublishHtmlProperties::Align���0���!PublishProfileProperties::version���1���Vector::Package Export Frame���1���$PublishJpegProperties::MatchMovieDim���1���#PublishPNGProperties::MatchMovieDim���1���#PublishPNGProperties::PaletteOption������)PublishFormatProperties::flashDefaultName���1���%PublishFormatProperties::jpegFileName���flashmo_240_touch_scroller.jpg���PublishHtmlProperties::Width���940���PublishHtmlProperties::Height���400���Vector::Omit Trace Actions���0���Vector::Debugging Password������Vector::Export Swc���0���"PublishJpegProperties::Progressive���0���"PublishPNGProperties::DitherSolids���0���#PublishQTProperties::PlayEveryFrame���0���Vector::TopDown���0���PublishFormatProperties::png���0���PublishFormatProperties::rnwk���0���(PublishFormatProperties::htmlDefaultName���1���-PublishFormatProperties::projectorMacFileName���flashmo_240_touch_scroller.app���2PublishHtmlProperties::UsingDefaultContentFilename���1���!PublishHtmlProperties::WindowMode���0���'PublishHtmlProperties::TemplateFileName���RC:\Users\aye2m\AppData\Local\Adobe\Flash CS5\en_US\Configuration\HTML\Default.html���Vector::DeviceSound���0���Vector::AS3Coach���4���Vector::AS3AutoDeclare���4096���Vector::UseAS3Namespace���1���Vector::DefaultLibraryLinkage���0���PublishJpegProperties::Size���0���PublishGifProperties::Height���400���PublishPNGProperties::Interlace���0���"PublishFormatProperties::generator���0���&PublishHtmlProperties::ContentFilename���'flashmo_240_touch_scroller_content.html���(PublishHtmlProperties::AlternateFilename���)flashmo_240_touch_scroller_alternate.html���+PublishHtmlProperties::OwnAlternateFilename������Vector::Report���0���PublishRNWKProperties::speed56K���1���PublishGifProperties::LoopCount������'PublishGifProperties::TransparentOption������PublishGifProperties::MaxColors���255���%PublishPNGProperties::RemoveGradients���0���PublishQTProperties::Height���400���PublishFormatProperties::qt���0���Vector::Stream Compress���7���Vector::Event Format���0���Vector::Version���9���Vector::AS3Strict���2���Vector::HardwareAcceleration���0���Vector::RSLPreloaderSWF���7$(AppConfig)/ActionScript 3.0/rsls/loader_animation.swf���"PublishRNWKProperties::audioFormat���0���$PublishGifProperties::OptimizeColors���1���0PublishFormatProperties::projectorWinDefaultName���1���PublishHtmlProperties::Scale���0���Vector::Event Compress���7���Vector::ActionScriptVersion���3���Vector::StreamUse8kSampleRate���0���Vector::EventUse8kSampleRate���0���PublishJpegProperties::Height���400��� PublishRNWKProperties::speed512K���0���%PublishGifProperties::RemoveGradients���0���PublishPNGProperties::Width���940���PublishPNGProperties::Height���400���&PublishFormatProperties::qtDefaultName���1���$PublishFormatProperties::gifFileName���flashmo_240_touch_scroller.gif���"PublishHtmlProperties::VersionInfo���Z10,1,52,0;9,0,124,0;8,0,24,0;7,0,14,0;6,0,79,0;5,0,58,0;4,0,32,0;3,0,8,0;2,0,1,12;1,0,0,1;���Vector::DeblockingFilter���0���Vector::Stream Format���0���PublishJpegProperties::Width���940���"PublishRNWKProperties::exportFlash���1���&PublishRNWKProperties::showBitrateDlog���1���(PublishRNWKProperties::speedCorporateLAN���0���"PublishRNWKProperties::mediaAuthor������PublishGifProperties::Animated���0���&PublishGifProperties::TransparentAlpha���128���!PublishPNGProperties::Transparent���0���!PublishPNGProperties::PaletteName������*PublishQTProperties::UseQTSoundCompression���0���PublishQTProperties::Looping���0���%PublishFormatProperties::defaultNames���1���%PublishFormatProperties::projectorWin���0���%PublishFormatProperties::rnwkFileName���flashmo_240_touch_scroller.smil���,PublishHtmlProperties::UsingOwnAlternateFile���0���PublishPNGProperties::MaxColors���255���%PublishQTProperties::ControllerOption���0���"PublishQTProperties::PausedAtStart���0�������������	CColorDef��������3�P��f�P�0���P�H���P�`���P�x�3���33�(��3f�<�0�3��C�H�3��F�`�3��H�x�f��0�f3��0�ff�(�0�f��5�H�f��<�`�f��@�x���333�0���3����33�x��f3�d�0��3�]�H��3�Z�`��3�X�x�33����333�0�3f3�PPH�3�3�Px`�3�3�P�x�3�3�P���f3���0�f33�PH�ff3�(PH�f�3�<x`�f�3�C�x�f�3�F�����fff�`���f���0�3f���0�ff�x�0��f�k�H��f�d�`��f�`�x�3f���0�33f��PH�3ff�xPH�3�f�dx`�3�f�]�x�3�f�Z���ff���0�f3f��PH�fff�`�f�f�P0x�f�f�Px��f�f�P�����������������H�3����H�f����H����x�H�̙�n�`����h�x�3����H�33���x`�3f���x`�3���xx`�3̙�k�x�3���d���f����H�f3���x`�ff���0x�f���x0x�f̙�dx��f���]�����������������`�3����`�f����`������`����x�`����p�x�3����`�33����x�3f����x�3�����x�3���x�x�3���n���f����`�f3����x�ff���x��f����x��f���xx��f���k�����������������x�3����x�f����x������x������x����x�x�3����x�33������3f������3�������3�������3���x���f����x�f3������ff������f�������f�������f���x��������x������H��3�
+�H��f��H����(�H����2�`����8�x����`��3�
+�`��f��`�̙��`����(�`����0�x����x��3��x��f��x�����x���� �x����(�x�����P�x����3���H��33�x`��f3�x`���3�(x`���3�5�x���3�<����3���`��33��x��f3�
+�x�̙3��x���3�(�x���3�2����3���x��33�����f3�
+�����3������3������3�(���������x����f���H��3f��x`��ff�0x���f�(0x���f�<x����f�C����f���`��3f���x��ff�x��̙f�x����f�(x����f�5����f���x��3f������ff������f�
+�����f������f�(��������(�x��������H��3���x`��f���0x��������̙�PP������P��������`��3����x��f���x��̙��P���̙�(P������<��������x��3�������f��������������̙��������(��������x�x��������`��3����x��f���x�������P������xP������d��������`��3����x��f���x��̙���P������������P��������x��3�������f�������������������������(����������x��������x��3�������f��������������������������x��������x��3�������f������̙������������������x��������x��3�������f������������������������������������������������������������������f��`����z������f����������������*���]����������������xM�z���10. control buttons�b�L_�������������������������14. touch scroller"�SM)�������������������������"PublishQTProperties::QTSndSettings��CQTAudioSettingsX�������������������������������������	�BSaved by Adobe Flash Windows 9.0 build 494 timecount = 1307174147

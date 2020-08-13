@@ -1,0 +1,57 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 992px) and  (max-width: 1200px) {
+	#services .row > div {height: 203px;}
+	#contacts .map-inn .img4 {display: none;}
+}
+@media (min-width: 768px) and  (max-width: 991px) {
+	#services .row > div {height: 147px;}
+	#contacts .map-inn .img4 {display: none;}
+}
+@media (min-width: 320px) and  (max-width: 1200px) {
+	#instagram .title {font-size: 42px;}
+	#instagram .title br {display: none;}
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 16px;}
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	.logo {text-align: center;}
+	.logo .icon {float: none;margin-right: 0;}
+	#header .header-title {font-size: 28px;margin: 40px 0;}
+	#header .header-title br {display: none;}
+	#header {background-position: top right;}
+	#header .count-inn {text-align: center;}
+	#header .count-inn .icon {float: none;margin-right: 0;}
+	#header .count-inn .text {font-size: 18px;}
+	.title2 {font-size: 32px;margin-bottom: 20px;}
+	#header-order {font-size: 18px;padding: 90px 0 90px;min-height: auto;margin-bottom: 30px;}
+	#header-order .btn {width: 100%;}
+	.title-small {font-size: 16px;margin-bottom: 15px;}
+	.title {font-size: 22px;margin-bottom: 20px;}
+	#services .row > div {max-height: 100%;margin-bottom: 10px;height: auto;}
+	#video {padding: 30px 0;}
+	#video .video-box .inn {left: 15px;width: 100%;top: auto;position: absolute;bottom:30px;}
+	#docs {padding: 270px 0 0px;background-position: top right;margin-top: -160px;}
+	#contacts {padding: 30px 0;}
+	#contacts .map-box-inn {min-height: 240px;}
+	#contacts .map-inn {background: none;margin-bottom: 0;}
+	#instagram {padding: 140px 0 60px;background-position: top right;margin-top: -60px;font-size: 18px;}
+	#questionnaire {background-position: top right;padding: 160px 0 60px;text-align: center;}
+	#questionnaire .title {text-align: center;}
+	#footer {padding: 30px 0;}
+	.header-top-price {text-align: center;padding-top: 15px;margin-bottom: 15px;}
+	.btn {font-size: 15px;}
+	#anketa .modal-content .btn {width: 100%;margin-top: 0;}
+	#video-popup .close {top: 0;right: 0;}
+	.popup-video {height: auto;}
+	#instagram {margin-top: 0;}
+}
+
+

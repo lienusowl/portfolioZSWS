@@ -1,0 +1,40 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.navbar-nav li {float: right;width: 100%;text-align: right;}
+	.title {font-size: 2em;margin: 45px 0px 30px;}
+	h2 {font-size: 2em;}
+	#sale .box .big {font-size: 36px;}
+	#sale .box .left {padding-right: 15px;text-align: center;}
+	#sale .box .right {padding-left: 15px;text-align: center;}
+	#sale .box .right .big {left: 0px;}
+	#sale .box .left .big {left: 0px;}
+	#sale .box .big .s1 {font-size: 36px;}
+	#sale .box .big .s3 {font-size: 36px;}
+	.offer-form {width: 100%;padding: 10px;}
+	#offer h2 {margin-bottom: 60px;}
+	#offer {padding: 0 0 90px;}
+	#stages {padding: 0 0 45px;}
+	#calc h2 {margin: 45px auto 20px;}
+	#team {padding: 0 0 45px;}
+	#contacts .box .icon {margin-right: 15px;}
+	#contacts .box i.fa {width: 35px;height: 35px;font-size: 24px;line-height: 35px;}
+	#contacts .box {padding: 15px;font-size: 18px;}
+	#contacts .box .text {padding-top: 5px;}
+	#footer {text-align: center;}
+	#footer .copyrights {text-align: center;}
+	#contacts {padding: 0 0 45px;}
+}
+
+

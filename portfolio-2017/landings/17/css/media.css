@@ -1,0 +1,109 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	header .title {
+    background: #ccc3ac;
+    width:auto;
+    padding:10px;
+    height:auto;
+  }
+  #tubular-container{
+    display: none;
+  }
+  
+  header{
+    background: url(../img/header.jpg) center top no-repeat;
+    height: auto;
+    min-height: 100px;
+    padding: 30px 0 50px 0;
+    background-size: cover;
+  }
+  header .under {
+    text-align: center;
+    color: #fff;
+    margin-top: 30px;
+  }
+
+
+#about .btn{
+    width: 95%;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+#about .btn:before{
+  display: none;
+}
+
+#why .title-big {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+  
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+  
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+  
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+  
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+
+::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 2.3s ease;}
+::-moz-placeholder                {text-indent: 0px;   transition: text-indent 2.3s ease;}
+:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 2.3s ease;}
+:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 2.3s ease;}
+:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 1.3s ease;}
+:focus::-moz-placeholder          {text-indent: 500px; transition: text-indent 1.3s ease;}
+:focus:-moz-placeholder           {text-indent: 500px; transition: text-indent 1.3s ease;}
+:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 1.3s ease;}

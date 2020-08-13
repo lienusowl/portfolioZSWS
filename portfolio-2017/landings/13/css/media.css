@@ -1,0 +1,46 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	#header .top-left {text-align: center;margin-bottom: 20px;}
+	#header .top .top-right .box {float: none;}
+	#header .slogan .title {font-size: 24px;}
+	#header .top {margin-bottom: 30px;}
+	#header .header-form .form-control {margin-bottom: 20px;}
+	.title {font-size: 24px;}
+	#plus {padding-top: 50px;}
+	#plus .box img {margin-bottom: 30px;}
+	#plus .box {margin-bottom: 40px;}
+	#catalog {padding-top: 50px;padding-bottom: 35px;}
+	#catalog .info {text-align: center;}
+	#catalog .info .btn.pull-right {float: none !important;}
+	#sale .title {font-size: 28px;}
+	#sale {padding-top: 135px;padding-bottom: 100px;min-height: auto;}
+	#security {padding: 45px 0;}
+	#security ul li {padding: 0px 0px 0px 50px;}
+	#reviews {padding-top: 50px;padding-bottom: 40px;min-height: auto;}
+	#reviews .reviews-slider {margin-top: 50px;}
+	.owl-nav .owl-prev {left: -40px;}
+	.owl-nav .owl-next {right: -40px;}
+	#contacts .map {position: relative;}
+	#contacts .box {margin: 0;padding: 25px 25px;border-radius: 0;}
+	#contacts .info {padding-left: 0;padding-right: 0;}
+	#footer {padding: 50px 0 30px;}
+	#footer .copyrights {margin-top: 45px;}
+	#footer .copyrights .copyrights-left {text-align: center;margin-bottom: 20px;}
+	#footer .copyrights .copyrights-right .phone {text-align: center;margin-top: 20px;margin-bottom: 10px;}
+	#footer .copyrights .copyrights-right {float: none;}
+
+}
+
+

@@ -1,0 +1,428 @@
+@import "nav.css" screen;
+@import "owl.css" screen;
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.2
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin-bottom: 10px;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.form-control {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 6px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  height: auto;
+  padding: 10px 15px;
+}
+.form-control:focus {
+  border: 1px solid rgba(96, 41, 128, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+select.form-control {
+  height: 42px;
+}
+.btn {
+  padding: 9px 20px;
+  border: 1px solid;
+  border-color: #036ad0;
+  border-radius: 24px;
+  background: #036ad0;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 34px;
+  transition: all .3s;
+}
+.btn:hover {
+  background: #fff;
+  color: #333;
+  transition: all .3s;
+}
+.btn:focus {
+  color: #fff;
+  background: #333;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.container {
+  width: 980px;
+}
+#header .logo {
+  padding: 5px 0 0 0;
+}
+#header .title {
+  padding: 20px 0 0 0;
+}
+#header .title p {
+  color: #4c4c4c;
+}
+#header .number {
+  text-align: right;
+  padding: 15px 0 0 0;
+}
+#header .number p {
+  color: #999999;
+  margin-bottom: 0;
+}
+#header .number .big {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #000;
+}
+#header .zakaz a {
+  display: block;
+  color: #036ad0;
+  border: 1px solid #036ad0;
+  text-align: center;
+  padding: 10px;
+  margin: 15px 0 0 0;
+  font-weight: bold;
+  transition: all .3s;
+}
+#header .zakaz a:hover {
+  transition: all .3s;
+  border: 1px solid #70b4f7;
+}
+#header .navbar .nav li {
+  padding: 0px 15px;
+}
+#header .navbar .nav li a {
+  transition: all .3s;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #000;
+}
+#header .navbar .nav li a:hover {
+  transition: all .3s;
+}
+#header .down-line {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2da0d5+0,49c8bb+100 */
+  background: #2da0d5;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #2da0d5 0%, #49c8bb 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #2da0d5 0%, #49c8bb 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #2da0d5 0%, #49c8bb 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2da0d5', endColorstr='#49c8bb', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  width: 100%;
+  height: 2px;
+  margin: 10px auto;
+}
+#slider .background1 {
+  background: url(../img/slider/1.jpg) center top no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+#slider .background2 {
+  background: url(../img/slider/2.jpg) center top no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+#slider .background3 {
+  background: url(../img/slider/3.jpg) center top no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+#slider .box {
+  display: block;
+  background: rgba(255, 255, 255, 0.8);
+  width: 60%;
+  padding: 30px;
+  margin: 100px 0 0 0;
+}
+#slider .box .owl-stage {
+  padding: 0px;
+}
+#slider .box .left-otst {
+  padding-left: 80px;
+}
+#slider .box .big {
+  font-size: 2em;
+  position: relative;
+  padding-left: 80px;
+}
+#slider .box .big:before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 45px;
+  position: absolute;
+  background: #05b8f4;
+  top: 20px;
+  left: 20px;
+}
+#slider a {
+  display: block;
+  margin: 30px 0 30px 80px;
+  background: #036ad0;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  max-width: 200px;
+  transition: all .3s;
+}
+#slider a:hover {
+  background: #207ea9;
+  transition: all .3s;
+}
+#four {
+  padding: 50px 0px;
+  background: #ebf5fe;
+  text-align: center;
+}
+#four img {
+  margin-bottom: 10px;
+}
+#four p {
+  color: #444444;
+}
+#content {
+  padding: 50px 0;
+}
+#content .title-big {
+  font-size: 2em;
+  position: relative;
+  padding-left: 80px;
+}
+#content .title-big:before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 45px;
+  position: absolute;
+  background: #05b8f4;
+  top: 20px;
+  left: 20px;
+}
+#content .left-otst {
+  padding-left: 80px;
+}
+#content .bottom-line {
+  border-bottom: 1px solid #dfdfdf;
+  width: 100%;
+  height: 1px;
+}
+#content .boxes {
+  margin: 0 0 30px 0;
+}
+#content .boxes img {
+  margin: 15px 0;
+}
+#content .boxes p {
+  color: #444444;
+  height: 100px;
+}
+#content .boxes .blue {
+  color: #49c8b7;
+  font-weight: bold;
+  height: auto;
+  font-size: 1.2em;
+}
+#for-form {
+  color: #fff;
+}
+#for-form .blue-box {
+  background: #269dd4;
+  /* Old browsers */
+  background: -moz-linear-gradient(45deg, #269dd4 0%, #43c6b9 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, #269dd4 0%, #43c6b9 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, #269dd4 0%, #43c6b9 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#269dd4', endColorstr='#43c6b9', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  padding: 30px;
+  min-height: 170px;
+}
+#for-form .blue-box .big {
+  font-size: 2em;
+}
+#for-form .blue-box a {
+  display: block;
+  margin: 30px auto;
+  background: #036ad0;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  transition: all .3s;
+}
+#for-form .blue-box a:hover {
+  background: #207ea9;
+  transition: all .3s;
+}
+#footer {
+  background: #1d64aa;
+  color: #fff;
+  padding: 50px 0px;
+  margin: 50px 0 0 0;
+}
+#footer .line-bottom {
+  width: 100%;
+  height: 1px;
+  background: #4173a4;
+  margin: 30px 0px;
+}
+#footer .number p {
+  font-size: 2em;
+}
+#footer .navs .big {
+  font-size: 1.4em;
+}
+#footer .navs ul li {
+  padding: 5px 0px;
+}
+#footer .navs ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  transition: all .3s;
+}
+#footer .navs ul li a:hover {
+  color: rgba(255, 255, 255, 0.9);
+  transition: all .3s;
+}
+#footer .soc a {
+  transition: all .3s;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 0px 5px;
+}
+#footer .soc a:hover {
+  color: #42c4ba;
+  transition: all .3s;
+}
+#footer .copy p {
+  color: #a5c4e4;
+}
+#footer .links {
+  text-align: right;
+}
+#footer .links p {
+  color: #a5c4e4;
+}
+#footer .links p a {
+  color: #fff;
+  text-decoration: underline;
+}
+.hiden {
+  display: none;
+}
+/* transition: all .3s; */
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.1
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/

@@ -1,0 +1,35 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 14px;}
+	#slider .info {position: relative;bottom: 0px;padding: 15px;}
+	#slider .info .icon {display: none;}
+	.navbar li a {font-size: 12px;}
+	.navbar li {padding: 10px 0;}
+	.navbar-nav {text-align: right;margin:0 0 15px 0;}
+	.navbar-toggle {margin-right: 0px;padding: 0 0;}
+	.wrapper {border:none;}
+	#about, #type, #plus, #work, #reviews {padding: 30px 0;}
+	.title {margin-bottom: 15px;font-size: 24px;}
+	#plus .btn, #work .btn {margin-bottom: 15px;}
+	#plus img {margin-bottom: 15px;}
+	.work-box:after {display: none;}
+	.reviews-form {margin-top: 30px;}
+	#contacts .info {position: relative;top:0px;padding: 15px;width: 100%;float: left;}
+	.btn {width: 100%;text-align: center;}
+	#about .inn:before {top: -10px;}
+	#about .inn {padding-right: 0;}
+}
+
+

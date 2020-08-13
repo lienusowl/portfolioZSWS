@@ -1,0 +1,350 @@
+.calendar-quests{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+  position: relative;
+}
+  .calendar-quests .title{
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 0;
+    background: #2db34b;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+  }
+  .calendar-quests .table{
+    text-align: center;
+    margin-top: 30px;
+    width: 95%;
+    margin: 10px auto 20px;
+    font-size: 11px;
+  }
+    .calendar-quests .table th{
+      vertical-align: middle;
+      text-align: center;
+      padding: 2px 0;
+      border: 0;
+      font-weight: normal;
+    }
+     .calendar-quests .table .border-top span{
+        color: #555555;
+        font-size: 14px;
+        line-height: 18px;
+        border-top: 2px solid #a4d9a3;
+        display: block;
+        margin: 0 1px;
+        padding-top: 7px;
+      }
+      .calendar-quests .table .weekend span{
+         border-top: 2px solid #15800c;
+         font-weight: bold;
+      }
+    .calendar-quests .table td{
+      vertical-align: middle;
+      padding: 0 2px;
+      border: 0;
+    }
+    .calendar-quests .btn-primary {
+      background-color: #91ea1d;
+      border-color: #91ea1d;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #69d315;
+      width: 100%;
+      font-size: 11px;
+    } 
+    .calendar-quests .btn-primary.active {
+      background-color: #ff9000;
+      border-color: #ff9000;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #cb5000;
+      width: 100%;
+    }
+    .calendar-quests .btn-primary.dactive {
+      background-color: #ff9000;
+      border-color: #ff9000;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #cb5000;
+      width: 100%;
+      cursor: default !important;
+    }
+    .calendar-quests .btn-primary.uactive {
+      background-color: #729fcf;
+      border-color: #729fcf;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #3F93ED;
+      width: 100%;
+      cursor: default !important;
+    }    
+    .calendar-quests .btn-primary.promo-active {
+      background-color: #EAE71D;
+      border-color: #EAE71D;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #CDBD15;
+      width: 100%;
+      cursor: default !important;
+    }      
+    .calendar-quests .btn-primary.promo-active-1 {
+      background-color: #EA251D;
+      border-color: #EA251D;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 1px #CD3815;
+      width: 100%;
+      cursor: default !important;
+    }      
+    .calendar-quests .btn-primary.noactive {
+      background-color: #f0f0f0;
+      border-color: #f0f0f0;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: inset 0 2px 0 #c6c5c5;
+      width: 100%;
+      cursor: default;
+    }
+    .calendar-quests .btn-primary.none {
+      background-color: #f0f0f0;
+      border-color: #f0f0f0;
+      color: #000;
+      padding: 4px 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 0 #c6c5c5;
+      width: 100%;
+      cursor: default;
+    }
+    .calendar-quests .btn-group {
+      width: 100%;
+    }
+  .calendar-quests .quest-time span{
+      background-color: #f1ce01;
+      border-color: #f1ce01;
+      color: #000;
+      padding: 5px 10px;
+      border-radius: 10px;
+      width: 100%;
+      display: block;
+  }
+.quest-form{
+  color: #000;
+  margin-top: 15px;
+  font-size: 11px;
+  padding: 0 25px;
+}
+  .quest-select-date, .email-name{
+    margin-bottom: 14px;
+    /*float: right;*/
+    
+  }
+  .quest-select-time{
+    /*float: right;*/
+  }
+  .quest-form .date, .quest-form .time{
+    width: 100px;
+    display: inline;
+    padding: 3px 12px;
+    height: 26px;
+    border-radius: 10px;
+    color: #000;
+    text-align: center;
+    font-size: 11px;
+  }
+  .quest-form .select-date, .quest-form .select-time{
+    display: inline-block;
+    width: 70px;
+    font-size: 11px;     
+  }
+  .quest-form .your-email{
+    width: 60px;
+    display: inline-block;
+  }
+  .quest-form .enter-your-email{
+    width: 150px;
+    padding: 3px 12px;
+    height: 26px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 11px;
+  }
+  .quest-form .your-name{
+    width: 60px;
+    display: inline-block;
+  }
+  .quest-form .enter-your-name{
+    padding: 3px 12px;
+    height: 26px;
+    border-radius: 10px;
+    width: 150px;
+    display: inline-block;
+    font-size: 11px;
+  }
+  .quest-form .col-xs-4{
+    background: none;
+    border: 0px;
+   /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;*/
+    
+  }
+  .quest-form .number-of-persons{
+    width: 77px;
+    display: inline-block;
+  }
+    .quest-form .select-number-of-persons{
+      width: 65px;
+      display: inline-block;
+      border-radius: 10px;
+      vertical-align: top;
+     /* margin-top: 5px;*/
+      height: 26px;
+      padding: 3px 12px;
+      font-size: 11px;
+    }
+  .quest-form .joint-account{
+    display: inline-block;
+    width: 90px;
+   /* vertical-align: middle;*/
+  }
+  .quest-form .person{
+    display: inline-block;
+    width: 70px;
+  }
+  .quest-form .joint-account{
+    width: 75px;
+    display: inline-block;
+    margin-top: 0px;s
+  }
+  .quest-form .input-joint-account{
+    width: 65px;
+    display: inline-block;
+     border-radius: 10px;
+     height: 26px;
+     padding: 6px 4px;
+     text-align: center;
+     color: #127b1c;
+     font-weight: bold;
+    /* margin-top: 8px;*/
+     font-size: 11px;
+  }
+  .quest-form .telefon{
+    margin-bottom: 14px;
+  }
+  .quest-form .telefon-title{
+    width: 70px;
+    display: inline-block;
+  }
+  .quest-form .input-telefon{
+    width: 130px;
+    display: inline-block;
+     border-radius: 10px;
+     height: 26px;
+     font-size: 11px;
+  }
+  .quest-form .payment{
+     display: inline-block;
+     line-height: 25px;
+  }
+    .quest-form .payment-title{
+     display: inline-block;
+     width: 70px; 
+     
+    }
+    .quest-form .select-payment{
+      border-radius: 10px;
+      display: inline-block;
+      width: 130px;
+      height: 26px;
+      vertical-align: top;
+      padding: 3px 6px;
+      font-size: 11px;
+    }
+	.btn {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.42857143;
+text-align: center;
+white-space: nowrap;
+vertical-align: middle;
+-ms-touch-action: manipulation;
+touch-action: manipulation;
+cursor: pointer;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 4px;
+}
+.form-control {
+display: block;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+cursor: not-allowed;
+background-color: #eee;
+opacity: 1;
+}
+.active-level-btn {
+background: #ffd500;
+display: block;
+border-radius: 10px;
+border: 0px;
+border-bottom: 4px solid #ffb600;
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+margin: 8px auto;
+}
+[data-toggle=buttons]>.btn input[type=radio], [data-toggle=buttons]>.btn-group>.btn input[type=radio], [data-toggle=buttons]>.btn input[type=checkbox], [data-toggle=buttons]>.btn-group>.btn input[type=checkbox] {
+position: absolute;
+clip: rect(0,0,0,0);
+pointer-events: none;
+}
+.col-xs-3, .col-xs-6 {
+position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+}
+.col-xs-3 {
+width: 20%;
+float: left;
+}
+.col-xs-6 {
+width: 55%;
+float: left;
+}
+.row {
+margin-right: -15px;
+margin-left: -15px;
+}

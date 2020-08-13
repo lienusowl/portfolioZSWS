@@ -1,0 +1,50 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	.centro{
+		width:auto;
+	}
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.centro{
+		width:auto;
+	}
+	.logo{
+		
+	}
+	.logo img{
+		display: block;
+		margin:0 auto;
+	}
+	#header{
+		height: auto;
+		padding-bottom: 30px;
+	}
+	#header .logo2{
+		position: relative;
+	    bottom: 0px;
+	    margin-top: 30px;
+	}
+	.logo2 img{
+		display: block;
+		margin:0 auto;
+	}
+
+
+
+
+
+
+
+
+}
+
+

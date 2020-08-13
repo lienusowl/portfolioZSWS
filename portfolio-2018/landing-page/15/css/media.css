@@ -1,0 +1,488 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+
+nav{
+	display: none;
+}
+#otz .box {
+    width: auto;
+}
+.for-mobile{
+	display: block;
+}
+.for-desc{
+	display: none;
+}
+#header {
+    background: url(../img/header-mobile.jpg) right top no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 50px 0;
+    margin: 0px 0 0 0;
+}
+#header .title {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+#header .big {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 100px;
+    line-height: 80px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#what {
+    background: #fff;
+    background-size: inherit;
+    height: auto;
+    padding-top: 0;
+}
+#what .title {
+    font-family: "SegoeUIBold";
+    color: #222;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+#what .big {
+    font-family: "SegoeUIBold";
+    color: #222;
+    font-size: 79px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+#what ul {
+    padding: 35px 0 30px 0;
+}
+#what ul li {
+    display: block;
+    padding: 10px 0 10px 10px;
+    list-style: none;
+    background: url(../img/what-list.png) no-repeat 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222;
+    max-width: 700px;
+}
+
+#raspisanie {
+    padding: 25px 0;
+}
+#raspisanie .big {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+#raspisanie .box .box-inner .dop{
+    opacity: 1;
+    position: relative;
+}
+#raspisanie .box {
+    margin-bottom: 80px;
+}
+.works .col-sm-6 img {
+	height:200px;
+}
+
+#quest .quest-top {
+    display: block;
+    height: auto;
+    background: #fff;
+    border-radius: 0px;
+    padding: 30px 40px 20px 30px;
+    margin: 0 0 15px 0;
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    transition: all .3s;
+}
+
+#footer .container{
+	padding-left: 50px;
+}
+
+#what p {
+    display: block;
+    padding: 10px 0 10px 50px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #222;
+}
+
+
+
+
+
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	
+	nav{
+		display: none;
+	}
+
+
+
+	/*fix*/
+#otz .box {
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+#header {
+    background: url(../img/header-mobile.jpg) right top no-repeat;
+    background-size: inherit;
+    height: auto;
+    padding: 50px 0;
+    margin: 0px 0 0 0;
+}
+#header .big {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: #fff;
+
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 5px;
+}
+#header .btn{
+	padding: 15px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    height: auto;
+    transition: all .3s;
+    width: 100%;
+    text-align: center;
+}
+#header .title {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: #fff;
+
+    
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 5px;
+}
+#header ul li {
+    display: block;
+    padding: 10px 20px 10px 50px;
+    list-style: none;
+    background: #ffffff75 url(../img/header-list.png) no-repeat 0 15px;
+    font-size: 17px;
+    font-weight: 100;
+    color: #000;
+}
+.btn {
+    padding: 25px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    height: auto;
+    transition: all .3s;
+    width: 100%;
+    text-align: center;
+}
+
+#what {
+   background: #01a1ed url(../img/what.jpg) right top no-repeat;
+    background-size: contain;
+    height: auto;
+    padding: 320px 0 50px 0;
+}
+#what ul {
+    padding: 65px 0 30px 0;
+}
+#raspisanie {
+    padding: 65px 0;
+}
+#raspisanie .big {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+#raspisanie .box .box-inner .dop{
+    opacity: 1;
+    position: relative;
+}
+#raspisanie .box {
+    margin-bottom: 80px;
+}
+#five {
+    padding: 55px 0;
+}
+#five .big {
+    font-size: 36px;
+    padding: 0 0 70px 0;
+}
+
+#works {
+    background: #fff;
+    padding: 55px 0;
+}
+#works .big {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 70px 0;
+}
+#works img{
+	margin: 20px auto;
+    padding: 0 !important;
+}
+#otz {
+    background: #01a1ed url(../img/otz.jpg) right top no-repeat;
+    background-size: inherit;
+    height: auto;
+    padding: 55px 0 90px 0;
+}
+#otz .big {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#why {
+    padding: 65px 0;
+}
+#why .big {
+    font-family: "SegoeUIBold";
+    color: #222;
+    font-size: 60px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#why .texto {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 940px;
+    padding: 20px 0 0 0;
+}
+
+#quest .big {
+    font-family: "SegoeUIBold";
+    color: #222;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 30px 0;
+}
+
+#content {
+    background: #00a0ea url(../img/content.jpg) right top no-repeat;
+    background-size: initial;
+    height: auto;
+    padding: 70px 0 40px 0;
+}
+#content .title {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    background: #222;
+}
+#content .big {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    background: #222;
+}
+#content .white {
+    border: 3px solid #fff;
+    margin: 10px 0 0 0;
+    color: #fff;
+    transition: all .3s;
+    background: #222;
+}
+
+#footer {
+    background: #15181f;
+    padding: 75px 0;
+}
+#footer .col-md-2 p {
+    position: relative;
+    margin-left: 60px;
+}
+
+#quest .quest-top {
+    display: block;
+    height: auto;
+    background: #fff;
+    border-radius: 0px;
+    padding: 30px 40px 30px 20px;
+    margin: 0 0 15px 0;
+    color: #222;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    transition: all .3s;
+    font-size: 18px;
+}
+
+#header ul {
+    margin: 45px 0 60px 0;
+    background: #fff;
+    padding: 20px;
+}
+
+.for-mobile{
+	display: block;
+}
+.for-desc{
+	display: none;
+}
+
+
+
+/*fix*/
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+	    width: 1170px;
+	}
+
+#header {
+    background: url(../img/header.jpg) right top no-repeat;
+    background-size: contain;
+    height: 725px;
+    padding-top: 50px;
+    margin: 85px 0 0 0;
+}
+#header .big {
+    font-family: "SegoeUIBold";
+    color: #15181f;
+    font-size: 80px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+#header ul {
+    padding: 65px 0 70px 0;
+}
+#header ul li {
+    display: block;
+    padding: 5px 0 5px 50px;
+    list-style: none;
+    background: url(../img/header-list.png) no-repeat 0 15px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+}
+
+#what {
+    background: #01a1ed;
+    background-size: contain;
+    height: auto;
+    padding: 115px 0 50px 0;
+}
+
+#raspisanie .box {
+    transition: all .3s;
+    height: 340px;
+    width: 100%;
+    position: relative;
+}
+
+#content {
+    background: #00a0ea url(../img/content.jpg) right top no-repeat;
+    background-size: contain;
+    height: 705px;
+    padding: 90px 0 0 0;
+}
+#content .big {
+    font-family: "SegoeUIBold";
+    color: #fff;
+    font-size: 70px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: #15181f;
+    padding: 75px 0;
+    font-size: 13px;
+}
+
+nav .navbar-nav li a {
+    font-size: 15px;
+}
+
+
+#header ul {
+    margin: 65px 0 130px 0;
+    background: #fff;
+    padding: 20px;
+}
+
+
+
+}
+
+
+
+@media (min-width: 992px) {
+	.modal-lg {
+	    width: 900px;
+	}
+}
+
+@media (min-width: 1360px) {
+
+	.container {
+	    width: 1600px;
+	}
+
+}
+

@@ -1,0 +1,121 @@
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  width: 40px;
+  height: 80px;
+  z-index: 100;
+  opacity: 0.9;
+  top: 50%;
+  margin-top: -22px;
+  position: absolute;
+  font-size: 52px;
+  text-align: center;
+  color: #7D7D7A;
+}
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+.owl-nav .owl-prev {
+  left: -60px;
+  background: #6fabc3;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  border-radius: 50%;
+}
+.owl-nav .owl-next {
+  right: -60px;
+  background: #6fabc3;
+  width: 50px !important;
+  height: 50px !important;
+  padding: 0 !important;
+  border-radius: 50%;
+}
+.owl-nav .owl-prev:before {
+  content: url('../img/myprevimage.png');
+  top: -18px;
+  position: relative;
+}
+.owl-nav .owl-next:before {
+  content: url('../img/mynextimage.png');
+  top: -18px;
+  position: relative;
+}
+.owl-dots {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+.owl-dot {
+  border: none;
+  text-indent: -3000px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.owl-dot.active {
+  background: #d0a621;
+}
+.close {
+  overflow: visible;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+  display: block;
+  outline: none;
+  padding: 0;
+  z-index: 1046;
+  box-shadow: none;
+  touch-action: manipulation;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 24px;
+}
+.close:before {
+  /*content: url(../img/close.png);
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  border-radius: 50%;
+  display: block;
+  float: right;
+  padding: 10px 0 0 0;
+  background: #6ca8bf;
+  border: 2px solid #f4f4f4;*/
+}
+.modal-content {
+  border-radius: 10px;
+  border: 0px;
+  padding: 20px;
+  background: #fff;
+}
+.modal-content .form-control {
+  width: 100%;
+  
+}
+.modal-content .btn {
+  display: block;
+  padding: 15px 100px;
+}
+@media (min-width: 768px) {
+  .modal-content {
+    -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  }
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 400px;
+    margin: 30px auto;
+  }
+}

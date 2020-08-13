@@ -1,0 +1,133 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+.anim {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	top:0;
+	left: 0;
+	border-radius: 10rem;
+}
+.anim:after {
+	content: "";
+	margin-left: 60px;
+	width: 30px;
+	height: 400px;
+	background: rgba(255,255,255, .5);
+	-webkit-animation-delay: 0.05s;
+	animation-delay: 0.05s;
+	position: absolute;
+	left: 0px;
+	top: -100%;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-animation-name: slideme;
+	animation-name: slideme;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	overflow: hidden;
+}
+@-webkit-keyframes slideme { 0% { left: -30px; margin-left: 0px; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; } }
+
+@keyframes slideme { 0% { left: -30px; margin-left: 0px; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; } }
+
+
+@media (max-width: 1300px) {
+	.slick-arrow.slick-next {right: 0px;}
+	.slick-arrow.slick-prev {left: 0px;}
+	.thanks-slider {padding: 0 30px;}
+}
+@media (min-width: 1200px) {
+	.container {max-width: 1170px;}
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	html {font-size: 9px;}
+	#header .header-plus {padding: 0 3rem;}
+	.close {top: -60px;right: 0px;}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	html {font-size: 8px;}
+	#header .header-title {font-size: 3.8rem;}
+	
+	#header .header-plus .icon {margin-right: 10px;max-width: 35px;height: 60px;}
+	#header .header-plus .icon br {display: none;}
+	body {font-size: 14px;}
+	.container {max-width: 800px;}
+	.test-slider .next {max-width: 280px;padding: 25px 30px 20px;}
+
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	body {font-size: 16px;background: url(../../images/bg-mobile.jpg) no-repeat top center;background-size: cover;}
+	#top .top-address {text-align: center;margin-top: 25px;}
+	#header .header-title {font-size: 21px;margin: 7px 0 25px;    line-height: 1.5;}
+	.visible-xs {display: block;}
+	.hidden-xs {display: none;}
+	.logo, logo {text-align: center;}
+	#header .header-plus {padding: 0 0 0 30%;}
+	#header .header-plus > div:last-child .inn {padding-right: 55px;}
+	#header .header-btn {margin: 12px 0 30px;padding: 35px 25px 20px;line-height: 24px;}
+	#header .header-btn span {line-height: 20px;}
+	.h2 {font-size: 21px;}
+	#thanks {padding: 40px 0;background: none;}
+	.thanks-slider {margin: 45px 0;}
+	.thanks-slider .item {margin: 0 10px;}
+	.test-body {padding: 20px 0px;}
+	
+	.test-top .small {margin-top: 15px;text-align: center;}
+	.test-top {padding: 25px 15px;text-align: center;}
+	.test-top .small br {display: none;}
+	.test-slider .item .item-body{padding: 25px 15px;}
+	.big {font-size: 16px;}
+	.test-steps {margin: 10px 0 25px;}
+	.test-steps .test-step {width: 42px;margin-right: 0;}
+	.test-title {font-size: 19px;line-height: 1.3;}
+	.test-title .count {position: relative;left: 0;height: 60px;float: left;margin-right: 10px;font-size: 20px;}
+	.radio-btn {text-align: center;margin-bottom: 30px;font-size: 15px;}
+	.radio-btn > div {float: none;margin: 0 0 10px 0;}
+	.test-form-body {margin-bottom: 0;padding: 0 15px;}
+	.test-slider .next {padding: 22px 30px 18px;}
+	.test-body .bottom-count {display: none;}
+	.thanks-slider {padding: 0 30px;}
+	#header {overflow: hidden;}
+	.modal-dialog {margin: 60px 0;}
+	.conf br {display: none;}
+	.pulse1, .pulse2, .pulse3 {display: none;}
+	#header .header-plus .inn {margin-bottom: 25px;font-size: 14px;}
+
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	#header .header-btn {min-width: 100%;}
+	#header .header-plus {padding: 0 45px 0 45px;}
+	#header .header-plus .icon {margin-right: 20px;max-width: 40px;height: 80px;}
+	.thanks-slider .item {margin:0;}
+	.thanks-slider {padding: 0 0;}
+	.thanks-slider .item {margin: 0 10px;}
+	.test-slider .next {max-width: 100%;}
+	#test-modal .modal-content {background: #fff;border-top: 7px solid #1ca1ff;border-bottom: 7px solid #0d87ef;padding: 0;}
+}
+
+@media (min-width: 576px) {
+	.modal-dialog {
+      max-width: 470px;
+      margin: 70px auto;
+  }
+}
+ 

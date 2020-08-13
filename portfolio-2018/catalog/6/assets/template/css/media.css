@@ -1,0 +1,49 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.logo {margin-bottom: 15px;}
+	#header .top-phone a.tel {width: 100%;display: inline-block;}
+	.top-delivery {text-align: center;margin-bottom: 15px;}
+	.top-delivery .icon {float: none;display: inline-block;}
+	.top-delivery .text {display: inline-block;}
+	#header .header-title h1 {font-size: 28px;}
+	#header .header-title {padding: 0 15px;}
+	#header .header-title2 {margin: 15px 0;width: 100%;padding: 0;}
+	#header .header-title2:before, #header .header-title2:after {display: none;}
+	#header .header-title2 {margin: 30px 0;}
+	.navbar-nav li {margin-right: 0;width: 100%;}
+	.navbar-nav li a {display: inline-block;width: 100%;padding: 15px 15px;}
+	.navbar-nav li:before {display: none;}
+	.navbar-nav li:hover a {color: #202020;}
+	.navbar-nav li svg, .navbar-nav li:hover svg {display: none;opacity: 0;overflow: hidden;}
+	.navbar-nav {margin-bottom: 0;}
+	#header .inner {margin: 30px 0;}
+	#header {margin-bottom: 30px;}
+	.cat-box {padding: 15px 15px;}
+	#footer .btn-group {max-width: 100%;}
+	#footer .btn-group .btn {width: 45%;}
+	#footer h3 {margin-top: 15px;}
+	.cart .cart-title {font-size: 18px;margin-bottom: 15px;}
+	.breadcrumbs li {font-size: 12px;}
+	.breadcrumbs .separator {font-size: 10px;padding: 0 3px;}
+	#recommend {padding: 60px 0 30px;}
+}
+
+@media (min-width: 768px) and  (max-width: 992px) {
+	.search-box {padding: 30px;}
+	.search-box form {width: 90%;}
+	.hidden-md {display: none;}
+
+
+}

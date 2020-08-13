@@ -1,0 +1,109 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	#top {padding: 15px 0;}
+	#top .logo {margin-bottom: 10px;}
+	#top .phone {float: none;text-align: left;margin-top: 10px;padding-left: 30px;}
+	#top .phone:before {left: 0px;}
+	.navbar-nav>li>.dropdown-menu {text-align: right;}
+	#header {text-align: center;background-size: cover;padding-bottom: 30px;}
+	#header .title {text-align: center;}
+	#header .owl-dots {position: relative;margin-top: 25px;}
+	.header-slider .title {font-size: 32px;}
+	.header-slider p {text-shadow:1px 1px 1px rgba(0, 0, 0, 0.7);}
+	.owl-nav .owl-next {right: 0px;}
+	.owl-nav .owl-prev {left: 0px;}
+	.header-slider.owl-carousel .owl-item img {display: none;}
+	#header .inner {padding: 0;width: 100%;}
+	#header .header-form {position: relative;top:0;left: 0;max-width: 100%;margin-top: 20px;}
+	.navbar {text-align: right;}
+	.navbar li {float: left;width: 100%;text-align: center;}
+	#timetable table, table.timetable {font-size: 10px;font-family: 'BloggerSans', Arial, sans-serif;text-transform: initial;width: 100%;overflow: hidden;}
+	#timetable table tr.first td, table.timetable tr.first td {padding: 10px 0px;}
+	#timetable table tr td, table.timetable tr td {padding: 10px 3px;}
+	.title {font-size: 32px;margin-bottom: 25px;}
+	#timetable table tr td .btn, table.timetable tr td .btn {font-size: 9px;font-family: 'BloggerSans', Arial, sans-serif;padding: 5px 5px;height: auto;float: none;min-width:auto;line-height: 1;border-radius: 3px;}
+	#programms {padding: 40px 0 40px;}
+	#programms .title2 {font-size: font-size26px;margin-bottom: 35px;}
+	#programms .inner .box {padding: 0px 0;}
+	#programms .inner .box {min-height: auto;}
+	#programms .inner .box.box-1 {margin-bottom: 30px;}
+	#programms .inner .box .btn {position: relative;margin: 0 auto;bottom:auto;left:auto;}
+	#programms .inner .box.border {border-left: none;}
+	#timetable {padding: 40px 0;}
+	#reasons {padding: 40px 0;}
+	#info {padding: 40px 0;}
+	#info a.text-center {margin: 0px auto 10px;}
+	#info h3 {text-align: center;margin-top: 10px;}
+	#info .box {margin-bottom: 30px;}
+	#info .info-text {padding-left: 15px;}
+	#simply .box img {margin-bottom: 15px;}
+	#simply .box {margin-bottom: 30px;}
+	#simply .box i.fa {display: none;}
+	#simply {padding: 0 0 40px;}
+	#free {padding: 40px 0;min-height: auto;}
+	#free .free-form {max-width: 100%;}
+	#reviews {padding: 40px 0;}
+	#reviews .name:before {left: -30px;}
+	#questions .title {margin-bottom: 25px;}
+	#sale {padding: 40px 0;}
+	#seo-text {padding: 40px 0;}
+	#footer .soc p {margin-right: 0;width: 100%;}
+	#footer .soc {margin-bottom: 30px;}
+	#footer .phone {margin-bottom: 20px;margin-top: 30px;}
+	#footer .phone p:first-child {padding-left: 33px;}
+	#footer .text-right {text-align: left;}
+	.btn {min-width: 100%;}
+	#footer .policy {position:relative;left: 0;text-align: left;font-size: 16px;margin-top: 30px;}
+	.breadcrumbs {font-size: 14px;}
+	.nav-line {text-align: center;}
+	.nav-line li a {font-size: 14px;padding: 15px 15px;}
+	.nav-line li {border:none;}
+	.nav-line li:first-child {border-left: none;}
+	.class-slider .owl-nav .owl-next {right: -55px;}
+	.class-slider .owl-nav .owl-prev {left: -55px;}
+	table.timetable tr:first-child td {padding: 5px 0;}
+	.contacts-map {margin: 20px 0;}
+	.news-box h3 {margin-top: 20px;}
+	.news-box .date {margin-bottom: 20px;}
+	.nav-line-s1 {text-align: center;}
+	.nav-line-s1 li a {font-size: 14px;padding: 15px 15px;}
+	.nav-line-s1 li a {border:none;}
+	.nav-line-s1 li:first-child a {border-left: none;}
+	.our_teachers-box h3 {font-size: 24px;}
+	.our_teachers-box .left img {margin-bottom: 20px;}
+	.content {padding: 20px 0 20px;}
+	#top .phone .dropdown-menu {width: 100%;}
+	.content img.round {margin-bottom: 20px;}
+	#offer .inner img {margin-left: 0;}
+	#top .phone p img {margin-left: -30px;}
+	.navbar-nav {margin: 0 0;}
+	.nav-fixed.fixed {position: relative;}
+	#top .soc {padding-top: 20px;}
+}
+@media (min-width: 1024px) and  (max-width: 1200px) { 
+#footer .navbar li a {padding: 15px 10px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+

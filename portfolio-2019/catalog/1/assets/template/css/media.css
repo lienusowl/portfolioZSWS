@@ -1,0 +1,54 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1200px) {
+	.container {max-width: 1140px;}
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	html {font-size: 9px;}
+	#top .col-call {display: none;}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	html {font-size: 8px;}
+	#top .col-call {display: block;}
+	#about-index .right .bg {left: -80%;}
+	.visible-md {display: block;}
+	.hidden-md {display: none;}
+	#contacts-index .right {padding: 9rem 0;height: auto;}
+	#top .top-cont {border-left: 0;}
+	#top .top-cont i.icon-location {top: 30px;}
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	#top .top-cont {padding-left: 0;}
+	#top .top-cont i.icon-location {display: none;}
+	#top .col-call {padding-bottom: 0px;}
+	#top .call {font-size: 10px;}
+	#header-index {justify-content: flex-start;height: auto;}
+	#top .container {padding-left: 0;padding-right: 0;}
+	#header-index .title {font-size: 36px;margin-bottom: 0;}
+	#header-index .header-index-text .icon {margin: 15px 0;}
+	#about-index .left, #about-index .right, #contacts-index .right {padding: 30px 15px;}
+	#footer {padding: 30px 0;text-align: center;}
+	#footer .logo a {justify-content: center;}
+	.footer-cont {margin: 0 0 15px 0;}
+	#footer p.copyright {font-size: 12px;}
+	#header-index .nav-top li {width: 100%;margin: 0;}
+	#header-index .nav-top li a {padding: 5px 0;font-size: 16px;display: inline-block;width: 100%;}
+	#header-index .nav-top .dropdown-menu {position: relative;width: 100%;}
+	#header-index .nav-top .dropdown-menu a {font-size: 14px;font-family: 'Museo Sans Cyrl 500';padding: 3px 0;}
+	#header-index .nav-top .dropdown-menu {background: none;margin-top: 0;}
+	.navbar-toggler {position: absolute;right: 0;top:0;z-index: 100;}
+	#catalog-index .inn {margin-right: -15px;margin-left: -15px;}
+	#catalog-index {background: #181411;padding: 30px 0 0 0;}
+	#top .inn {height: auto;}
+	.header {padding-top: 0;}
+	ul.breadcrumb .separator {margin: 0 2px;}
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+}

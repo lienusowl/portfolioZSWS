@@ -1,0 +1,1176 @@
+@import url("addfont.css");
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    outline: 0;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 144dpi) {
+
+}
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+textarea {
+    resize: none;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; 
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; 
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+
+
+/* ==========================================================================
+   Main styles
+   ========================================================================== */
+
+.home {
+    background: url("img/bg.png") repeat scroll 0 0 transparent;
+    min-width: 940px;
+    margin: 0;
+    padding: 0;
+}
+#conteiner {
+   /* background: url("img/top_bg.jpg") no-repeat scroll 0 0 transparent;*/
+    width:  100%;
+    position: relative;
+    min-height: 785px;
+}
+
+.cls {
+    width:100%;
+    height:0;
+    clear:both;
+}
+/* **************************************************************************** */
+#header {
+    background: url("img/bng_cornice.png") no-repeat scroll center 0 transparent;
+    float: left;
+    width: 100%;
+}
+.headcontent {
+    width: 940px;
+    height: 375px;
+    margin: 0 auto;
+    position: relative;
+}
+/* **************************************************************************** */
+#content {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.contentcod {
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    position: relative;
+}
+/* **************************************************************************** */
+#footer {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.footcont {
+    background: url("img/shadov.png") no-repeat scroll center 0;
+    padding-top: 25px;
+    width: 940px;
+    margin: 0 auto;
+}
+/* ************************************************** */
+
+.artbrother {
+    float: right;
+    width: 155px;
+    margin-top: 15px;
+    margin-right: 0;
+}
+.ablogo {
+    background: url("img/artbrother.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 63px;
+    height: 54px;
+}
+.faciamo {
+    float: left;
+    width: 80px;
+    height: 17px;
+    color: #999999;
+    font-family: 'cuprum';
+    font-size: 12px;
+    padding: 40px 0 0 10px;
+}
+.artbrother a:hover .faciamo {
+    color: #f26e54;
+}
+/* ************************************************** */
+#globcopir {
+    float: left;
+    width: 100%;
+}
+.copir {
+    width: 940px;
+    margin: 0 auto;
+}
+.blankspot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 785px;
+}
+/* **************************************************************************** */
+.certificate {
+    float: left;
+    width: 138px;
+    height: 190px;
+    margin-top: 107px;
+    position: relative;
+}
+.certificate a:first-child {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.akkpre {
+    background: url("img/info.png") no-repeat scroll 0 0 transparent;
+    position: absolute;
+    width: 195px;
+    height: 12px;
+    top: 0;
+    left: 145px;
+    padding: 1px 0 5px;
+	display: none;
+}
+.certificate .akkpre a {
+    float: left;
+    color: #a6a6a6;
+    font-size: 12px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 12px;
+    cursor: pointer;
+    border-bottom: 1px dashed #a6a6a6;
+    margin-top: 2px;
+    display: none;
+    width: auto;
+}
+.certificate:hover .akkpre a, .akkpre:hover a {
+    display: block;
+}
+.certificate:hover .akkpre, .akkpre:hover {
+    background-position: -20px 0;
+}
+.printit {
+    float: left;
+    width: 680px;
+    margin-top: 110px;
+}
+h1 {
+    float: left;
+    color: #f0f0f0;
+    font-size: 64px;
+    font-family: 'pf_square_sans_probold';
+    line-height: 90px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+h2 {
+    float: left;
+    color: #f0f0f0;
+    font-size: 36px;
+    font-family: 'pf_square_sans_promedium';
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.printit p {
+    float: left;
+    color: #c3c3c3;
+    font-size: 18px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+    margin: 13px 0 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+.telef {
+    position: absolute;
+    right: -20px;
+    top: 30px;
+    font-size: 16px;
+    color: #a6a6a6;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 24px;
+   text-align: center;
+}
+.opchki{
+font-size: 15px;
+
+font-family: 'pf_dindisplay_proregular';
+line-height: 24px;
+text-align: center;
+color: #fff;
+font-weight: bold;
+/*background: url('img/opa.png') no-repeat;
+background-position: -5px 60px;*/
+}
+.telef span {
+color: #b4f779;
+font-size: 34px;
+font-family: 'pf_dindisplay_probold';
+float: right;
+margin-bottom: 10px;
+text-align: right;
+}
+.telef span.clpod {
+font-size: 22px;
+    margin-left: 4px;
+}
+.kitselect {
+float: left;
+width: 894px;
+height: 500px;
+position: relative;
+margin: 85px 0 0 20px;
+border: 2px solid #b4f779;
+border-bottom: 0 none;
+border-top: 0 none;
+}
+.kittit {
+    background: url("img/topbord.png") no-repeat scroll 0 bottom transparent;
+    float: left;
+    color: #b4f779;
+    font-size: 36px;
+    font-family: 'pf_dindisplay_promedium';
+    line-height: 40px;
+    height: 40px;
+    padding: 0 0 37px 10px;
+    width: 896px;
+    text-align: center;
+    margin: -77px 0 0 -2px;
+}
+.invito {
+    background: url("img/dashed.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 887px;
+    height: 195px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+.invtit {
+    background: url("img/oneday.png") no-repeat scroll right 0 transparent;
+    width: 458px;
+    height: 24px;
+    padding: 36px 105px 35px 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 24px;
+}
+.invtit span {
+    color: #b4f779;
+}
+.project {
+    background: url("img/bg_kitkat.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    width: 220px;
+    height: 400px;
+    margin-top: 65px;
+    margin-left: 56px;
+    position: relative;
+    border-radius: 4px;
+    behavior: url("pie.htc");
+    padding: 30px 25px 0;
+    z-index: 1;
+}
+.construct {
+    background: url("img/bg_kitkat.png")/*tpa=http://go-sro.ru/img/bg/bg_kitkat.png*/ repeat-x scroll 0 0 transparent;
+    float: left;
+    width: 220px;
+    height: 454px;
+    margin-top: 35px;
+    margin-left: -15px;
+    position: relative;
+    box-shadow: 0 0 30px 2px #1C1C1C;
+    border-radius: 4px;
+    behavior: url("pie.htc")/*tpa=http://go-sro.ru/css/pie.htc*/;
+    padding: 30px 25px 0;
+    z-index: 2;
+}
+.prospect {
+    background: url("img/bg_kitkat.png") repeat-x scroll 0 0 transparent;
+    float: left;
+    width: 220px;
+    height: 400px;
+    margin-top: 65px;
+    margin-left: -15px;
+    position: relative;
+    border-radius: 4px;
+    behavior: url("pie.htc");
+    padding: 30px 25px 0;
+    z-index: 1;
+}
+.kitkattit {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'pf_dindisplay_probold';
+    line-height: 22px;
+    text-align: center;
+    margin-top: 3px;
+}
+.kitsumm {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 36px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 38px;
+    text-align: center;
+    margin-top: 8px;
+}
+.kitsumm span {
+    margin-right: 4px;
+}
+.kitsumm span:first-child {
+    font-size: 24px;
+}
+.kitsumm span:first-child + span + span {
+    margin-right:0;
+    font-family: 'als_rubl';
+}
+.ord {
+    background: url("img/pocord.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 210px;
+	height: 47px;
+    margin: 17px 0 0 8px;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_prolight';
+    line-height: 18px;
+    outline: 0 none;
+    border: 0 none;
+    cursor: pointer;
+    padding-top: 3px;
+}
+.ord:hover {
+    background-position: 0 -47px;
+}
+.kitelenc {
+    float: left;
+    width: 100%;
+    height: 193px;
+    margin-top: 35px;
+    position: relative;
+    overflow: hidden;
+}
+.scrol {
+    width: 9px;
+    height: 195px;
+    bottom: 38px;
+    position: absolute;
+    right: 8px;
+    display: none;
+}
+.polzun {
+    background-color: #a5e16f;
+    width: 9px;
+    height: 41px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.project:hover .scrol, .construct:hover .scrol, .prospect:hover .scrol {
+    display: block;
+}
+.construct .kitelenc {
+    height: 250px;
+}
+.project .scrol {
+    left: 8px;
+}
+.construct .scrol {
+    height: 250px;
+}
+.kitelenc ul {
+    float: left;
+    width: 100%;
+    list-style: none outside none;
+}
+.kitelenc ul li {
+    float: left;
+    width: 100%;
+    color: #666666;
+    font-size: 18px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.steps {
+    background: url("img/steps.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 825px;
+    height: 928px;
+    margin-top: 30px;
+    margin-left: 57px;
+}
+.step {
+    float: left;
+    width: 280px;
+    margin: 36px 300px 0 54px;
+}
+.titst {
+    float: left;
+    width: 100%;
+    color: #b2b2b2;
+    font-size: 36px;
+    font-family: 'pf_dindisplay_probold';
+    line-height: 36px;
+}
+.step p {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_prothin';
+    line-height: 26px;
+}
+.step div + p {
+    margin-top: 20px;
+}
+.step:first-child div + p + p {
+    margin-top: 5px;
+}
+.step p span {
+    color: #b4f779;
+}
+.step p.smol {
+    font-size: 18px;
+}
+.step:first-child + .step {
+    float: right;
+    width: 311px;
+    margin: 235px 32px 0 300px;
+}
+.step:first-child + .step + .step {
+    margin: 218px 300px 0 50px;
+}
+.quatro {
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}
+.qutt {
+    float: left;
+    width: 100%;
+    color: #b4f779;
+    font-size: 36px;
+    font-family: 'pf_dindisplay_promedium';
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 55px;
+    margin-top: 22px;
+}
+.falavoro .qutt {
+    padding-bottom: 0;
+    margin-top: 0;
+}
+.quunit {
+    float: left;
+    width: 235px;
+}
+.qtit {
+    float: left;
+    width: 100%;
+    color: #b3b3b3;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_probold';
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.qico {
+    float: left;
+    width: 100%;
+    text-align: center;
+	margin-bottom: 15px;
+}
+.qepilog {
+    float: left;
+    width: 220px;
+    color: #e6e6e6;
+    font-size: 16px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+    text-align: center;
+}
+.falavoro {
+    background: url("img/map.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 948px;
+    height: 536px;
+    padding-top: 35px;
+    margin-top: 50px;
+}
+.copirait {
+    background: url("img/iconmap.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    width: 230px;
+    height: 35px;
+    padding: 13px 0 34px 80px;
+    margin: 10px 0 0 320px;
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+}
+.copirait a {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+}
+.copirait a:hover {
+    color: #ffffff;
+}
+.tuttoperord {
+    background: url("img/freciastorta.png") no-repeat scroll right bottom transparent;
+    float: left;
+    width: 720px;
+    height: 378px;
+    padding: 0 0 45px;
+    margin: 30px 0 0 110px;
+    position: relative;
+}
+.perinp {
+    float: left;
+    width: 100%;
+}
+.bigord {
+    background: url("img/grandord.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'pf_dindisplay_prolight';
+    font-size: 28px;
+    height: 63px;
+    line-height: 30px;
+    margin: 0 0 0 195px;
+    outline: 0 none;
+    width: 310px;
+}
+.bigord:hover {
+    background-position: 0 -63px;
+}
+.tuttoperord p {
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 26px;
+    text-align: center;
+}
+.tuttoperord p.biglet {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'pf_dindisplay_probold';
+    margin-top: 30px;
+}
+.tuttoperord p.smol {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tuttoperord p span {
+    color: #b4f779;
+}
+.tuttoperord p.smol span {
+    font-size: 24px;
+    font-family: 'pf_dindisplay_promedium';
+}
+.tuttoperord .perinp + p {
+    margin-top: 50px;
+}
+.tuttoperord form {
+    float: left;
+    width: 100%;
+    margin: 60px 0 0;
+    padding: 0;
+}
+.txtin {
+    float: left;
+    width: 100%;
+    color: #b2b2b2;
+    font-size: 18px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+}
+.txtin span {
+    float: left;
+    margin-right: 10px;
+}
+.txtin span:first-child {
+    margin-left: 85px;
+}
+.ininf {
+    background-color: transparent;
+    float: left;
+    width: 115px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'pf_dindisplay_prolight';
+    line-height: 18px;
+    border: 0 none;
+    border-bottom: 1px solid #ffffff;
+    padding: 0 0 7px;
+    outline: 0 none;
+    margin-right: 30px;
+}
+.ininf:focus {
+    border-bottom: 1px solid #b4f779;
+}
+.asret {
+    background: url("img/telefonata.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 0 none;
+    color: #ffffff;
+    cursor: pointer;
+    float: left;
+    font-family: 'pf_dindisplay_prolight';
+    font-size: 14px;
+    height: 36px;
+    margin: -6px 0 0;
+    outline: 0 none;
+    width: 139px;
+}
+.tuttoperord form + p {
+    margin-top: 10px;
+    color: #e5e5e5;
+    font-family: 'pf_dindisplay_prothin';
+}
+/*.hawk {
+    background: url("hawk.png") no-repeat scroll 0 0 transparent;
+    width: 241px;
+    height: 458px;
+    position: absolute;
+    right: 0;
+    top: 1715px;
+}*/
+.popup {
+    background: url("img/poup.png") no-repeat scroll 0 0 transparent;
+    width: 686px;
+    height: 476px;
+    position: absolute;
+    top: -90px;
+    left: 50%;
+    margin-left: -343px;
+    z-index: 20;
+    display: none;
+
+}
+.tuttoperord .popup {
+    background-position: 0 -476px;
+    top: -200px;
+}
+.ombra {
+    background: url("img/bg_omb.png") repeat scroll 0 0 transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    display: none;
+    /*display: none;*/
+}
+.popup form {
+    float: left;
+    width: 430px;
+    margin-top: 125px;
+    margin-left: 85px;
+    color: #595959;
+    font-family: 'pf_dindisplay_prolight';
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+.popup form span {
+    float: right;
+    margin-right: 10px;
+}
+.popup form .ininf {
+    float: right;
+    color: #ffffff;
+    font-family: 'pf_dindisplay_prolight';
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+    width: 300px;
+    border-bottom: 1px solid #595959;
+    margin-right: 0;
+}
+.popup form .ininf:focus {
+    border-bottom: 1px solid #ffffff;
+}
+.popup form .bigord {
+    background: url("img/popupspr.png")no-repeat scroll 0 0 transparent;
+    float: right;
+    margin: 50px 15px 0 0;
+}
+.popup form .bigord:hover {
+    background-position: 0 -63px;
+}
+.popup form .ininf + span + .ininf {
+    margin-top: 50px;
+}
+.popup form .ininf + span + .ininf + span {
+    margin-top: 50px;
+}
+.popup.chefatto form {
+    display: none;
+}
+.popup .yupi {
+    display: none;
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 32px;
+    text-align: center;
+    margin-top: 205px;
+}
+.popup.chefatto .yupi {
+    display: block;
+}
+.popmap {
+    width: 100%;
+    bottom: 0;
+    height: 520px;
+    position: absolute;
+    display: none;
+
+}
+#zach {
+float: left;
+width: 100%;
+color: #AC2F2F;
+font-size: 30px;
+font-family: 'pf_dindisplay_proregular';
+line-height: 22px;
+text-align: center;
+margin-top: 8px;
+text-decoration: none;
+}
+#zach span {
+text-decoration: line-through;
+}
+
+#images {
+margin-left: 75px;
+}
+#images img{
+margin: 30px;
+width: 320px;
+}
+
+#logo{
+position: absolute;
+width: 460px;
+background: url('img/logo.png') no-repeat;
+margin-top: 10px;
+margin-left: 300px;
+height: 115px;
+}
+#logo h1{
+color: #FFFFFF;
+font-size: 30px;
+font-family: 'pf_dindisplay_probold';
+padding-top: 15px;
+}
+
+#otziv{
+border: 3px solid #b4f779;
+border-radius: 35px;
+margin: 38px 44px 0px -2px;
+color: #A5A5A5;
+padding: 25px;
+font-family: 'pf_dindisplay_proregular';
+border-top: 0px;
+color: #fff;
+height: 385px;
+
+}
+#otziv h4{
+text-align: center;
+color: #fff;
+font-size: 16px;
+}
+#otziv_in{
+width: 345px;
+height:250px;
+float:left;
+}
+#otziv_in1{
+width: 345px;
+height: 250px;
+float: right;
+margin-right: 65px;
+}
+
+#about{
+
+color: #fff;
+border: 3px solid #b4f779;
+border-radius: 35px;
+margin: 38px 44px 0px -2px;
+color: #A5A5A5;
+padding: 25px;
+font-family: 'pf_dindisplay_proregular';
+border-top: 0px;
+}
+#about p{
+font-size: 18px;
+margin: 15px 0px;
+line-height: 24px;
+}
+
+
+.copirait1 {
+    
+    float: left;
+    width: 230px;
+    height: 35px;
+    padding: 13px 0 34px 80px;
+    margin: 10px 0 0 320px;
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+}
+.copirait1 a {
+    color: #b2b2b2;
+    font-size: 14px;
+    font-family: 'pf_dindisplay_proregular';
+    line-height: 18px;
+}
+.copirait1 a:hover {
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sertif {
+padding:20px 0px;
+width:100%;
+background:#f88c27;
+float: left;
+}
+.porf {
+width: 800px;
+position: relative;
+z-index: 1;
+margin: 0px auto;
+padding:20px 0px;
+}
+#slide {
+width: 850px;
+position: relative;
+height: 180px;
+margin: 0px auto;
+}
+.prev {
+display:block;
+left: 0px;
+top: 65px;
+background: url('img/prev.png') no-repeat;
+width: 41px; height: 63px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.7;
+}
+.prev:hover {
+opacity: 1;
+}
+.next {
+display:block;
+right: 0px;
+top: 65px;
+background: url('img/next.png') no-repeat;
+width: 41px; height: 63px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.7;
+
+}
+.next:hover {
+opacity: 1;
+}
+#slideshow {
+width: 800px;
+height: 180px;
+position: relative;
+z-index: 1;
+margin: 0px auto;
+}
+#slideshow1 {
+width: 800px;
+height: 180px;
+position: relative;
+z-index: 1;
+margin: 0px auto;
+}
+.prev1 {
+display:block;
+left: 0px;
+top: 65px;
+background: url('img/prev.png') no-repeat;
+width: 41px; height: 63px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.7;
+}
+.prev1:hover {
+opacity: 1;
+}
+.next1 {
+display:block;
+right: 0px;
+top: 65px;
+background: url('img/next.png') no-repeat;
+width: 41px; height: 63px;
+text-indent:-9999px;
+z-index: 20;
+position: absolute;
+opacity: 0.7;
+
+}
+.next1:hover {
+opacity: 1;
+}
+.porf img {
+margin:0px 9px;
+}

@@ -1,0 +1,17 @@
+<div id="menu1"></div>
+<? include("blocks/sort.php");?>
+<div id="menu2"></div>
+<? include("blocks/best.php");?>
+<? include("blocks/what.php");?>
+<? include("blocks/why.php");?>
+<? include("blocks/too.php");?>
+<div id="menu5"></div>
+<? include("blocks/how.php");?>
+<div id="menu3"></div>
+<? include("blocks/price.php");?>
+<div id="pay"></div>
+<? include("blocks/pay.php");?>
+<? include("blocks/otz.php");?>
+<div id="menu4"></div>
+<? include("blocks/work.php");?>
+<? include("blocks/map.php");?>

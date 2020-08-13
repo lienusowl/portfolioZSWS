@@ -1,0 +1,39 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	#header .top-header .left {padding: 0 0 30px;}
+	#header .top-header .right {padding-top: 30px;text-align: center;}
+	hr {margin: 30px 0;}
+	.header-slogan {font-size: 38px;}
+	.btn {width: 100%;max-width: 200px;}
+	#header .btn {min-width: auto;max-width: 200px;}
+	.title {font-size: 32px;}
+	.title span {font-size: 24px;}
+	.services-box .inn {padding-top: 0;}
+	.services-box {margin-bottom: 30px;}
+	#visit {padding: 30px 0;background: none;}
+	#visit .left {text-align: left;}
+	#visit .left .icon {float: left;margin-left: 0;margin-right: 15px;}
+	#visit ul li {padding: 0 0 0 30px;}
+	#visit ul li:before {right: auto;left: 5px;}
+	#visit ul {margin-top: 0;}
+	#visit .form-visit {padding: 30px 15px;background: none;border:1px solid #ffe536;min-height: auto;height: auto;}
+	#visit .right {padding: 0 15px;
+	#header .top-header .right .whatsapp {margin-top:20px;}
+	#header .top-header .right .whatsapp a i.fa {position: relative;top:auto;right: auto;}
+	#header .top-header .right .whatsapp a {font-size: 14px;}
+}
+
+

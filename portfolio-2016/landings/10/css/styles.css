@@ -1,0 +1,445 @@
+@font-face {
+	font-family: 'Conv_georgia-bold-italic';
+	src: url('../fonts/georgia-bold-italic.eot');
+	src: local('☺'), url('../fonts/georgia-bold-italic.woff') format('woff'), url('../fonts/georgia-bold-italic.ttf') format('truetype'), url('../fonts/georgia-bold-italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_georgia-italic';
+	src: url('../fonts/georgia-italic.eot');
+	src: local('☺'), url('../fonts/georgia-italic.woff') format('woff'), url('../fonts/georgia-italic.ttf') format('truetype'), url('../fonts/georgia-italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+table {border-collapse: collapse;}
+html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body{
+color: #222;
+font-family: arial, sans-serif;
+font-size: 14px;
+background: #dddddd;
+}
+h1, h2, h3, h4, h5, h6{
+	
+}
+a, a:focus, a:active {
+    outline: none; /* Убираем границу вокруг ссылок  */
+   }
+h1 {
+text-align:center;
+margin:20px 0px;
+}
+.content hr {
+    width: 100%;
+    border: none;
+    height: 1px;
+    background: #e9e9e9;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    /* border: 0; */
+    /* border-top: 1px solid #eee; */
+    float: left;
+}
+.or1 {
+background: #f83c0c;
+}
+.fg1 {
+font-family:'Conv_georgia-italic',Sans-Serif;
+}
+.fg1 b {
+font-family:'Conv_georgia-bold-italic',Sans-Serif;
+}
+.clear {
+clear:both;
+}
+.popup h4 {
+    font-size: 24px !important;
+    text-align: center;
+    font-weight: bold !important;
+}
+.form-control {
+    border: 1px solid #DEDEDE !important;
+    box-shadow: 1px 2px 4px rgba(0,0,0,.06) inset !important;
+    border-radius: 3px !important;
+}
+.popup .close {
+    float: right;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    opacity: 1;
+	 outline: none; 
+}
+.popup button.close {
+    -webkit-appearance: none;
+    padding: 3px 8px;
+    cursor: pointer;
+    background: #FF231F;
+    border: 0;
+    border-radius: 50%;
+	 outline: none; 
+}
+.popup .modal-header .close {
+    margin-top: -25px;
+    margin-right: -25px;
+}
+.popup .number, .popup .time{
+text-align:right;
+
+}
+#send {
+background:#e63508;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 0px;
+	color:#fff;
+}
+#send:hover {
+background:#e63508;
+}
+.popup .close:hover,
+.popup .close:focus {
+opacity: 1;
+background: #B60000;
+color:#fff;
+}
+#top {
+background: #eaeaea;
+    background: #eaeaea;
+    margin-bottom: 30px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 25;
+}
+#nav-menu {
+background:#00a7da;
+border:none;
+    min-height: 40px;
+    border-radius: 0px;
+	margin-bottom:0px;
+}
+#h-menu {
+text-align:center;
+    width: 100%;
+}
+#h-menu li {
+    float: none;
+    display: inline-block;
+	border-left:1px solid #0095c2;
+}
+#h-menu li a.button1 {
+background: #f83c0c;
+}
+#h-menu li a.button1:hover {
+background:#e63508;
+text-decoration:none;
+}
+#h-menu li a {
+color:#fff;
+font-size:14px;
+   text-transform:uppercase;
+   
+}
+#h-menu li a:hover {
+text-decoration:underline;
+}
+#header {
+margin-bottom: 30px;
+    float: left;
+    margin-right: -15px;
+    margin-left: -15px;
+	    margin-top: 80px;
+}
+.slide-nav .carousel-indicators {
+    bottom: 0px !important;
+    /* left: 35px !important; */
+ 
+    width: auto;
+    left: 90%;
+    margin-left: 0px;
+}
+.carousel-indicators .active {
+background:#F83C0C !important;
+border:none;
+}
+.carousel-indicators li {
+background:#fff !important;
+border:2px solid #F83C0C !important;
+}
+.slide {
+position:relative;
+}
+.item img {
+width:100%;
+}
+.slogan1 {
+    position: absolute;
+	    left: 35px;
+	top:20px;
+	z-index:10;
+	color:#3d3d3d;
+	font-size:24px;
+	    font-weight: bold;
+}
+.slogan2 {
+    position: absolute;
+	    left: 35px;
+	top:60px;
+	z-index:10;
+	    font-size:18px;
+		color:#646464;
+}
+.slogan3 {
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    z-index: 10;
+    color: #fff;
+    padding: 10px;
+        font-size: 18px;
+}
+.news-box {
+background: #f0f0f0;
+}
+.news-date {
+background: url(../img/news-date.png) no-repeat left center;
+    padding: 0px 0px 0px 20px;
+    color: #aaaaaa;
+    font-size: 12px;
+    line-height: 20px;
+	    margin-bottom: 5px;
+		    font-family: arial;
+    font-style: italic;
+}
+.news-box-inn {
+border-bottom:1px solid #fff;
+    margin-top: 10px;
+	    padding: 5px;
+}
+.news-box-inn p {
+    margin-bottom: 5px;
+}
+.news-slogan {
+background: #f83c0c url(../img/news-slogan.png) no-repeat left center;
+padding:10px 10px 10px 50px;
+color:#fff;
+font-size:16px;
+}
+.content {
+background:#fff;
+    float: left;
+    padding: 30px;
+}
+.st-box {
+
+}
+.st-box img {
+float:left;
+margin-right:10px;
+    margin-bottom: 5px;
+}
+.st-z {
+color:#646464;
+font-size:18px;
+}
+.st-a {
+    float: right;
+}
+.st-a:hover {
+text-decoration:underline;
+}
+.pol-box {
+text-align:center;
+float:left;
+width:20%;
+}
+.pol-box img {
+margin-bottom:20px;
+}
+.pol-box p {
+border-right: 1px solid #e9e9e9;
+    padding-left: 15px;
+    padding-right: 14px;
+    font-size: 12px;
+    min-height: 205px;
+}
+.content .pol-box:last-child p {
+border-right:none;
+}
+.h1-1 {
+font-family:'Conv_georgia-bold-italic',Sans-Serif;
+font-size:24px;
+color:#454444;
+margin-top: 40px;
+margin-bottom:30px;
+padding:0px;
+}
+.what img {
+width:100%;
+}
+.best-text {
+padding:15px;
+background:#f0f0f0;
+    font-size: 18px;
+}
+.best-img-big img {
+width:100%;
+border:3px solid #f0f0f0;
+}
+.best-img-small {
+margin-left:-15px;
+margin-right:-15px;
+}
+
+.best-img-small img {
+width:100%;
+    border: 2px solid #f0f0f0;
+    margin-bottom: 30px;
+}
+.otz-av img {
+    border-radius: 50%;
+border: 3px solid #F0F0F0;
+}
+.otz-text {
+padding:15px;
+border:3px solid #00a7da;
+border-radius:10px;
+    position: relative;
+}
+.otz-text:before { 
+content: "";
+width: 0;
+height: 0;
+right: 100%;
+top: 20px;
+position: absolute;
+    border-top: 20px solid transparent;
+    border-right: 20px solid #00a7da;
+    border-bottom: 20px solid transparent;
+}
+.h2-otz {
+margin-top:0px;
+font-size:20px;
+color:#4a4a4a;
+}
+.opl-box {
+margin-top:30px;
+}
+.opl-box img {
+width:100%;
+}
+.opl-box .h1-1 {
+margin-top:10px;
+    margin-bottom: 20px;
+}
+.zakaz-box1 img {
+width:100%;
+    border: 1px solid #f0f0f0;
+}
+.zakaz-slogan {
+    font-family: 'Conv_georgia-italic',Sans-Serif;
+    color: #3d3d3d;
+    font-size: 24px;
+    position: absolute;
+    /* left: 20px; */
+    width: 80%;
+    bottom: 0px;
+    text-align: right;
+    right: 40px;
+}
+.zakaz-forma-slogan {
+background: #f83c0c url(../img/zakaz-forma-slogan.png) no-repeat left center;
+padding:10px 10px 10px 50px;
+color:#fff;
+font-size:16px;
+}
+#send2 {
+    background: #00abe1 url(../img/send2.png) left center;
+    color: #fff;
+    font-family: 'Conv_georgia-bold-italic',Sans-Serif;
+    text-align: center;
+    border: none;
+    padding: 5px 20px;
+    font-size: 24px;
+    margin: 10px auto;
+	    display: block;
+}
+.zakaz-box2 {
+    background: #f0f0f0;
+}
+.zakaz-box2 .form-horizontal {
+padding:15px;
+}
+#zakaz {
+    margin-top: 40px;
+}
+#footer {
+    background: #eaeaea;
+    margin-bottom: 30px;
+	margin-top: 30px;
+	padding-bottom:10px;
+}
+.footer-slogan {
+    float: left;
+    padding: 0px 15px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-align: left;
+    line-height: 20px;
+    padding-top: 3px
+}
+.footer-slogan span {
+color:#ebebeb;
+font-size:12px;
+font-family: 'Conv_georgia-italic',Sans-Serif;
+}
+#top .navbar-default .navbar-toggle {border-color:transparent;}
+#top .navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+#top .navbar-default .navbar-toggle:hover, #top .navbar-default .navbar-toggle:focus {background-color: #F83C0C;}
+#footer #nav-menu {
+margin-bottom:10px;
+}
+.sert-footer {
+    width: 100px;
+	    float: left;
+    margin-right: 10px;
+}
+#footer a {
+    color: #1c75be;
+   
+   
+}
+.f-box {
+border-right: 1px solid #dddddd;
+}
+@media (min-width: 320px) and  (max-width: 980px) {
+.pol-box {width:100%;}
+.pol-box p {border-right:none;min-height: auto;font-size: 14px;}
+.slogan3 {left:0px;position: relative;}
+#header {margin-top: 50px;}
+.st-box {float: left;margin-bottom: 10px;}
+.content hr {display:none;}
+.best-text {margin-bottom:20px;}
+.best-img-big img {margin-bottom:10px;}
+.otz-text:before {border:none;}
+.zakaz-slogan {position: relative;width: 100%;text-align: center;right: 0px;}
+.footer-slogan {float: none;text-align: center;}
+#footer #h-menu {margin: 0px;}
+#footer #h-menu li {border-left:none;}
+.otz-text {margin-bottom:10px;}
+#h-menu li {border-left: none;}
+#top {padding-right: 0px;padding-left: 0px;}
+.slide-nav .carousel-indicators {left: 80%;}
+}

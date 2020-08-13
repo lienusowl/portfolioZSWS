@@ -1,0 +1,37 @@
+table tbody tr td {
+  
+
+  line-height: 20px;
+  padding: 3px 10px;
+  border-right: 1px #ddd solid;
+  border-bottom: 1px #ddd solid;
+  border-left: 1px transparent solid;
+  border-top: 1px transparent solid;
+  
+}
+
+table .table_head {background-color:rgba(235, 34, 34, 0.55);}
+
+table.hovered {
+  border-collapse: separate !important;
+  width: 100%;
+}
+table.hovered thead tr th:hover,
+table.hovered thead tr td:hover {
+  border: 1px #1c98cc solid;
+  background: rgba(28, 183, 236, 0.1);
+}
+table.hovered tbody tr:hover {
+  background-color: rgba(28, 183, 236, 0.1);
+}
+table.hovered tbody tr:hover td:first-child {
+  border-left: 1px #1c98cc solid;
+}
+table.hovered tbody tr:hover td:last-child {
+  border-right: 1px #1c98cc solid;
+}
+table.hovered tbody tr:hover td {
+  border-top: 1px #1c98cc solid;
+  border-bottom: 1px #1c98cc solid;
+}
+

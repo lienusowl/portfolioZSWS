@@ -1,0 +1,96 @@
+.timer {
+text-align: center;
+color: #7b7b7b;
+font-size: 18px;
+margin:0 auto;
+width: 350px;
+padding: 20px 0px;
+}
+.countdownHolder{
+	
+	/*font-size: 26px;
+	letter-spacing: -3px;*/
+	font-size: 36px;
+	letter-spacing: -11px;
+	font-weight: bold;
+	height: 55px;
+
+}
+
+.position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 1.05em;
+}
+
+.digit{
+	position:absolute;
+	display:block;
+	width:1em;
+	/*background-color:#cbcac6;*/
+	
+	text-align:center;
+	color:#5e5e5e;
+	letter-spacing:-1px;
+	line-height:35px;
+}
+
+.digit.static{
+	
+	border-radius: 5px;
+	font-weight:normal;
+	background-image: linear-gradient(bottom, #dcdcdc 50%, #fefefe 50%);
+	background-image: -o-linear-gradient(bottom, #dcdcdc 50%, #fefefe 50%);
+	background-image: -moz-linear-gradient(bottom, #dcdcdc 50%, #fefefe 50%);
+	background-image: -webkit-linear-gradient(bottom, #dcdcdc 50%, #fefefe 50%);
+	background-image: -ms-linear-gradient(bottom, #dcdcdc 50%, #fefefe 50%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #dcdcdc),
+		color-stop(0.5, #fefefe)
+	);
+}
+
+/**
+ * Вы можете использовать данные классы для скрытия
+ * частей счетчика, которые не нужны.
+ */
+
+.countDays{ display:none !important; }
+.countDiv0{ display:none !important; }
+.countHours{}
+.countDiv1{}
+.countMinutes{}
+.countDiv2{}
+.countSeconds{}
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height: 1.8em;
+	position:relative;
+}
+
+.countDiv:before,
+.countDiv:after{
+	position:absolute;
+	width:5px;
+	height:5px;
+	background-color:#959595;
+	border-radius:50%;
+	left:50%;
+	margin-left:-3px;
+	top:0.6em;
+	
+	content:'';
+}
+
+.countDiv:after{
+	top: 1em;
+}

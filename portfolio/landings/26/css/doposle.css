@@ -1,0 +1,108 @@
+a.rollover1 {
+    background: url(../img/doposle/after01.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover1:hover {
+    background: url(../img/doposle/before01.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+   
+a.rollover2{
+    background: url(../img/doposle/after02.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover2:hover {
+    background: url(../img/doposle/before02.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+   
+   
+a.rollover3 {
+    background: url(../img/doposle/after03.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover3:hover {
+    background: url(../img/doposle/before03.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }   
+   
+a.rollover4 {
+    background: url(../img/doposle/after04.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover4:hover {
+    background: url(../img/doposle/before04.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+      
+a.rollover5 {
+    background: url(../img/doposle/after05.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover5:hover {
+    background: url(../img/doposle/before05.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+   
+a.rollover6 {
+    background: url(../img/doposle/after06.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover6:hover {
+    background: url(../img/doposle/before06.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+  
+a.rollover7 {
+    background: url(../img/doposle/before07.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover7:hover {
+    background: url(../img/doposle/after07.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+  
+a.rollover8 {
+    background: url(../img/doposle/before08.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover8:hover {
+    background: url(../img/doposle/after08.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+  
+a.rollover9 {
+    background: url(../img/doposle/before09.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover9:hover {
+    background: url(../img/doposle/after09.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+ 
+a.rollover10 {
+    background: url(../img/doposle/before10.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover10:hover {
+    background: url(../img/doposle/after10.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+ 
+a.rollover11 {
+    background: url(../img/doposle/before11.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover11:hover {
+    background: url(../img/doposle/after11.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }
+ 
+a.rollover12 {
+    background: url(../img/doposle/before12.jpg); /* Путь к файлу с исходным рисунком  */
+    display: block; /*  Рисунок как блочный элемент */
+    width: 300px; /* Ширина рисунка */ height:200px; /* Ширина рисунка */
+   }
+   a.rollover12:hover {
+    background: url(../img/doposle/after12.jpg); /* Путь к файлу с заменяемым рисунком  */
+   }

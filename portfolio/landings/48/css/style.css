@@ -1,0 +1,252 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+width: 100%;
+margin: 0px;
+padding: 0px;
+top: 0;
+background:#fff;
+font-family: Arial, Helvetica, sans-serif;
+border-spacing: 5px 0px;
+color: #1f1f1f;
+font-size:11pt;
+}
+.clear {
+clear:both;
+}
+h1 {
+font-size: 32px;
+margin: 20px 0px;
+text-align: center;
+color:#fff;
+background: url(../img/h1.png) no-repeat center;
+line-height: 50px;
+width: 1000px;
+left: -30px;
+position: relative;
+height: 64px;
+text-shadow: 1px 1px 2px #000;
+font-weight: normal;
+}
+h2 {
+font-size: 24px;
+color: #f98102;
+line-height: 35px;
+}
+
+h3 {
+color: #3e3550;
+font-size: 12pt;
+font-weight: bold;
+margin-top: 10px;
+}
+h4 {
+font-weight: bold;
+color: #f98102;
+
+margin-bottom: 5px;
+font-size: 18px;
+}
+p {
+color: #3e3550;
+line-height: 1.4em;
+
+}
+hr {
+margin: 0 auto;
+width: 100%;
+background: url(../img/section-shadow2.png) no-repeat center;
+height: 60px;
+border: 0px;
+}
+#top {
+width:100%;
+height:140px;
+background:#3e3550;
+padding:0xp 20px;
+}
+#center {
+width:1000px;
+margin:0 auto;
+}
+p.number1 {
+font-size:24px;
+color:#fff200;
+text-align:center;
+text-shadow: 1px 1px 2px #000;
+}
+p.number2 {
+font-size:30px;
+color:#fff;
+text-align:center;
+font-family: "georgia", cursive, sans-serif;
+text-shadow: 1px 1px 2px #000;
+}
+.button {
+display: block;
+width: 234px;
+height: 47px;
+background: url(../img/button.png) no-repeat;
+text-align: center;
+text-shadow: 1px 1px 0px rgba(51, 51, 51, 0.48);
+font-size: 26px;
+color: #fff;
+text-decoration: none;
+padding-top: 4px;
+margin: 10px 0px 0px 10px;
+}
+.menu {
+text-align: center;
+/*position: fixed;*/
+background: #f1f1f1;
+width: 100%;
+z-index: 1100;
+padding: 15px 0px;
+}
+.menu  li{
+list-style-type: none;
+display: inline;
+text-align: center;
+padding: 0px 45px;
+}
+.menu li a {
+color: #303030;
+text-decoration:none;
+font-size: 18px;
+}
+.menu li a:hover {
+color: #000;
+text-decoration:underline;
+}
+
+#header {
+width: 100%;
+height: 390px;
+background: url(../img/header.jpg) no-repeat center;
+}
+#content {
+
+width: 1000px;
+margin:0 auto;
+}
+.wrapper {
+background: url(../img/content.png) repeat-y;
+float:left;
+width:940px;
+padding:20px 30px;
+
+}
+.left {
+float:left;
+}
+.akc {
+font-size:24px;
+text-align:center;
+color:#3e3550;
+}
+.akc span {
+font-size:24px;
+color:#f98102;
+}
+.consultation {
+width: 279px;
+float: right;
+position: relative;
+z-index: 1000;
+background: url(../img/form.png) no-repeat;
+right: -8px;
+}
+.consultation input[type="text"], .consultation textarea {
+height: 27px;
+padding: 0 10px;
+border: 1px solid #e3e3e3;
+border-width: 1px 0 0 1px;
+color: #a7a7a7;
+border-radius: 5px;
+margin: 5px 15px;
+width: 225px;
+
+}
+.submit-btn {
+width: 234px;
+height: 47px;
+background: url(../img/button.png) no-repeat;
+border: 0px;
+cursor: pointer;
+text-shadow: 2px 2px 2px #333;
+color: #fff;
+position: relative;
+font-family: helvetia;
+font-size: 26px;
+margin: 10px 0px 20px 25px;
+}
+.consultation textarea {
+min-height: 40px;
+}
+.consultation p {
+background: url(../img/h1_form.png) no-repeat;
+text-shadow: 1px 1px 2px #000;
+font-size:24px;
+display:block;
+width:260px;
+height:64px;
+color:#fff;
+}
+.box1 {
+width: 300px;
+margin-right: 20px;
+float:left;
+}
+.box1 p {
+font-size: 10pt;
+}
+.box2 {
+background: url(../img/box2.png) no-repeat;
+float:left;
+padding-left:165px;
+min-height:110px;
+margin-bottom: 20px;
+}
+.box2 span {
+background: #eaeaea;
+display: block;
+border-radius: 10px;
+padding: 15px;
+}
+.box2 span.bg_none {
+background: none;
+}
+.box4 {
+float: left;
+text-align: center;
+width: 400px;
+color:#3e3550;
+font-size:30px;
+}
+.work img {
+margin:20px 44px;
+}
+.img-otziv {
+float: left;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+p.ogrn {
+text-align:center;
+color:#000;
+display:block;
+width:210px;
+float:left;
+margin: 40px 50px;
+}

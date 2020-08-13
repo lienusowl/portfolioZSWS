@@ -1,0 +1,236 @@
+
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.2
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/
+
+*{margin:0;padding:0;}                
+:focus { outline: 0;}
+body{
+color: #333;
+font-size: 14px;
+line-height: 1.4;
+font-family: Arial, sans-serif;
+background: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+  
+}
+a, a:focus, a:active, input, input:focus, input:active, button, button:focus, button:active, .btn, .btn:focus, .btn:active  {
+    outline: none !important;
+}
+a.btn:hover, a.btn:focus, a.btn:active {
+  text-decoration:none;
+}
+a{
+  &:hover {
+  text-decoration:none;
+  }
+}
+ul {
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+}
+.clear {
+clear:both;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin-bottom: 10px;
+}
+
+@import "nav.css" screen;
+@import "owl.css" screen;
+
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.form-control {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 6px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  height: auto;
+  padding: 10px 15px;
+  &:focus {
+    border: 1px solid rgba(96, 41, 128, 0.5);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  }
+}
+select.form-control {
+  height: 42px;
+}
+.btn {
+  padding: 9px 20px;
+  border: 1px solid;
+  border-color: #8eb359;
+  border-radius: 24px;
+  background: #8eb359;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 34px;
+  &:hover {
+    background: #fff;
+    color: #333;
+  }
+  &:focus {
+    color: #fff;
+    background: #333;
+  }
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+
+
+
+
+
+#content{
+  max-width: 1500px;
+  max-height: 900px;
+  background: url(../img/bg.jpg) center top no-repeat;
+  margin:20px auto 0 auto;
+  position: relative;
+  .left{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+  }
+  .right{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+  }
+  .right1{
+    display: none;
+  }
+  .number{
+    position: relative;
+    margin: 200px 0 0 0;
+    padding: 0 0 30px 60px;
+  }
+  .logo{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 400px 0 0 0;
+  }
+  .button{
+    position: absolute;
+    top: 580px;
+    right: 122px;
+    opacity: 0.9;
+    transition: all .3s;
+    &:hover{
+      opacity: 1;
+      cursor: pointer;
+      transition: all .3s;
+    }
+  }
+}
+
+
+
+.puls{
+  display: none;
+}
+
+.fb{
+  display: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic');
+
+.text{
+  color: #fff;
+  font-family: 'Poiret One', cursive;
+  h2{
+    padding: 50px 0px;
+    /* text-align: center; */
+    font-size: 3em;
+  }
+  p{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+  }
+}
+
+
+
+
+
+/* transition: all .3s; */
+
+
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+.col-xs-1-5, .col-sm-1-5, .col-md-1-5, .col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+  
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+  
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+  
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+  
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+ 
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.1
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+  background: #F2F2F2;
+color: #333;
+font-family: 'Roboto Slab', serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+position:relative;
+width:960px;
+margin:0 auto;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+  color: #222;
+  font-size: 2.3em;
+  text-align: center;
+}
+h2{
+color: #33383b;
+font-size: 2em;
+  text-align: center;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+  text-align: center;
+}
+h4{
+  font-size: 2.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+#header{
+  background: url('../img/header.jpg') center top no-repeat;
+  width: 100%;
+  height: 435px;
+}
+#header img{
+position: absolute;
+top: 85px;
+  left: 25px;
+  border: 2px solid #FAFAFA;
+  padding: 3px;
+  background: #A8A8A8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #222;
+  transition: all .3s;
+}
+#header img:hover{
+background: #222;
+transition: all .3s;
+box-shadow: 0px 0px 15px #000;
+}
+#header a{
+  position: absolute;
+  top: 80px;
+  right: 25px;
+  background: #fff;
+  padding: 20px;
+  text-decoration: none;
+  color: #F0082B;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #222;
+  box-shadow: 0px 0px 5px #222;
+  border-radius: 10px;
+  width: 245px;
+  text-align: center;
+  transition: all .3s;
+  font-size: 20px;
+}
+#header a:hover{
+transition: all .3s;
+box-shadow: 0px 0px 10px #222;
+}
+#header #sk{
+position: absolute;
+  top: 315px;
+}
+#header #sk p{
+  margin-left: 25px;
+}
+#header h1{
+position: absolute;
+  top: 340px;
+  left: 360px;
+}
+.number{
+position: absolute;
+  top: 5px;
+  right: 27px;
+  font-size: 28px;
+  background: #fff;
+  padding: 6px;
+  border-radius: 10px;
+  width: 300px;
+  height: 70px;
+}
+.number b{
+
+}
+#box{
+  width: 300px;
+  /* float: left; */
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #fff;
+  margin: 15px auto;
+  border-radius: 10px;
+  transition: all .3s;
+}
+#box:hover{
+transition: all .3s;
+  box-shadow: 0px 0px 10px #ccc;
+  border: 1px solid #2777A1;
+}
+#box span{
+font-weight:bold;
+  font-size: 30px;
+}
+
+#left{
+  width: 480px;
+  float: left;
+  position:relative;
+  text-align:center;
+}
+#right{
+  width: 480px;
+  float: left;
+  position:relative;
+  text-align:center;
+}
+h4 span{
+font-size: 16px;
+}
+
+#footer{
+  margin-bottom: 30px;
+}
+
+form{
+  width: 350px;
+  text-align: center;
+  height: 300px;
+}
+input{
+  width: 320px;
+  height: 50px;
+  padding: 6px;
+  margin: 10px;
+}
+
+.logo{
+  color: #cc0000;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 15px #fff;
+  background: rgba(255, 255, 255, 0.63);
+  width: 385px;
+  border-radius: 10px;
+  padding: 6px;
+    height: 80px;
+}
+.red{
+  font-size: 12px !important;
+  color: #cc0000;
+  position: absolute;
+  right: 10px;
+}
+.text{
+  position: absolute;
+  top: 55px;
+  left: 10px;
+}
+
+#footer a{
+  background: #fff;
+  padding: 20px;
+  text-decoration: none;
+  color: #F0082B;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #222;
+  box-shadow: 0px 0px 5px #222;
+  border-radius: 10px;
+  width: 245px;
+  text-align: center;
+  transition: all .3s;
+  font-size: 20px;
+  margin: 15px auto;
+  display: block;
+}
+#footer a:hover{
+transition: all .3s;
+box-shadow: 0px 0px 10px #222;
+}

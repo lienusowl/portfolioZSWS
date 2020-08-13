@@ -1,0 +1,117 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+
+#header .texto .big1{
+	font-size: 2em;
+    padding-bottom: 10px;
+}
+#header .texto .big2{
+    margin-top: 0;
+    font-size: 1.6em;
+}
+#header .texto .big3{
+    font-size: 1.4em;
+    margin-top: 0;
+}
+#header .texto .big4{
+    font-size: 1.4em;
+    /* padding-top: 10px; */
+}
+#header .texto .big5{
+    font-size: 1.4em;
+    margin-top: 0px;
+}
+#header .texto{
+	background:#0bd2ec;
+}
+
+#two .two .col-md-9 .big1{
+	font-size: 2em;
+}
+#two .two .col-md-9 .red{
+	font-size: 1.4em;
+}
+
+#three .big{
+	font-size: 2em;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 2px 2px 0px rgba(34, 34, 34, 0.16);
+    text-align: center;
+}
+#three .big span{
+	padding:0;
+}
+#three .big1{
+	color: #e6fcff;
+    text-align: center;
+    font-size: 2em;
+    padding: 20px 0px;
+    text-shadow: 2px 2px 0px #222;
+}
+
+
+#four img{
+	 position: relative;
+    display: block;
+    margin: 0 auto;
+    top: 20px;
+    right: 0;
+}
+#four .big1{
+    font-size: 2em;
+    line-height: 40px;
+}
+#four .red{
+	font-size: 1.4em;
+    line-height: 40px;
+}
+
+
+#where .where {
+    background: url(../img/where.jpg) center top no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#where .big{
+    font-size: 2em;
+    line-height: 40px;
+    text-align: center;}
+#where img{
+	position: relative !important;
+    display: block;
+    margin: 0 auto;
+    top: 20px !important;
+    right: 0;
+    left: 0 !important;
+}
+
+#content .title-big{
+	font-size: 2em;
+	line-height: 40px;
+}
+
+
+
+
+
+
+
+
+}
+
+

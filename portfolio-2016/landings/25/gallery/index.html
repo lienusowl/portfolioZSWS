@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Галерея</title>
+	
+	<script src="js/jquery-1.4.4.min.js"></script>
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#products').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				effect: 'slide, fade',
+				crossfade: true,
+				slideSpeed: 200,
+				fadeSpeed: 500,
+				generateNextPrev: true,
+				generatePagination: false
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+	<div id="container">
+		<div id="products_example">
+			<div id="products">
+				<div class="slides_container">
+					<a href="#" target="_blank"><img src="img/1.jpg" alt="1144953 3 2x"></a>
+					<a href="#" target="_blank"><img src="img/2.jpg" alt="1144953 1 2x"></a>
+					<a href="#" target="_blank"><img src="img/3.jpg" alt="1144953 2 2x"></a>					
+					<a href="#" target="_blank"><img src="img/4.jpg" alt="1144953 4 2x"></a>
+					<a href="#" target="_blank"><img src="img/5.jpg" alt="1144953 5 2x"></a>
+					<a href="#" target="_blank"><img src="img/6.jpg" alt="1144953 6 2x"></a>
+					<a href="#" target="_blank"><img src="img/7.jpg" alt="1144953 6 2x"></a>
+				</div>
+				<ul class="pagination">
+					<li><a href="#"><img src="img/1.jpg" width="55" alt="1144953 3 2x"></a></li>
+					<li><a href="#"><img src="img/2.jpg" width="55" alt="1144953 1 2x"></a></li>
+					<li><a href="#"><img src="img/3.jpg" width="55" alt="1144953 2 2x"></a></li>
+					<li><a href="#"><img src="img/4.jpg" width="55" alt="1144953 4 2x"></a></li>
+					<li><a href="#"><img src="img/5.jpg" width="55" alt="1144953 5 2x"></a></li>
+					<li><a href="#"><img src="img/6.jpg" width="55" alt="1144953 6 2x"></a></li>
+					<li><a href="#"><img src="img/7.jpg" width="55" alt="1144953 6 2x"></a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

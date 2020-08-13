@@ -1,0 +1,239 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+background: #f6f6f6;
+color: #333;
+font-family: 'Open Sans', sans-serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+width:960px;
+position:relative;
+margin:0 auto;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+  color: #cc0000;
+  font-size: 26px;
+  text-align: center;
+  padding: 10px 0px;
+}
+h2{
+  color: #33383b;
+  font-size: 24px;
+  padding: 15px 0px;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+}
+h4{
+font-size: 1.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+#top{
+
+width:100%;
+  top: 45px;
+  background: #fff;
+  height: 100px;
+}
+#soc{
+  background-color: #1c1c1c;
+  min-height: 44px;
+  width: 100%;
+  top: 0px;
+}
+#soc p{
+  color: #7d7d7d;
+font-size: 14px;
+  padding-top: 12px;
+}
+#soc span{
+  color: #bebebe;
+}
+#number{
+  width: 300px;
+  float:left;
+  padding-left:30px;
+}
+#social{
+float:right;
+  width: 90px;
+}
+#social img{
+	transition: all 1.9s ease;
+	  width: 40px;
+}
+#social img:hover{
+    -moz-transform: rotate(-360deg); /* ?Ф?їN? Firefox */
+    -ms-transform: rotate(-360deg); /* ?Ф?їN? IE */
+    -webkit-transform: rotate(-360deg); /* ?Ф?їN? Safari, Chrome, iOS */
+    -o-transform: rotate(-360deg); /* ?Ф?їN? Opera */
+    transform: rotate(-360deg);
+	
+	-webkit-transition: all 0.9s ease; 
+	-moz-transition: all 0.9s ease; 
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease; 
+	transition: all 0.9s ease;
+}
+#logo{
+  width: 209px;
+  height: 168px;
+  position: absolute;
+  background: url('../img/logo.png') no-repeat;
+  top: -13px;
+  /* left: 33px; */
+}
+
+nav{
+width: 738px;
+  float: left;
+  min-height: 40px;
+  margin-top: 40px;
+  margin-left: 215px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav ul li{
+display:inline;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #222;
+  padding: 5px 5px;
+  border: 2px solid #cc0000;
+  transition: all .6s;
+}
+nav ul li a:hover{
+transition: all .3s;
+border: 2px solid #222;
+background:#cc0000;
+color:#fff;
+}
+
+#slider_inner{
+width: 100%;
+  height: 300px;
+  background: url('../img/slider_bg.jpg') center top;
+}
+
+#box_index{
+width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 3px;
+border: 3px solid #9D9898;
+
+  transition: all .3s;
+}
+#box_index:hover{
+transition: all .3s;
+border: 3px solid #222;
+
+}
+#box_index img{
+display:block;
+margin:0 auto;
+height: 160px;
+transition: all .3s;
+}
+#box_index:hover img{
+transform: scale(0.9) rotate(-1.5deg);
+-webkit-transform: scale(0.9) rotate(-1.5deg);
+-moz-transform: scale(0.9) rotate(-1.5deg);
+-ms-transform: scale(0.9) rotate(-1.5deg);
+-o-transform: scale(0.9) rotate(-1.5deg);
+transition: all .3s;
+}
+.big{
+padding: 10px 10px;
+  font-weight: bold;
+  color: #cc0000;
+}
+.small{
+  padding: 0px 10px;
+}
+.center{
+  text-align: center;
+}
+
+#footer{
+  background-color: #252625;
+  height: 300px;
+  border-top: 2px solid #000;
+}
+#footer ul{
+  width: 780px;
+  display: block;
+  margin: 15px auto;
+}
+#footer ul a{
+color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
+  transition: all .3s;
+}
+#footer ul a:hover{
+transition: all .3s;
+color: #ccc;
+text-decoration: underline;
+}
+#footer ul li{
+  display: inline;
+}
+#footer #number{
+  width: 260px;
+}
+#footer #number p{
+color:#eee;
+}
+#footer #number span{
+color:#ccc;
+font-size:12px;
+}
+#footer #line{
+  border-top: 1px solid #eee;
+  margin: 15px;
+}
+#footer #map{
+  float: left;
+  width: 405px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #cc0000;
+}

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+<meta charset="utf-8">
+<title>PS</title>
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/smoothscroll.js"></script>
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.2.1.pack.js"></script>
+<script src="js/for_fancybox.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+
+
+
+<input type="hidden" name="page" value="/a/">
+<div class="full-width header-bg">
+	<div class="header-img">
+		<header>
+		<div id="center">
+			<a class="logo"></a>
+			<p>Производство сшивной упаковки</p>
+			<div class="slogan">
+				<p>Произведем упаковку <br>
+для вашего товара <br>
+за 2 недели
+				</p>
+				<a class="modalbox" id="polu" href="#popup">Получить образец</a>
+			</div>
+			<div class="t_phone">
+				<p><span class="ya_phone">+7 (495) 111-11-11</span><br></p>
+				<a href="#popup" class="modalbox" class="learn-more">заказать звонок</a>
+				
+			</div>
+			<a href="#popup" class="modalbox" class="learn-more">
+				<figure class="systems cctv">
+					<img src="images/cctv.png" alt="alternate text" width="99" height="99">
+					<figcaption>Упаковка для подушек</figcaption>
+				</figure>
+			</a>
+			<a href="#popup" class="modalbox" class="learn-more">
+				<figure class="systems conditioner">
+					<img src="images/conditioner.png" alt="alternate text" width="99" height="99">
+					<figcaption>Упаковка для одеял</figcaption>
+				</figure>
+			</a>
+			<a href="#popup" class="modalbox" class="learn-more">
+				<figure class="systems signaling">
+					<img src="images/signaling.png" alt="alternate text" width="99" height="99">
+					<figcaption>Чехлы для одежды</figcaption>
+				</figure>
+			</a>
+			<a href="#popup" class="modalbox" class="learn-more">
+				<figure class="systems electric-power-supply">
+					<img src="images/electric-power-supply.png" alt="alternate text" width="99" height="99">
+					<figcaption>Чехлы для свадебных платьев</figcaption>
+				</figure>
+			</a>
+			<a href="#popup" class="modalbox" class="learn-more">
+				<figure class="systems ventilation">
+					<img src="images/ventilation.png" alt="alternate text" width="99" height="99">
+					<figcaption>Косметички</figcaption>
+				</figure>
+			</a>
+			
+		</div>	
+		</header>
+	</div>
+</div>
+
+<div class="full-width action-bg" id="promo">
+	<div class="action-img">
+		<div class="action clearfix">
+		<div id="center">
+			
+			
+			<div class="application">
+				<h4>Оставьте заявку прямо сейчас</h4>
+				<p>и получите доступ к оптовым ценам</p>
+				
+			</div>
+			
+			<form class="form" action="order.php" method="post">
+				<input type="hidden" name="referer" value="http://www.3v-service.ru/">
+				<input type="hidden" name="formname" class="formname" value="">
+				
+				<label class="name left required"><input type="text" name="name" placeholder="ваше имя"></label>
+				
+				<label class="phone left"><input type="text" name="number" placeholder="ваш телефон" required></label>
+							<label class="email left required"><input type="email" name="email" placeholder="ваш e-mail"></label>
+							
+				<input type="submit" value="Получить прайс" name="submit" id="sub_form">
+				
+			</form>
+		
+		</div>
+		</div>	
+	</div>
+</div>
+
+<div id="clear"></div>
+
+<div class="full-width achievements-bg">
+	<div class="achievements">
+	<div id="clear">
+		<div class="achievements-icons clearfix">
+			<div class="sro">Изделия любой формы</div>
+			<div class="mchs">Выполняем любые объемы</div>
+			<div class="rtn">Соответствует экологическим требованиям</div>
+		</div>
+		<div class="achievements-line"></div>
+		<div class="achievements-list clearfix scroll" data-class='animate_achive'>
+			<div class=""><p><span class="achievements-number">8</span><span> лет<br></span><span class="achievements-number">работы</span><br>на рынке упаковки</p></div>
+			<div class=""><p>Работем с <span class="achievements-number">31 постоянным</span><br>заказчиком</p></div>
+			<div class=""><p>Выполнили<br><span class="achievements-number">36000<br>заказов</span></p></div>
+			<div class=""><p>Произведено<br><span class="achievements-number">5600000<br>изделий</span></p></div>
+		</div>
+	</div>
+</div>
+</div>
+
+
+<div id="clear"></div>
+
+<div id="kit">
+<div style="width:1060px;margin-left: auto;margin-right: auto;">
+<div id="center">
+	<h1>Преимущества работы<br> с нашей компанией</h1>
+	<div id="box1">
+		<img src="images/kit1.png" alt="">
+		<h3>Китай</h3>
+		<p>Зарубежные поставщики</p>
+		<span><img src="images/box1.png">Зависимость цены<br>
+			от изменения курса валют</span>
+
+		<span><img src="images/box1.png">Несоответствие заказанного <br>
+			и полученного товара</span>
+
+		<span><img src="images/box1.png">Некачественные<br>
+			материалы</span>
+
+		<span><img src="images/box1.png">Долгий строк поставок и <br>
+			прохождения таможни</span>
+
+		<span><img src="images/box1.png">Большие единоразовые <br>
+			вложения из-за <br>
+			необходимости заказывать<br>
+			большие объемы</span>
+
+		</ul>
+	</div>
+	<div id="box2">
+		<img src="images/kit2.png" alt="">
+		<h3>PackStandart</h3>
+		<p>Российский поставщик</p>
+		<span><img src="images/box2.png">Нет прямой зависимости от <br>
+			курса валют</span>
+
+		<span><img src="images/box2.png">Вы получаете то,<br>
+			что заказали</span>
+
+		<span><img src="images/box2.png">Изделия соответствуют всем<br>
+			санитарным нормам</span>
+
+		<span><img src="images/box2.png">От заказа до доставки в <br>
+			среднем 2 недели</span>
+
+		<span><img src="images/box2.png">Возможность заказа<br>
+			небольших парти</span>
+		</ul>
+	</div>
+</div>
+</div>
+</div>
+
+<div id="clear"></div>
+
+<div class="full-width systems-description-bg" id="system">
+	<div class="systems-description-img">
+		<div class="engineering-systems clearfix">
+		
+			<h3>Подберем оптимальные материалы для упаковки</h3>
+			<div class="description-signaling">
+				<h5>Спанбонд</h5>
+				<ul>
+					<li>Высококлассное европейское качество</li>
+					<li>Широкая цветовая гамма</li>
+					<li>Плотность материала на выбор</li>
+				</ul>
+				<a href="#popup" class="modalbox" class="learn-more">
+				<div class="submoney"></div>
+			</a>
+
+			</div>
+			<div class="description-conditioner">
+				<h5>Двунитка</h5>
+				<ul>
+					<li>Натуральное 100% хлопчатобумажное сырье</li>
+					<li>Повышенная износостойкость</li>
+					<li>Приятные тактильные и визуальные ощущения</li>
+				</ul>
+				<a href="#popup" class="modalbox" class="learn-more">
+				<div class="submoney"></div>
+			</a>
+			</div>
+			<div class="description-cctv">
+				<h5>ПВД</h5>
+				<ul>
+					<li>Высококачественная многослойная структура</li>
+					<li>Высокое сопротивление на разрыв</li>
+					<li>Прозрачный, прочный, глянцевый материал</li>
+				</ul>
+				<a href="#popup" class="modalbox" class="learn-more">
+				<div class="submoney"></div>
+			</a>
+			</div>
+			
+			<div class="description-sheat-supply">
+				<h5>ПВХ</h5>
+				<ul>
+					<li>Стабильное качество</li>
+					<li>Высокая прозрачность</li>
+				</ul>
+				<a href="#popup" class="modalbox" class="learn-more">
+				<div class="submoney"></div>
+			</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div id="clear"></div>
+
+<div class="full-width maintenance-bg" id="obsl">
+	<div class="maintenance-img">
+		<section class="your-best-choice clearfix" id="benefit">
+			<article class="clearfix">
+			<div id="clear">
+				<h4>Почему 250 клиентов уже выбрали нас?</h4>
+				
+				<ul class="clearfix">
+					<li class="employee">
+						<div></div>
+						<h5>Более 40 сотрудников</h5>
+						<p>Опытные швеи и квалифицированные рабочие </p>
+					</li>
+					<li class="object">
+						<div></div>
+						<h5>Бесплатная доставка</h5>
+						<p>груза до Москвы</p>
+					</li>
+					<li class="around-the-clock">
+						<div></div>	
+						<h5>Работаем 24 часа в сутки</h5>
+						<p>Наш телефон работает круглосуточно</p>
+					</li>
+					<li class="warehouses">
+						<div></div>
+						<h5>Собственные производственные площади</h5>
+						
+					</li>
+				
+				<ul>
+				</div>
+			</article>
+			
+		</section>
+	</div>
+</div>
+
+<div class="full-width action-bg">
+	<div class="action-img">
+		<div class="action clearfix">
+		<div id="clear">
+			
+			<div class="application">
+				<h4>Оставьте заявку и получите</h4>
+				<p>консультацию наших специалистов по всем видам инженерных систем</p>
+				
+			</div>
+			
+			<form class="form"  action="order.php" method="post">
+				<input type="hidden" name="referer" value="../index.html">
+				<input type="hidden" name="formname" class="formname" value="">
+				
+				<label class="name left required"><input type="text" name="name" placeholder="ваше имя"></label>
+				
+				<label class="phone left"><input type="text" name="number" placeholder="ваш телефон" required></label>
+				
+				<label class="email left required"><input type="email" name="email" placeholder="ваш e-mail"></label>
+
+				
+				<input type="submit" value="Получить прайс" name="submit" id="sub_form">
+			</form>
+		</div>
+		</div>
+	</div>
+</div>
+
+	<div id="clear"></div>	
+		
+		<section class="our-customers" id="clients">
+			<h2>Наши клиенты</h2>
+			<article>
+				<ul class="clearfix">
+					<li>
+						<img src="images/customers/tnk-vr.jpg" >
+						<p>Компания<br>«OL-Tex»</p>
+					</li>
+					<li>
+						<img src="images/customers/beeline.jpg" >
+						<p>Компания<br>«BELASHOFF»</p>
+					</li>
+					<li>
+						<img src="images/customers/rostik.jpg">
+						<p>ПКФ<br>«Тесма»</p>
+					</li>
+					<li>
+						<img src="images/customers/cmi.jpg">
+						<p>Компания<br>«Лика»</p>
+					</li>
+					<li>
+						<img src="images/customers/pancho.jpg">
+						<p>Оптовая компания<br>«Текстиль Про»</p>
+					</li>
+					
+					
+					
+
+
+				</ul>
+			</article>
+		</section>
+		
+		<div id="clear"></div>	
+		
+		<section class="how-we-work">
+			<h2>Как мы работаем</h2>
+			<article class='scroll' data-class='animate-qual'>
+				<p class="qualification-2">Вы отправляете нам эскиз изделия на электронную почту</p>
+				<p class="qualification-4">Утверждение деталей, утверждение проекта</p>
+				<p class="qualification-6">Отгрузка товара<br></p>
+				<div class="scheme">
+					<div class="lines lines1"></div>
+					<div class="lines lines2"></div>
+					<div class="lines lines3"></div>
+					<div class="lines lines4"></div>
+					<div class="lines lines5"></div>
+					<div class="lines lines6"></div>
+				</div>
+				<p class="qualification-1">Вы оставляете заявку — мы связываемся с вами в течение  10 минут</p>
+				<p class="qualification-3">Подсчет стоимости изделия</p>
+				<p class="qualification-5">Пошив партии</p>
+			</article>
+		</section>
+
+		<div id="clear"></div>	
+		
+		<section class="reviews" id="reviews">
+			<h2>Отзывы клиентов</h2>
+			<article class="clearfix">
+				<aside>
+					<img src="images/reviews/reviews-img1.png">
+					<h5>Оксана Артуровна </h5>
+					<p>Директор свадебного салона</p>
+				</aside>
+				<div class="reviews-cont">
+					<p>Для современного свадебного салона очень важен полный контакт с клиентом, у нашего салона очень хорошая реклама и профессиональные менеджеры, единственным неудобным моментом было вручать готовое платье невесте в целофановом пакете. Обратились в компанию PACKSTANDART с просьбой сделать чехлы для свадебных платьев с логотипом нашего салона. 
+</p>
+					
+					<div class="reviews-cont-citation">
+						<h4>Работа была произведена качественно и в короткие сроки мы получили готовую партию изделий с нашим логотипом.</h4>
+					</div>	
+						
+				</div>
+			</article>
+			
+			<article class="clearfix">
+				<aside>
+					<img src="images/reviews/reviews-img2.png">
+					<h5>Андрей Евгеньевич</h5>
+					<p>Директор образовательного комплекса</p>
+				</aside>
+				<div class="reviews-cont">
+					<p>Мы выиграли тендер на поставку одеял для крупной структуры. Но наш подрядчик не мог в одиночку отшить упаковку на всю партию, а времени было впритык. Через знакомых вышли на компанию PACKSTANDART. </p>
+					<div class="reviews-cont-citation">
+						<h4>Готов сказать, что доволен сотрудничеством, партия была изготовлена вовремя. На данный момент постоянно работаем с этой компанией.</h4>
+					</div>	
+						
+				</div>
+			</article>
+			
+			<article class="clearfix">
+				<aside>
+					<img src="images/reviews/reviews-img3.png">
+					<h5>Алексей</h5>
+					<p>Заместитель директора строительной компании</p>
+				</aside>
+				<div class="reviews-cont">
+					<p>Наша компания специализируется на декоративных постельных принадлежностях и подушках с наполнением из гречишной лузги. Для поставки в регионы встала необходимость современной и качественной упаковки. 
+					</p>
+					<div class="reviews-cont-citation">
+						<h4>Подрядчиком выбрали PACKSTANDART и не ошиблись, сотрудники предложили несколько вариантов упаковки и подробно объяснили все нюансы. Приятным бонусом стала бесплатная доставка до Москвы.</h4>
+					</div>	
+						
+				</div>
+			</article>
+			
+		</section> 
+		
+			
+<div class="full-width action-bg">
+	<div class="action-img">
+		<div class="action clearfix">
+			
+			
+
+			
+			<div class="application">
+				<h4>Оставьте заявку и получите</h4>
+				<p>консультацию наших специалистов по всем видам инженерных систем</p>
+				
+			</div>
+			
+			<form class="form"  action="order.php" method="post">
+				<input type="hidden" name="referer" value="../index.html">
+				<input type="hidden" name="formname" class="formname" value="">
+				
+				<label class="name left required"><input type="text" name="name" placeholder="ваше имя"></label>
+								<label class="phone left"><input type="text" name="number" placeholder="ваш телефон" required></label>
+				
+				<label class="email left required"><input type="email" name="email" placeholder="ваш e-mail"></label>
+			
+			
+			<input type="submit" value="Получить прайс" name="submit" id="sub_form">
+			</form>
+		</div>
+	</div>
+</div>
+
+
+		<section class="map scroll" data-class='animate-lupa' id="contacts">
+			<div class="address">
+				<h5>Мы находимся по адресу:</h5>
+				<p>____</p>
+			</div>
+			
+			<div class="map-effect">
+				<img class="map-bg" src="images/map.jpg">
+				<img class="lup" src="images/lup.png">
+			</div>
+		
+		</section>
+		
+		
+		<section class="questions">
+			<h1>Есть вопросы?</h1>
+			<a href="#popup" class="modalbox">задайте их менеджеру</a>
+		</section>
+
+		
+<div class="footer">
+	<footer class="clearfix">
+		<div class="footer-phone">
+			<p><span class="ya_phone">+7 (495) 111-11-11</span><br></p>
+			<a href="#popup" class="modalbox" class="learn-more">заказать звонок</a>
+		</div>
+		<div class="development">
+	
+		</div>
+	</footer>
+</div>
+
+	
+
+
+<div id="popup" style="display:none;">
+	<div id="form_bg">
+		<h4>ОСТАВЬТЕ ЗАЯВКУ</h4>
+		<p style="font: 28px/22px 'pf_dindisplay_prolight';">и мы свяжемся с вами в ближайшее время</p>
+		<form class="popup-form" action="order.php" method="post" id="f-form1">
+			<input type="hidden" name="tid" value="Заказ c сайта">
+			<p style="text-align: left;padding-bottom: 0px;">Имя</p>
+			<input name="name" type="text" tabindex="1" placeholder="введите ваше имя" style="padding: 5px;width: 240px;">
+			<p style="text-align: left;padding-bottom: 0px;">Телефон</p>
+			<input required type="text" name="number" tabindex="2"  placeholder="введите ваш телефон" style="padding: 5px;width: 240px;">
+			<p style="text-align: left;padding-bottom: 0px;">E-mail</p>
+			<input required type="text" name="email" tabindex="3"  placeholder="введите ваш e-mail" style="padding: 5px;width: 240px;">
+			
+			<textarea name="message" id="message" cols="30" rows="10" style="position: absolute;
+top: 32px;
+left: 290px;
+height: 110px;
+color: #222;
+padding: 10px;" placeholder="введите ваш вопрос (необязательно)"></textarea>
+			
+			<input class="button1" id="submit" type="submit" name="submit" value="Оставьте заявку" style="">
+		</form>
+	</div>
+</div>
+</body>
+</html>

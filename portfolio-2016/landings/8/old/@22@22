@@ -1,0 +1,2602 @@
+<!DOCTYPE HTML>
+<html>
+<head><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o?o:n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-686.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    
+    
+        <title>Страница 696140</title>
+        <meta name="keywords" content=""/>
+        <meta name="description" content=""/>
+        <meta name="robots" content="INDEX, FOLLOW"/>
+
+        <meta property="og:image" content="" />
+        <meta property="og:title" content="Страница 696140" />
+        <meta property="og:description" content="" />
+
+        
+    
+    
+
+    
+    
+
+
+    
+
+    
+    
+        <script>
+            var redirect = false;
+            
+        </script>
+    
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript">jQuery.migrateMute = true;</script>
+        <script src="//static.lpgenerator.ru/media/js/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript">
+            if (window.jQuery == undefined) {
+                document.write('<scr'+'ipt type="text/javascript" src="//static.lpgenerator.ru/media/'+'js/jquery-1.4.4.js">'+'<\/scr'+'ipt>');
+            }
+        </script>
+    
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+    
+        <link rel="stylesheet" type="text/css" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/minified/jquery-ui.min.css" />
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    
+
+    <link href="//static.lpgenerator.ru/media/css/global/screen.css?v=2015.09.01" rel="stylesheet" type="text/css" media="screen,projection" />
+    <link href="//static.lpgenerator.ru/media/css/print.css?v=2015.09.01" rel="stylesheet" type="text/css" media="print" />
+
+    <!--[if lt IE 8]>
+    <link href="//static.lpgenerator.ru/media/css/ie.css?v=2015.09.01" rel="stylesheet" type="text/css" media="screen,projection" />
+    <![endif]-->
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.tools.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.form.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.watermark.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/jquery.maskedinput.min.js"></script>
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/ui/js/i18n/jquery.ui.datepicker-ru.js"></script>
+
+    <script type="text/javascript" src="//yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="//yandex.st/jquery/fancybox/1.3.4/jquery.fancybox.min.css" type="text/css" media="screen" />
+
+    
+        <script type="text/javascript">
+            jq_144 = jQuery.noConflict(true);
+        </script>
+    
+
+    
+
+    
+    <link href="//static.lpgenerator.ru/media/css/public.css?v=2015.09.01" rel="stylesheet" type="text/css" media="screen,projection" />
+    
+        <style>.page_container { width: 960px; background: 0% 0% no-repeat #FFFFFF ; height: 100%; } #middle_container { width: 960px; } .preview-main-container,.main-container { width: 960; z-index: 101; anchor-id: #block-page; bg-pos: 0% 0%; background-no-scroll: on;  }  .preview-main-container {min-width: 960px !important;}</style>
+    
+    
+        
+          <link rel="stylesheet" href="/media/css/upgrade/widget/popup.css?v=2015.09.01" type="text/css" media="screen" />
+        
+    
+        
+          <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic,900,900italic,100,100italic&amp;subset=latin,cyrillic,cyrillic-ext" type="text/css" media="screen" />
+        
+    
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/upgrade/manager.js?v=2015.09.01"></script>
+
+    
+    <script type="text/javascript">
+      var variantId = 961220;
+    </script>
+    
+        
+    
+    
+
+
+    
+
+    
+
+    
+
+
+    <script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/_init.js"></script>
+<script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/extensions/array.js"></script>
+<script type="text/javascript" src="//static.lpgenerator.ru/media/js/lpg/utils/elements.js"></script>
+
+
+    <!-- Start Visual Website Optimizer Asynchronous Code -->
+    
+    <script type='text/javascript'>
+    var _vwo_code=(function(){
+    var account_id=186380,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+    <!-- End Visual Website Optimizer Asynchronous Code -->
+    
+</head>
+<body style="" class="body-editor">
+
+    
+        <style>
+#overlay-block-new12 .line.b1422439888566 {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:38px !important;}
+#overlay-block-new12 .line.b1422439888570 input {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:30px !important;}
+#block-new12  a {font-family: 'Roboto', sans-serif !important; }
+#block-new12  a:hover {color:#b8ad12 !important; }
+
+#block-new80  a {font-family: 'Roboto', sans-serif !important; font-weight: 300 !important;}
+#block-new80  a:hover {color:#b8ad12 !important; }
+
+#block-new82  a {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important;}
+#overlay-block-new82 .line.b1422439888566 {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:40px !important;}
+#overlay-block-new82 .line.b1422439888570 input {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:30px !important;}
+
+#block-new83  a {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important;}
+#overlay-block-new83 .line.b1422439888566 {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:40px !important;}
+#overlay-block-new83 .line.b1422439888570 input {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:30px !important;}
+
+#block-new84  a {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important;}
+#overlay-block-new84 .line.b1422439888566 {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:40px !important;}
+#overlay-block-new84 .line.b1422439888570 input {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:30px !important;}
+
+#block-new85  a {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important;}
+#overlay-block-new85 .line.b1422439888566 {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:40px !important;}
+#overlay-block-new85 .line.b1422439888570 input {font-family: 'Roboto', sans-serif !important; font-weight: 100 !important; font-size:30px !important;}
+
+</style>
+    
+
+
+
+
+
+
+<style>
+	i.ico {
+		display: inline-block;
+		background-image: url('//static.lpgenerator.ru/media/app/src/wrapper/resource/img/ico.png?v2015.09.01')!important;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="//static.lpgenerator.ru/media/app/src/wrapper/resource/css/ico.css" />
+
+
+    
+
+
+    
+
+
+    
+
+    
+    <div class="container preview-main-container" style="">
+    
+    
+    <div id="loading_bar" style="display: none;"></div>
+
+    
+        
+            <div id="block-new3" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;height: 767px;width: 100%;z-index: 1;anchor-id: #block-new3;background-color: #402323;left: 0;top: 0;" class="outer-section"></div>
+        
+            <div id="block-new6" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 2030px;height: 5770px;width: 100%;z-index: 1;anchor-id: #block-new6;background-color: #eeeeee;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new7" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 7800px;height: 814px;width: 100%;z-index: 1;anchor-id: #block-new7;background-color: #402323;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new4" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 767px;height: 405px;width: 100%;z-index: 1;anchor-id: #block-new4;background-color: #eeeeee;left: 0;" class="outer-section"></div>
+        
+            <div id="block-new5" style="position: absolute; display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;capture: on;container: on;top: 1172px;height: 858px;width: 100%;z-index: 1;anchor-id: #block-new5;background-color: #eeeeee;left: 0;" class="outer-section"></div>
+        
+        <div id="fb-root"></div>
+        <div id="preview" class="page_container" style="margin: 0 auto; position: relative; ">
+            
+
+    
+        
+            <style id="block-style-new221"> #block-new221  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 7188.84375px;height: 378px;width: 350px;z-index: 194;anchor-id: #block-new221;left: 527.953125px;}#block-new221 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new221" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/1dgtlzgs.jpg#size_470x506"
+        alt=""
+        width="350"
+        height="378" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new222" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8160.868560791016px;height: 63px;width: 300px;z-index: 146;anchor-id: #block-new222;left: 313.07291099609375px;">
+              <p style="text-align: center;"><span style="color:#FFFFFF;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">Без предоплаты</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new223" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8567.965942382812px;height: 48px;width: 681px;z-index: 197;anchor-id: #block-new223;left: 139px;">
+              <p style="text-align: center; line-height: 0.5;"><span style="color:#D3D3D3;"><span style="line-height: 0.5;">ООО Грин-Стайл, ИНН 7713725115, ОГРН 1117746196765 127474, г Москва, шоссе Дмитровское, д 80 Б</span></span></p>
+
+<p style="text-align: center; line-height: 0.5;"><span style="color:#D3D3D3;">Политика конфиденциальности</span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new189"> #block-new189  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 5792.65625px;height: 366px;width: 366px;z-index: 185;anchor-id: #block-new189;left: 69.546875px;}#block-new189 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new189" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/111.png#size_400x400"
+        alt=""
+        width="366"
+        height="366" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new188" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5677.000183105469px;height: 91px;width: 469px;z-index: 186;anchor-id: #block-new188;left: 17.937482988281204px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">всемирно известные</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Casio Edifice</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new181" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 5473.96875px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new181;border-style: none;background-color: #d0c413;left: 666.734375px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new180" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5497.296875px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new180;left: 88.6875px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">9990 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new183"> #block-new183  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 5561.65625px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new183;font-weight: bold;background-color: #d0c413;left: 127.921875px;}#block-new183 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new183:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new183" >
+              <a href="http://armani2.best-gooods.ru/?ref=2334&amp;lnk=86017"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new182" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5496.984375px;height: 64px;width: 321px;z-index: 120;anchor-id: #block-new182;left: 544.421875px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new185"> #block-new185  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 5010.65625px;height: 437px;width: 247px;z-index: 182;anchor-id: #block-new185;left: 114.859375px;}#block-new185 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new185" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/49df75e7804346566ecfa9cf89d1acc0.jpg#size_836x1500"
+        alt=""
+        width="247"
+        height="437" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new184"> #block-new184  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 5563.640625px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new184;font-weight: bold;background-color: #d0c413;left: 580.40625px;}#block-new184 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new184:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new184" >
+              <a href="/pages/goto/2529878/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new187" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 5656.000183105469px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new187;border-style: none;background-color: #eeeeee;left: 28.624982988281204px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new186"> #block-new186  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 5060.328125px;height: 381px;width: 405px;z-index: 183;anchor-id: #block-new186;left: 494.140625px;}#block-new186 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new186" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/welling7.jpg#size_515x488"
+        alt=""
+        width="405"
+        height="381" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new111" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1380px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new111;left: 60px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">знаменитые</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">BREITLING NAVITIMER</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new116" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1928.9757690429688px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new116;left: 83.090306015625px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new117" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1904px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new117;border-style: none;background-color: #d0c413;left: 199px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new115"> #block-new115  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 1488.9733276367188px;height: 396px;width: 230px;z-index: 170;anchor-id: #block-new115;left: 121.45736230468754px;}#block-new115 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new115" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/vsegorodarossiichasybreitlingnavitimer257999.jpeg#size_302x520"
+        alt=""
+        width="230"
+        height="396" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new118" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1911.99658203125px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new118;border-style: none;background-color: #d0c413;left: 662.0834090429687px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new75"> #block-new75  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7799.984375px;height: 737px;width: 1500px;z-index: 96;anchor-id: #block-new75;left: -270px;}#block-new75 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new75" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-0_iWGfz5G.jpg#size_1600x976"
+        alt=""
+        width="1500"
+        height="737" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new72"> #block-new72  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;font-size: 26px;color: #ffffff;top: 605px;height: 2px;width: корь скроллаpx;z-index: 149;anchor-id: #block-new72;left: 474px;}#block-new72 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: корь скроллаpx;height: 2px;line-height: 2px;color: #ffffff;font-size: 26px;font-family: ;font-weight: ;}#block-new72:hover{background-color: #;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new72" >
+              <a href="#"
+   target="_self"
+   data-label=""
+        ></a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new70" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8234.861633300781px;height: 72px;width: 287px;z-index: 147;anchor-id: #block-new70;left: 645.0521590429687px;">
+              <p style="text-align: center; line-height: 1.5;"><span style="color:#d5ca2a; line-height: 1.5;"><span style="font-size: 18px; font-weight: 100; line-height: 1.5;"><span style="font-family: roboto, sans-serif; line-height: 1.5;">Мы предоставляем гарантию на все наши товары сроком в 12 месяцев.</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new101"> #block-new101  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 792.9861297607422px;height: 395px;width: 216px;z-index: 168;anchor-id: #block-new101;left: 583.0903670507812px;}#block-new101 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new101" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/3-chasxneyxry_QQs3khv.png#size_299x547"
+        alt=""
+        width="216"
+        height="395" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new100" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1140px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new100;border-style: none;background-color: #d0c413;left: 660px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new103" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1220px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new103;left: 540px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">7490 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new102" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 701.9965667724609px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new102;left: 508.10764px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Легендарные</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Rolex Daytona</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new105"> #block-new105  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 1286px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new105;font-weight: bold;background-color: #d0c413;left: 580px;}#block-new105 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new105:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new105" >
+              <a href="/pages/goto/2524891/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new104" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1203.9757690429688px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new104;border-style: none;background-color: #d0c413;left: 651.2153670507812px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new106" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 699.9812164306641px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new106;left: 80.47109521484379px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">армейские часы</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">swiss army</p>
+
+          </div>
+        
+    
+        
+            
+        
+        
+        
+    
+        
+            <style id="block-style-new54"> #block-new54  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8019.9375px;height: 107px;width: 107px;z-index: 143;anchor-id: #block-new54;left: 421.859375px;}#block-new54 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new54" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-1_FZJNvfA.png#size_107x107"
+        alt=""
+        width="107"
+        height="107" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new55"> #block-new55  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8019.859375px;height: 107px;width: 107px;z-index: 143;anchor-id: #block-new55;left: 740.828125px;}#block-new55 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new55" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-1_FZJNvfA.png#size_107x107"
+        alt=""
+        width="107"
+        height="107" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new56"> #block-new56  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8046.8125px;height: 50px;width: 50px;z-index: 144;anchor-id: #block-new56;left: 106.796875px;}#block-new56 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new56" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-2_2DGAjWf.png#size_50x50"
+        alt=""
+        width="50"
+        height="50" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new57"> #block-new57  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8045.921875px;height: 50px;width: 50px;z-index: 144;anchor-id: #block-new57;left: 448.84375px;}#block-new57 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new57" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-2_2DGAjWf.png#size_50x50"
+        alt=""
+        width="50"
+        height="50" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new52" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7882px;height: 66px;width: 960px;z-index: 142;anchor-id: #block-new52;left: -4px;">
+              <p style="text-align: center; line-height: 1.2;"><span style="color: rgb(255, 255, 255); line-height: 1.2;"><span style="font-size: 39px; font-weight: 100; line-height: 1.2;"><span style="font-family: roboto, sans-serif; line-height: 1.2;">Основные принципы нашей работы:</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new53"> #block-new53  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8018.828125px;height: 107px;width: 107px;z-index: 143;anchor-id: #block-new53;left: 78.796875px;}#block-new53 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new53" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-1_FZJNvfA.png#size_107x107"
+        alt=""
+        width="107"
+        height="107" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new58"> #block-new58  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 8046.875px;height: 50px;width: 50px;z-index: 144;anchor-id: #block-new58;left: 769.90625px;}#block-new58 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new58" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/127621/4-2_2DGAjWf.png#size_50x50"
+        alt=""
+        width="50"
+        height="50" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new134" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 2605px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new134;border-style: none;background-color: #d0c413;left: 654.3332959765625px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new135"> #block-new135  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 2683px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new135;font-weight: bold;background-color: #d0c413;left: 584.3332959765625px;}#block-new135 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new135:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new135" >
+              <a href="/pages/goto/2528967/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new136"> #block-new136  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2192.0000610351562px;height: 390px;width: 220px;z-index: 173;anchor-id: #block-new136;left: 595.3332959765625px;}#block-new136 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new136" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/watchtrans.gif#size_361x640"
+        alt=""
+        width="220"
+        height="390" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new137" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 2770px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new137;border-style: none;background-color: #eeeeee;left: 30.624982988281204px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new131" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 2599.9827270507812px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new131;border-style: none;background-color: #d0c413;left: 204.5660140234375px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new132" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2082.0000610351562px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new132;left: 501.33329597656245px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">TAG HEUER</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">CARRERA X</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new133" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2617px;height: 62px;width: 321px;z-index: 120;anchor-id: #block-new133;left: 550.3332959765625px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new158" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4078px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new158;left: 84.5624829882812px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">7650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2290 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new159"> #block-new159  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 4140px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new159;font-weight: bold;background-color: #d0c413;left: 122.2499829882812px;}#block-new159 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new159:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new159" >
+              <a href="http://longines.best-gooods.ru/?ref=2334&amp;lnk=86010"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new156"> #block-new156  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 3626.328125px;height: 377px;width: 267px;z-index: 178;anchor-id: #block-new156;left: 107.796875px;}#block-new156 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new156" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/t13mguxe0xxxxxxxxx0-itempic_QSn4PDu.jpg#size_350x500"
+        alt=""
+        width="267"
+        height="377" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new157" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4060px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new157;border-style: none;background-color: #d0c413;left: 191.9374829882812px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new152" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 3484.0001831054688px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new152;border-style: none;background-color: #eeeeee;left: 22.312482988281204px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new153" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3498px;height: 91px;width: 385px;z-index: 169;anchor-id: #block-new153;left: 54.312482988281204px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы с историей</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Longines</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new150" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3341.988525390625px;height: 64px;width: 321px;z-index: 120;anchor-id: #block-new150;left: 544.8011445957031px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6290 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1890 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new151"> #block-new151  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 3405px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new151;font-weight: bold;background-color: #d0c413;left: 593.6457959765625px;}#block-new151 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new151:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new151" >
+              <a href="/pages/goto/2528968/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new25" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1220px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new25;left: 91px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6630 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new24" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1201px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new24;border-style: none;background-color: #d0c413;left: 202px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new128" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2079.947982788086px;height: 90px;width: 385px;z-index: 169;anchor-id: #block-new128;left: 63.90628501953125px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Спортивные часы</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">WEIDE</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new123"> #block-new123  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 1990.0000610351562px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new123;font-weight: bold;background-color: #d0c413;left: 584.0972029882812px;}#block-new123 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new123:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new123" >
+              <a href="/pages/goto/2527956/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new122" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1928.9931335449219px;height: 64px;width: 321px;z-index: 120;anchor-id: #block-new122;left: 543.73264px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">8250 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2490 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new121"> #block-new121  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 1454.9548950195312px;height: 428px;width: 292px;z-index: 171;anchor-id: #block-new121;left: 543.94234765625px;}#block-new121 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new121" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/ulysse-nardin.png#size_437x642"
+        alt=""
+        width="292"
+        height="428" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new120" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 1378.9413757324219px;height: 47px;width: 416px;z-index: 169;anchor-id: #block-new120;left: 492.96163476562504px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы Ulysse Nardin&nbsp;</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new127"> #block-new127  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 2680.6424560546875px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new127;font-weight: bold;background-color: #d0c413;left: 137.04861900390625px;}#block-new127 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new127:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new127" >
+              <a href="http://mltop.net/wfrnb456/"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new126" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2617.9862060546875px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new126;left: 96.04166099609375px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">5229 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2490 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new125"> #block-new125  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2185.59033203125px;height: 386px;width: 295px;z-index: 172;anchor-id: #block-new125;left: 95.3645980078125px;}#block-new125 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new125" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/pretc05_ut8pIej.jpg#size_368x482"
+        alt=""
+        width="295"
+        height="386" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new124" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 2070px;height: 2px;width: 888px;z-index: 129;anchor-id: #block-new124;border-style: none;background-color: #eeeeee;left: 36px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new149" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 3324.971466064453px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new149;border-style: none;background-color: #d0c413;left: 657.1448945957031px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new148"> #block-new148  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2892.640625px;height: 372px;width: 372px;z-index: 176;anchor-id: #block-new148;left: 494.265625px;}#block-new148 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new148" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/1620654005.jpg#size_500x500"
+        alt=""
+        width="372"
+        height="372" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new145"> #block-new145  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 3405px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new145;font-weight: bold;background-color: #d0c413;left: 126.6249829882812px;}#block-new145 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new145:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new145" >
+              <a href="http://carrera8.best-gooods.ru/?ref=2334&amp;lnk=86006"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new144" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3340px;height: 64px;width: 321px;z-index: 120;anchor-id: #block-new144;left: 83.3124829882812px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">7950 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2390 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new146" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2806px;height: 45px;width: 385px;z-index: 169;anchor-id: #block-new146;left: 497.953125px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы Tissot</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new140" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 2786.0000610351562px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new140;left: 45.312482988281204px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">TAG Heuer: Grand Carrera</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new143" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 3323px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new143;border-style: none;background-color: #d0c413;left: 196.6249829882812px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new142"> #block-new142  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 2888px;height: 413px;width: 415px;z-index: 174;anchor-id: #block-new142;left: 41.562482988281204px;}#block-new142 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new142" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/tag-heuer-grand-carrera-calibre-17-500x500.jpg#size_500x500"
+        alt=""
+        width="415"
+        height="413" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new192"> #block-new192  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 6272.65625px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new192;font-weight: bold;background-color: #d0c413;left: 143.921875px;}#block-new192 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new192:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new192" >
+              <a href="http://edisice.best-gooods.ru/?ref=2334&amp;lnk=86031"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new193" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 5672.328125px;height: 91px;width: 469px;z-index: 186;anchor-id: #block-new193;left: 474.640625px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">TAG HEUER</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">GRAND CARRERA</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new190" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 6205.65625px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new190;border-style: none;background-color: #d0c413;left: 218.609375px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new191" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6219px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new191;left: 105.921875px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6490 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2690 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new36" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 1366px;height: 2px;width: 888px;z-index: 129;anchor-id: #block-new36;border-style: none;background-color: #eeeeee;left: 26px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new37" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 690px;height: 7102px;width: 2px;z-index: 193;anchor-id: #block-new37;border-style: none;background-color: #eeeeee;left: 475px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new196"> #block-new196  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 6271.6668701171875px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new196;font-weight: bold;background-color: #d0c413;left: 589.6457959765625px;}#block-new196 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new196:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new196" >
+              <a href="/pages/goto/2529879/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new38" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;opacity: 1;border-color: #cccccc;top: 687px;height: 7111px;width: 888px;z-index: 99;anchor-id: #block-new38;border-style: none;background-color: #fff;left: 37px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new197"> #block-new197  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 5788.65625px;height: 392px;width: 279px;z-index: 187;anchor-id: #block-new197;left: 575.140625px;}#block-new197 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new197" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/f20121115151822-cav5185ft6020.jpg#size_564x800"
+        alt=""
+        width="279"
+        height="392" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new194" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 6205.33349609375px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new194;border-style: none;background-color: #d0c413;left: 658.6457959765625px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new195" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6217.33349609375px;height: 64px;width: 321px;z-index: 120;anchor-id: #block-new195;left: 551.3332959765625px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">7290 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2490 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new178" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4930.666839599609px;height: 92px;width: 385px;z-index: 169;anchor-id: #block-new178;left: 504.33329597656245px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Суперстильные</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">DANIEL WELLINGTON</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new179" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 5473.96875px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new179;border-style: none;background-color: #d0c413;left: 192.703125px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new170"> #block-new170  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 4820.984375px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new170;font-weight: bold;background-color: #d0c413;left: 136.09375px;}#block-new170 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new170:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new170" >
+              <a href="http://rado5.best-gooods.ru/?ref=2334&amp;lnk=86013"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new171" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4236.666809082031px;height: 45px;width: 385px;z-index: 169;anchor-id: #block-new171;left: 500.2083480078125px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">RADO &quot;Jubile True&quot;</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new172"> #block-new172  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4301.59375px;height: 415px;width: 235px;z-index: 181;anchor-id: #block-new172;left: 566.953125px;}#block-new172 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new172" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/40506018f9ty5muwxqw665.jpg#size_377x665"
+        alt=""
+        width="235"
+        height="415" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new173" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4747.203125px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new173;border-style: none;background-color: #d0c413;left: 664.484375px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new174" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4759.53125px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new174;left: 544.953125px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">11450 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>3440 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new175"> #block-new175  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 4819.875px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new175;font-weight: bold;background-color: #d0c413;left: 590.484375px;}#block-new175 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new175:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new175" >
+              <a href="/pages/goto/2529616/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new176" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4912.537292480469px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new176;border-style: none;background-color: #eeeeee;left: 26.487391601562535px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new177" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4957px;height: 45px;width: 385px;z-index: 169;anchor-id: #block-new177;left: 53.296875px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">EMPORIO ARMANi</p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new119"> #block-new119  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 1985px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new119;font-weight: bold;background-color: #d0c413;left: 125px;}#block-new119 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new119:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new119" >
+              <a href="http://breitling14.best-gooods.ru/?ref=2334&amp;lnk=85169"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new87" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;opacity: 0.25;border-radius: 18px;border-color: #cccccc;top: 473px;height: 177px;width: 668px;z-index: 163;anchor-id: #block-new87;border-style: solid;background-color: #ffffff;left: 146px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new86"> #block-new86  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;digits-font: Arial, Helvetica, sans-serif;separator-color: #333333;labels-enabled: on;separator-enabled: on;top: 500px;height: 129.6210106382979px;width: 557px;z-index: 164;separator-text: on;labels-color: #333333;anchor-id: #block-new86;digits-color: #333333;overflow: hidden;left: 201px;}#block-new86 ul.widget-timer {
+    list-image: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+#block-new86 ul.widget-timer li {
+    display: inline-block;
+    height: 107.4002659574468px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 88.88297872340426px;
+    line-height: 107.4002659574468px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#block-new86 ul.widget-timer .digits {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(/media/ui/timer/bg_white.png);
+    width: 66.6622340425532px;
+    height: 107.4002659574468px;
+    color: #333333;
+}
+
+#block-new86 ul.widget-timer .separator {
+    background: none;
+    width: 29.627659574468087px;
+    color: #333333;
+}
+
+#block-new86 ul.widget-timer .label {
+    color: #333333;
+    font-size: 22.220744680851066px;
+    line-height: 22.220744680851066px;
+}</style>
+        
+        
+        
+          <div class="block block-timer is-timer" id="block-new86" >
+              <ul class="widget-timer" data-countdown="26087" data-cookie="1"><li><li><div class="digits days">0</div><div class="label">дней</div></li></li><li class="symbol separator">:</li><li><div class="digits hours">0</div><div class="digits hours">7</div><div class="label">часов</div></li><li class="symbol separator">:</li><li><div class="digits minutes">1</div><div class="digits minutes">4</div><div class="label">минут</div></li><li class="symbol separator">:</li><li><div class="digits seconds">1</div><div class="digits seconds">5</div><div class="label">секунд</div></li></ul>
+          </div>
+        
+    
+        
+            <style id="block-style-new89"> #block-new89  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 839px;height: 344px;width: 400px;z-index: 166;anchor-id: #block-new89;left: 42px;}#block-new89 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new89" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/watch-kopiya.png#size_479x413"
+        alt=""
+        width="400"
+        height="344" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new88"> #block-new88  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 1286px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new88;font-weight: bold;background-color: #d0c413;left: 132px;}#block-new88 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new88:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new88" >
+              <a href="/pages/goto/2527958/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new209"> #block-new209  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 6467.125px;height: 400px;width: 281px;z-index: 189;anchor-id: #block-new209;left: 556.671875px;}#block-new209 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new209" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/shoppropertyfile198612478_x6mNu99.jpg#size_563x799"
+        alt=""
+        width="281"
+        height="400" />
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new202"> #block-new202  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 6986.78125px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new202;font-weight: bold;background-color: #d0c413;left: 131.578125px;}#block-new202 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new202:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new202" >
+              <a href="http://diesel1.best-gooods.ru/?ref=2334&amp;lnk=86037"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new203" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6394.1495361328125px;height: 45px;width: 469px;z-index: 186;anchor-id: #block-new203;left: 461.16324302734375px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Skeleton Winner</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new200" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6924.015625px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new200;left: 96.484375px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">5380 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2690 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new201" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 6901.3125px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new201;border-style: none;background-color: #d0c413;left: 199.5px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new206"> #block-new206  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 6988.765625px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new206;font-weight: bold;background-color: #d0c413;left: 584.5px;}#block-new206 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new206:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new206" >
+              <a href="/pages/goto/2529880/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new207"> #block-new207  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 6468.453125px;height: 380px;width: 294px;z-index: 188;anchor-id: #block-new207;left: 96.90625px;}#block-new207 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new207" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/4d.jpg#size_500x648"
+        alt=""
+        width="294"
+        height="380" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new204" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 6902.625px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new204;border-style: none;background-color: #d0c413;left: 656.484375px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new205" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6923.453125px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new205;left: 546.484375px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">9650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2890 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new18" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 419px;height: 50px;width: 960px;z-index: 112;anchor-id: #block-new18;left: 0;">
+              <p style="text-align: center;"><font color="#d0c413" face="roboto, sans-serif"><span style="font-size: 20px; line-height: 32px;">ТАКОГО БОЛЬШЕ НЕ БУДЕТ! НЕ УПУСТИТЕ СВОЙ ШАНС!</span></font></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new10" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 25px;height: 63px;width: 300px;z-index: 104;anchor-id: #block-new10;left: 37px;">
+              <p><strong><span style="font-size:29.59px;"><span style="font-family:roboto,sans-serif;"><span style="color:#FFFFFF;">НАРУЧНЫЕ&nbsp;</span><span style="color:#d0c413;">ЧАСЫ</span></span></span></strong></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new11" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 94px;height: 1px;width: 888px;z-index: 105;anchor-id: #block-new11;border-style: none;background-color: #d0c413;left: 36px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new12"> #block-new12  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-radius: 6px;font-size: 16;font-weight: normal;showButton: On;font-family: Arial, Helvetica, sans-serif;color: #d0c413;top: 29px;z-index: 106;height: 42px;width: 195px;action-message: Спасибо за информацию!;left: 754px;border-color: #045169;anchor-id: #block-new12;raw-css: text-decoration:underline;;border-style: solid;action: message;button-text: ЗАКАЗАТЬ ЗВОНОК;; text-decoration:underline;;%@;}#block-new12 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 195px;height: 42px;line-height: 42px;color: #d0c413;font-size: 16px;font-family: Arial, Helvetica, sans-serif;font-weight: normal;}#block-new12:hover{background-color: #;background-image: url();}#overlay-block-new12 .widget.popup {
+padding: 70px;width: 370px;background-color: #c7d6de;background-image: url(http://media.lpgenerator.ru/images/127621/00-2_1T8Tvcb.jpg#size_571x478);background-position: 50% 50%;background-repeat: no-repeat;border-color: #fff;border-width: 0px;border-style: solid;border-radius: 0px;
+}
+#overlay-block-new12 .widget.popup > .close{
+width: 33px;height: 33px;background: url(http://media.lpgenerator.ru/images/127621/00-1_kCAeuY0.png#size_33x33) 0 0 no-repeat;
+}
+#overlay-block-new12 .line.b1422439888566 {
+font-size: 26px;font-family: Verdana;color: #fff;text-align: center;padding-bottom: 0px;
+}
+#overlay-block-new12 .line.b1422453931658 {
+font-size: 15px;font-family: Verdana;color: #fff;text-align: center;padding-bottom: 42px;
+}
+#overlay-block-new12 .line.b1422439888568 input{
+height: 44px;line-height: 44px;font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888568 button{
+font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;
+}
+#overlay-block-new12 .line.b1422439888568 textarea{
+font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888568 input:focus{
+background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888568 textarea:focus{
+background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888568 {
+padding-bottom: 10px;
+}
+#overlay-block-new12 .line.b1422439888569 input{
+height: 44px;line-height: 44px;font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888569 button{
+font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;
+}
+#overlay-block-new12 .line.b1422439888569 textarea{
+font-size: 17px;font-family: Arial;color: #eeeeee;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888569 input:focus{
+background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888569 textarea:focus{
+background-color: #4b2621;
+}
+#overlay-block-new12 .line.b1422439888569 {
+padding-bottom: 16px;
+}
+#overlay-block-new12 .line.b1422439888570 input{
+padding: 0 10px;height: 50px;line-height: 50px;width: 100%;font-size: 23px;font-family: Verdana;color: #fff;background-color: #d0c413;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;
+}
+#overlay-block-new12 .line.b1422439888570 button{
+padding: 0 10px;height: 50px;line-height: 50px;width: 100%;font-size: 23px;font-family: Verdana;color: #fff;background-color: #d0c413;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;
+}
+#overlay-block-new12 .line.b1422439888570 textarea{
+font-size: 23px;font-family: Verdana;color: #fff;border-color: #ccc;border-width: 0px;border-style: solid;border-radius: 15px;
+}
+#overlay-block-new12 .line.b1422439888570 input:hover{
+background-color: #b5ab11;
+}
+#overlay-block-new12 .line.b1422439888570 button:hover{
+background-color: #b5ab11;
+}
+#overlay-block-new12 .line.b1422439888570 {
+padding-bottom: 26px;
+}
+ </style>
+        
+        
+        
+          <div class="block block-popupv2 is-popupv2" id="block-new12" >
+              <a href=""
+   target=""
+   data-label="ЗАКАЗАТЬ ЗВОНОК"
+        >ЗАКАЗАТЬ ЗВОНОК</a>
+
+
+
+<div class="widget popup">
+    <a class="close"></a>
+    <form method="post" target="iframe-block-new12">
+    
+        <div  class=" line text b1422439888566">ЗАПОЛНИТЕ ФОРМУ
+</div>
+    
+        <div  class=" line text b1422453931658">для заказа обратного звонка
+</div>
+    
+        <div  class=" line input b1422439888568"><input  class=" " placeholder="Ваше имя*" type="text" rel="name" data-required="data-required"></input></div>
+    
+        <div  class=" line input b1422439888569"><input  class=" " placeholder="Ваш телефон*" type="text" rel="phone" data-required="data-required"></input></div>
+    
+        <div  class=" line submit b1422439888570">
+    <input  class=" " disabled="disabled" type="submit" value="ЗАКАЗАТЬ ЗВОНОК"></input>
+
+</div>
+    
+    </form>
+    <div class="confirmation">Спасибо за информацию!</div>
+</div>
+<iframe width="0" height="0" name="iframe-block-new12"></iframe><script>
+(function(jq, scriptData){
+jq(function(){ widget.on(scriptData); });
+})(jq_144, {"id":"block-new12","onLoad":"popup","action":"message","showActions":{"showEvent":null,"seconds":10,"animation":null,"pixels":500},"version":"2"});
+</script>
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new14" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-position: on;top: 26px;height: 63px;width: 265px;z-index: 108;anchor-id: #block-new14;left: 504px;">
+              <p><span style="color:#FFFFFF;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">+7 (495) 631-77-05</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new15" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 110px;height: 85px;width: 960px;z-index: 109;anchor-id: #block-new15;left: 0;">
+              <p style="text-align: center;"><span style="color:#FFFFFF;"><span style="font-size:45px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">Ликвидация склада мужских часов</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new16" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 174px;height: 234px;width: 960px;z-index: 110;anchor-id: #block-new16;left: 0;">
+              <p style="text-align: center;"><span style="font-size:72px;"><span style="color:#FFFFFF;"><span style="font-weight: 100;"><span style="font-family:roboto,sans-serif;">СКИДКА НА ПОПУЛЯРНЫЕ МОДЕЛИ ДО 70%</span></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new17" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 398px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new17;border-style: none;background-color: #d0c413;left: 434px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new92"> #block-new92  {display: block;position: absolute;background-position: 50% 50%;background-repeat: no-repeat;border-width: 1px;background-image: url(http://media.lpgenerator.ru/images/57561/h-i1.png#size_49x49);font-size: 26px;color: #ffffff;top: 9955px;height: 51px;width: 51px;z-index: 108;anchor-id: #block-new92;left: 454px;}#block-new92 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 51px;height: 51px;line-height: 51px;color: #ffffff;font-size: 26px;font-family: ;font-weight: ;}#block-new92:hover{background-color: #;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new92" >
+              <a href="#"
+   target="_self"
+   data-label=""
+        ></a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new98"> #block-new98  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: -18px;height: 786px;width: 2034px;z-index: 94;anchor-id: #block-new98;left: -537px;}#block-new98 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new98" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/1527038694_d6R6pLl.jpg#size_2134x825"
+        alt=""
+        width="2034"
+        height="786" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new69" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8234.913696289062px;height: 234px;width: 282px;z-index: 147;anchor-id: #block-new69;left: 322.03128501953125px;">
+              <p style="text-align: center; line-height: 1.5;"><span style="color:#d5ca2a;"><span style="line-height: 1.5;"><span style="font-size: 18px; font-weight: 100; line-height: 1.5;"><span style="font-family: roboto, sans-serif; line-height: 1.5;">Мы вам доверяем и не требуем с вас предоплаты. МЫ уважаем ваше время, и поэтому все заказы оперативно отправляются 2 раза в день. Вы можете получить свой заказ на почте в любое удобное для вас время.</span></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new68" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8232.828125px;height: 99px;width: 300px;z-index: 147;anchor-id: #block-new68;left: -25.03125px;">
+              <p style="text-align: center; line-height: 1.5;"><span style="color:#d5ca2a; line-height: 1.5;"><span style="font-size: 18px; font-weight: 100; line-height: 1.5;"><span style="font-family: roboto, sans-serif; line-height: 1.5;">Доставим ваш заказ от Калининграда до Владивостока, в любую точку России и СНГ.</span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new219"> #block-new219  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 7677px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new219;font-weight: bold;background-color: #d0c413;left: 583px;}#block-new219 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new219:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new219" >
+              <a href="/pages/goto/2529882/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+            <style id="block-style-new218"> #block-new218  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 7677px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new218;font-weight: bold;background-color: #d0c413;left: 142px;}#block-new218 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new218:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new218" >
+              <a href="/pages/goto/2529881/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new198" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 6358.33349609375px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new198;border-style: none;background-color: #eeeeee;left: 28.312482988281204px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new199" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 6393.721740722656px;height: 45px;width: 469px;z-index: 186;anchor-id: #block-new199;left: 12.950404296875035px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы Diesel</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new211" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7076.515625px;height: 90px;width: 417px;z-index: 186;anchor-id: #block-new211;left: 49.3125px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">VACHERON CONSTANTIN</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">MALTE GRANDE</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new210" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 7064.984375px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new210;border-style: none;background-color: #eeeeee;left: 36px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new213" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 7609.265625px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new213;border-style: none;background-color: #d0c413;left: 202.90625px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new212"> #block-new212  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 7188.53125px;height: 381px;width: 364px;z-index: 192;anchor-id: #block-new212;left: 73.21875px;}#block-new212 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new212" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/goldwhite.png#size_434x454"
+        alt=""
+        width="364"
+        height="381" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new215" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 7610px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new215;border-style: none;background-color: #d0c413;left: 658px;">
+              
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new214" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7077px;height: 92px;width: 417px;z-index: 186;anchor-id: #block-new214;left: 489px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">FRANCK MULLER</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new217" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7618px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new217;left: 545px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">8290 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2490 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new216" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 7619px;height: 62px;width: 321px;z-index: 120;anchor-id: #block-new216;left: 98px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">7250 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2890 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+            <style id="block-style-new167"> #block-new167  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 4312.328125px;height: 377px;width: 235px;z-index: 180;anchor-id: #block-new167;left: 134.171875px;}#block-new167 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new167" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/33680979osa4ylajzw-500x515.jpg#size_322x515"
+        alt=""
+        width="235"
+        height="377" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new166" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4236.000183105469px;height: 45px;width: 385px;z-index: 169;anchor-id: #block-new166;left: 60.937482988281204px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Rado Integral</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new165" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4223px;height: 2px;width: 888px;z-index: 177;anchor-id: #block-new165;border-style: none;background-color: #eeeeee;left: 28.312482988281204px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new164"> #block-new164  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-radius: 7px;font-size: 22px;background-hover-color: #b5ab11;color: #ffffff;top: 4140px;height: 55px;width: 227px;z-index: 165;anchor-id: #block-new164;font-weight: bold;background-color: #d0c413;left: 587.3332959765625px;}#block-new164 > a{display: block;text-align: center;text-decoration: none;cursor:pointer;width: 227px;height: 55px;line-height: 55px;color: #ffffff;font-size: 22px;font-family: ;font-weight: bold;}#block-new164:hover{background-color: #b5ab11;} </style>
+        
+        
+        
+          <div class="block block-button is-button" id="block-new164" >
+              <a href="/pages/goto/2528969/?lpg_index=0"
+   target="_blank"
+   data-label="ПОДРОБНЕЕ"
+        >ПОДРОБНЕЕ</a>
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new163" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4082px;height: 63px;width: 321px;z-index: 120;anchor-id: #block-new163;left: 542.6250440234375px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">9650 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>2890 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new162" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4057.0001220703125px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new162;border-style: none;background-color: #d0c413;left: 644.3332959765625px;">
+              
+          </div>
+        
+    
+        
+            <style id="block-style-new161"> #block-new161  {display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;fix-aspect: on;top: 3605.3125915527344px;height: 409px;width: 367px;z-index: 179;anchor-id: #block-new161;left: 499.20829597656245px;}#block-new161 > img{vertical-align:top;}</style>
+        
+        
+        
+          <div class="block block-image is-image" id="block-new161" >
+              
+
+    <img src="http://media.lpgenerator.ru/images/245203/chasyi-s-harakterom-.png#size_418x461"
+        alt=""
+        width="367"
+        height="409" />
+
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new160" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 3498px;height: 91px;width: 385px;z-index: 169;anchor-id: #block-new160;left: 503.64579597656245px;">
+              <p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">Часы</p>
+
+<p style="margin: 0px; padding: 0px; color: rgb(23, 23, 29); font-stretch: normal; font-size: 36px; line-height: 46px; font-family: 'Segoe UI', 'Trebuchet MS', sans-serif; text-transform: uppercase; text-align: center;">CURREN LUXURY</p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new65" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8161.796875px;height: 63px;width: 300px;z-index: 146;anchor-id: #block-new65;left: -5.140625px;">
+              <p><span style="color:#FFFFFF;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">Доставка по всей РФ</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new67" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 8161.910247802734px;height: 63px;width: 362px;z-index: 146;anchor-id: #block-new67;left: 610.4687850195312px;">
+              <p style="text-align: center;"><span style="color:#FFFFFF;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">Гарантия 12 месяцев</span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-text is-text" id="block-new169" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;top: 4758px;height: 62px;width: 321px;z-index: 120;anchor-id: #block-new169;left: 95.296875px;">
+              <p><s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">6740 РУБ.</span></span></span></s><span style="color:#31241a;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;">&nbsp;&nbsp; </span></span></span><span style="color:#FF0000;"><span style="font-size:30px; font-weight: 100; "><span style="font-family:roboto,sans-serif;"><strong>1990 РУБ.</strong></span></span></span></p>
+
+          </div>
+        
+    
+        
+        
+        
+          <div class="block block-box is-box" id="block-new168" style="display: block;position: absolute;background-position: 0% 0%;background-repeat: no-repeat;border-width: 1px;border-color: #cccccc;top: 4745px;height: 1px;width: 82px;z-index: 111;anchor-id: #block-new168;border-style: none;background-color: #d0c413;left: 202.296875px;">
+              
+          </div>
+        
+    
+
+    
+        <style type="text/css">
+            .preview-main-container {
+                overflow: hidden;
+            }
+        </style>
+    
+
+
+
+<style>.page_container { width: 960px; background: 0% 0% no-repeat #FFFFFF ; height: 100%; } #middle_container { width: 960px; } .preview-main-container,.main-container { width: 960; z-index: 101; anchor-id: #block-page; bg-pos: 0% 0%; background-no-scroll: on;  }  .preview-main-container {min-width: 960px !important;}</style>
+
+<script>
+
+if (typeof jq_144 == 'undefined') { jq_144 = $ }
+
+(function($) {
+    var re = /([^&=]+)=?([^&]*)/g;
+    var decodeRE = /\+/g;  // Regex for replacing addition symbol with a space
+    var decode = function (str) {return decodeURIComponent( str.replace(decodeRE, " ") );};
+    $.parseParams = function(query) {
+        var params = {}, e;
+        while ( e = re.exec(query) ) {
+            var k = decode( e[1] ), v = decode( e[2] );
+            if (k.substring(k.length - 2) === '[]') {
+                k = k.substring(0, k.length - 2);
+                (params[k] || (params[k] = [])).push(v);
+            }
+            else params[k] = v;
+        }
+        return params;
+    };
+})(jq_144);
+
+jq_144(function(){
+    
+        var EMAIL_RE = /^([a-zа-яёЁ0-9_\.-]+)@([a-zа-яёЁ0-9_\.-]+)\.([a-zа-яёЁ\.]{2,8})$/i;
+        var EMAIL_RE_RU = /^([a-zа-яёЁ0-9_\.-]+)@xn\-([a-zа-яёЁ0-9_\.-]+)\.xn-([a-zа-яёЁ\.0-9\-]+)$/i;
+        var URL_RE = /^(https?:\/\/)?([\da-zа-я\.-]+)\.([a-zа-я\.]{2,8})([\/\w \.-]*)*\/?$/i;
+
+        window.SUBMIT_HANDLER = function(form_id) {};
+
+        jq_144('.cont[data-type="file"] input.input').focus(function() {
+            var finput = jq_144(this).closest('.cont').find('input[type="file"]');
+            if (!finput.val()) {
+                finput.click();
+            }
+        });
+
+        jq_144('form.our_form').each(function(){
+            var url = jq_144(this).attr('action') + "?d=" + location.hostname;
+            jq_144(this).attr('action', url);
+        });
+
+        function validateForm(send_form) {
+            var errors = [];
+            var send_data = send_form.serializeArray();
+            var send_array = {};
+            for (var i in send_data) {
+                send_array[send_data[i].name] = send_data[i].value;
+            }
+            send_form.find('.cont:visible').each(function() {
+                var cont = jq_144(this);
+                var label = cont.attr('data-label');
+                var name = cont.attr('data-name');
+                var value = send_array[name];
+                if (cont.attr('data-type') == 'file') {
+                    value = cont.find('input[type="file"]').val();
+                }
+                if (cont.attr('data-required')) {
+                    if (!value) {
+                        errors.push([name, 'Обязательное поле'])
+                    }
+                }
+                if (cont.attr('data-email')) {
+                    if (value && !(value.match(EMAIL_RE) || value.match(EMAIL_RE_RU))) {
+                        errors.push([name, 'Введите корректный email'])
+                    }
+                }
+                if (cont.attr('data-url')) {
+                    if (value && !value.match(URL_RE)) {
+                        errors.push([name, 'Введите корректный URL'])
+                    }
+                }
+                if (cont.attr('data-pattern')) {
+                    if (value && this.dataset && !value.match(new RegExp(this.dataset.pattern, 'i'))) {
+                        errors.push([name, 'Введите корректное значение'])
+                    }
+                }
+            });
+            if (!errors.length) {
+                if (send_form.closest('.lp_popup').length) {
+                    send_form.find('input:visible').each(function() {
+                        var name = jq_144(this).attr('name');
+                        var value = send_array[name];
+                        if (!value) {
+                            errors.push([name, 'Обязательное поле'])
+                        }
+                    });
+                }
+            }
+            return errors
+        }
+
+        function processErrors(errors, form_id) {
+            var i;
+            var send_form = jq_144('#'+form_id+' form.our_form');
+            var input = jq_144('#block-'+form_id+' form :input:first');
+            var label = jq_144('#block-'+form_id+' form :input:first').parents('.cont').find('label').text() || '';
+            if (!label) {
+                label = jq_144('#block-'+form_id+' form :input:first').attr('placeholder');
+            }
+
+            var error_msg;
+            var error_el;
+            for (var i in errors) {
+                var e = errors[i];
+                if (!error_msg && e[0] == input.attr('name')) {
+                    error_msg = e[1];
+                }
+            }
+            if (errors[0][1] && !error_msg) {
+                error_msg = errors[0][1];
+                input = jq_144('#block-'+form_id+', #popup_'+form_id).find('[name='+errors[0][0]+']');
+                label = input.parents('.cont').find('label').text() || '';
+                if (!label) {
+                    label = input.attr('placeholder');
+                }
+                if (!error_el) {
+                    error_el = input;
+                }
+            }
+
+            if (!label) { label = ''; }
+            if (label.substr(-1) == '*') { label = label.substr(0, label.length - 1);}
+            if (label.substr(-1) == ':') { label = label.substr(0, label.length - 1); }
+            if (label.substr(-1) == '*') { label = label.substr(0, label.length - 1);}
+            if (!label) {
+                if (input.is('[type=checkbox],[type=radio]')) {
+                    label = input.parent().find('sublabel').filter(':first').text();
+                    label = label || input.closest('.input_block').attr('data-label') || input.parent(':first').text();
+                }
+                if (input.is('select')) {
+                    label = input.find('option:first').text();
+                }
+            }
+
+            if (error_msg) {
+                alert(label + ': ' + error_msg);
+
+                if (!error_el) {
+                    error_el = jq_144('#block-'+form_id).find(':input:first');
+                }
+                error_el.focus();
+            }
+
+            send_form.show();
+            jq_144('#loading_bar').fadeOut();
+            return;
+        }
+
+        CURRENT_STEP = 1;
+
+        jq_144('.block form.our_form').append("<div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='GrXZl9E6tA34aB5VbxCI8DpSwoM6ebtd' /></div>");
+        jq_144('.block form.our_form').each(function() {
+            var $this = jq_144(this);
+            if ($this.find('.step').length > 1) {
+                var id = $this.closest('.block').attr('id').substr(6);
+                var button = jq_144('a[href="#fire_form_'+id+'"]');
+                if (!button.length) {
+                    if (jq_144('a[href="#fire_form"]').length == 1 && jq_144('.block-form').length == 1) {
+                        button = jq_144('a[href="#fire_form"]');
+                    }
+                }
+                button.text($this.find('.step:eq(1)').attr('data-button'));
+            }
+        });
+        jq_144('.block form.our_form input').keypress(function(event) {
+            if ( event.which == 13 ) {
+                jq_144(this).closest('form').submit();
+                event.preventDefault();
+            }
+        });
+        jq_144('.block form.sprypay_pay_form').submit(function() {
+            jq_144('#loading_bar').show();
+            jq_144.get('/sprypay/lead/961220/', function() {
+                jq_144('.block form.sprypay_pay_form').unbind('submit').submit();
+            });
+            return false;
+        });
+
+        function makeFormSubmit() {
+            jq_144('#loading_bar').show();
+            var send_form = jq_144(this);
+            var form_id = send_form.parents('.block,.lp_popup').attr('id').substr(6);
+
+            send_form.find('input[name="form_id"]').remove();
+            send_form.append('<input type="hidden" name="form_id" value="'+form_id+'"/>')
+
+            var errors = validateForm(send_form);
+            if (errors.length) {
+                processErrors(errors, form_id);
+                jq_144('#loading_bar').fadeOut();
+                return false;
+            }
+
+            if (send_form.find('.step').length > CURRENT_STEP) {
+                send_form.find('.step').hide();
+                send_form.find('.step:eq('+CURRENT_STEP+')').show();
+                CURRENT_STEP += 1;
+                var button = jq_144('a[href="#fire_form_'+form_id+'"]');
+                if (!button.length) {
+                    if (jq_144('a[href="#fire_form"]').length == 1 && jq_144('.block-form').length == 1) {
+                        button = jq_144('a[href="#fire_form"]');
+                    }
+                }
+                var step = send_form.find('.step:eq('+CURRENT_STEP+')');
+                if (step.length) {
+                    button.text(step.attr('data-button'));
+                } else {
+                    button.text(button.attr('data-label'));
+                }
+                jq_144('#loading_bar').fadeOut();
+                return false;
+            }
+
+            jq_144('#lp_form_target').remove();
+            jq_144('#preview').append('<iframe id="lp_form_target" name="lp_form_target" style="width:1px; height:1px; border: 0;"></iframe>');
+
+            window.processSuccess = function(errors) {
+                if (errors.redirect) {
+                    window.location.href = errors.redirect;
+                    return;
+                } else if (errors.length > 0) {
+                    processErrors(errors, form_id);
+                    return;
+                }
+
+                
+                if (top.fClose) {
+                    top.fClose();
+                    return;
+                }
+                
+
+                var next = send_form.next('.message').find('a.redirect').attr('href');
+                if (next) {
+					if ( next.indexOf('//') != 0 && next.indexOf('http://') != 0 && next.indexOf('https://') != 0 && next.indexOf('/pages/') != 0) {
+						next = 'http://'+ next;
+					}
+					(window.top || window).location.href = next; //send_form.next().find('a').attr('href');
+					setTimeout(function() {
+						jq_144('#loading_bar').fadeOut();
+					}, 3000);
+                } else {
+                    var msg = send_form.next('.message');
+                    msg.find('a.redirect').remove();
+                    
+                        if (jq_144('#form_submit_message').length == 0) {
+                            jq_144('<div id="form_submit_message" />').append('<div class="internal"></div>').appendTo(jq_144('body'));
+                            jq_144('#form_submit_message .internal').html(send_form.next('.message').html());
+                            jq_144('#form_submit_message').overlay({
+                                oneInstance: true,
+                                onBeforeLoad: function() {
+                                    var $msg = jq_144('#form_submit_message');
+                                    var $screen = jq_144(window);
+                                    $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                                },
+                                onClose: function() {
+                                    jq_144('#loading_bar').fadeOut();
+                                },
+                                left: 'center',
+                                load: true,
+                                closeOnEsc: false,
+                                closeOnClick: false
+                            });
+                        } else {
+                            var a = jq_144('#form_submit_message').find('a');
+                            jq_144('#form_submit_message .internal').html(send_form.next('.message').html());
+                            jq_144('#form_submit_message').overlay().load();
+                        }
+                        
+                    
+
+                    jq_144('#loading_bar').fadeOut();
+                }
+                send_form[0].reset();
+                send_form.show();
+
+                send_form.find('.step').hide();
+                send_form.find('.step:first').show();
+                if (send_form.find('.step').length > 1) {
+                    var id = send_form.closest('.block').attr('id').substr(6);
+                    jq_144('a[href="#fire_form_'+id+'"]').text(send_form.find('.step:eq(1)').attr('data-button'));
+                }
+            }
+
+            setTimeout(function() {
+                send_form.attr('target', 'lp_form_target');
+                send_form.unbind('submit');
+                send_form.submit();
+                send_form.bind('submit', makeFormSubmit);
+
+                if (window.SUBMIT_HANDLER) {
+                    window.SUBMIT_HANDLER(form_id);
+                }
+            }, 100);
+            return false;
+        }
+
+        jq_144('form.our_form').submit(makeFormSubmit);
+        jq_144('.block form').next().hide();
+
+        var doc_height = 0;
+        jq_144('#preview .block, .preview-main-container .outer-section').each(function() {
+            var btm = jq_144(this).height() + jq_144(this).position().top;
+            if (btm > doc_height) { doc_height = btm; }
+        });
+        
+            if (jq_144(document).height() > doc_height) { doc_height = jq_144(document).height() ; }
+        
+
+        if (doc_height > jq_144('.body-editor').height()) {
+            
+            jq_144('#preview').height(doc_height);
+            jq_144('.preview-main-container').height(doc_height);
+            jq_144('.body-editor').height(doc_height);
+        }
+
+        
+
+        
+
+        
+
+        jq_144('a[href^=#fire_form]').click(function() {
+            var block_id = jq_144(this).attr('href').substr(11);
+            if (block_id) {
+                var form = jq_144('#block-'+block_id+' form');
+                if (!form.length) { form = jq_144('#popup_'+block_id+' form') }
+                form.find('input[name="form_id"]').remove();
+                form.append('<input type="hidden" name="form_id" value="'+block_id+'"/>')
+                form.submit();
+            } else {
+                jq_144('.block-form form').submit();
+            }
+            return false;
+        });
+
+        jq_144('a.zingaya, .zingaya_button').click(function() {
+            jq_144.get(this.rel);
+        });
+
+        jq_144('a').not('.zingaya, .zingaya_button').not('[href^=#]').not('[rel]').live('click', function() {
+            var a = this;
+            if (!jq_144(this).is('a')) {
+                return;
+            }
+            setTimeout(function() {
+                if (a.target == '_blank') {
+                    window.open(a.href, '_blank');
+                } else {
+                    window.location.href = a.href;
+                }
+            }, 100);
+            return false;
+        });
+
+        jq_144('iframe').each(function() {
+            jq_144(this).attr("wmode", "transparent");
+        });
+        jq_144('embed').each(function() {
+            jq_144(this).attr("wmode", "transparent");
+        });
+        jq_144('object').each(function() {
+            jq_144(this).append('<param name="wmode" value="transparent" />')
+        });
+
+        jq_144('.preview-main-container').css('height', jq_144('.preview-main-container').height() + 'px');
+
+        jq_144('.hidden').appendTo('body').css('z-index', 10500).overlay({
+            left: 100,
+            speed: 'slow',
+            mask: {
+                color: '#ebecff',
+                loadSpeed: 200,
+                zIndex: 9900,
+                opacity: 0.9
+            },
+            onBeforeLoad: function() {
+                var $msg = this.getOverlay();
+                var $screen = jq_144(window);
+                $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                setTimeout(function() {
+                    $msg.css('left', Math.max(($screen.width() - $msg.width()) / 2, 0));
+                    $msg.find('.window').css('z-index', 11000);
+                }, 0);
+            }
+        });
+
+        jq_144('.block-popup a').click(function() {
+            var id = jq_144(this).closest('.block-popup').attr('id').substr(6);
+            jq_144('#popup_' + id).overlay().load();
+            return false;
+        });
+
+        jq_144('a.ajax_out').each(function() {
+            var a = jq_144(this);
+            a.attr('data-href', a.attr('href')).attr('href', '#').mousedown(function(e) {
+                if (e.button != 0) { return; }
+                jq_144.ajax({
+                    url: a.attr('rel'),
+                    type: 'GET',
+                    success: function() {
+                        window.location.href = a.attr('data-href');
+                    },
+                    error: function(data) {
+                        window.location.href = a.attr('data-href');
+                    }
+                });
+                return false;
+            });
+        });
+
+        jq_144('input[type=file]').change(function(ev){
+            jq_144(this).closest('.cont').find('input.input').val(this.value);
+        });
+
+        
+            jq_144('input').each(function() {
+                var $this = jq_144(this);
+                var message = $this.attr('placeholder') || '';
+                if (message) {
+                    $this.watermark(message, {useNative: true});
+                }
+            });
+        
+
+        
+
+        
+            jq_144(function() {
+                var params = jq_144.parseParams( top.location.href.split('?')[1] || '' );
+                for (var k in params) {
+                    jq_144('.cont[data-mapping="'+k+'"] :input').val(params[k]);
+                }
+            });
+        
+    
+});
+</script>
+
+        </div>
+        
+                <div id="published_footer" class="">
+                    Этот <a href="http://lpgenerator.ru/" target="_blank">лендинг пейдж</a> создан на технологии
+                    <img src="//static.lpgenerator.ru/media/css/images/logo_public.png" />
+                </div>
+        
+    
+
+
+
+
+    </div>
+
+    
+
+
+    
+
+
+    
+
+    
+    
+    
+        
+<script>
+
+jq_144('#block-new71 a').click(function(e){e.preventDefault();
+jq_144('body, html').animate({ scrollTop: jq_144('#block-new72').offset().top }, 1000);});
+
+</script>
+    
+    
+         <script type="text/javascript" src="https://static.lpgenerator.ru/media/js/countdown.min.js?v=2015.09.01"></script>
+    
+         <script type="text/javascript" src="/media/js/client/widget/popup.js?v=2015.09.01"></script>
+    
+         <script type="text/javascript" src="https://static.lpgenerator.ru/media/js/client/widget/timer.js?v=2015.09.01"></script>
+    
+
+    
+        <script type="text/javascript">
+        //<![CDATA[
+        function getQueryParams(qs) {
+            qs = qs.split("+").join(" ");
+
+            var params = {}, tokens,
+                re = /[?&]?([^=]+)=([^&]*)/g;
+
+            while (tokens = re.exec(qs)) {
+                params[decodeURIComponent(tokens[1])]
+                    = decodeURIComponent(tokens[2]);
+            }
+
+            return params;
+        }
+
+        if(redirect===false){
+        (function () {
+            var query = getQueryParams(document.location.search);
+            var channels = {
+                
+                    "fb": 1,
+                
+                    "gl": 2,
+                
+                    "ya": 3,
+                
+                    "bg": 4,
+                
+                    "vk": 5,
+                
+                    "ml": 6,
+                
+                    "ap": 7,
+                
+                    "lpg_ya": 16998
+                
+            };
+
+            
+                var remote = "http://t.lpgenerator.ru/?type=track";
+            
+
+            var hostname = window.location.hostname;
+            var cid = "";
+            var vid = "961220";
+            var pid = "800781";
+            var pr = "245203";
+            var cv = "1";
+            var ln = 'http://' + location.hostname + location.pathname;
+            var params = window.location.search.substring(1);
+            var path = remote + "&domain=" + hostname;
+
+            path += "&vid=" + vid;
+            path += "&pid=" + pid;
+            if (query.hasOwnProperty('ch'))
+                path += "&cid=" + channels[query.ch];
+            path += "&pr=" + pr;
+            path += "&cv=" + cv;
+            path += "&url=" + ln;
+            if (params)
+                path += "&" + params;
+
+            var s = document.createElement('img');
+            s.id = 'lpg_tr';
+            s.style.display = 'none';
+            s.src = path;
+            var ss = document.body;
+            ss.appendChild(s);
+        })();
+        }
+        //]]>
+    </script>
+
+
+        <script type="text/javascript">
+        //<![CDATA[
+        (function () {
+            function setcookie(name, value, expires, path, domain, secure) {
+                expires instanceof Date ? expires = expires.toGMTString() : typeof(expires) == 'number' && (expires = (new Date(+(new Date) + expires * 1e3)).toGMTString());
+                var r = [name + "=" + encodeURIComponent(value)], s, i;
+                for (i in s = {expires: expires, path: path, domain: domain}) {
+                    s[i] && r.push(i + "=" + s[i]);
+                }
+                return secure && r.push("secure"), document.cookie = r.join(";"), true;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            var v_id = '961220';
+
+            // Utm params
+            var query = getQueryParams(document.location.search);
+            var utm_params = ['utm_medium', 'utm_campaign', 'utm_term', 'utm_source', 'ch'];
+
+            for (var i in utm_params) {
+                if (query.hasOwnProperty(utm_params[i])) {
+                    setcookie(utm_params[i] + "_" + v_id, query[utm_params[i]], 86400, '/');
+                }
+            }
+
+            // Meta info
+            var meta_info = {
+                HTTP_USER_AGENT: navigator.userAgent,
+                HTTP_REFERER: document.referrer,
+                LANGUAGE: window.navigator.userLanguage || window.navigator.language,
+                URL_PATH: document.location.search
+            };
+
+            for (var k in meta_info) {
+                setcookie(k, meta_info[k], 2592000, '/');
+            }
+        })();
+        //]]>
+        </script>
+
+        <script type="text/javascript">
+            jq_144('input.date').each(function() {
+                jq_144(this).datepicker({dateFormat: 'dd.mm.yy'});
+            });
+            jq_144('input[data-mask]').each(function() {
+                jq_144.mask.definitions['a']='[а-яА-Яa-zA-Z]';
+                jq_144.mask.definitions['*']='[а-яА-Яa-zA-Z0-9]';
+                jq_144(this).mask(jq_144(this).attr('data-mask'));
+            });
+        </script>
+    
+    
+    
+
+    
+
+
+
+    
+
+
+    
+
+    
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"50877fe041","agent":"js-agent.newrelic.com/nr-686.min.js","transactionName":"MgBaYkRXVhJQVBcLDgtKfkNYVUwIXllMAxEVFhZGV1FdEh9aCgYFCQBPV0RTAjFQUAYvCAEBVFNBV0oEH0cRDQIAFktpRFNJFFREFw==","applicationID":"2997699","errorBeacon":"bam.nr-data.net","applicationTime":262}</script></body>
+</html>

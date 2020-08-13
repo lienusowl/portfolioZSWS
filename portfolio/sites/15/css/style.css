@@ -1,0 +1,372 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+    background: #fff url('../img/bg3.jpg') center top no-repeat;
+color: #333;
+
+font-family: 'PT Sans', sans-serif;
+overflow-x:hidden;
+
+}
+#clear{
+clear:both;
+}
+#center{
+margin:0 auto;
+position:relative;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+font-size: 2.5em;
+}
+h2{
+color: #33383b;
+font-size: 2em;
+}
+h3{
+color: #6e6e6e;
+font-size: 1.9em;
+}
+h4{
+font-size: 1.2em;
+padding: 10px 0px;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+header{
+    height: 600px;
+	position:relative;
+}
+
+header nav{
+    display: block;
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+        right: 10px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    outline: 1px solid #fff;
+    box-shadow: 0px 0px 10px #ccc;
+	transition: all .3s;
+}
+header nav:hover{
+box-shadow: 0px 0px 10px #222;
+transition: all .3s;
+}
+header nav li{
+    display: block;
+    float: left;
+    width: 180px;
+    margin: 8px 0px;
+}
+header nav li a{
+	color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+	transition: all .3s;
+	color:#222;
+}
+header nav li a:hover{
+transition: all .3s;
+text-decoration: underline;
+color:#222;
+}
+
+#logo {
+	width: 350px;
+    height: 120px;
+    position: absolute;
+    top: 245px;
+    left: 20px;
+    background: url('../img/logo.png') center top no-repeat;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+	    text-align: center;
+}
+#logo p{
+	text-transform: uppercase;
+    font-size: 4em;
+	    margin: 0px;
+}
+#logo span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#number{
+	position: absolute;
+    top: 230px;
+    right: 40px;
+	    text-align: right;
+}
+#number p{
+    font-size: 1.6em;
+	margin:0px;
+}
+#number span{
+    color: #2895CE;
+	    font-size: 1.2em;
+		
+}
+#number .adr{
+font-size: 1.3em !important;
+}
+#number .modalbox{
+position: absolute;
+    top: 120px;
+    right: 10px;
+    padding: 10px;
+    width: 200px;
+    background-color: rgba(40, 149, 206, 0.8);
+    border-radius: 10px;
+    text-align: center;
+    color: #222;
+    border: 2px solid #696969;
+    text-decoration: none;
+    transition: all .3s;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+#number .modalbox:hover{
+border: 2px solid #222;
+    background-color: #fff;
+    color: #222;
+transition: all .3s;
+}
+
+#usl{
+position: absolute;
+top: 425px;
+}
+#box1{
+    background: url('../img/usl/1.png') center center no-repeat;
+width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid #51A8D6;
+}
+#box2{
+    background: url('../img/usl/2.png') center center no-repeat;
+width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid #51A8D6;
+}
+#box3{
+    background: url('../img/usl/3.png') center center no-repeat;
+width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #fff;
+    border: 2px solid #51A8D6;
+}
+.box{
+    float: left;
+    margin: 0px 85px;
+	    position: relative;
+}
+.box p{
+	text-align: center;
+    background-color: #51A8D6;
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    top: 120px;
+    font-size: 0.8em;
+    left: -25px;
+}
+.usl_text{
+    top: 110px !important;
+}
+
+#content{
+    min-height: 300px;
+	    margin-top: 60px;
+}
+
+
+#left{
+    width: 300px;
+    float: left;
+	    min-height: 300px;
+}
+#main{
+    min-height: 300px;
+float: left;
+width:660px;
+}
+
+#left h3{
+    color: #222;
+    font-size: 1.2em;
+    text-align: center;
+}
+.big_b{
+    display: block;
+    padding: 5px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    width: 200px;
+	transition: all .3s;
+}
+.big_b:hover{
+transition: all .3s;
+border: 1px solid #222;
+}
+
+
+
+/*transition: all .3s;*/
+
+
+footer{
+    height: 200px;
+    margin-top: 60px;
+}
+footer form{
+    display: block;
+    width: 600px;
+    height: 145px;
+    padding: 20px;
+    background-color: #51A8D6;
+    box-shadow: 4px 4px 0px #71AD0B;
+    outline: 1px solid #fff;
+}
+footer form .big{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+}
+footer form input{
+    background-color: #fff;
+    border: none;
+    width: 180px;
+    height: 26px;
+	    padding-left: 10px;
+}
+footer form #sub{
+    background-color: #fff;
+    border: none;
+    width: 190px;
+    height: 26px;
+	transition: all .3s;
+}
+footer form #sub:hover{
+background-color: #0F71A5;
+color:#fff;
+transition: all .3s;
+}
+
+
+footer #copy{
+width: 260px;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 20px auto;
+}
+footer nav{
+	position: absolute;
+    top: 0px;
+    left: 660px;
+    font-size: 0.8em;
+    width: 145px;
+}
+footer nav a{
+    color: #222;
+    text-decoration: none;
+}
+footer nav a:hover{
+	text-decoration: underline;
+}
+.footer{
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    width: 225px;
+}
+/*============*/
+.popup-form{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.popup-form input{
+width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+.button1{
+color: #fff;
+  background-color: rgba(40, 149, 206, 0.8);
+  padding: 7px;
+  transition: all .3s;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 50px !important;
+  transition: all .3s;
+}
+.button1:hover{
+  opacity: 1;
+  transition: all .3s;
+}
+.popup{
+  background: none;
+height: 247px;
+}
+.flag h2 {
+text-align: center;
+  color: #222;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+#submit{
+  border: none;
+  font-size: 1.4em;
+}
+#submit:hover{
+  transition: all .3s;
+  background-color: rgb(40, 149, 206);
+}
+
+
+
+
+
+

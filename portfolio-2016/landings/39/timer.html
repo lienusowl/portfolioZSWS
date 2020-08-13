@@ -1,0 +1,72 @@
+<style>
+/*счётчик*/
+.countdown-rtl{
+direction:rtl
+}
+.countdown-holding span{
+color:#888
+}
+.countdown-row{
+clear:both;width:100%;padding:0 2px;text-align:center
+}
+.countdown-show1 .countdown-section{
+width:98%
+}
+.countdown-show2 .countdown-section{
+width:48%
+}
+.countdown-show3 .countdown-section{
+width:32.5%
+}
+.countdown-show4 .countdown-section{
+width:20.5%
+}
+.countdown-show4 .countdown-section:last-child{
+width:30%
+}
+.countdown-show5 .countdown-section{
+width:19.5%
+}
+.countdown-show6 .countdown-section{
+width:16.25%
+}
+.countdown-show7 .countdown-section{
+width:14%
+}
+.countdown-section{
+display:block;float:left;font-size:75%;text-align:center
+}
+.countdown-amount{
+font-size:200%
+}
+.countdown-period{
+display:block
+}
+.countdown-descr{
+display:block;width:100%
+}
+.counter{
+margin-top:10px
+}
+.counter span.countdown-section{
+display:block;width:50px;float:left;margin-top:10px
+}
+.counter span.countdown-section span{
+display:block;color:#5f5f5f;text-align:center
+}
+.counter span.countdown-section span.countdown-amount{
+font-size:32px;height:45px;padding-top:10px;background:url(img/counter_bg.png) center center no-repeat;font-weight:800
+}
+.counter span.countdown-section span.countdown-period{
+font-size:13px
+}
+.counter p{
+color:#086BB4;font-size:14px;font-weight:800;text-transform:uppercase
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+<div class="counter">
+	<p>До конца акции осталось:</p>
+	<div class="countdown"></div>
+</div>

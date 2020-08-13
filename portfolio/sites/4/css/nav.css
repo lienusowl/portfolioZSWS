@@ -1,0 +1,63 @@
+#navigation {
+background-color: white;
+width: 100%;
+float: left;
+border-bottom:1px solid #e1e1e1;
+position: fixed;
+z-index: 1090;
+}
+#navigation:hover {opacity: 1;}
+#navigation_wrap {
+max-width: 1000px;
+float: none;
+margin: 0px auto 0px auto;
+}
+#conteactinfo {
+/*width: 380px;*/
+float: left;
+font-family: 'Ubuntu Condensed', Arial, Helvetica, sans-serif;
+color: #000;
+font-size: 12pt;
+font-weight: normal;
+text-decoration: none;
+padding-top: 10px;
+}
+#navi {
+/*width: 645px;*/
+float: right;
+}
+#navi ul {
+width: auto;
+float: right;
+padding: 0px;
+margin: 0px;
+}
+#navi ul li:first-child {
+/*float: left;*/
+display: inline-block;
+padding: 12px 12px 13px 12px;
+list-style-type: none;
+position: relative;
+/*border-right: 1px dotted #CCC;
+border-left: 1px dotted #CCC;*/
+}
+#navi ul li {
+/*float: left;*/
+display: inline-block;
+padding: 12px 12px 13px 12px;
+list-style-type: none;
+position: relative;
+/*border-right: 1px dotted #CCC;*/
+}
+#navi ul li a, #navi ul li a:visited {
+font-family: 'Ubuntu Condensed', Arial, Helvetica, sans-serif;
+color: #5d5d5d;
+font-size: 9pt;
+font-weight: normal;
+text-decoration: none;
+text-transform: uppercase;
+}
+#navi ul li a:hover {
+color: #ff2a00;
+text-decoration:underline;
+}

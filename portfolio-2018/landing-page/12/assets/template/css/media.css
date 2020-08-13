@@ -1,0 +1,86 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1300px) {
+	.container {max-width: 1240px;}
+}
+@media (min-width: 1400px) {
+	.container {max-width: 1340px;}
+}
+@media (min-width: 1500px) {
+	.container {max-width: 1640px;padding-left: 30px;padding-right: 30px;}
+}
+@media (min-width: 1600px) {
+	.container {max-width: 1540px;padding-left: 30px;padding-right: 30px;}
+}
+@media (min-width: 1700px) {
+	.container {max-width: 1640px;padding-left: 30px;padding-right: 30px;}
+}
+@media (min-width: 1800px) {
+	.container {max-width: 1740px;padding-left: 30px;padding-right: 30px;}
+}
+
+
+
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	html {font-size: 8px;}
+	#compare table tr th:nth-child(1), #compare table tr td:nth-child(1) {min-width: auto;}
+	#compare {padding-bottom: 0;}
+	#price .row > div {padding-left: 15px;padding-right: 15px;}
+	.presentation {margin-bottom: 0;}
+	#reasons .img {margin-top: 30px;}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	#top {position: relative;}
+	.page #top {position: fixed;}
+	.page #header, .content {margin-top: 145px;}
+	#header .header-title {font-size: 5rem;}
+	#header .header-title span {font-size: 3.8rem;}
+	html {font-size: 7px;}
+	.presentation {margin-bottom: 0;}
+	.presentation .pdf {display: none;}
+	.presentation .cube2 {display: none;}
+	.presentation .cube1 {left: -10px;top: -50px;}
+	#special .cube4, #special .cube1 {display: none;}
+	#video, #reasons, #form, #about, #price, #reviews {padding: 30px 0;}
+	#reasons ol li {padding-left: 30px;}
+	.img {overflow: hidden;}
+	#reasons .img .cube3 {display: none;}
+	#form .title2 {margin-top: 0;}
+	#special:before {width: 100%;}
+	#special img.girl {display: none;}
+	#price .row {width: 100%;}
+	.video-box iframe {max-height: 260px;}
+	#footer {text-align: center;}
+	#footer .top-phone {text-align: center;}
+	#footer .copyrights {margin: 15px 0;}
+	.conf-row {margin-top: 15px;}
+	.conf-row .btn {margin-bottom: 15px;}
+	#compare table tr th, #compare table tr td {padding: 10px;font-size: 14px;}
+	#top .top-phone {margin: 10px 20px 0 0;}
+	#top .btn {padding: 1.4rem 1rem;min-width: auto;width: 100%;}
+	.img img {right: 0;width: 100%;}
+	.title {font-size: 4.4rem;}
+	#price .price-head {font-size: 3.4rem;padding: 3rem 1.5rem;}
+	#price .inn {padding: 25px 25px;}
+	.table-responsive {display: block;width: 100%;overflow-x: auto;-webkit-overflow-scrolling: touch;-ms-overflow-style: -ms-autohiding-scrollbar;}
+	.win .title {font-size: 4rem;}
+	#reasons .img {margin-bottom: 30px;}
+	.visible-xs {display: block;}
+	.hidden-xs {display: none;}
+	#reasons .light {margin: 0;}
+	a.back:before {left: -20px;}
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	html {font-size: 7px;}
+}

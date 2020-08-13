@@ -1,0 +1,12 @@
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 /index.php
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.golden-cupol.ru
+RewriteRule (.*) http://golden-cupol.ru/$1 [R=301,L]
+
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP
+RewriteRule ^index\.php$ http://golden-cupol.ru/ [R=301,L]
+

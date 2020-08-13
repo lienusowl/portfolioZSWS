@@ -1,0 +1,289 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+    margin: 0;
+    background: #fff;
+    color: #333;
+    font-family: Calibri, Sans-Serif;
+    overflow-x: hidden;
+    
+}
+#clear{
+clear:both;
+}
+#center{
+margin:0 auto;
+position:relative;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+    color: #FFF;
+    font-size: 2em;
+    text-align: center;
+    display: block;
+    width: 600px;
+    height: 150px;
+    position: relative;
+    top: 45px;
+    left: 65px;
+    text-shadow: 2px 2px 0px #222;
+}
+h2{
+color: #33383b;
+font-size: 2em;
+    margin-bottom: 15px;
+	    text-align: center;
+}
+h3{
+color: #222;
+    font-size: 2.6em;
+    text-align: center;
+    padding: 40px 0px;
+    text-shadow: 2px 2px 0px #B7B7B7;
+}
+h4{
+    font-size: 4.2em;
+    padding: 25px 0px;
+    text-align: center;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+header{
+    height: 400px;
+	position:relative;
+	background: #fff url('../img/about.jpg') center top no-repeat;
+	background-attachment: fixed;
+}
+.photo{
+float: left;
+    margin: 10px;
+    padding: 10px;
+    height: 250px;
+    position: relative;
+    top: -60px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+#number{
+    width: 250px;
+height: 165px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+   background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #FFA7A7;
+}
+.number{
+	    font-size: 1.4em;
+    font-weight: bold;
+}
+.group{
+	display: block;
+    margin: 0 auto;
+    width: 190px;
+    color: #03A6EC;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+header .modalbox{
+	    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    border: 2px solid #999;
+    color: #222;
+    text-decoration: none;
+    background-color: #fff;
+	transition: all .3s;
+}
+header .modalbox:hover{
+	transition: all .3s;
+	border: 2px solid #222;
+}
+#usl{
+    position: absolute;
+    top: 215px;
+    width: 700px;
+    left: 150px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    text-shadow: 1px 1px 0px #fff;
+}
+#usl p{
+	display: block;
+    float: left;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 18px;
+    font-weight: bold;
+}
+
+#content{
+	background: url('../img/bg.jpg') center top no-repeat;
+height: 380px;
+}
+#texto{
+	    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+}
+#portfolio .big{
+	    font-size: 2em;
+    text-align: center;
+	    padding: 40px 0px;
+}
+#portfolio .small{
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid #999;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 15px auto;
+}
+
+#box1 {
+    background: url('../img/box2.jpg') center top no-repeat;
+	height: 780px;
+}
+#box2 {
+    background: url('../img/box1.jpg') center top no-repeat;
+	height:800px;
+}
+#box3 {
+    background: url('../img/box3.jpg') center top no-repeat;
+	height:800px;
+}
+
+#portfolio .big {
+    font-size: 3em;
+    text-align: center;
+
+    text-shadow: 1px 1px 0px #fff;
+    color: #0082B1;
+    padding: 25px;
+}
+#portfolio .small {
+font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid #999;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: #fff;
+}
+
+
+#portfolio .modalbox{
+    transition: all .3s;
+    border: 1px solid #656565;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    border-radius: 10px;
+    top: 100px;
+    left: 380px;
+    color: #fff;
+    text-decoration: none;
+}
+#portfolio .modalbox:hover{
+	transition: all .3s;
+	background-color: #424242;
+    color: #fff;
+}
+#zak2 .modalbox{
+	width: 250px;
+    left: 360px;
+	color:#222;
+}
+
+
+
+
+/*transition: all .3s;*/
+
+
+/*============*/
+.popup-form{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+.popup-form input{
+width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  margin: 10px 0px;
+}
+.button1{
+color: #fff;
+  background: #ff545d;
+  padding: 7px;
+  transition: all .3s;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 50px !important;
+  transition: all .3s;
+}
+.button1:hover{
+  opacity: 1;
+  transition: all .3s;
+}
+.popup{
+  background: none;
+height: 247px;
+}
+.flag h2 {
+text-align: center;
+  color: #222;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+#submit{
+  border: none;
+  font-size: 1.4em;
+}
+#submit:hover{
+  transition: all .3s;
+  background:#e83e3f;
+}

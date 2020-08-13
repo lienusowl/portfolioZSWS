@@ -1,0 +1,109 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1300px) {
+	.container {
+	    width: 1270px;
+	}
+}
+
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.slide-1 .info .btn {width: 100%;margin-bottom: 15px;}
+	.logo img {max-width: 80px;}
+	.logo .logo-text.small {font-size: 13px;line-height: 1;}
+	.index-slider .slide {height: auto;}
+	.slide-1 {background:url(../img/index/slider/1-mobile.jpg) no-repeat top center;padding-bottom: 30px;}
+	.slide-1 .inn {position: relative;bottom:auto;left: auto;}
+	#header-index .soc, #header .soc  {position: relative;bottom: auto;right: auto;}
+	.slide-2 .box {min-height: 210px;background: #fb136f;}
+	.slide-3 .box .info {padding: 0;}
+	.slide-4 {padding-bottom: 30px;background:#d66e85;}
+	.slide-4 .cat-name-main {margin-bottom: 35px;}
+	.slide-4 .left {padding-top: 55px;}
+	h2 {font-size: 32px;}
+	.btn.border {height: auto;}
+	#footer .tag {margin: 20px 0;}
+	#footer {padding: 50px 0 35px;}
+	.slide-4 .info {margin-bottom: 40px;}
+	.navbar-nav li a {padding: 10px 15px 10px;width: 100%;color:#000;}
+	.navbar-nav li a:hover, .navbar-nav li a:focus {color: #000;}
+	.navbar-nav li {width: 100%;text-align: right;}
+	.navbar-collapse {background: #fff;}
+	/*.slide-2 .col-md-6 img, .slide-2 .col-md-12 img {min-height: 200px;}*/
+	.dropdown-menu .pos-static {position: relative;}
+	.dropdown-menu {text-align: right;}
+	.dropdown-menu li a {padding: 10px 0;}
+	.dropdown-menu .ul-box {padding: 5px 0;}
+	.dropdown-menu .img-box img {width: 100%;}
+	.navbar .search-box {padding: 15px 0;}
+	.navbar .search-box .btn.border {color:#000;border-color:#000;}
+	li.dropdown:before {display: none;}
+	.title.big {font-size: 52px;line-height: 1;margin-top: 0px;margin-bottom: 230px;}
+	.page #header .info p {margin-bottom: 35px; font-size: 16px;}
+	.btn {width: 100%;max-width: 100%;}
+	.mt-60 {margin-top: 30px;}
+	.mb-90 {margin-bottom: 45px;}
+	.p-45 {padding: 25px;}
+	.w-90, .w-80 {width: 100%;}
+	.mb-80 {margin-bottom: 40px;}
+	.mt-100 {margin-top: 50px;}
+	#education {padding: 0;}
+	h4 {font-size: 22px;}
+	#history {padding: 50px 0 35px;}
+	#history .big {margin-bottom: 35px;}
+	.wr-box {padding: 25px;margin:30px auto 45px}
+	.owl-nav {display: inline-block;float: right;position: relative;width: 100%;height: 60px;}
+	.owl-nav .owl-prev {left: auto;right: 50px;}
+	.owl-nav .owl-next {right: 0;}
+	#public h2 {margin-bottom: 30px;}
+	#public {padding: 35px 0 40px}
+	.content h2 {margin-bottom: 35px;}
+	#video3, #patent {padding: 35px 0 50px}
+	#subscribe {padding: 35px 0;}
+	.subscribe-box {padding: 30px 15px;}
+	.send {height: auto;font-size: 12px;}
+	#video2 {padding: 0px 0px 30px;}
+	.cat-name {font-size: 11px;padding: 5px 15px;}
+	.w-60, .w-70, .w-80, .w-90 {width: 100%;}
+	h1 {font-size: 32px;}
+	h3 {font-size: 24px;}
+	#stages .icon img {max-width: 50px;}
+	.content section {padding: 45px 0 35px;}
+	#reviews .video-box .info {}
+	#reviews .round-box {height: auto;margin-bottom: 40px;}
+	.header-consultation .bg-cover {background-position: top center;}
+	.contacts-box .soc {float: none;text-align: center;}
+	.pr-0 {padding-right: 15px;}
+	.pl-0 {padding-left: 15px;}
+	#form-subscribe .form-control {border-right: 1px solid;}
+	.cat-filter .result {float: none;}
+	.cat-box.big .info {position: relative;color:#000;left: 0;bottom: auto;}
+	.cat-box.big .date span.year {color:#999;}
+	.cat-box.big .info .title {color:#000;font-size: 18px;}
+	.cat-filter .pre-right {padding-left: 15px;}
+	.content-left {padding-right: 15px;}
+	.content-right {padding-left: 15px;padding-right:15px;margin-top: 30px;}
+	.wr-orange {margin: 30px 0;}
+	ul.heart li {margin-bottom: 10px;}
+	p.bigger {font-size: 18px;}
+	.test-box .inn {font-size: 18px;margin-bottom: 20px;}
+	#test-result {font-size: 16px;}
+	.buy_training-box {padding: 30px 15px;}
+	.buy_training-box img {width: 100%;margin-bottom: -30px;position: relative;height: auto;}
+	#more_buy .info {padding: 15px 15px;}
+	#more_buy .readmore {right: 15px;bottom: 15px;}
+	.slogan-box .inn {padding: 40px 15px;}
+	.box2 {padding: 25px 20px;}
+}
+
+

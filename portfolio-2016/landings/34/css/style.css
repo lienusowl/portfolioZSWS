@@ -1,0 +1,667 @@
+@charset "UTF-8";
+@import "normalize.css";
+
+* {
+/*transition: all .3s;*/
+box-sizing:border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+}
+/* Ѕазовые стили страницы */
+body {
+margin: 0;
+background: #fff;
+color: #333;
+font-family: Verdana, Sans-Serif;
+overflow-x:hidden;
+}
+#clear{
+clear:both;
+}
+#center{
+margin:0 auto;
+position:relative;
+width:960px;
+}
+ol{
+margin: 2em 0px 2em 2em;
+}
+h1{
+color: #222;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 20px;
+}
+h2{
+color: #33383b;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+    width: 315px;
+    display: block;
+	    font-weight: 100;
+}
+h3{
+    color: #33383b;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+    width: 315px;
+    display: block;
+    font-weight: 100;
+}
+h4{
+    color: #33383b;
+    font-size: 2em;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    display: block;
+    font-weight: 100;
+}
+p{
+font-size: 1em;
+margin-bottom: 0.8em;
+}
+
+#top{
+	background-color: #575757;
+    height: 100px;
+}
+.logo{
+	    position: absolute;
+    top: 10px;
+}
+.p_logo{
+	    color: #fff;
+    position: absolute;
+    top: 70px;
+}
+#number{
+	    position: absolute;
+    width: 300px;
+    height: 60px;
+    right: 0px;
+    top: 10px;
+    text-align: center;
+}
+.number{
+	    color: #fff;
+}
+#number .modalbox{
+	    height: 40px;
+    background: url('../img/inline1.png');
+    width: 230px;
+    position: absolute;
+    padding-top: 10px;
+    color: #222;
+    text-decoration: none;
+    border-radius: 10px;
+    right: 30px;
+	transition: all .3s;
+}
+#number .modalbox:hover{
+	    text-shadow: 0px 0px 5px #fff;
+		transition: all .3s;
+}
+header{
+	    height: 520px;
+    background: url('../img/header.jpg') center top;
+}
+.header_img{
+	    position: absolute;
+    top: 121px;
+}
+h1 span{
+	color:#f8991c;
+}
+header p span{
+	color:#f8991c;
+}
+header p{
+	font-size: 1.4em;
+    width: 570px;
+    position: absolute;
+    top: 85px;
+    right: 70px;
+}
+header form{
+	    background-color: #575757;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    right: 155px;
+    top: 230px;
+	    border-radius: 10px;
+    border: 2px solid #828282;
+	    padding-top: 15px;
+}
+header form input{
+	    display: block;
+    margin: 0 auto;
+    width: 260px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid #9E9E9E;
+    padding: 5px;
+	padding-left: 10px;
+}
+header #submit{
+    background: url('../img/button1.png');
+    height: 60px;
+    font-size: 1.6em;
+	padding-left: 0px;
+	transition: all .3s;
+}
+header #submit:hover{
+	    text-shadow: 0px 0px 5px #fff;
+		transition: all .3s;
+}
+#black{
+    background-color: #2d2d2d;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    height: 200px;
+    outline: 1px solid #676767;
+}
+#box{
+    width: 190px;
+    margin: 25px 0px;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9em;
+}
+#box img{
+	
+}
+#box p{
+	    font-size: 0.9em;
+}
+#box p span{
+    font-size: 0.9em;
+	color:#c0c0c0;
+}
+
+#box2{
+width: 300px;
+    float: left;
+    height: 370px;
+	position:relative;
+	    margin: 20px 10px;
+}
+#box2 img{
+	display: block;
+    margin: 0 auto;
+}
+#box2 .price{
+display: block;
+    background-color: #f8991c;
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 160px;
+    right: 5px;
+    text-align: center;
+}
+#box2 .option{
+font-size: 0.75em;
+}
+.boxtoleft{
+	    margin-left: 200px !important;
+}
+#box2 .modalbox1{
+	background: url('../img/green_button.jpg');
+    height: 36px;
+    position: absolute;
+    padding-top: 7px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #222;
+    color: #fff;
+    text-decoration: none;
+	    bottom: 10px;
+    left: 45px;
+	transition: all .3s;
+}
+#box2 .modalbox1:hover{
+	text-shadow: 0px 0px 5px #222;
+	transition: all .3s;
+}
+#title{
+    height: 70px;
+    background: url('../img/title.png') repeat-x;
+    background-position-y: 25px;
+}
+#title2{
+    height: 70px;
+    background: url('../img/title.png') repeat-x;
+    background-position-y: 10px;
+}
+
+#oborud{
+    background: url('../img/bg2.jpg') center top;
+    height: 435px;
+    border-bottom: 1px solid #8E8E8E;
+}
+#oborud h2{
+	    background: url('../img/bg2.jpg') center top;
+}
+
+#box3{
+	    background: url('../img/box3.jpg');
+    width: 257px;
+    height: 276px;
+    position: relative;
+    float: left;
+    margin: 25px 30px;
+}
+
+#box3 img{
+	display: block;
+    margin: 40px auto 0 auto;
+}
+#box3 .modalbox2{
+	color: #222;
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #f8991c;
+    padding: 8px;
+    bottom: 20px;
+    left: 30px;
+	transition: all .3s;
+}
+#box3 .modalbox2:hover{
+	transition: all .3s;
+	    background-color: rgba(255, 255, 255, 0.75);
+}
+
+#box4{
+width: 235px;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding: 10px;
+	    height: 440px;
+}
+#box4 img{
+	
+}
+#box4 p{
+	font-size: 0.8em;
+    font-weight: 600;
+    padding-top: 15px;
+}
+#box4 .big{
+	font-size: 1.4em;
+    font-weight: 100;
+}
+#box4 .modalbox{
+	    height: 40px;
+    background: url('../img/inline1.png');
+    width: 200px;
+    position: absolute;
+    padding-top: 10px;
+    color: #222;
+    text-decoration: none;
+    border-radius: 10px;
+    right: 15px;
+    transition: all .3s;
+    bottom: 0px;
+}
+#box4 .modalbox:hover{
+	text-shadow: 0px 0px 5px #fff;
+		transition: all .3s;
+}
+
+#preim{
+    margin-top: 60px;
+    height: 500px;
+    background: url('../img/preim.jpg') center center no-repeat;
+}
+#preim p{
+    width: 265px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.mnogo1{
+	    text-align: right;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+}
+.mnogo2{
+    text-align: right;
+    position: absolute;
+    top: 90px;
+    left: -10px;
+}
+.mnogo3{
+    text-align: right;
+    position: absolute;
+    top: 170px;
+    left: -10px;
+}
+.mnogo4{
+    text-align: right;
+    position: absolute;
+    top: 220px;
+    left: -10px;
+}
+.mnogo5{
+	text-align: right;
+    position: absolute;
+    top: 280px;
+    left: 30px;
+}
+.mnogo6{
+    text-align: left;
+    position: absolute;
+    top: 35px;
+    right: 30px;
+}
+.mnogo7{
+	    text-align: left;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+}
+.mnogo8{
+	text-align: left;
+    position: absolute;
+    top: 150px;
+    right: 0px;
+}
+.mnogo9{
+	    text-align: left;
+    position: absolute;
+    top: 220px;
+    right: 0px;
+}
+.mnogo10{
+	text-align: left;
+    position: absolute;
+    top: 266px;
+    right: 25px;
+}
+
+#zakaz{
+	    background-color: #d0d0d0;
+    box-shadow: 0px 0px 10px #ccc;
+    height: 230px;
+}
+#zakaz h4{
+	
+}
+#zakaz h4 span{
+	color:#f8991c;
+}
+#zakaz form{
+	    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+#zakaz form input{
+	    height: 35px;
+    width: 280px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px #616161;
+	padding-left: 10px;
+}
+.m_left{
+	    margin-left: 30px;
+}
+#zakaz #submit {
+    background: url('../img/button1.png');
+    height: 60px;
+    font-size: 1.6em;
+    padding-left: 0px;
+    transition: all .3s;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+#zakaz #submit:hover {
+    text-shadow: 0px 0px 5px #fff;
+    transition: all .3s;
+}
+
+#done{
+    height: 560px;
+}
+#box12{
+    background: #f3b059;
+    width: 220px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.8em;
+	transition: all .3s;
+}
+#box12:hover{
+	transition: all .3s;
+	box-shadow: 0px 0px 10px #222;
+}
+#box12 a{
+	color:#222;
+}
+#box12 p{
+	color: #222;
+}
+
+#box12 img{
+	    display: block;
+    margin: 10px auto;
+}
+.img_map{
+	display: block;
+    margin: 10px auto;
+}
+
+#we  span{
+	color:#f8991c;
+}
+#line{
+	border-bottom: 1px solid #989898;
+    width: 40%;
+    margin: 0 auto;
+}
+#we .big{
+	text-align:center;
+}
+#we .small{
+	text-align:center;
+	    font-size: 0.8em;
+}
+#we form{
+	    background-color: #d0d0d0;
+    border-radius: 10px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+#we form p{
+	    font-size: 1.45em;
+}
+#we form input {
+    height: 35px;
+	width: 225px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px #616161;
+    padding-left: 10px;
+}
+#we form #submit{
+	height: 40px;
+    background: url('../img/inline1.png');
+    width: 200px;
+    padding-top: 0px;
+    color: #222;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all .3s;
+    display: block;
+    margin: 10px auto 0px auto;
+    font-weight: 800;
+}
+#we form #submit:hover{
+	transition: all .3s;
+		text-shadow: 0px 0px 5px #fff;
+}
+#metka{
+	background-color: #f8991c;
+    padding: 10px;
+    border: 1px solid #222;
+    border-radius: 10px 10px 0px 10px;
+    width: 220px;
+    position: absolute;
+    z-index: 10;
+    top: 55px;
+    left: 80px;
+}
+footer{
+	    background-color: #575757;
+    height: 100px;
+    height: 100px;
+}
+
+#flag1{
+    
+    height: 80px;
+}
+#flag2{
+height: 40px;
+    position: absolute;
+    width: 612px;
+    bottom: 0px;
+    z-index: 9;
+}
+
+
+
+.popup1{
+	    width: 100%;
+    background-color: #d0d0d0;
+    padding: 20px;
+    min-height: 230px;
+}
+.popup1 input {
+    height: 35px;
+    width: 280px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px #616161;
+    padding-left: 10px;
+	    margin-top: 50px;
+}
+.popup1 #submit{
+background: url('../img/button1.png');
+    height: 60px;
+    font-size: 1.6em;
+    padding-left: 0px;
+    transition: all .3s;
+    margin: 30px auto 0 auto;
+    display: block;
+}
+.popup1 #submit:hover {
+    text-shadow: 0px 0px 5px #fff;
+    transition: all .3s;
+}
+.popup1 p{
+	    font-size: 0.8em;
+}
+#flag1 h4{
+	font-size: 1.8em;
+}
+
+.popup1 a{
+    color: #222;
+    text-decoration: none;
+    font-size: 0.6em;
+}
+.popup1 a:hover{
+text-decoration:underline;	
+}
+
+#fancy_close{
+	display:none !important;
+}
+
+.extremum-slide {
+    /* border: 1px solid #222; */
+    padding: 10px;
+    display: none;
+    position: absolute;
+    width: 435px;
+    right: 14px;
+    top: 105px;
+    height: 385px;
+    background-color: #D0D0D0;
+}
+.red {
+	background-color:#eee;
+}
+.tov{
+font-size: 0.7em;
+	    width: 100%;
+}
+.img_centre{
+    display: block;
+    margin: 0px auto 10px auto;
+    height: 115px;
+    border: 3px solid #909090;
+    padding: 3px;
+    background-color: #F7981C;
+}
+
+
+.for_form input{
+	margin-top: 10px;
+	height: 30px;
+}
+.for_form #submit{
+	    background: url('../img/button1.png');
+    height: 29px;
+    font-size: 1em;
+    padding-left: 0px;
+    transition: all .3s;
+    margin: 8px auto 0 auto;
+    display: block;
+    z-index: 10;
+}
+#post{
+	    height: 360px;
+}
+#post #submit{
+	    margin: 10px 0px;
+}
+.extremum-click{
+	width: 210px !important;
+    position: relative;
+    display: block;
+    margin-top: 7px;
+}
+
+
+/*transition: all .3s;*/

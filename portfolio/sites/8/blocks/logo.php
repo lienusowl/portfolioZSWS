@@ -1,0 +1,1 @@
+<a href="index.php"><img src="img/logo.png" width="400" height="260" alt="Перспектива"></a>

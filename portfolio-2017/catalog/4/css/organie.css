@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'organie';
+  src:  url('f../onts/organie.eot?6xqxl7');
+  src:  url('../fonts/organie.eot?6xqxl7#iefix') format('embedded-opentype'),
+    url('../fonts/organie.ttf?6xqxl7') format('truetype'),
+    url('../fonts/organie.woff?6xqxl7') format('woff'),
+    url('../fonts/organie.svg?6xqxl7#organie') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="organie-"], [class*=" organie-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'organie' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.organie-flower-1:before {
+  content: "\e932";
+}
+.organie-flower-2:before {
+  content: "\e933";
+}
+.organie-flower-3:before {
+  content: "\e934";
+}
+.organie-flower-4:before {
+  content: "\e935";
+}
+.organie-flower-5:before {
+  content: "\e936";
+}
+.organie-flower-6:before {
+  content: "\e937";
+}
+.organie-flower-7:before {
+  content: "\e938";
+}
+.organie-flower-8:before {
+  content: "\e939";
+}
+.organie-flower-9:before {
+  content: "\e93a";
+}
+.organie-flower-10:before {
+  content: "\e93b";
+}
+.organie-flower-11:before {
+  content: "\e93c";
+}
+.organie-flower-12:before {
+  content: "\e93d";
+}
+.organie-flower-13:before {
+  content: "\e93e";
+}
+.organie-flower-14:before {
+  content: "\e93f";
+}
+.organie-cactus:before {
+  content: "\e92c";
+}
+.organie-plant-2:before {
+  content: "\e92d";
+}
+.organie-plant-3:before {
+  content: "\e92e";
+}
+.organie-plant-4:before {
+  content: "\e92f";
+}
+.organie-plant:before {
+  content: "\e930";
+}
+.organie-plant1:before {
+  content: "\e931";
+}
+.organie-apple:before {
+  content: "\e900";
+}
+.organie-banana:before {
+  content: "\e901";
+}
+.organie-basket:before {
+  content: "\e902";
+}
+.organie-blender:before {
+  content: "\e903";
+}
+.organie-bread:before {
+  content: "\e904";
+}
+.organie-broccoli:before {
+  content: "\e905";
+}
+.organie-carrot:before {
+  content: "\e906";
+}
+.organie-coconut:before {
+  content: "\e907";
+}
+.organie-corn:before {
+  content: "\e908";
+}
+.organie-cucumber:before {
+  content: "\e909";
+}
+.organie-egg:before {
+  content: "\e90a";
+}
+.organie-eggplant:before {
+  content: "\e90b";
+}
+.organie-ekobag:before {
+  content: "\e90c";
+}
+.organie-grain:before {
+  content: "\e90d";
+}
+.organie-grape:before {
+  content: "\e90e";
+}
+.organie-honey:before {
+  content: "\e90f";
+}
+.organie-jam:before {
+  content: "\e910";
+}
+.organie-leaf:before {
+  content: "\e911";
+}
+.organie-lemon:before {
+  content: "\e912";
+}
+.organie-lettuce:before {
+  content: "\e913";
+}
+.organie-milk:before {
+  content: "\e914";
+}
+.organie-mushrooms:before {
+  content: "\e915";
+}
+.organie-onion:before {
+  content: "\e916";
+}
+.organie-pear:before {
+  content: "\e917";
+}
+.organie-pepper:before {
+  content: "\e918";
+}
+.organie-radish:before {
+  content: "\e919";
+}
+.organie-smoothie:before {
+  content: "\e91a";
+}
+.organie-squeezer:before {
+  content: "\e91b";
+}
+.organie-tomato:before {
+  content: "\e91c";
+}
+.organie-watermelon:before {
+  content: "\e91d";
+}
+.organie-hours-support:before {
+  content: "\e91e";
+}
+.organie-arrow-01:before {
+  content: "\e91f";
+}
+.organie-barn:before {
+  content: "\e920";
+}
+.organie-credit-card:before {
+  content: "\e921";
+}
+.organie-decor:before {
+  content: "\e922";
+}
+.organie-delivery:before {
+  content: "\e923";
+}
+.organie-drop:before {
+  content: "\e924";
+}
+.organie-flower:before {
+  content: "\e925";
+}
+.organie-leaves_2:before {
+  content: "\e926";
+}
+.organie-leaves:before {
+  content: "\e927";
+}
+.organie-map-location:before {
+  content: "\e928";
+}
+.organie-path-footer:before {
+  content: "\e929";
+}
+.organie-tractor:before {
+  content: "\e92a";
+}
+.organie-watercolor:before {
+  content: "\e92b";
+}
+

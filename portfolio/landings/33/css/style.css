@@ -1,0 +1,332 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+}
+body{
+width: 100%;
+margin: 0px;
+padding: 0px;
+top: 0;
+background: #716652;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+border-spacing: 5px 0px;
+color: #1f1f1f;
+font-size:11pt;
+}
+.clear {
+clear:both;
+}
+h1 {
+font-size: 28px;
+text-align: center;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 1px #000;
+color: #fff;
+font-weight: normal;
+}
+h2 {
+font-size: 18px;
+text-align: center;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 1px #000;
+color: #fff;
+}
+
+h3 {
+font-size: 18px;
+text-align: center;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+color: #000;
+margin-top: 13px;
+}
+h4 {
+text-align: center;
+font-size: 32px;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+margin: 10px 0px;
+}
+
+h5 {
+text-align: center;
+font-size: 20px;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+}
+
+p {
+color: #3e3550;
+line-height: 1.4em;
+}
+
+#form p,a{
+text-align: center;
+color: #fff;
+font-size: 12px;
+}
+
+#form1 p,a{
+text-align: center;
+color: #000;
+font-size: 12px;
+}
+
+#telo {
+width: 100%;
+height: 100%;
+background: url(../img/body.jpg);
+background-repeat: no-repeat;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 0;
+background-size: cover;
+background-attachment: fixed;
+z-index: -1;
+}
+
+#telo1 {
+margin:0 auto;
+background:#fff;
+width:900px;
+border-left:1px solid #615353;
+border-right:1px solid #615353;
+box-shadow:0px 0px 6px #000;
+}
+
+#main {
+width: 900px;
+margin: 0 auto;
+background: url('../img/bg.jpg') no-repeat;
+min-height: 1300px;
+}
+
+#center {
+width: 900px;
+margin: 0 auto;
+}
+
+#logo {
+width: 462px;
+height: 177px;
+background: url('../img/logo.png') no-repeat;
+float: left;
+}
+
+#phone {
+float: right;
+width: 300px;
+width: 335px;
+}
+
+#phone p {
+color:#fff;
+font-size: 29px;
+text-align: right;
+}
+
+#button {
+display: block;
+width: 260px;
+height: 54px;
+background: url(../img/button1.png) no-repeat;
+text-align: center;
+text-shadow: none;
+font-size: 24px;
+color: #fff;
+text-shadow: 2px 2px 2px #333;
+text-decoration: none;
+padding-top: 6px;
+margin: 10px 0px 0px 55px;
+font-family: 'Didact Gothic','Roboto Condensed', sans-serif;
+}
+
+#button:hover {
+opacity:0.9;
+}
+
+.submit-btn:hover {
+opacity:0.8;
+}
+
+#zag {
+width: 300px;
+margin-top: 175px;
+background: rgba(255, 255, 255, 0.16);
+padding: 5px 10px;
+border-top: 1px solid rgba(51, 51, 51, 0.78);
+border-bottom: 1px solid rgba(51, 51, 51, 0.78);
+float: left;
+}
+
+#zag p {
+color: #fff;
+font-size: 22px;
+text-align: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.56);
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+}
+
+#ccc {
+background: rgba(255, 255, 255, 0.16);
+padding: 5px 10px;
+border-top: 1px solid rgba(51, 51, 51, 0.78);
+border-bottom: 1px solid rgba(51, 51, 51, 0.78);
+float: right;
+width: 700px;
+margin-top: 310px;
+}
+
+#form {
+margin: 220px auto 220px auto;
+width: 500px;
+height: 190px;
+background: rgba(255, 255, 255, 0.31);
+border-radius: 20px;
+border: 1px solid rgba(238, 238, 238, 0.34);
+}
+
+#form input[type="text"], textarea {
+height: 27px;
+padding: 0 10px;
+border: 1px solid #e3e3e3;
+border-width: 1px 0 0 1px;
+color: #a7a7a7;
+border-radius: 5px;
+margin: 5px 18px;
+width: 190px;
+border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+border-style: solid;
+border-width: 1px;
+}
+
+.submit-btn {
+width: 234px;
+height: 45px;
+background: url(../img/button.png) no-repeat;
+border: 0px;
+cursor: pointer;
+text-shadow: 2px 2px 2px #333;
+color: #fff;
+position: relative;
+font-size: 26px;
+margin: 10px 0px 0px 130px;
+font-family: 'Didact Gothic','Roboto Condensed', sans-serif;
+padding-top: 0px;
+}
+
+.boxes {
+float: left;
+margin-bottom: 25px;
+width: 100%;
+margin-left: 15px;
+
+}
+
+.boxes-last {
+margin-right: 0%;
+margin-left: 1%;
+}
+
+.boxes-third {
+background-color: rgba(255, 255, 255, 0.5);
+width: 30%;
+height: 50px;
+float: left;
+margin: 35px 1% 0px 1%;
+border: 1px solid #bcbcbc;
+position: relative;
+border-radius: 20px;
+}
+
+#shadow {
+background: url('../img/shadow.png') no-repeat;
+height: 25px;
+margin: 0 auto;
+width: 900px;
+}
+
+.boxl {
+width: 450px;
+float: left;
+margin-left: 15px;
+}
+
+.boxr {
+width: 435px;
+float: right;
+}
+
+.boxl img {
+padding-right: 10px;
+float: left;
+}
+
+.boxl p {
+float: left;
+width: 400px;
+min-height: 50px;
+color:#000;
+}
+
+.boxr img {
+padding-right: 10px;
+float: left;
+}
+
+.boxr p {
+float: left;
+width: 400px;
+min-height: 50px;
+color:#000;
+}
+
+#form1 {
+margin: 10px auto;
+width: 500px;
+height: 150px;
+background: rgba(202, 197, 197, 0.31);
+border-radius: 20px;
+border: 1px solid rgba(71, 60, 60, 0.34);
+}
+
+#form1 input[type="text"], textarea {
+height: 27px;
+padding: 0 10px;
+border: 1px solid #e3e3e3;
+border-width: 1px 0 0 1px;
+color: #a7a7a7;
+border-radius: 5px;
+margin: 5px 18px;
+width: 190px;
+border-color: #B7B7B7 #E8E8E8 #E8E8E8 #B7B7B7;
+border-style: solid;
+border-width: 1px;
+}
+
+#form1 h2 {
+font-size: 18px;
+text-align: center;
+font-family: 'Didact Gothic',Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+color: #FFFFFF;
+}
+
+#win {
+position: fixed;
+width: 600px;
+height: 100px;
+border: 1px solid #685757;
+background: rgba(255, 255, 255, 0.62);
+left: 25%;
+top: 38%;
+z-index: 10;
+border-radius: 10px;
+}

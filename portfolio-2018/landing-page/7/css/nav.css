@@ -1,0 +1,68 @@
+.navbar-toggle .icon-bar {
+  background: #602980;
+}
+/* Menu */
+.menu {
+  background: #222;
+  left: -285px;
+  /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  z-index: 10;
+}
+/* Basic CSS */
+#menu {
+  position: absolute;
+  z-index: 5;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  font-family: "ProximaNovaRegular", sans-serif;
+  line-height: 1.3em;
+  padding-bottom: 23px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.menu li:hover {
+  cursor: pointer;
+  background-color: none;
+}
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  transition: all .3s;
+  text-align: center;
+  display: block;
+}
+.menu a:hover {
+  color: #6facc3;
+  transition: all .3s;
+}
+.icon-close {
+  cursor: pointer;
+  padding-right: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: block;
+  float: right;
+}
+.icon-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: "ProximaNovaRegular", sans-serif;
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.icon-menu img {
+  margin-right: 5px;
+}

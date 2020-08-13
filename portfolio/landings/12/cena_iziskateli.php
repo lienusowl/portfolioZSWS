@@ -1,0 +1,1 @@
+<div class='price'>от 49 000 руб</div>

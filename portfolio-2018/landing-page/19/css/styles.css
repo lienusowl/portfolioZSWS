@@ -1,0 +1,441 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500i,700,900&subset=cyrillic,cyrillic-ext');
+@import "nav.css" screen;
+@import "owl.css" screen;
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.2
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin-bottom: 10px;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.form-control {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 6px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  height: auto;
+  padding: 10px 15px;
+}
+.form-control:focus {
+  border: 1px solid rgba(96, 41, 128, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+select.form-control {
+  height: 42px;
+}
+.btn {
+  padding: 9px 20px;
+  border: 1px solid;
+  border-color: #8eb359;
+  border-radius: 24px;
+  background: #8eb359;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 34px;
+}
+.btn:hover {
+  background: #fff;
+  color: #333;
+}
+.btn:focus {
+  color: #fff;
+  background: #333;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+#header .top .col-md-1-5 a {
+  color: #000;
+  transition: all .3s;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1.4em;
+}
+#header .top .col-md-1-5 a:hover {
+  color: #338b9a;
+  transition: all .3s;
+}
+#header .texto {
+  background: url(../img/header.jpg) center top no-repeat;
+  background-size: cover;
+}
+#header .texto p {
+  margin-bottom: 0px;
+}
+#header .texto .big1 {
+  color: #fff;
+  font-size: 5em;
+  padding: 50px 0 0 30px;
+  font-weight: bold;
+}
+#header .texto .big2 {
+  color: #fff;
+  font-size: 3.7em;
+  padding: 0px 0 0 30px;
+  font-weight: 500;
+  margin-top: -20px;
+}
+#header .texto .big3 {
+  color: #fff;
+  font-size: 3.2em;
+  padding: 0px 0 0 30px;
+  font-weight: 500;
+  margin-top: -15px;
+}
+#header .texto .big4 {
+  color: #fff;
+  font-size: 7.6em;
+  padding: 5px 0 0 30px;
+  font-weight: bold;
+}
+#header .texto .big5 {
+  color: #fff;
+  font-size: 4.05em;
+  padding: 0 0 0 30px;
+  font-weight: 500;
+  margin-top: -40px;
+}
+#header .texto .big6 {
+  font-size: 2em;
+  padding: 0 0 0 30px;
+  font-weight: 500;
+  color: #fcd8ea;
+}
+#two .two {
+  background: url(../img/two.jpg) center top no-repeat;
+  background-size: cover;
+}
+#two .two .col-md-3 img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}
+#two .two .col-md-9 {
+  text-align: right;
+}
+#two .two .col-md-9 .black {
+  color: #000;
+  font-size: 1.4em;
+  padding: 20px 0px;
+}
+#two .two .col-md-9 .big1 {
+  color: #04d0e9;
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 0px;
+  line-height: 40px;
+  padding-top: 40px;
+}
+#two .two .col-md-9 .big1 span {
+  font-size: 0.45em;
+}
+#two .two .col-md-9 .red {
+  color: #ba4d83;
+  font-size: 3.4em;
+  font-weight: bold;
+}
+#three .three {
+  background: url(../img/three.jpg) center top no-repeat;
+  background-size: cover;
+}
+#three .col-md-6 img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -10px;
+}
+#three .big {
+  color: #00c3dc;
+  font-size: 5em;
+  padding: 30px 0px 0px 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+#three .big span {
+  color: #fff;
+  padding-left: 130px;
+}
+#three .big1 {
+  color: #00c3dc;
+  padding: 0px 0px 0px 30px;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: -20px;
+}
+#three .black {
+  color: #000;
+  font-size: 1.4em;
+  padding: 0px 0px 0px 30px;
+}
+#three .red {
+  padding: 20px 0px 0px 30px;
+  color: #ba4d83;
+  font-weight: bold;
+  font-size: 2.1em;
+}
+#four .four {
+  background: url(../img/four.jpg) center top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#four img {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  max-width: 50%;
+}
+#four .big1 {
+  color: #00c3dc;
+  font-weight: bold;
+  padding: 30px 0 0 30px;
+  font-size: 3.2em;
+  margin-bottom: 0px;
+  line-height: 50px;
+}
+#four .big2 {
+  color: #00c3dc;
+  font-weight: bold;
+  padding: 0 0 0 30px;
+  font-size: 2em;
+}
+#four .black {
+  color: #000;
+  font-size: 1.2em;
+  padding: 0 0 0 30px;
+}
+#four .red {
+  color: #ba4d83;
+  font-weight: bold;
+  padding: 10px 0 15px 30px;
+  font-size: 2.4em;
+  margin-bottom: 0;
+}
+#where .where {
+  background: url(../img/where.jpg) center top no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: right;
+  padding-bottom: 30px;
+}
+#where .where img {
+  position: absolute;
+  max-width: 50%;
+  top: 110px;
+  left: 30px;
+}
+#where .big {
+  color: #00c3dc;
+  font-size: 5em;
+  font-weight: bold;
+  padding-top: 30px;
+  line-height: 80px;
+}
+#where .red {
+  color: #ba4d83;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 10px 0px;
+}
+#where .black {
+  color: #000;
+  font-size: 1.2em;
+}
+#content {
+  background: url(../img/footer.jpg) center top no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#content .title-big {
+  text-align: center;
+  color: #ba4d83;
+  padding-top: 30px;
+  font-size: 4em;
+  font-weight: bold;
+}
+#content .col-md-4 {
+  text-align: center;
+}
+#content .title {
+  font-weight: bold;
+  font-size: 2em;
+}
+#content .blue {
+  color: #00c3dc;
+}
+#content .pink {
+  color: #fcd8ea;
+}
+#content .red {
+  color: #ba4d83;
+}
+#content .black {
+  font-size: 1.4em;
+  height: 70px;
+}
+#content .big {
+  font-weight: bold;
+  font-size: 2em;
+}
+#content .btn {
+  padding: 20px 0;
+  height: 60px;
+  text-transform: uppercase;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  transition: all .3s;
+}
+#content .btn:hover {
+  transition: all .3s;
+}
+#content .btn-pink {
+  display: block;
+  background: url(../img/btn-pink.png) center top no-repeat;
+  border: none;
+}
+#content .btn-blue {
+  display: block;
+  background: url(../img/btn-blue.png) center top no-repeat;
+  border: none;
+}
+#content .btn-red {
+  display: block;
+  background: url(../img/btn-red.png) center top no-repeat;
+  border: none;
+}
+#footer {
+  padding-bottom: 30px;
+}
+#footer a {
+  color: #000;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 2em;
+  text-align: center;
+  display: block;
+  margin: 30px 0 0 0;
+  transition: all .3s;
+}
+#footer a:hover {
+  transition: all .3s;
+  color: #ccc;
+}
+/* transition: all .3s; */
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.1
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/

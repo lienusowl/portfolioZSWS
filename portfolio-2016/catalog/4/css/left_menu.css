@@ -1,0 +1,160 @@
+.menu {
+	width: auto;
+	height: auto;
+	
+}
+.menu li{
+	list-style-type: none;
+	position: relative;
+}
+.menu > li > a {
+    width: 100%;
+    height: 1.75em;
+    line-height: 1.75em;
+    display: block;
+    position: relative;
+    font-weight: 100;
+    color: #c22b70;
+    font-size: 0.9em;
+	text-decoration:none;
+	transition: all .3s;
+}
+.menu > li > a:hover{
+	border-bottom:1px solid #ddd;
+	transition: all .3s;
+}
+.menu ul li a {
+    /* background: #fff; */
+    border-bottom: 1px solid #efeff0;
+    width: 100%;
+    height: 2em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    position: relative;
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-size: 0.923em;
+    font-weight: 400;
+    color: #878d95;
+}
+.menu ul li:last-child a {
+	
+}
+.menu > li > a:hover, .menu > li > a.active {
+	
+}
+.menu > li > a.active {
+	
+}
+.menu > li > a:before {
+	content: '';
+	
+	background-repeat: no-repeat;
+	font-size: 36px;
+	height: 1em;
+  	width: 1em;
+	position: absolute;
+  	left: 0;
+	top: 50%;
+	margin: -.5em 0 0 0;
+}
+.item1 > a:before {
+	background-position: 0 0;
+}
+.item2 > a:before {
+	background-position: -38px 0;
+}
+.item3 > a:before {
+	background-position: 0 -38px;
+}
+.item4 > a:before {
+	background-position: -38px -38px;
+}
+.item5 > a:before {
+	background-position: -76px 0;
+}
+.menu > li > a span {
+	font-size: 0.857em; 
+	display: inline-block;
+	position: absolute;
+	right: 1em;
+	top: 50%; 
+	background: #48515c;
+	line-height: 1em;
+	height: 1em;
+	padding: .4em .6em;
+	margin: -.8em 0 0 0; 
+	color: #fff;
+	text-indent: 0;
+	text-align: center;
+	-webkit-border-radius: .769em;
+	-moz-border-radius: .769em;
+	border-radius: .769em;
+	-webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);
+	-moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);
+	text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+	font-weight: 500;
+}
+.menu > li > a:hover span, .menu > li a.active span {
+	background: #2173a1;
+}
+.menu > li > ul li a:before{
+	content: '▶';
+	font-size: 8px;
+	color: #bcbcbf;
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	top: 0;
+	left: -2.7em;
+}
+
+.menu > li > ul li:hover a,
+.menu > li > ul li:hover a span,
+.menu > li > ul li:hover a:before {
+	color: #32373D;
+}
+
+
+.menu ul > li > a span {
+	font-size: 0.857em; 
+	display: inline-block;
+	position: absolute;
+	right: 1em;
+	top: 50%; /
+	background: #fff;
+	border: 1px solid #d0d0d3;
+	line-height: 1em;
+	height: 1em;
+	padding: .4em .7em;
+	margin: -.9em 0 0 0; 
+	color: #878d95;
+	text-indent: 0;
+	text-align: center;
+	-webkit-border-radius: .769em;
+	-moz-border-radius: 769em;
+	border-radius: 769em;
+	text-shadow: 0px 0px 0px rgba(255,255,255,.01));
+}
+
+.menu div a{
+	width: 100%;
+    height: 1.75em;
+    line-height: 1.75em;
+    display: block;
+    position: relative;
+    font-weight: 100;
+    color: #c22b70;
+    font-size: 0.9em;
+	text-decoration:none;
+	transition: all .3s;
+}
+.menu div a:hover{
+	border-bottom:1px solid #ddd;
+	transition: all .3s;
+}
+.menu .big{
+	font-size: 2em;
+    margin: 20px 0px 10px 0px;
+}

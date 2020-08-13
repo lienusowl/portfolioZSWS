@@ -1,0 +1,459 @@
+@font-face {
+  font-family: "MullerRegular";
+  src: url('../fonts/FONTFABRIC - MULLERREGULAR.eot');
+  src: local('☺'), /*url('../fonts/FONTFABRIC - MULLERREGULAR.woff') format('woff'), */ url('../fonts/FONTFABRIC - MULLERREGULAR.ttf') format('truetype'), url('../fonts/FONTFABRIC - MULLERREGULAR.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MullerBold";
+  src: url('../fonts/FONTFABRIC - MULLERBOLD.eot');
+  src: local('☺'), /*url('../fonts/FONTFABRIC - MULLERBOLD.woff') format('woff'), */ url('../fonts/FONTFABRIC - MULLERBOLD.ttf') format('truetype'), url('../fonts/FONTFABRIC - MULLERBOLD.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.3;
+  font-family: "MullerRegular", sans-serif;
+  background: #1D2227;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+b,
+.bold {
+  font-family: "MullerBold";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Comfortaa', cursive;
+}
+.regular {
+  font-family: "MullerRegular", sans-serif;
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+.clear {
+  clear: both;
+}
+.w-100 {
+  width: 100%;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin-bottom: 10px;
+}
+.navbar-toggle .icon-bar {
+  background: #FFE536;
+}
+.close {
+  width: 28px;
+  height: 28px;
+  border: none;
+  opacity: 1;
+  font-weight: normal;
+  background: transparent;
+  color: #66696B;
+  margin-top: -10px;
+  margin-right: -10px;
+  text-shadow: none;
+  /* border-radius: 50%; */
+  float: right;
+}
+.close:before {
+  content: "\f00d";
+  display: block;
+  font-family: FontAwesome;
+}
+.modal-content {
+  border-radius: 5px;
+  border: 0px;
+  padding: 30px;
+  background: #1d2227;
+}
+.modal-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .modal-content {
+    box-shadow: none;
+  }
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 400px;
+    margin: 30px auto;
+  }
+}
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 35px;
+  position: relative;
+}
+.form-horizontal .form-group.name:before {
+  content: "\f007";
+  font-family: FontAwesome;
+  color: #ffe536;
+  font-size: 18px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.form-horizontal .form-group.number:before {
+  content: "\f095";
+  font-family: FontAwesome;
+  color: #ffe536;
+  font-size: 18px;
+  position: absolute;
+  top: 7px;
+  left: 5px;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid #66696B;
+  background: none;
+  color: #fff;
+  border-radius: 0px;
+  height: 44px;
+  padding: 6px 15px 6px 30px;
+  box-shadow: none;
+}
+.form-control:focus {
+  border-bottom: 1px solid #ffe536;
+  box-shadow: none;
+}
+select.form-control {
+  height: 47px;
+  width: 110%;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  /*padding: 8px 32px;*/
+  color: #fff;
+  cursor: pointer;
+  height: 100%;
+}
+select.form-control:focus {
+  border-bottom: none;
+}
+.form-group.type {
+  position: relative;
+  background: #20252A;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 47px;
+  width: 100%;
+  padding: 8px 10px;
+}
+.form-group.type:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  background: #ffe536 url(../img/sel.png) no-repeat center center;
+  width: 25px;
+  height: 25px;
+}
+.btn {
+  height: 44px;
+  padding: 0px 15px;
+  border-radius: 25px;
+  border: none;
+  background: #ffe536;
+  text-align: center;
+  cursor: pointer;
+  color: #1F242A;
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 47px;
+  min-width: 160px;
+  font-family: "MullerBold";
+  text-transform: uppercase;
+  box-shadow: 0px 2px 20px rgba(255, 229, 54, 0.4);
+}
+.btn:hover {
+  background: #ffe536;
+  color: #1F242A;
+  box-shadow: none;
+}
+.btn:focus {
+  color: #1F242A;
+  background: #ffe536;
+  box-shadow: 0px 2px 20px rgba(255, 229, 54, 0.4);
+}
+.navbar-collapse {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar {
+  border-radius: 0;
+  height: auto;
+  margin-bottom: 0;
+  border: none;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.w-100 {
+  width: 100%;
+}
+.m-auto {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.text {
+  overflow: hidden;
+}
+.icon {
+  float: right;
+  margin-left: 10px;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+hr {
+  width: 100px;
+  height: 1px;
+  margin: 60px 0px;
+  display: inline-block;
+  border: none;
+  background: #ffe536;
+}
+#header {
+  padding: 40px 0 0;
+  background: url(../img/header/bg.jpg) no-repeat top center;
+  background-size: cover;
+}
+#header .top-header .left {
+  padding-top: 90px;
+  text-align: center;
+}
+#header .top-header .right {
+  padding-top: 60px;
+  text-align: right;
+}
+#header .top-header .right a.a-phone {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+#header .top-header .right a.a-phone:hover {
+  cursor: pointer;
+  color: #ffe536;
+}
+#header .top-header .right .whatsapp {
+  margin-top: 10px;
+  position: relative;
+  padding-right: 15px;
+}
+#header .top-header .right .whatsapp a {
+  color: #ffe536;
+  font-size: 13px;
+}
+#header .top-header .right .whatsapp a i.fa {
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  top: -5px;
+}
+#header .soc a {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ffe536;
+  color: #ffe536;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  margin: 0 5px;
+}
+#header .soc a:hover {
+  background: #ffe536;
+  color: #1d2227;
+}
+#header .btn {
+  height: 60px;
+  line-height: 67px;
+  font-size: 18px;
+  min-width: 315px;
+  border-radius: 40px;
+  margin-bottom: 40px;
+}
+.logo {
+  text-align: center;
+}
+.header-slogan {
+  font-size: 44px;
+  margin-bottom: 20px;
+  line-height: 1;
+  margin-top: 0;
+}
+.header-slogan2 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  font-family: "MullerRegular", sans-serif;
+}
+.header-day {
+  color: #ffe536;
+  font-size: 32px;
+  font-family: "MullerRegular", sans-serif;
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+.title span {
+  font-size: 32px;
+  font-family: "MullerRegular", sans-serif;
+}
+.services-box {
+  margin-bottom: 60px;
+  padding: 0 0px;
+}
+.services-box .img {
+  min-height: 64px;
+}
+.services-box img {
+  margin-bottom: 15px;
+}
+.services-box h3 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.services-box .inn {
+  padding-top: 20px;
+}
+#services {
+  background: url(../img/services/bg.jpg) no-repeat center center;
+}
+#visit {
+  padding: 60px 0 90px;
+  background: url(../img/visit/bg.jpg) no-repeat bottom center;
+}
+#visit hr {
+  margin-top: 0;
+}
+#visit .left {
+  text-align: right;
+}
+#visit .left .title span {
+  font-size: 24px;
+}
+#visit .left .inn {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+}
+#visit .left .icon {
+  margin-left: 30px;
+}
+#visit .right {
+  padding: 0 30px;
+}
+#visit ul {
+  margin: 30px 0;
+}
+#visit ul li {
+  position: relative;
+  margin-bottom: 10px;
+  padding: 0 30px 0;
+}
+#visit ul li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #ffe536;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+#visit .form-visit {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 355px;
+  min-height: 615px;
+  background: url(../img/visit/form.png) no-repeat top center;
+  /*background-size: cover;*/
+  padding: 60px 40px;
+  position: relative;
+}
+#visit .form-visit .form-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+#visit .form-visit .conf {
+  margin: 30px 0;
+  color: rgba(255, 229, 54, 0.51);
+  font-size: 12px;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.logo img {
+  max-width: 135px;
+}

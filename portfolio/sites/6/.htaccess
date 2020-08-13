@@ -1,0 +1,15 @@
+AddDefaultCharset UTF-8
+
+Options +FollowSymLinks 
+RewriteEngine On 
+RewriteCond %{HTTP_HOST} ^top-in-web.ru 
+RewriteRule ^(.*)$ http://www.top-in-web.ru/$1 [R=301,L] 
+
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ http://www.top-in-web.ru/ [R=301,L]
+RewriteRule ^index\.php$ http://www.top-in-web.ru/ [R=301,L]
+
+
+ErrorDocument 404 /error/404.php

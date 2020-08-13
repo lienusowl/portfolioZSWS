@@ -1,0 +1,233 @@
+#menu {
+float: left;
+font-size: 12px;
+background: #008dce;
+width: 980px;
+height: 50px;
+border-radius: 5px;
+border-bottom: 7px solid #186d9a;
+margin-top: 15px;
+}
+/* Основные стили меню */
+		.block-menu {
+			display: block;
+			background: #008dce;
+		}
+
+		.block-menu li {
+			display: inline-block;
+			width: 125px;
+			text-align: center;
+		}
+
+		.block-menu li a {
+			color: #fff;
+			display: block;
+			text-decoration: none;
+			font-family: 'Russo One',Arial,sans-serif;
+			-webkit-font-smoothing: antialiased;
+			-moz-font-smoothing: antialiased;
+			font-smoothing: antialiased;
+			text-transform: uppercase;
+			overflow: visible;
+			line-height: 20px;
+			font-size: 14px;
+			padding: 15px 10px;
+		}
+
+		/* Анимация */
+		.three-d {
+			-webkit-perspective: 200px;
+			-moz-perspective: 200px;
+			perspective: 200px;
+			-webkit-transition: all .07s linear;
+			-moz-transition: all .07s linear;
+			transition: all .07s linear;
+			position: relative;
+		}
+
+			.three-d:not(.active):hover {
+				cursor: pointer;
+			}
+
+			.three-d:not(.active):hover .three-d-box, 
+			.three-d:not(.active):focus .three-d-box {
+				-moz-transform: translateZ(-25px) rotateX(90deg);
+				-webkit-transform: translateZ(-25px) rotateX(90deg);
+				-o-transform: translateZ(-25px) rotateX(90deg);
+				transform: translateZ(-25px) rotateX(90deg);
+			}
+
+		.three-d-box {
+			-webkit-transition: all .3s ease-out;
+			-moz-transition: all .3s ease-out;
+			-ms-transition: all .3s ease-out;
+			-o-transition: all .3s ease-out;
+			transition: all .3s ease-out;
+			-webkit-transform: translatez(-25px);
+			-moz-transform: translatez(-25px);
+			-o-transform: translatez(-25px);
+			transform: translatez(-25px);
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			pointer-events: none;
+			position: absolute;
+			top: 0;
+			left: 0;
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+
+		.front {
+			-webkit-transform: rotatex(0deg) translatez(25px);
+			-moz-transform: rotatex(0deg) translatez(25px);
+			-o-transform: rotatex(0deg) translatez(25px);
+			transform: rotatex(0deg) translatez(25px);
+		}
+
+		.back {
+			-webkit-transform: rotatex(-90deg) translatez(25px);
+			-moz-transform: rotatex(-90deg) translatez(25px);
+			-o-transform: rotatex(-90deg) translatez(25px);
+			transform: rotatex(-90deg) translatez(25px);
+			color: #FFE7C4;
+			padding: 7px 10px;
+		}
+
+		.front, .back {
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: #008dce;
+			padding: 10px 10px;
+			color: white;
+			pointer-events: none;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapper {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:visible;
+}
+
+#slider {
+position: relative;
+overflow: hidden;
+-moz-border-radius: 7px;
+-webkit-border-radius: 7px;
+-khtml-border-radius: 7px;
+}
+.content {
+width:980px;
+float: left;
+position: relative;
+margin-top: 50px;
+}
+.inslider a {
+	text-decoration:none;
+}
+.contentholder {
+height: 500px;
+width: 980px;
+overflow: hidden;
+position: relative;
+background: url('../img/header_bg.jpg') repeat-x;
+}
+.contentslider {
+	position: absolute;
+	top: 0; left: 0;
+}
+.imgslider img {
+	float: left;
+}
+.contentnav {
+position: absolute;
+height: 45px;
+z-index: 20;
+text-align: center;
+line-height: 45px;
+background: url('../img/slide_bg.jpg') repeat-x;
+width: 963px;
+border-radius: 5px;
+margin-top: 25px;
+margin-left: 10px;
+}
+.contentnav a {
+display: block;
+text-decoration: none;
+color: #416a7d;
+float: left;
+padding: 5px;
+line-height: 16px;
+font-weight: bold;
+height: 35px;
+width: 110px;
+font-size: 14px;
+display: table;
+padding-top: 15px;
+}
+.contentnav a.active {
+	font-weight: bold;
+	color:#FFF;
+	background: url('../img/slide_hover.jpg') repeat-x;
+	border-radius: 5px;
+}
+#a1{
+margin-top: -8px;
+}
+#soc{
+padding:0px;
+margin:0px;
+}
+.footer_number p a{
+color:#323232;
+text-decoration:none;
+}
+
+
+#slide_text{
+position: absolute;
+top: 0px;
+right: 0px;
+width: 420px;
+height: 450px;
+}
+#slide_text img{
+bottom: 0px;
+display: block;
+position: absolute;
+}
+#slide_text p{
+font-size:20px;
+font-weight: bold;
+}
+
+#slide_text h1{
+color:#0081bd;
+margin: 40px 0px;
+}

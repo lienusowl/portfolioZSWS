@@ -1,0 +1,39 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	#header {padding-bottom: 60px;}
+	#header .bg-header {background: none;}
+	#header .top .btn.border {margin-top: 30px;width: 100%;}
+	#header .header-title span {font-size: 32px;}
+	#header .text .btn {width: 100%;margin-bottom: 15px;}
+	#call {background: url(../img/call/bg-mobile.jpg) no-repeat top center;margin-top: 0;padding: 60px 0;}
+	.owl-nav .owl-prev, .owl-nav .owl-next {display: none;}
+	.inn {width: 100%;}
+	.title {font-size: 24px;}
+	.title br {display: none;}
+	#production {padding: 60px 0;}
+	a.link i.fa {display: none;}
+	#about .left {padding-top: 0;}
+	#about {padding: 60px 0;background: #f6f6f6;}
+	#gallery {padding: 60px 0;background: url(../img/call/bg-mobile.jpg) no-repeat top center;}
+	.gallery-line {height: auto;background: none;}
+	.btn {width: 100%;}
+	#delivery {padding: 60px 0;}
+	#delivery ul.ul-check {margin-left: 0;}
+	#sertif {padding: 60px 0;background: #f6f6f6;}
+	#contacts {margin-top: 0;padding: 90px 0;}
+	#footer .footer-box {margin-bottom: 15px;}
+}
+
+

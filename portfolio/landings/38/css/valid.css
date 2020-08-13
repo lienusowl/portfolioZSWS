@@ -1,0 +1,45 @@
+.popup-form label {
+float:left;
+width:100px;
+line-height:37px;
+text-align:right;
+margin-right:15px;
+font-weight:bold;
+color:#666;
+}
+
+.popup-form label.error,
+.popup-form label.ok {
+position: absolute;
+z-index: 1;
+top: -4px;
+left: 275px;
+width: 150px;
+text-align: left;
+margin: 0;
+background-repeat: no-repeat;
+background-position: 257px 16px;
+font-size: 11px;
+font-weight: normal;
+line-height: 25px;
+padding: 3px;
+}
+
+.popup-form label.ok {
+background-image:url(../gfx/icook.gif);
+background-color:#deefca;
+color:#577530;
+}
+
+.popup-form label.error {
+background-image:url(../gfx/icofail.gif);
+background-color:#f5d6d7;
+color:#c81925;
+}
+
+.area label.ok,
+.area label.error {
+height:163px;
+padding-left:410px;
+background-position:387px 16px;
+}

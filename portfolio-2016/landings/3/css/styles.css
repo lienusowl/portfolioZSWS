@@ -1,0 +1,128 @@
+*{box-sizing:border-box;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption,tfoot,thead,th{border:0;outline:none;margin:0;padding:0;}
+table{border-collapse:collapse;}
+body{color:#121212;font-family:'PT Sans', sans-serif!important;font-size:14px;background:#fff;}
+h1{text-align:center;margin:20px 0;}
+.clear{clear:both;}
+#header{background:url(../img/header.jpg) no-repeat top center;height:600px;}
+#top{padding-top:10px;padding-bottom:10px;}
+.logo-box{font-size:12px;font-weight:700;background:url(../img/logo.png) no-repeat left center;padding-left:145px!important;padding-top:35px;min-height:133px!important;}
+.button1{float:right;color:#262626;font-size:18px;text-align:center;border:2px solid #fff;margin-top:10px;padding:8px 20px;}
+.button2{-webkit-font-smoothing:antialiased;background-color:#31d9e2!important;border:none!important;border-radius:2px!important;box-shadow:0 3px 0 #22abb2!important;color:#FFF!important;cursor:pointer;display:inline-block;font-size:14px!important;font-weight:400!important;line-height:32px;min-height:34px;opacity:1;text-align:center;text-decoration:none;width:auto!important;transition:all .3s ease;text-transform:uppercase;text-shadow:1px 1px 1px #656565;padding:1px 28px 0!important;}
+.button2:hover{background-color:#22abb2!important;box-shadow:none!important;}
+.phone-box-top{text-align:right;}
+.phone-box-top p{color:#484848;font-size:24px;font-weight:700;}
+.phone-box-top p span{color:#42b3e5;font-size:30px;}
+#h-menu > li > a{font-size:16px;color:#121212;transition:all .1s ease;text-decoration:underline;}
+#nav{border-top:10px solid #e8e8e8;border-bottom:10px solid #e8e8e8;border-left:none;border-right:none;margin-bottom:0;width:100%;z-index:100;}
+#h-menu{float:none!important;text-align:center;}
+#h-menu > li{float:none!important;display:inline-block;}
+.header-inn{position:relative;}
+.header-form{width:530px;position:absolute;right:65px;top:305px;border-radius:10px;}
+.button2.red{background-color:#e1383a!important;box-shadow:0 3px 0 #7e1e1f!important;padding:1px 15px 0!important;}
+.button2.red:hover{background-color:#7e1e1f!important;box-shadow:none!important;}
+.header-form p{text-align:center;font-size:13px;margin-bottom:5px;}
+.header-form h3{text-align:center;text-transform:uppercase;font-weight:700;font-size:18px;}
+.header-form .form-horizontal{margin-bottom:5px;float:left;width:100%;}
+.form-control{border:2px solid #59bbf3!important;}
+.slogan{background:url(../img/slogan.png) no-repeat center center;text-align:center;height:274px;width:591px;padding-top:20px;font-size:36px;position:relative;margin:25px auto;}
+.slogan2{background:url(../img/slogan2.png) no-repeat center center;height:274px;width:591px;}
+.header-inn .slogan h1{font-size:55px;}
+.slogan h1{color:#42b3e5;text-align:center;font-weight:700;font-size:60px;}
+.slogan h2{color:#0e5196;text-align:center;font-weight:700;font-size:40px;argin-top:10px;}
+.slogan3 p{margin-top:35px;}
+.header2{background:url(../img/header2.png) no-repeat bottom right;height:600px;width:100%;position:absolute;top:0;right:0;background-position:-45px 0;z-index:2;}
+.eff-1{background:url(../img/eff-1.png) no-repeat center center;font-size:18px;font-weight:700;text-align:center;height:148px;padding-top:50px;margin-bottom:20px;}
+.eff-1 span{color:#fff343;text-transform:uppercase;}
+.eff{background:url(../img/12-eff.jpg) no-repeat top center;min-height:1350px;}
+.eff-2-img{width:100%;height:157px;background:url(../img/eff-2.png) no-repeat top center;padding-top:45px;}
+.rek1{background:url(../img/rek1.jpg) no-repeat center center;font-size:24px;font-weight:700;text-transform:uppercase;line-height:25px;padding-top:45px!important;height:305px;}
+.rek1 span{font-weight:400;text-transform:lowercase;font-size:18px;}
+.box{padding-top:40px;padding-bottom:40px;}
+.bg1{background:url(../img/bg1.jpg);}
+.w1{font-size:16px;text-transform:uppercase;font-weight:700;text-align:center;padding-right:0!important;padding-left:0!important;}
+.w1 p{min-height:50px;}
+.w1 img{margin-bottom:10px;border-radius: 50%;border: 4px solid #fff;}
+.how{background:url(../img/how.jpg) no-repeat center center;width:100%;height:900px;}
+.video-box{border:1px solid #0384ce;width:586px;height:395px;border-radius:3px;margin:0 auto 20px;padding:10px;}
+.author{width:360px;margin:20px auto;}
+.author span{font-size:30px;float:left;width:200px;line-height:30px;padding-top:40px;}
+.razrab .slogan h1{font-size:48px;}
+.sp1{width:540px;border:1px solid #7b7b7b;margin:20px auto;padding:10px;}
+.sp1-inn{background:#fff;padding:40px;}
+.sp1-inn ul li{margin-bottom:10px;color:#42b3e5;}
+.sp1 ul li span{color:#121212;}
+.sertif-slogan{font-size:30px;padding-top:20px;padding-bottom:20px;text-align:center;background:rgba(255,255,255,0.5);}
+.sertif-box{width:700px;text-align:center;margin:20px auto;}
+.sertif-img{width:184px;height:243px;background:url(../img/sertif-img.png) no-repeat left top;padding-top:30px;padding-right:7px;float:left;margin:24px;}
+.sertif-img-small{width:118px;height:176px;}
+.srav-table{background:url(../img/srav-table.jpg) no-repeat left top;}
+.slogan4 span{color:#42b3e5;font-weight:700;font-size:48px;}
+.slogan4 p{margin-top:50px;}
+#table1{margin:20px auto;}
+#table1 td{border:4px solid transparent;}
+#table1 td p{background:#fff;font-size:18px;min-height:65px;margin:0;padding:20px 30px;}
+#table1 td.t2 p,#table1 td.t3 p{text-align:center;background:#31d9e2;font-size:24px;font-weight:700;text-transform:uppercase;}
+#table1 td.t3 p{background:#42b3e5!important;}
+#table1 td.t4{min-width:300px;}
+#table1 td.t4 p{line-height:18px;font-size:14px;padding:14px 30px;}
+#table1 td.t4 span{font-size:34px;font-weight:700;color:#42b3e5;float:left;line-height:35px;margin-right:10px;}
+.otz-box{background-color:#dcdcdc;border:1px solid #42b3e5;float:left;margin-top:15px;margin-bottom:15px;padding:20px;}
+.otz-text{background-color:#fff;margin-right:-20px;margin-left:-20px;color:#3b3b3b;text-align:center;font-size:14px;min-height:210px;padding:15px;}
+.otz-text.big{min-height:290px;}
+.otz-name{padding-top:15px;width:395px;margin:0 auto;}
+.otz-name p{font-size:18px;font-weight:700;background:url(../img/otz-name.png) no-repeat center center;width:264px;height:140px;float:left;text-align:center;padding-top:38px;margin:0;}
+.why{background:url(../img/why.jpg) no-repeat center bottom;}
+.why-box{position:relative;text-align:center;padding-left:25px!important;padding-right:25px!important;margin-bottom:20px;min-height:300px!important;}
+.why-h{font-size:24px;font-weight:700;}
+.slogan5{background:url(../img/slogan5.png) no-repeat center center;text-align:center;height:274px;width:464px;position:absolute;top:0;left:-35px;padding-top:80px;}
+.slogan5 span{font-size:36px;font-weight:700;color:#0384ce;}
+.forma1{background:url(../img/forma1.jpg) no-repeat center center;min-height:630px;}
+.header-form.forma1-inn{position:relative;right:0;top:0;background:url(../img/header-form.jpg);width:100%;text-align:center;margin-top:60px;padding:20px!important;}
+.header-form.forma1-inn p{text-align:center;font-size:14px;margin-bottom:10px;}
+.header-form.forma1-inn .button2.red{width:100%!important;margin:10px auto;}
+.slogan6{background:url(../img/slogan6.png) no-repeat center center;text-align:center;height:275px;width:800px;padding-top:55px;margin:20px auto;}
+.skolko-bg{width:100%;height:630px;background:url(../img/skolko.png) no-repeat center center;}
+.pribil{background:url(../img/pribil.jpg) no-repeat center center;font-size:20px;background-size:cover;}
+.pribil span{font-size:30px;color:#fff343;font-weight:700;}
+.slogan7{background:url(../img/slogan7.png) no-repeat center center;text-align:center;height:274px;width:517px;padding-top:55px;margin:20px auto;}
+.forma2{background:url(../img/forma2.jpg) no-repeat center bottom;min-height:800px;}
+.forma2 .header-form.forma1-inn{margin-top:10px;}
+.forma2 .form-horizontal .control-label{font-weight:400;padding-top:0;margin-top:-2px;font-size:16px;}
+.slogan8{background:url(../img/slogan8.png) no-repeat center center;text-align:center;height:213px;width:464px;padding-top:83px;margin:20px auto;}
+.work-box-img{width:100%;height:157px;background:url(../img/work-box-img.png) no-repeat top center;padding-top:40px;position:relative;}
+.work-number{position:absolute;top:10px;left:30%;}
+.work-box p{background:#fff;position:relative;z-index:3;padding:0 50px;}
+.r1{background:url(../img/work/r1.png) no-repeat top right;}
+.r2{background:url(../img/work/r1.png) repeat-x top left;}
+.r3{background:url(../img/work/r3.png) no-repeat top left;}
+.r4{background:url(../img/work/r4.png) no-repeat top left;width:8px;height:100px;position:absolute;left:49%;top:-55px;z-index:1;}
+.contacts-box{width:100%;height:500px;position:relative;padding-right:0!important;padding-left:0!important;}
+.con1{position:absolute;top:0;width:100%;font-size:36px;text-align:center;background:rgba(255,255,255,0.7);padding:10px 0;}
+.con2{position:absolute;top:350px;font-weight:700;font-size:18px;text-align:center;background:rgba(255,255,255,0.7);left:45%;padding:10px;}
+.footer-text{text-align:center;padding-top:20px;padding-bottom:20px;}
+.footer-text span{font-size:36px;font-weight:700;}
+.footer-text a{font-size:19px;color:#0e294a;text-decoration:underline;font-weight:400;}
+.popup1{width:100%;text-align:center;background:#5dc0e0 url(../img/popup1.jpg) no-repeat top center;height:100%;padding:10px;}
+.popup-main{width:420px;display:block;height:270px;}
+.popup1 .button2.red{margin:10px auto;}
+.popup1 h3{font-size:20px;font-weight:700;padding-right:20px!important;padding-left:20px!important;}
+.fixed{position:fixed!important;top:0;}
+.logo-box span,.header-inn .slogan,.header-form.forma1-inn p b{font-size:18px;}
+.center-box-top,#table1 td.t5 p,#table1 td.t6 p{text-align:center;}
+#h-menu > li > a:hover,#table1 td.t6 p{color:#0384ce;}
+.eff-2,.work-box{text-align:center;font-size:18px;font-weight:700;text-transform:uppercase;margin-bottom:40px;}
+.eff-2 span,.work-box span{font-weight:400;text-transform:lowercase;}
+.eff-2-img img,.work-box img{border-radius:50%;}
+.author img,.otz-name img{border-radius:50%;border:3px solid #fff;margin-right:10px;float:left;}
+.author small,.otz-slogan{font-size:24px;}
+.slogan4,.slogan5 p,.slogan6 p,.slogan7 p,.slogan8 p{font-size:30px;}
+.slogan6 span,.slogan7 span{font-size:36px;font-weight:700;color:#42b3e5;}
+@media max-width 1200px {
+.header-form{right:-25px;background:url(../img/header-form.jpg);}
+}
+@media max-width 990px {
+.header-form{background:url(../img/header-form.jpg);position:relative;padding-top:10px;padding-bottom:10px;margin:0 auto;}
+.header2{background:none!important;}
+}
+.why-box-img {width:153px;height:110px;background:url(../img/why-img.png) no-repeat center center;margin: 0 auto;padding-top: 15px;}

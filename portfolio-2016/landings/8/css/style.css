@@ -1,0 +1,203 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background:#EEE;
+}
+#header{
+background: url('../img/header.jpg') center top no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
+
+}
+header .container{
+    padding: 0px 100px;
+}
+.logo{
+    color: #fff;
+    font-weight: 600;
+    font-size: 2em;
+	padding: 40px 0px;
+	text-align: center;
+}
+.logo span{
+    color: rgb(208, 196, 19);
+}
+.number{
+	color: #fff;
+    font-weight: 100;
+    font-size: 2em;
+padding: 40px 0px;
+	text-align: center;
+}
+.number a{
+	font-size: 0.6em;
+    border-bottom: 1px solid #D0C413;
+    color: #D0C413;
+    position: relative;
+    top: -4px;
+}
+.number a:hover{
+text-decoration:none;
+}
+#line_bottom{
+	    border-bottom: 1px solid #D0C413;
+}
+#big_title{
+	text-align:center;
+	color:#fff;
+	font-weight: 100;
+}
+.title{
+padding: 20px 0px 0px 0px;
+    font-size: 3em;
+}
+.title2{
+	padding: 15px 0px;
+    font-size: 5em;
+}
+.y_line{
+	border-bottom: 1px solid #D0C413;
+    margin: 10px auto;
+    width: 100px;
+}
+.yell{
+    color: #D0C413;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+#time{
+    background: rgba(255, 255, 255, 0.47);
+    margin: 30px auto 100px auto;
+    /* width: 75%; */
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 20px;
+    min-height: 75px;
+}
+
+#tovars{
+    text-align: center;
+    position: relative;
+    top: -50px;
+	    padding: 0px 140px;
+}
+#tovar{
+	background: #fff;
+	    border-right: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+#tovar .clock_title{
+font-size: 2.4em;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+#tovar img{
+height: 340px;
+}
+#tovar #line_bottom{
+	width: 100px;
+    margin: 20px auto;
+}
+#tovar .price b{
+	font-size: 2em;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+#tovar .price span{
+    text-decoration: none !important;
+color: rgb(255, 0, 0);
+    font-weight: 800;
+    font-size: 2em;
+    padding-left: 30px;
+}
+#tovar .about{
+	background-color: rgb(208, 196, 19);
+    color: #fff;
+    padding: 14px;
+    display: block;
+    margin: 20px auto;
+    width: 227px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    height: 55px;
+    font-weight: 600;
+}
+#tovar .about:hover{
+    background-color: rgb(189, 178, 19);
+	text-decoration:none;
+}
+
+#princip{
+	background:url('../img/princip.jpg') center top;
+	min-height:300px;
+	color: #fff;
+    text-align: center;
+	font-weight: 100;
+	    padding: 0px;
+}
+.title3{
+	font-size: 3em;
+    font-weight: 100;
+    margin: 50px 0px 0px 0px;
+}
+#princip img{
+    background: rgba(222, 213, 148, 0.61);
+    padding: 20px;
+    border-radius: 50%;
+    margin: 40px;
+}
+.bigo{
+	font-size: 2em;
+}
+.smala{
+	font-size: 1.4em;
+	color:rgb(208, 196, 19);
+	    margin-bottom: 40px;
+}
+#white{
+background: rgba(34, 34, 34, 0.4);
+}
+#white p{
+	padding:10px 0px;
+}
+
+@media (min-width: 320px) and (max-width: 980px) {
+#time {
+    background: rgba(255, 255, 255, 0.47);
+    margin: 0px auto 50px auto;
+    width: 100%;
+    padding: 0px;
+    border-radius: 20px;
+	
+}
+#tovar img {
+    width:90%;
+    display:block;
+    margin:0 auto;
+    height:auto !important;
+}
+.title2{font-size:2em;}
+.about{width:90% !important;margin:10px auto;}
+#tovar .clock_title {
+    font-size: 2em;
+    font-weight: 300;
+}
+#tovars {top: 20px;}
+#time div:first-child{zoom:0.8 !important;margin:0 auto;}
+#tovars{
+    text-align: center;
+    position: relative;
+    top: -50px;
+	    padding: 0px ;
+}
+header .container{ padding: 0px 10px;}
+#block-new86 ul.widget-timer li{
+	font-size:0.8em !important;
+}
+}
+
+@media (min-width: 980px) and (max-width: 1280px) {
+#tovars {    padding: 0px 10px;}
+header .container{ padding: 0px 10px;}
+#time span.timer-element {font-size:36px !important;}
+}

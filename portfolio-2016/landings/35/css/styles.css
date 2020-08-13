@@ -1,0 +1,206 @@
+/* font-family: "RobotoRegular"; */
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoLight"; */
+@font-face {
+    font-family: "RobotoLight";
+    src: url("../fonts/RobotoLight/RobotoLight.eot");
+    src: url("../fonts/RobotoLight/RobotoLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoLight/RobotoLight.woff") format("woff"),
+    url("../fonts/RobotoLight/RobotoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoMedium"; */
+@font-face {
+    font-family: "RobotoMedium";
+    src: url("../fonts/RobotoMedium/RobotoMedium.eot");
+    src: url("../fonts/RobotoMedium/RobotoMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoMedium/RobotoMedium.woff") format("woff"),
+    url("../fonts/RobotoMedium/RobotoMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "RobotoBold"; */
+@font-face {
+    font-family: "RobotoBold";
+    src: url("../fonts/RobotoBold/RobotoBold.eot");
+    src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoBold/RobotoBold.woff") format("woff"),
+    url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+table {border-collapse: collapse;}
+body{
+color: #222;
+font-family: "RobotoRegular";
+font-size: 14px;
+background: #fbfbfb;
+}
+h1, h2, h3, h4, h5, h6{
+	
+}
+h1 {
+    text-align: left;
+	margin: 20px 0px 0px 0px;
+    color: #2c4190;
+    font-weight: bold;
+    font-family: "RobotoBold";
+	font-size: 2.4em;
+}
+h2{
+	text-align:center;
+	margin: 65px 0px;
+}
+h2 span{
+    color: #de1629;
+    font-family: "RobotoBold";
+    font-weight: bold;
+}
+h3 {
+    text-align: center;
+	margin: 60px 0px 0px 0px;
+    color: #2c4190;
+    font-weight: bold;
+    font-family: "RobotoBold";
+    font-size: 3.4em;
+}
+h3 span{
+	font-family: "RobotoRegular";
+    font-weight: 100;
+	font-size: 0.8em;
+}
+.clear {
+clear:both;
+}
+#header {
+background: url(../img/header.jpg) no-repeat top center;
+min-height:580px;
+padding-top:15px;
+padding-bottom:15px;
+}
+a, a:focus, a:active {
+    outline: none;
+}
+.logo{
+	background:url('../img/logo.png');
+    width: 319px;
+    height: 67px;
+	margin: 45px 0px;
+}
+.under{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.under span{
+	color: #2c4190;
+	font-size: 1.4em;
+}
+
+.forma p{
+    color: #314695;
+    text-indent: 20px;
+}
+.forma{
+	margin-top: 50px;
+}
+.forma input{
+    /* display: block; */
+    margin: 10px auto;
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.forma #submit{
+    transition: all .3s;
+    background: #04a0e0;
+    color: #fff;
+    border-radius: 10px;
+    border: 0px;
+    width: 35%;
+    padding: 10px;
+}
+.forma #submit:hover{
+	transition: all .3s;
+	background: #0681B3;
+}
+
+.block{
+    background: #fff;
+    padding-bottom: 20px;
+    min-height: 410px;
+    margin-bottom: 20px;
+	margin-top: 10px;
+}
+.block .tovar{
+	float: left;
+    padding: 10px;
+}
+.block .title{
+	color: #314695;
+    font-size: 2em;
+    padding: 20px 0px 0px 0px;
+    margin: 0px;
+}
+.block .small{
+	color: #314695;
+}
+.block .opis{
+	margin-bottom:0px;
+}
+.block .cena{
+	color: #314695;
+    font-size: 1.8em;
+}
+.block .cena font{
+	text-decoration: line-through;
+}
+.block .cena span{
+	color: #DE1629;
+    font-size: 2em;
+    padding-left: 25px;
+}
+.block .price a{
+	color: #fff;
+    background: #04a0e0;
+    padding: 10px;
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin-left: 230px;
+    border-radius: 30px;
+	transition: all .3s;
+}
+.block .price a:hover{
+	background: #0681B3;
+transition: all .3s;
+}
+.red{
+	color: #de1629;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+
+
+
+
+
+/*transition: all .3s;*/
+
+
+
+@media (min-width: 320px) and  (max-width: 980px) {
+
+}

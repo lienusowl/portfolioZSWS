@@ -1,0 +1,26 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 320px) and  (max-width: 1200px) {
+	.navbar .nav li a {padding: 20px 15px;}
+}
+@media (min-width: 768px) and (max-width:1024px){
+	.container {width: 100%;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.logo {
+		display: none;
+	}
+}
+
+

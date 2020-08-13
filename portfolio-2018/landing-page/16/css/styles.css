@@ -1,0 +1,463 @@
+@import "nav.css" screen;
+@import "owl.css" screen;
+@font-face {
+  font-family: "CenturyGothicRegular";
+  src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot");
+  src: url("../fonts/CenturyGothicRegular/CenturyGothicRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/CenturyGothicRegular/CenturyGothicRegular.woff") format("woff"), url("../fonts/CenturyGothicRegular/CenturyGothicRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.2
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: "CenturyGothicRegular", sans-serif;
+  background: #fff;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+img {
+  max-width: 100%;
+}
+p {
+  margin-bottom: 10px;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.form-horizontal .form-group {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.form-control {
+  border: 1px solid #d0d0d0;
+  border-radius: 5px;
+  padding: 6px 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+  height: auto;
+  padding: 10px 15px;
+}
+.form-control:focus {
+  border: 1px solid rgba(96, 41, 128, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+select.form-control {
+  height: 42px;
+}
+/* ====== */
+/* ====== form ======= */
+/* ====== */
+.btn {
+  padding: 20px 20px;
+  border: 1px solid;
+  border-color: #48baff;
+  border-radius: 5px;
+  background: #48baff;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  outline: none;
+  text-transform: uppercase;
+  display: block;
+  height: 55px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  transition: all .3s;
+}
+.btn:hover {
+  transition: all .3s;
+  background: #fff;
+  color: #333;
+  border-color: #fff;
+  cursor: pointer;
+}
+.btn:focus {
+  color: #fff;
+  background: #333;
+}
+.free-btn {
+  padding: 20px 20px;
+  border: 1px solid #48baff;
+  border-radius: 5px;
+  background: transparent;
+  color: #48baff;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  outline: none;
+  text-transform: uppercase;
+  display: inline-block;
+  height: 55px;
+  transition: all .3s;
+}
+.free-btn:hover {
+  background: #fff;
+  transition: all .3s;
+  color: #333;
+  cursor: pointer;
+}
+.free-btn:focus {
+  color: #fff;
+  background: #333;
+}
+#menu {
+  height: 100px;
+  background: #fff;
+}
+#menu .logo {
+  padding: 10px 0 0 0;
+}
+#menu .logo img {
+  height: 85px;
+}
+#menu .title {
+  color: #999999;
+  padding: 25px 0 0 0;
+}
+#menu .number {
+  color: #999999;
+  padding: 20px 0 0 0;
+}
+#menu .number p {
+  margin: 0;
+}
+#menu .number .big {
+  color: #2d3950;
+  font-size: 30px;
+  font-weight: bold;
+}
+#header {
+  background: url(../img/header.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 200px 0 55px 0;
+}
+#header h1 {
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin: 0;
+}
+#header .big {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+#header .big b {
+  font-weight: bold;
+}
+#header .hr {
+  background: #15a4fa;
+  height: 2px;
+  max-width: 600px;
+  margin: 30px auto;
+}
+#header .btn {
+  margin-top: 55px;
+  margin-bottom: 120px;
+}
+@keyframes motion-name {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: linear;
+  }
+  50% {
+    transform: translate3d(0px, 7px, 0px);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: linear;
+  }
+}
+.down {
+  background: url(../img/down.png);
+  width: 50px;
+  height: 28px;
+  position: relative;
+  margin: 30px auto 0 auto;
+  animation-name: motion-name;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  background-size: cover;
+}
+#under {
+  background: url(../img/block.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 75px;
+}
+#under h2 {
+  color: #2d3950;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 0 0 30px 0;
+}
+#under p {
+  color: #2d3950;
+  font-weight: 100;
+  font-size: 20px;
+}
+#under p b {
+  font-weight: bold;
+}
+#under .for-center {
+  text-align: center;
+}
+#under .free-btn {
+  display: block;
+  margin: 40px auto 0 auto;
+  max-width: 390px;
+  text-align: center;
+}
+#under .col-md-6 p {
+  padding: 15px 0 0 0;
+}
+#under .col-md-6 .free-btn {
+  margin: 0px auto 0 auto;
+}
+#tree {
+  text-align: center;
+  padding: 65px 0;
+}
+#tree p {
+  color: #999999;
+  font-size: 14px;
+  font-weight: 100;
+}
+#tree .big {
+  text-transform: uppercase;
+  color: #2d3950;
+  font-size: 18px;
+}
+#tree img {
+  margin: 0 auto 30px auto;
+  display: block;
+}
+#content {
+  background: url(../img/map.jpg) center top no-repeat;
+  background-size: contain;
+  padding: 110px;
+}
+#content h2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d3950;
+  padding: 0 0 40px 0;
+  font-weight: 100;
+}
+#content p {
+  color: #999;
+}
+#content .free-btn {
+  display: block;
+  margin: 40px auto 0 auto;
+  max-width: 390px;
+  text-align: center;
+}
+#otz {
+  background: #f6f9f9;
+  padding: 110px 0;
+}
+#otz h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d3950;
+  margin: 0;
+  font-weight: 100;
+}
+#otz .hr {
+  background: #15a4fa;
+  height: 2px;
+  max-width: 100px;
+  margin: 20px auto;
+}
+#otz .otz {
+  text-align: center;
+}
+#otz .otz img {
+  display: block;
+  margin: 30px auto;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+#otz .otz p {
+  color: #999;
+}
+#otz .otz .name {
+  color: #48baff;
+  text-transform: uppercase;
+}
+#otz .otz .bold {
+  font-weight: bold;
+  color: #000;
+}
+#footer {
+  background: url(../img/footer.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+}
+#footer h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0 0 50px 0;
+  font-weight: 100;
+}
+#footer form {
+  display: block;
+  max-width: 550px;
+  margin: 0 auto;
+}
+#footer form input {
+  display: block;
+  color: #999999;
+  background: transparent;
+  border-radius: 3px;
+  font-size: 16px;
+}
+#footer form input:focus {
+  border: 1px solid #fff;
+}
+#footer form .btn {
+  margin-top: 40px;
+}
+#block1 {
+  background: url(../img/block1.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  text-align: center;
+}
+#block1 p {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+#block1 p span {
+  color: #5fc3ff;
+}
+#block2 {
+  background: url(../img/block2.jpg) center top no-repeat;
+  background-size: cover;
+  padding: 70px 0;
+  text-align: center;
+}
+#block2 p {
+  font-size: 30px;
+  color: #2d3950;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    width: 500px;
+    margin: 30px auto;
+  }
+  .modal-dialog-lg-big {
+    width: 700px;
+    margin: 30px auto;
+  }
+}
+/* transition: all .3s; */
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+.col-xs-1-5,
+.col-sm-1-5,
+.col-md-1-5,
+.col-lg-1-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.col-xs-1-5 {
+  width: 20%;
+  float: left;
+}
+@media (min-width: 768px) {
+  .col-sm-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px) {
+  .col-md-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-1-5 {
+    width: 20%;
+    float: left;
+  }
+}
+/* ====== */
+/* ====== 5 bootstrap grid ======= */
+/* ====== */
+/*
+Theme Name:         Clear theme
+Theme URI:          http://lienusowl.ru
+Description:        A Clear Framework by <a href="http://lienusowl.ru/">lienusowl</a>.
+Version:            1.1
+Author:             NIKIFOROV ALEKSANDER / LIENUSOWL.RU
+Author URI:         http://lienusowl.ru
+License:            GPL v2
+License URI:        http://www.gnu.org/licenses/gpl-2.0.html
+Tags:               clear
+*/

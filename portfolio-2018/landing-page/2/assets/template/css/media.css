@@ -1,0 +1,40 @@
+@media (min-width: 992px) and  (max-width: 1200px) {
+	#header.success .name {right: -100px;}
+	#how .right {padding-left: 15px;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 1023px) { 
+body {max-width: 100%;overflow-x: hidden;}
+.container {max-width: 100%;padding: 0 30px;}
+.circle-bg {min-height: 600px;}
+#start .circle-bg {padding: 90px 0;}
+#start .inn.last {margin-top: 0;}
+#authorities .test-text .start {margin-left: 0;padding-left: 80px;}
+#how .right {padding-left: 15px;}
+.navbar-nav {flex-direction: row;}
+.slick-arrow.slick-prev {left: -30px;}
+.slick-arrow.slick-next {right: -30px;}
+.test-slider {}
+#top .logo, #footer .logo {font-size: 12px;}
+.result-slider .slick-arrow.slick-next {right: 0;}
+.result-slider .slick-arrow.slick-prev {left: 0;}
+.collapse {display: block;}
+.navbar-toggler {display: none;}
+/*#start {background-position: 20% 50%;}*/
+#banks .title {padding-left: 20px;}
+#banks .box {min-height: 190px;}
+#how .title {padding-left: 60px;}
+#authorities .test-text {margin-left: 0;}
+.how-slider .how-slider-text {font-size: 16px;}
+#header, #start {max-width: 100%; overflow: hidden;}
+}
+
+

@@ -1,0 +1,57 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 768px) and  (max-width: 1199px) {
+	#top .navbar-nav li {padding: 1rem 1rem;}
+	#top .navbar-nav li a {font-size: 1.3rem;}
+	#top .nav-right .phone .text a {font-size: 1.6rem;}
+}
+@media (min-width: 767px) and  (max-width: 991px) {
+	#top .box {width: 100%;}
+	.navbar-nav {text-align: right;padding-right: 1rem;}
+	.navbar-nav .dropdown-menu {text-align: right;padding: 1.5rem 0;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 769px) and  (max-width: 1023px) {
+	#nav-desktop {position: absolute;background:#fff;right:0;top:80px;z-index: 5;min-width: 210px;padding: 10px 0;}
+	#top .navbar-nav .dropdown-menu {position: static;box-shadow: none;padding: 15px 0 10px;}
+	#top .navbar-nav .dropdown-menu a.category {margin: 5px 0;}
+	#top .navbar-nav .dropdown-menu a {padding:.25rem 0;}
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 14px;}
+	#top .box {text-align: center;width: 100%;}
+	.header-slider .sale-text {width: 100%;background-size: contain;}
+	.header-slider .sale-text .big {font-size: 10rem;}
+	.btn {width: 100%;}
+	.logo {padding-right: 0;margin-right: 0;width: 100%;text-align: center;border-right: none;}
+	#top .box .row > div{margin-bottom: 15px;}
+	.nav-calc {text-align: center;}
+	#top .nav-right {min-width: auto;text-align: center;width: 100%;}
+	#top .nav-right .img-svg {display: none;float: none;}
+	#top .city {text-align: center;width: 100%;}
+	#top .nav-right .text {text-align: center;}
+	#top .nav-right .nav-calc .text {padding: 0;margin: 15px 0;}
+	.logo img {width: 150px;}
+	.navbar-toggler {float: right;}
+	#why {padding: 0 0 3rem 0;}
+	.navbar-nav {text-align: left;padding: 0 0;}
+	.navbar-nav .dropdown-menu {text-align: left;padding: 1.5rem 0;}
+	.modal-content .modal-right {padding: 3rem 25px;}
+	.modal-dialog  {margin: 60px auto;padding: 0 15px;}
+	.fixed {position: relative;}
+
+	#top.desktop {display: none;}
+	#top.mobile {display: block;}
+
+	.blog-row {margin-right: -15px;margin-left: -15px;}
+	.blog-row > div {padding-left: 15px;padding-right: 15px;}
+}
+
+

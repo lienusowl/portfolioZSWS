@@ -1,0 +1,65 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media screen and  (max-width: 1200px) {
+	.h-nav li {width: 19%;}
+	.top-nav li {padding: 0 10px;font-size: 12px;}
+	.top-nav li.dropdown:after {top: 1px;right: 0;}
+	#sale-index .box .btn.border {left: 0;width: 100%;}
+	#sale-index .box.zamer-box {padding-left: 15px;padding-right: 15px;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 14px;}
+	.top-nav li {padding: 0 5px;}
+	.top-nav li.dropdown:after {display: none;}
+	.logo {margin-bottom: 15px;}
+	.phone, .address {float: none;}
+	#top {padding: 15px 0;}
+	.h-nav li {width: 100%;text-align: left;margin-bottom: 15px;}
+	.h-nav li br {display: none;}
+	.h-nav li img {margin: 0;float: left;max-width: 25px;margin-right: 10px;margin-top: -7px;}
+	.title {font-size: 18px;margin-bottom: 15px;}
+	h3 {font-size: 18px;}
+	.sale-index-slider .item, #sale-index .box {min-height: 230px;}
+	.btn {width: 100%;}
+	#type-index .inn {padding: 30px 15px;border: none;}
+	.type-box img {margin: 15px 0;max-width: 80px;}
+	#about-index {margin: 30px 0;}
+	.about-index-slider {margin-bottom: 15px;}
+	.bottom .text.pt-0 {padding-top: 20px;}
+	.bottom .btn {margin-top: 20px;}
+	#all-index .box-left {width: 100%;padding: 15px 15px;margin-bottom: 30px;}
+	#all-index .box-left .title {font-size: 44px;}
+	#all-index .box-left .icon img {max-width: 24px;}
+	#all-index .icon {margin-right: 10px;}
+	#all-index .box-right .inn {margin: 15px 0;}
+	#all-index .box-left .title-two {font-size: 18px;}
+	ul.ul-check li {padding-left: 40px;padding-top: 0px;}
+	#all-index .box-left .price {margin-top: 30px;margin-bottom: 30px;}
+	a.more {margin-top: 15px;margin-bottom: 15px;}
+	#footer .left .btn {margin-top: 15px;}
+	#footer .left {margin-bottom: 15px;}
+	#footer .copyrights .text-right {text-align: left;}
+	#footer .copyrights img {margin-bottom: 5px;}
+	#done-index {margin: 30px 0 30px;}
+	#footer .container {padding-top: 30px;}
+	.btn {padding: 11px 0px;width: 100%;}
+	#sale-index .box .btn {position: relative;left: 0;bottom: 0;z-index: 10;margin-top: 30px;}
+	.h-nav {margin: 30px 0;}
+	.col-right  {padding-left: 15px;}
+	.img-m {margin-top: 10px;float: left;}
+	.cat-box.big.cart .right {text-align: left;}
+	.cat-box.big.cart .link {margin-top: 30px;text-align: center;width: 100%;display: inline-block;margin-left: 0;border-bottom: none;}
+}
+
+

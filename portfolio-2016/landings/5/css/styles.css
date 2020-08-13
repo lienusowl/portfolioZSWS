@@ -1,0 +1,195 @@
+* {
+box-sizing: border-box;
+}
+input[type="email"]::-moz-placeholder {
+    color: #fff !important; /* Цвет подсказывающего текста */
+   }
+   input[type="email"]::-webkit-input-placeholder {
+    color: #fff !important; /* Цвет подсказывающего текста */
+   }
+   
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tfoot, thead, th {
+margin: 0;
+padding: 0;
+border: 0;
+outline:none;
+}
+table {border-collapse: collapse;}
+
+body{
+color: #222;
+font-family: tahoma, sans-serif;
+font-size: 14px;
+background: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+	
+}
+h1 {
+    text-align: left;
+margin:20px 0px;
+}
+.h2 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.h3 {
+    margin-top: 0px !important;
+	    font-size: 20px;
+    margin-bottom: 20px;
+}
+.clear {
+clear:both;
+}
+#header {
+background: url(../img/header3.jpg) no-repeat top center;
+    background-size: cover;
+
+   
+       padding-top: 20px;
+    min-height:980px;
+  color: #fff;
+
+	    padding-left: 0px;
+    padding-right: 0px;
+}
+.header-inn {
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.5);
+        padding-right: 0px !important;
+       padding-left: 0px !important;
+	       padding-top: 40px;
+    padding-bottom: 40px;
+}
+.slogan2 {
+    font-size: 42px;
+}
+.b1 {
+background: url(../img/b1.jpg) no-repeat top center;
+    background-size: cover;
+	   
+	color:#fff;
+}
+.b1-1 {
+background: url(../img/author.png) no-repeat bottom right;
+ padding-top: 40px;
+    padding-bottom: 40px;
+	    background-size: contain;
+    padding-left: 40px !important;
+}
+.b2 {
+    padding-top: 140px;
+    padding-bottom: 140px;
+	background: url(../img/b2.jpg) no-repeat top center;
+    background-size: cover;
+}
+.b2-inn {
+position:relative;
+
+}
+#table1 {
+       width: 100%;
+    margin: 50px auto;
+	    font-size: 18px;
+		    margin-bottom: 0px;
+}
+#table1 td {
+    padding: 10px 10px;
+}
+.button2.green{
+    background: #59c743;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+	border: 5px solid #59C743!important;
+	  -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.button2.green:hover {
+background:#46A733;
+border: 5px solid #46A733!important;
+}
+.forma1:hover  .form-control {
+border: 5px solid #46A733!important;
+}
+.form-control {
+    border: 5px solid #59C743!important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    
+    font-size: 24px !important;
+        padding: 10px 15px !important;
+    height: auto !important;
+    color: #fff !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+		  -webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+  transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.forma1 {
+    width: 574px;
+	    margin: 35px auto 1.5em;
+}
+.forma1 .col-sm-6 {
+        padding-right: 0px !important;
+       padding-left: 0px !important;
+}
+input:-moz-placeholder { color: red !important; }
+.spisok1 {
+list-style-type:none;
+    margin-top: 40px;
+}
+.spisok1 li {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+.spisok1 li img {
+    margin-right: 20px;
+}
+.slogan1 {
+text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+   
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.button2.green.modalbox2 {
+    margin: 20px auto;
+    display: inline-block;
+    width: auto !important;
+    padding: 15px 80px;
+    background: url(../img/bbg.png);
+    border: none !important;
+    border-radius: 10px;
+    margin-top: 200px;
+	
+}
+.button2.green.modalbox2:hover {
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.28);
+}
+.popup1 .form-control {
+background: rgba(0, 0, 0, 0.8) !important;
+}

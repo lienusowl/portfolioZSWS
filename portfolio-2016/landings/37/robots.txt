@@ -1,0 +1,4 @@
+Host: golden-cupol.ru
+
+User-agent: *
+Disallow:

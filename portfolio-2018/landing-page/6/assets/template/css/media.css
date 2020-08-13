@@ -1,0 +1,79 @@
+@media (min-width: 1600px) {
+	.container {
+	    max-width: 1540px;
+	}
+}
+@media (max-width: 1200px) {
+	.header-top .header-top-slogan {font-size: 2rem;}
+	.plus-box .img {width: 140px;height: 140px;}
+}
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	html {font-size: 8px;}
+	body {font-size: 18px;line-height: 1.4;}
+	#gallery, #why, #how, #about, #reviews, #footer {padding: 30px 0;}
+	.logo {text-align: center;width: 100%;}
+	.header-top-phone .text-right {text-align: center;}
+	.header-top-phone {margin-top: 10px;}
+	#header .title {font-size: 3rem;}
+	#header .title br {display: none;}
+	.btn {padding: 18px 30px;width: 100%;}
+	.slick-dots li button {width: 20px;height: 20px;}
+	#header .btn {margin: 25px 0;}
+	.header-slider {padding: 0 15px;}
+	.header-slider-text br {display: none;}
+	#plus {margin: 0;padding: 30px 0;}
+	.plus-box {margin-bottom: 30px;}
+	.plus-box .img {width: 100px;height: 100px;box-shadow: none;margin: 0 auto 15px;}
+	.plus-box .img img {width: 50%;}
+	.mt-60 {margin-top: 0 !important;}
+	.features-text .title {margin-bottom: 15px;line-height: 1.2;}
+	.t1 {font-size: 14px;}
+	.form-control {}
+	#gallery .gallery-title br {display: none;}
+	#gallery .slider {width: 100%;box-shadow: none;padding-bottom: 30px;}
+	.slick-dots li button {border-color:#eee;}
+	.why-ul li {padding-left: 45px;background:url(../../images/li-mobile.png) no-repeat top left;}
+	#why .img {display: none;}
+	.form-center {width: 100%;margin: 0 0;}
+	.form-group {margin-bottom: 15px;}
+	#why form .btn {margin-top: 0;}
+	#why form .btn {margin-top: 0;}
+	.how-box .count {width: 60px;height: 60px;line-height: 60px;margin-right: 20px;}
+	.how-box .how-box-title {padding-left: 0;border-bottom: 0;padding-bottom: 0;}
+	.how-box .text p {padding-left: 0;}
+	.how-box .count:before {display: none;}
+	.how-box {padding-bottom: 30px;}
+	#about img {display: none;}
+	#about .text-1 {margin-top: 0;}
+	#reviews .line {margin: 30px auto;}
+	#reviews .reviews-box .frame {margin-bottom: 15px;}
+	#reviews .reviews-box {font-size: 18px;}
+	#reviews .text-box p br {display: none;}
+	#reviews form .btn {margin-top: 0;}
+	#reviews form {margin-top: 30px;}
+	.footer-box {margin-bottom: 15px;}
+	#footer .btn {margin: 30px 0;}
+	.features-img img {position: relative;}
+	.header-top .header-top-slogan {line-height: 1.2;margin: 10px 0;}
+	.header-top .header-top-slogan br {display: none;}
+	.btn-back {width: 40px;height: 40px; line-height: 40px;top:30px;left: 5px;}
+	.btn-back:before {left: 8px;}
+	.features-img {min-height: auto;}
+	#certificates {padding: 30px 0 30px;}
+	.certificates-slider {padding: 0;width: 100%;}
+}
+
+

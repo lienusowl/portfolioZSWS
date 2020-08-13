@@ -1,0 +1,45 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.header-title {font-size: 36px;}
+	.header-title br {display: none;}
+	.header-sale, .header-right {padding: 30px 30px;min-height: auto;}
+	.top .top-question {padding: 15px 15px;}
+	.top .top-phone {padding: 0 15px;justify-content:flex-start;}
+	.navbar-nav li {margin: 10px 10px;}
+	.btn {font-size: 16px;height: auto;}
+	.title {font-size: 28px;}
+	#why-index .row > div {margin-top: 15px;margin-bottom: 15px;}
+	#form-index {padding: 60px 0;}
+	.footer-nav li {margin: 5px 5px;}
+	.footer-nav li a {font-size: 14px;}
+	.logo-footer {max-width: 80%;}
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	.top:before {display: none;}
+	.top .top-phone {padding-right: 15px;}
+	.navbar {margin: 20px 0;}
+	.navbar-nav li a img {display: none;}
+	.logo {margin: 10px 0;}
+	.box {padding: 15px 15px;}
+	#why-index .icon {width: 65px;height: 65px;}
+	.conf {margin-top: 10px;}
+	#types .caption {margin-bottom: 0px;}
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+
+}
+
+

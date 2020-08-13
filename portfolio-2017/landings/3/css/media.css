@@ -1,0 +1,70 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	.owl-nav .owl-next {right: -10px;}
+	.owl-nav .owl-prev {left: -10px;}
+	#how .box {width: 30%;}
+	#how .or {width: 3.333333%;color: transparent;}
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	.navbar-nav li {display: inline-block;}
+	/*.navbar-nav li.phone {margin-left: 0;padding-left: 0;}
+	.navbar-nav li.phone:before {display: none;}*/
+	.navbar-nav li a {padding: 10px 10px;}
+	.header-title {font-size: 36px;}
+	h2 {font-size: 32px;}
+	#header {min-height: 400px;}
+	#sort .inn {width: 100%;}
+	.work-slider {margin-bottom: 30px;}
+	.container {width: 100%;}
+
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	body {font-size: 14px;}
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	#sort .inn {width: 100%;}
+	.logo img {max-width: 65px;}
+	.logo .logo-title {font-size: 14px;margin-top: 15px;}
+	.logo h4 {font-size: 12px;}
+	.header-title {font-size: 26px;margin: 30px 0;}
+	.navbar-nav {text-align: right;margin: 0 0;}
+	#header {min-height: 600px;}
+	h2 {font-size: 32px;margin-bottom: 20px;line-height: 1;}
+	#about, #sort, #how, #work, #why {padding: 30px 0;}
+	h3 {font-size: 18px;}
+	#sort .box {margin-bottom: 30px;}
+	.work-slider {margin-bottom: 30px;}
+	.work-slider .item {padding: 0;}
+	#work ol {margin-left: 0;}
+	#work ol li {font-size: 24px;}
+	#work ol li:before {top: -4px;}
+	#conditions {padding: 190px 0 30px;}
+	#conditions .inn {width: 100%;font-size: 18px;}
+	#how .box {width: 100%;}
+	#how .or {display: none;}
+	#gallery {padding: 60px 0 30px;}
+	#director .img {text-align: center;}
+	#director .img img {max-width: 200px;}
+	#why h2 {font-size: 24px;}
+	#why h2 span {font-size: 32px;}
+	#why .box2 .text {font-size: 18px;}
+	#why .box2 .count {font-size: 72px;}
+	#footer .img-abs {max-width: 200px;}
+	.ul-footer li {display: inline-block;}
+	.ul-footer {margin-bottom: 30px;}
+	.navbar-nav.ul-footer li.phone {margin-top: 15px;}
+	.ul-footer li a {padding: 10px 5px;}
+	#footer .cont {padding-right: 5px;}
+	#free .s2 {position: relative;left: auto;bottom: auto;}
+	#free .modal-dialog {width: auto;}
+	#free .modal-content {url(../img/header/bg.jpg) no-repeat top center;}
+}
+
+

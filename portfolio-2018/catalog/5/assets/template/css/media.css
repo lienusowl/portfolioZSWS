@@ -1,0 +1,57 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	html {font-size: 8px;}
+	body {font-size: 14px;}
+	.logo {margin-bottom: 10px;}
+	#top p.email {margin-top: 10px;}
+	.navbar-toggle {position: absolute;right: 0;top:-25px;background: #fff;}
+	.navbar-nav {text-align: right;}
+	.navbar-nav li {padding: 10px 10px;}
+	.navbar-nav li:last-child {padding-right: 10px;}
+	#header .header-title {font-size: 2.5rem;}
+	#top {padding-bottom: 15px;}
+	.dropdown-menu {text-align: right;}
+	li.dropdown:after {position: absolute;top:20px;}
+	#header {background-position: top left;}
+	#top .calc {padding: .8rem 0 .8rem 6rem;margin-top: 15px;}
+	#top .phone a {font-size: 18px;}
+	#works .box-s .title {top:10rem;}
+	.navbar-nav li a {font-size: 14px;}
+	#works .text {padding: 3rem;}
+	hr {margin: 3rem 0;}
+	#works .text .left {float: none;width: 100%;margin-bottom: 15px;}
+	#content .right {padding-left: 15px;}
+	.right-col ul li {height: auto;line-height: 30px;}
+	.right-col ul li:before {top:10px;}
+	.nav-tabs li {width: 20%;}
+	.nav-tabs li .t1 {display: none;}
+	#types .box {padding: 1.5rem;min-height: auto;}
+	#types .tab-pane .count {display: none;}
+	#plus img {position: relative;top:0;}
+	#questions .btn {margin-bottom: 15px;}
+	#footer ul li a {font-size: 14px;}
+	#footer h4 {margin-top: 15px;font-size: 24px;}
+	.how-works > div:before {display: none;}
+	.works-slider {position: relative;}
+	.works-slider .owl-nav {left: auto;bottom:auto;right: 0;top: 0;}
+	.works-slider .owl-prev {display: none;}
+	.owl-nav .owl-prev {left: 0;}
+	.owl-nav .owl-next {right: 0;}
+	.logo .text {font-size: 14px;}
+	h3 {font-size: 18px;}
+	.btn {font-size: 14px;}
+}
+
+

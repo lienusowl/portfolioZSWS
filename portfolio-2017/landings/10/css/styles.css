@@ -1,0 +1,445 @@
+/*reset*/
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: url('../fonts/BebasNeueBold_0.eot');
+  src: url('../fonts/BebasNeueBold_0.eot') format('embedded-opentype'), url('../fonts/BebasNeueBold_0.woff2') format('woff2'), url('../fonts/BebasNeueBold_0.woff') format('woff'), url('../fonts/BebasNeueBold_0.ttf') format('truetype'), url('../fonts/BebasNeueBold_0.svg#BebasNeueBold_0') format('svg');
+}
+@font-face {
+  font-family: 'MuseoSansRegular';
+  src: url('../fonts/MuseoSansRegular.eot');
+  src: url('../fonts/MuseoSansRegular.eot') format('embedded-opentype'), url('../fonts/MuseoSansRegular.woff2') format('woff2'), url('../fonts/MuseoSansRegular.woff') format('woff'), url('../fonts/MuseoSansRegular.ttf') format('truetype'), url('../fonts/MuseoSansRegular.svg#MuseoSansRegular') format('svg');
+}
+@font-face {
+  font-family: 'MuseoSansBold';
+  src: url('../fonts/MuseoSansBold.eot');
+  src: url('../fonts/MuseoSansBold.eot') format('embedded-opentype'), url('../fonts/MuseoSansBold.woff2') format('woff2'), url('../fonts/MuseoSansBold.woff') format('woff'), url('../fonts/MuseoSansBold.ttf') format('truetype'), url('../fonts/MuseoSansBold.svg#MuseoSansBold') format('svg');
+}
+.bold {
+  font-family: 'BebasNeueBold';
+}
+.medium {
+  font-family: 'MuseoSansRegular';
+}
+.medium-bold {
+  font-family: 'MuseoSansBold';
+}
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+:focus {
+  outline: 0;
+}
+body {
+  color: #5b5150;
+  font-size: 15px;
+  font-family: 'MuseoSansRegular';
+  line-height: 1;
+  font-weight: 400;
+  background: #fff;
+}
+a,
+a:focus,
+a:active,
+input,
+input:focus,
+input:active,
+button,
+button:focus,
+button:active,
+.btn,
+.btn:focus,
+.btn:active {
+  outline: none !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.btn:hover,
+a.btn:focus,
+a.btn:active {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+.owl-nav .owl-prev,
+.owl-nav .owl-next {
+  width: 37px;
+  height: 39px;
+  z-index: 10000;
+  opacity: 0.7;
+  top: 50%;
+  margin-top: -22px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+}
+.owl-nav .owl-prev {
+  left: 42px;
+  padding-right: 2px !important;
+}
+.owl-nav .owl-next {
+  right: 42px;
+  padding-left: 2px !important;
+}
+.owl-nav .owl-prev:before {
+  content: "\f104";
+  display: inline-block;
+  font: normal normal normal 50px/1 FontAwesome;
+  margin: 5px 0 0 0;
+}
+.owl-nav .owl-next:before {
+  content: "\f105";
+  display: inline-block;
+  font: normal normal normal 50px/1 FontAwesome;
+  margin: 5px 0 0 0;
+}
+.owl-nav .owl-prev:hover,
+.owl-nav .owl-next:hover {
+  /*border-color: #d3041a !important;*/
+
+  opacity: 1;
+  color: #fff;
+}
+.win-slider .owl-nav {
+  top: -50px;
+}
+#header {
+  background: url(../img/header.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 30px 0 70px;
+  color: #fff;
+}
+#header .top .col-md-2,
+#header .top .col-md-3,
+#header .top .col-md-5,
+#header .top .col-md-4 {
+  padding: 0px 0;
+}
+#header .logo {
+  font-family: 'BebasNeueBold';
+  font-size: 28px;
+  line-height: 16px;
+}
+#header .logo span {
+  font-size: 15px;
+  font-family: 'MuseoSansRegular';
+}
+#header .nav li {
+  display: inline-block;
+  text-align: center;
+}
+#header .nav li a {
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+}
+#header .nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+  margin-top: -10px;
+  padding: 0 10px 10px;
+}
+#header .nav li a:focus {
+  background: transparent;
+}
+#header .nav li:after {
+  font-family: FontAwesome;
+  content: "\f178";
+  position: absolute;
+  opacity: 0;
+}
+#header .nav li:hover {
+  background: transparent;
+}
+#header .nav li:hover:after {
+  opacity: 1;
+}
+#header .top .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 16px 0px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-top: -15px;
+}
+#header .top .btn:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+#header .phone {
+  text-align: right;
+  font-size: 26px;
+  font-family: 'BebasNeueBold';
+}
+#header h1 {
+  text-align: center;
+  font-size: 120px;
+  font-family: 'BebasNeueBold';
+}
+#header .sp {
+  text-align: center;
+}
+#header .sp li {
+  display: inline-block;
+  padding-left: 40px;
+  background: url(../img/sp.png) no-repeat left center;
+  min-height: 28px;
+  padding-top: 10px;
+  margin: 0 20px;
+  font-size: 20px;
+}
+#header .form-header {
+  margin-top: 95px;
+  background: url(../img/form-header.png) no-repeat top center;
+  padding: 45px 20px 25px 20px;
+  max-width: 630px;
+  margin: 95px auto 0 auto;
+  display: block;
+  text-align: center;
+  min-height: 167px;
+}
+#header .form-header .info {
+  margin-top: -60px;
+  margin-bottom: 45px;
+  font-size: 17px;
+}
+#header .form-header .btn,
+#header .form-header .form-control {
+  width: 100%;
+}
+.btn {
+  border-radius: 5px;
+  padding: 26px 25px 26px 8px;
+  width: 100%;
+  position: relative;
+  color: #fff;
+  background: #6699ff;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+}
+.btn:hover {
+  color: #fff;
+  background: #5685e1;
+}
+.btn:before {
+  font-family: FontAwesome;
+  content: "\f178";
+  margin-right: 10px;
+}
+.form-control {
+  height: 70px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 20px 25px;
+  width: 100%;
+  color: #5b5150;
+}
+.form-control:focus {
+  border: 1px solid #6699ff;
+}
+b {
+  font-family: 'MuseoSansBold';
+}
+h2 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'BebasNeueBold';
+  margin-bottom: 90px;
+}
+#about {
+  padding-top: 90px;
+}
+#about .inner {
+  text-align: center;
+  margin-bottom: 90px;
+}
+#about .inner .img {
+  min-height: 110px;
+}
+#about .inner .img:last-child {
+  min-height: 85px;
+}
+#about .inner .btn {
+  display: block;
+}
+#about .inner p {
+  min-height: 90px;
+  line-height: 20px;
+}
+#fotogal {
+  padding-top: 45px;
+}
+#fotogal h2 {
+  margin-bottom: 45px;
+}
+#plan {
+  padding: 95px 0;
+}
+#plan .inner {
+  text-align: center;
+  font-family: 'MuseoSansBold';
+  color: #6699ff;
+}
+#plan .inner img {
+  max-width: 100%;
+}
+#plan .inner p.big {
+  margin: 25px 0 30px;
+}
+#plan .inner p.small {
+  font-size: 13px;
+  color: #897a79;
+  font-family: 'MuseoSansRegular';
+}
+#plan .inner a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+#plan .inner a:hover .overlay {
+  opacity: 1;
+}
+#plan .inner .img-box .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(91, 81, 80, 0.85);
+  opacity: 0;
+  transition: opacity 0.3s linear;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  overflow: hidden;
+}
+#plan .inner .img-box .overlay:before {
+  font-family: FontAwesome;
+  content: "\f002";
+  color: #fff;
+  font-size: 32px;
+  position: absolute;
+  top: 45%;
+  left: 48%;
+}
+#footer {
+  padding: 95px 0 45px;
+  background: url(../img/footer.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+}
+#footer h2 {
+  font-size: 30px;
+}
+#footer .form {
+  max-width: 570px;
+  margin: 45px auto 90px;
+}
+#footer .form .btn {
+  width: 100%;
+}
+#footer .copyrights {
+  font-size: 20px;
+  margin-top: 95px;
+  font-family: 'BebasNeueBold';
+}
+#footer .copyrights .cont {
+  text-align: right;
+}
+#footer .copyrights .cont .mail {
+  text-transform: uppercase;
+  font-family: 'MuseoSansRegular';
+}
+#footer .copyrights .cont .mail a {
+  color: #fff;
+}
+.win {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  text-align: center;
+  background: url(../img/header.jpg) no-repeat top center;
+  background-size: cover;
+  color: #fff;
+  padding: 15% 0;
+}
+.win h1 {
+  font-family: 'BebasNeueBold';
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.win .btn {
+  text-decoration: none;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 240px;
+  margin-top: 20px;
+}
+.win .overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  background: rgba(91, 81, 80, 0.85);
+}
+button.close {
+  width: 28px;
+  height: 28px;
+  border: none;
+  opacity: 0.8;
+  font-weight: normal;
+  background: transparent;
+  color: #fff;
+  margin-top: -25px;
+  margin-right: -25px;
+  text-shadow: none;
+  /* border-radius: 50%; */
+
+  float: right;
+}
+button.close:before {
+  font-family: FontAwesome;
+  content: "\f00d";
+  color: #fff;
+  font-size: 24px;
+}
+button.close:hover {
+  opacity: 1;
+}
+.modal-dialog,
+.modal-sm .modal-dialog {
+  max-width: 400px;
+  text-align: center;
+}
+.modal-content {
+  padding: 40px;
+  border-radius: 5px;
+}
+.modal-content h3 {
+  font-family: 'BebasNeueBold';
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+.modal-content .form-control {
+  margin-bottom: 20px;
+}
+.modal-content {
+  background: url(../img/footer.jpg) no-repeat top left;
+  color: #fff;
+}
+
+/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */

@@ -1,0 +1,122 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	.container {
+	    width: 100%;
+	}
+	#header .title {
+	    display: none;
+	}
+	.hiden{display: block;}
+
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.container {
+	    width: auto;
+	}
+	#header .logo img{
+		display: block;
+		margin:0 auto;
+	}
+	#header .title{
+		display: none;
+	}
+	#header .number{
+		text-align: center;
+	}
+
+	#content .title-big{
+		padding-left: 0px;
+	}
+	#content .title-big:before {
+	     content: '';
+	    display: block;
+	    height: 3px;
+	    width: 45px;
+	    position: absolute;
+	    background: #05b8f4;
+	    top: -10px;
+	    left: 0px;
+	}
+	#content .left-otst{
+		padding-left: 0px;
+	}
+
+	#footer .copy{
+		text-align: center;
+	}
+	#footer .links{
+		text-align: center;
+	}
+
+	.hiden{display: none;}
+
+
+
+	#slider .box {
+	    display: block;
+	    background: rgba(255, 255, 255, 0.8);
+	    width: 100%;
+	    padding: 30px;
+	    margin: 10px 0 0 0;
+	}
+	#slider .box .big {
+	    font-size: 1.4em;
+	    position: relative;
+	    padding-left: 0px;
+	}
+	#slider .box .big:before {
+	    content: '';
+	    display: block;
+	    height: 3px;
+	    width: 45px;
+	    position: absolute;
+	    background: #05b8f4;
+	    top: -10px;
+	    left: 0px;
+	}
+	#slider .box .left-otst {
+	    padding-left: 0px;
+	}
+	#slider a {
+	    display: block;
+	    margin: 30px 0 30px 0px;
+	    background: #036ad0;
+	    color: #fff;
+	    padding: 15px;
+	    text-align: center;
+	    max-width: 200px;
+	    transition: all .3s;
+	}
+
+#slider .background1 {
+    height: 400px;
+}
+#slider .background2 {
+    height: 400px;
+}
+#slider .background3 {
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+	
+
+}
+
+

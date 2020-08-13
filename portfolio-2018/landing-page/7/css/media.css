@@ -1,0 +1,132 @@
+html,
+body {
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+body {
+  overflow-y: scroll;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .btn {
+    max-width: auto;
+    width: 100%;
+  }
+  #header .number .tel {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 21px;
+  }
+  #header .number .zak {
+    display: block;
+    text-align: center;
+    color: #fff;
+  }
+  #header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    padding: 20px 0 0 0;
+  }
+  #header h1 span {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  #header .btn {
+    margin-top: 50px;
+    padding: 20px 30px;
+  }
+  h2 {
+    font-family: "ProximaNovaBlack", sans-serif;
+    text-align: center;
+    color: #222;
+    padding: 20px 0px 30px 0px;
+    display: block;
+    position: relative;
+    font-size: 24px;
+    text-transform: uppercase;
+  }
+  #calc form .btn {
+    padding: 15px 25px;
+  }
+  #etap img {
+    
+  }
+  #other .container .down {
+    margin-bottom: 30px;
+  }
+  #why2 {
+    background: #f8f6f6;
+    background-size: inherit;
+    padding: 0 0 45px 0;
+  }
+  #why2 .for-height {
+    height: 0px;
+  }
+  #why2 .first {
+    padding-top: 20px;
+  }
+  #why2 .second {
+    padding-top: 20px;
+  }
+  #komplect img {
+    margin: 20px auto;
+    display: block;
+  }
+  #work .firs-block {
+    display: none;
+  }
+  #work .owl-carousel .owl-nav {
+    position: absolute;
+    bottom: -40px;
+    width: 60%;
+    left: 20%;
+  }
+  #map .center .adr {
+    min-width: auto;
+    position: relative;
+    top: 0;
+  }
+  #otz .owl-nav {
+    display: none;
+  }
+  #map {
+    height: auto;
+  }
+  #footer .logo {
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+  #etap .hz {display: none;}
+  #header {padding: 0 0 60px 0;}
+  .modal-content h3 {margin: 0 0;}
+  h3 span {font-size: 16px;margin-bottom: 10px;}
+  .form-control {padding: 15px 10px;}
+  .modal-content .btn {padding: 12px 5px;}
+  .box1 .inn {position: relative;visibility: visible;opacity: 1;margin-left: auto;left: auto;
+    top: auto;text-align: center;width: 100%;
+  }
+  #etap .count1 {display: none;}
+  #etap .for-hover {margin: 0 auto 10px;}
+  #etap .for-hover:after {display: none;}
+  .box1, #etap .hz-box-2 {margin-bottom: 30px;}
+  #etap .row2 .box1 .inn {bottom: auto;}
+  #komplect .box {position: relative;top:0 !important;right: 0 !important;width: 100%;margin-bottom: 30px;}
+  #komplect .count {color:#000;float: left;margin-left: 0;margin-right: 10px;}
+  #komplect .box .text, #komplect .box.one .text, #komplect .box.two .text, #komplect .box.three .text, #komplect .box.four .text, #komplect .box.five .text {width: auto;position: relative;background: none;top:auto;left: auto;right: auto;
+    visibility: visible;opacity: 1;overflow: hidden;
+  }
+  #komplect .btn {margin: 30px 0 60px;}
+  #komplect {background-size:auto;background: #fff;}
+  #work {padding: 20px 0 130px;}
+}
+
+
+
+
+
+
+
+
+
+

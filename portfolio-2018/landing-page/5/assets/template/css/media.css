@@ -1,0 +1,89 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+@media (min-width: 1300px) {
+	.container {
+	    max-width: 1280px;
+	}
+}
+@media (min-width: 576px) and (max-width: 768px){
+	.container {max-width: 100%;}
+}
+@media (min-width: 665px) and (max-width: 1299px) {
+	#about .right .box a.a1 {top: 245px;left: 190px;}
+	#about .right .box a.a2 {top: 250px;left: 115px;}
+	#about .right .box a.a3 {top: 300px;left: 355px;}
+	#about .right .box a.a4 {top: 190px;left: 390px;}
+	#about .right .box a.a5 {top: 260px;left: 455px;}
+	#about .right .box a.a6 {top: 330px;right: 60px;}
+	#about .right .box a.a7 {top: 275px;right: 60px;}
+	#about .right .box a.a8 {top: 135px;left: 340px;}
+	#about .right .box a.a9 {top: 260px;right: 335px;}
+	#about .right .box {margin-top: -60px;z-index: 1;}
+	#about .right .btn {z-index: 5;}
+	#about .right {min-width: 665px;margin: 0 auto;}
+	#about .right .text-right {text-align: center;}
+	#about .left {min-width: 100%;}
+	#about .left .title {margin: 0 auto;width: 505px;}
+	#about .info.visible-xs {display: block;}
+	#about .info.hidden-xs {display: none;}
+	#about .btn-more {display: none;}
+	#about .btn-more2 {display: inline-block;}
+}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	
+}
+/*mobile*/
+@media (min-width: 320px) and  (max-width: 767px) { 
+	.row-flex, .row-flex > div[class|='col-'] {display: block;}
+	html {font-size: 5px;}
+	#header {background: url(../../images/index/header/header-mobile.png) repeat-y top center;background-size: cover;}
+	#header .top {background: url(../../images/index/header/header-top-mobile.png) no-repeat top center];background-size: cover;}
+	#header .middle {background: url(../../images/index/header/header.jpg)no-repeat top center;background-size: cover;padding: 25px 0;}
+	#header .bottom {background:none;margin-bottom: 0;}
+	.btn.big {height: auto;min-width: auto;}
+	#header .header-title {font-size: 5rem;margin-bottom: 6rem;}
+	#header .bottom .box {margin-bottom: 2rem;padding-left: 10rem;font-size: 2rem;}
+	#about .left {font-size: 3rem;font-family: 'Proxima Nova Cn Rg', sans-serif;}
+	h2 {font-size: 4rem;}
+	#reviews .item {padding: 0;}
+	#reviews .box {box-shadow: none;padding: 0;}
+	#reviews .box .text {font-size: 3rem;}
+	#price .box {font-size: 3rem;}
+	#why .row > div {min-height: auto;border-right: 0;}
+	#why .box {font-size: 3.4rem;}
+	#why .row.last > div {min-height: auto;height: auto;border-bottom: 1px solid #E7E7E7;}
+	#why .box {height: auto;}
+	#why .row.last .col-sm-2 {display: none;}
+	#contacts .top {text-align: center;}
+	#contacts .questions {font-size: 4rem;margin-bottom: 2rem;}
+	#contacts .phone {text-align: center;}
+	#contacts .phone p {font-size: 3rem;}
+	#about .right .box a.a1 {top: 110px;left: 85px;}
+	#about .right .box a.a2 {top: 110px;left: 50px;}
+	#about .right .box a.a3 {top: 130px;left: 160px;}
+	#about .right .box a.a4 {top: 85px;left: 175px;}
+	#about .right .box a.a5 {top: 115px;left: 210px;}
+	#about .right .box a.a6 {top: 145px;left: 260px;}
+	#about .right .box a.a7 {top: 125px;left: 250px;}
+	#about .right .box a.a8 {top: 60px;left: 155px;}
+	#about .right .box a.a9 {top: 120px;left: 145px;}
+	#about .right {max-width: 320px;margin: 0 auto;}
+	.slider-gallery .slick-arrow.slick-next {right: -3rem;}
+	.slider-gallery .slick-arrow.slick-prev {left: -3rem;}
+	.visible-xs {display: block;}
+	.hidden-xs {display: none !important;}
+	.slider-gallery .slick-arrow {top:30%;}
+	#reviews .inn {margin-bottom: 30px;}
+	.btn {height: 44px;line-height: 46px;}
+	.modal-content h3 {font-size: 18px;}
+	#header .logo {width: 100%;}
+}
+
+

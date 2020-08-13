@@ -1,0 +1,182 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+/*mobile and tablet*/
+@media (min-width: 320px) and  (max-width: 1023px) {
+	
+}
+/*tablet*/
+@media (min-width: 768px) and  (max-width: 1024px) {
+	#content .button {
+	    position: relative;
+	    right: 0;
+	    opacity: 0.9;
+	    transition: all .3s;
+	    top: 0;
+	    margin: 60px auto 0 auto;
+	    display: block;
+	    width: 400px;
+	}
+	#content .button img{
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	    opacity: 0.9;
+	    transition: all .3s;
+	    margin: 40px auto;
+	    display: block;
+	}
+	#content .logo {
+	    position: relative;
+	    display: block;
+	    margin: 0 auto;
+	    padding: 300px 20px 0 20px;
+	}
+	#content .number {
+	    position: relative;
+	    margin: 20px auto;
+	    padding: 0 0 400px 60px;
+	    display: block;
+	}
+	
+}
+/*mobile*/
+@media (min-width: 321px) and  (max-width: 767px) { 
+#content{
+	margin:0 auto;
+	padding-top:20px;
+}
+#content .left {
+    position: absolute !important;
+    display: !important;
+    margin: 0 !important;
+    left: 20px !important;
+    top: 20px;
+    right: 0;
+        width: 60px;
+}
+#content .right {
+    position: absolute !important;
+    display: block;
+    margin: 0 !important;
+    top: 20px;
+    right: 20px !important;
+    left:auto;
+    left: auto !important;
+    width: 60px;
+}
+#content .logo {
+    position: relative;
+    display: block;
+    margin: 100px auto 0 auto;
+    padding: 10px;
+    width: 92%;
+}
+#content .button{
+    position: relative !important;
+    top: 0 !important;
+    right: auto !important;
+    opacity: 0.9;
+    margin:50px 0px;
+    transition: all .3s;
+}
+#content .button img {
+    position: relative;
+    top: 0;
+    right: 0;
+    opacity: 0.9;
+    transition: all .3s;
+    margin: 40px auto 0 auto;
+    display: block;
+    width: 250px !important;
+}
+#content .number {
+    position: relative;
+    margin: 20px auto 0 auto;
+    padding: 10px 0 20px 0 !important;
+        width: 55%;
+    display: block;
+}
+
+.puls{
+	display: block;
+	 margin: 30px auto 0 auto;
+    width: 110px;
+}
+.fb{
+	display: none;
+}
+
+
+}
+@media (min-width: 220px) and  (max-width: 320px) { 
+	#content .left {
+	    position: absolute;
+	    display: block;
+	    margin: 0;
+	    left: 15px;
+	    top: 20px;
+	    right: 0;
+	        width: 80px;
+	}
+	#content .right1{
+		position: absolute;
+	    top: 20px;
+	    right: 15px;
+	    color: #fff;
+	    font-weight: bold;
+	    display: block;
+	    font-size: 1.4em;
+	}
+	#content .right {
+	    display: none;
+	}
+	#content .logo {
+	    position: relative;
+	    display: block;
+	    margin: 0 auto;
+	    padding: 140px 0px 0 0;
+	    width: 90%;
+	}
+	#content .button {
+	    position: relative;
+	    top: 0px;
+	    right: 0;
+	    opacity: 0.9;
+	    transition: all .3s;
+	    display: block;
+	    margin: 0 auto;
+	}
+	#content .button img{
+	    position: relative;
+	    top: 0;
+	    right: 0;
+	    opacity: 0.9;
+	    transition: all .3s;
+	    margin: 40px auto 0 auto;
+	    display: block;
+	    width: 65%;
+
+	}
+	#content .number {
+	    position: relative;
+	    margin: 20px auto 0 auto;
+	    padding: 50px 0 50px 0;
+	    width: 65%;
+	    display: block;
+	}
+
+.puls{
+	display: block;
+	 margin: 30px auto 0 auto;
+    width: 110px;
+}
+.fb{
+	display: none;
+}
+
+
+}
+
+

@@ -1,0 +1,102 @@
+html, body {height: 100%;
+-webkit-overflow-scrolling: touch;
+}
+body{overflow-y: scroll;}
+.anim {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 85%;
+	z-index: 1;
+	top:0;
+	left: 0;
+}
+.anim:after {
+	content: "";
+	margin-left: 00px;
+	width: 30px;
+	height: 400px;
+	background: rgba(255,255,255, .5);
+	-webkit-animation-delay: 0.05s;
+	animation-delay: 0.05s;
+	position: absolute;
+	left: 0px;
+	top: -100%;
+	-webkit-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-animation-name: slideme;
+	animation-name: slideme;
+	-webkit-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	overflow: hidden;
+}
+@-webkit-keyframes slideme { 0% { left: -30px; margin-left: 0px; }
+  30% { left: 110%; margin-left: 0px; }
+  100% { left: 110%; margin-left: 0px; } }
+
+@keyframes slideme { 0% { left: -30px; margin-left: 0px; }
+  30% { left: 110%; margin-left: 80px; }
+  100% { left: 110%; margin-left: 80px; } }
+@media (min-width: 1200px) {
+	.container {max-width: 1170px;}
+}
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+	html {font-size: 9px;}
+	.header-title br {display: none;}
+	.header-title span {padding-left: 0;}
+}
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+	html {font-size: 8px;}
+	.header-plus {padding: 0 0;}
+	.close {right: 5px}
+	.send {width: 100%;}
+	/*.header-plus .inn br {display: none;}*/
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+	html {font-size: 9px;}
+	body {font-size: 14px;}
+	.header-btn {min-width: 100%;width: 100%;padding: 3.5rem 4rem 5rem;margin:0 0 70px;font-size: 20px;background: url(../../images/header/btn-mobile.png) no-repeat top center;}
+	.anim {display: none;}
+	#top {padding: 10px;}
+	.header-title {margin: 65px 0 65px;}
+	.header-plus {padding: 0 95px 0;}
+	.header-plus .icon {width: 50px;height: 90px;}
+	.header-plus .inn {margin-bottom: 45px;}
+	#sertif h2 {font-size: 26px;}
+	.sertif-slider {margin-top: 0;}
+	.header-btn {background-size: cover;padding: 35px 30px;}
+	.logo {margin-bottom: 10px;text-align: center;}
+	#top .top-address {text-align: center;}
+	#call .modal-content {background: #fff;}
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.visible-xs {display: block;}
+	.hidden-xs {display: none;}
+	.header-title {font-size: 23px;}
+	.header-plus {padding: 0 30px 0;}
+	.sertif-slider > div .img {margin: 0 0 20px 0;}
+	.header-plus .inn {text-align: center;}
+	.header-plus .inn .icon {float: none;margin-right: 0;text-align: center;width: auto;height: 60px;}
+	.modal-content {padding: 50px 15px;}
+	.modal-content h2 {font-size: 32px;text-align: center;}
+	#call .modal-content {text-align: center;background: #fff;}
+	.file-text {margin-bottom: 15px;}
+	.modal-dialog {margin: 180px 0 0;}
+	.modal-content {border-right: 0;border-left: 0;}
+	.close {right: auto;left: calc(50% - 26px);}
+	.modal-content h2 {margin-bottom: 40px;}
+	.textarea-group {margin-bottom: 50px;}
+	.conf br {display: none;}
+	.header-plus > div:first-child .inn .icon {padding-right: 10px;}
+	.send {background: url(../../images/btn-mobile.png) no-repeat top center;background-size: cover;}
+}
